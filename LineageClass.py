@@ -1,5 +1,6 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
+import talib
 
 class Lineage():
 
