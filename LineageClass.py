@@ -36,5 +36,14 @@ class Lineage():
             line = line.split(",")
             temp= {}
             temp["date"] = line[0]
-            temp["price"] = line[6]
+            temp["price"] = line[6]             # convert to numpy types
             self.data.append(temp)
+
+            #should precompute a file name, and dump data to file
+            #if data is present in the file with the same start and end data then use
+            #data from file instead of making the api call
+
+
+    def computeAtechnicalIndicator(self):
+        #use TAlib to copute the technical indicators
+        # 1 function per indicator
