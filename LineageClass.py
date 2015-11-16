@@ -1,7 +1,6 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
 import talib
-import yahoo_finance as yf
 import urllib2
 
 class Lineage():
@@ -15,12 +14,6 @@ class Lineage():
         self.data = []
 
     def pullYahooFinanceData(self):
-        '''
-        startDate = "2013-01-01"
-        endDate = "2014-12-30"
-        yahoo = yf.Share(self.symbol)
-        print yahoo.get_historical()
-        '''
 
         base = "http://ichart.yahoo.com/table.csv?s="
         base += self.symbol + "&a=1&b=1&c=2010"         #start date: month, day, year
@@ -45,5 +38,5 @@ class Lineage():
 
 
     def computeAtechnicalIndicator(self):
-        #use TAlib to copute the technical indicators
+        # use TAlib to copute the technical indicators
         # 1 function per indicator
