@@ -4,6 +4,12 @@ import numpy as np
 import talib as tl
 import urllib2
 
+'''
+TODO:
+    - clean up raw data output so that the lines line up
+'''
+
+
 class Lineage():
 
     def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount):
@@ -18,7 +24,7 @@ class Lineage():
         self.data = []
         self.debug = True
 
-    def pullYahooFinanceData(self):
+    def pull_Yahoo_Finance_Data(self):
 
         fileName = "StockData/"\
                    + self.symbol + ":"\
@@ -78,7 +84,8 @@ class Lineage():
             for dataPoint in self.data:
                 nf.write(dataPoint["date"] + " " + str(dataPoint["price"]) + "\n")
 
-    def printRawData(self):
+
+    def print_Raw_Data(self):
         for dataPoint in self.data:
             tempString = ""
             for key in dataPoint:
@@ -89,14 +96,20 @@ class Lineage():
     def compute_technical_indicators(self):
         self.build_raw_price_list()
         for indicator in self.technicalIndicators:
-            command = "self.compute" + indicator + "()"
+            command = "self.compute_" + indicator + "()"
             exec(command)
         gu.log("Technical indicator calculations complete")
 
 
-    def computeSMA(self):
+    def compute_SMA(self):
         SMA = tl.SMA(self.priceOnly)
-        print SMA
+        self.update_data(SMA, "SMA")
+
+
+    def update_data(self, indicatorResults, keyName):
+        for dataPoint in range(len(self.data)):
+            self.data[dataPoint][keyName] = indicatorResults[dataPoint]
+
 
     def build_raw_price_list(self):
 
