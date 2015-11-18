@@ -6,7 +6,6 @@ import urllib2
 
 '''
 TODO:
-    - clean up raw data output so that the lines line up
 '''
 
 
@@ -89,7 +88,10 @@ class Lineage():
         for dataPoint in self.data:
             tempString = ""
             for key in dataPoint:
-                tempString += key + ": " + str(dataPoint[key]) + "\t\t"
+                if key != "date":
+                    tempString += key + ": " + str(np.round(dataPoint[key], 2)) + "\t"
+                else:
+                    tempString += key + ": " + str(dataPoint[key]) + "\t"
             print tempString
 
 
