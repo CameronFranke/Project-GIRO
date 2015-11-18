@@ -1,42 +1,105 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
-import talib
+import numpy as np
+import talib as tl
 import urllib2
 
 class Lineage():
 
-    def __init__(self, stockSymbol, populationSize, generationCount):
+    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount):
 
+        self.dateRange = dateRange
         self.symbol = stockSymbol
+        self.priceOnly = []
+        self.technicalIndicators = technicalIndicators
         self.populationSize = populationSize
         self.population = []
         self.generationCount = generationCount
         self.data = []
+        self.debug = True
 
     def pullYahooFinanceData(self):
 
-        base = "http://ichart.yahoo.com/table.csv?s="
-        base += self.symbol + "&a=1&b=1&c=2010"         #start date: month, day, year
-        base += "&d=12&e=31&f=2014"                     #ending data: month, day, year
-        base += "&g=d"                                  #interval
-        base += "&ignore=.cvs"                          #data format
+        fileName = "StockData/"\
+                   + self.symbol + ":"\
+                   + self.dateRange["startM"]\
+                   + "-" + self.dateRange["startD"]\
+                   + "-" + self.dateRange["startY"]\
+                   + "_" + self.dateRange["stopM"]\
+                   + "-" + self.dateRange["stopD"]\
+                   + "-" + self.dateRange["stopY"]\
+                   + ".txt"
 
-        response = urllib2.urlopen(base)
-        response = str(response.read())
-        response = response.splitlines()
+        gu.log(fileName)
 
-        for line in response:
-            line = line.split(",")
-            temp= {}
-            temp["date"] = line[0]
-            temp["price"] = line[6]             # convert to numpy types
-            self.data.append(temp)
+        try:
+            f = open(fileName, "r")
+            data = f.readlines()
+            tempData = []
+            gu.log("Using stored data for " + self.symbol)
+            for line in data:
+                temp = line.rstrip()
+                temp = temp.split(" ")
+                tempDict = {}
+                tempDict["date"] = temp[0]
+                tempDict["price"] = np.double(temp[1])
+                tempData.append(tempDict)
+            f.close()
+            self.data = tempData
 
-            #should precompute a file name, and dump data to file
-            #if data is present in the file with the same start and end data then use
-            #data from file instead of making the api call
+        except:
+            gu.log("No stored data available for " + self.symbol)
+            gu.log("Pulling stock data for " + self.symbol + " from yahoo")
+
+            base = "http://ichart.yahoo.com/table.csv?s="\
+                   + self.symbol\
+                   + "&a=" + self.dateRange["startM"]\
+                   + "&b=" + self.dateRange["startD"]\
+                   + "&c=" + self.dateRange["startY"]\
+                   + "&d=" + self.dateRange["stopM"]\
+                   + "&e=" + self.dateRange["stopD"]\
+                   + "&f=" + self.dateRange["stopY"]\
+                   + "&g=d&ignore=.cvs"
+
+            response = urllib2.urlopen(base)
+            response = str(response.read())
+            response = response.splitlines()
+
+            for line in response:
+                line = line.split(",")
+                temp= {}
+                temp["date"] = line[0]
+                temp["price"] = np.double(line[6])
+                self.data.append(temp)
+            self.data.pop(0)
+
+            gu.log("Creating storage file for " + self.symbol)
+            nf = open(fileName, 'w+')
+            for dataPoint in self.data:
+                nf.write(dataPoint["date"] + " " + str(dataPoint["price"]) + "\n")
+
+    def printRawData(self):
+        for dataPoint in self.data:
+            tempString = ""
+            for key in dataPoint:
+                tempString += key + ": " + str(dataPoint[key]) + "\t\t"
+            print tempString
 
 
-    def computeAtechnicalIndicator(self):
-        # use TAlib to copute the technical indicators
-        # 1 function per indicator
+    def compute_technical_indicators(self):
+        self.build_raw_price_list()
+        for indicator in self.technicalIndicators:
+            command = "self.compute" + indicator + "()"
+            exec(command)
+        gu.log("Technical indicator calculations complete")
+
+
+    def computeSMA(self):
+        SMA = tl.SMA(self.priceOnly)
+        print SMA
+
+    def build_raw_price_list(self):
+
+        for dataPoint in self.data:
+            self.priceOnly.append(dataPoint["price"])
+        self.priceOnly = np.array(self.priceOnly)
