@@ -14,14 +14,17 @@ class Lineage():
     def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount):
 
         self.dateRange = dateRange
+        self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
         self.priceOnly = []
         self.technicalIndicators = technicalIndicators
         self.populationSize = populationSize
         self.population = []
+        self.indicatorRange = {}
         self.generationCount = generationCount
         self.data = []
         self.debug = True
+
 
     def pull_Yahoo_Finance_Data(self):
 
@@ -89,10 +92,20 @@ class Lineage():
             tempString = ""
             for key in dataPoint:
                 if key != "date":
-                    tempString += key + ": " + str(np.round(dataPoint[key], 2)) + "\t"
+                    tempString += key + ": " + str(np.round(dataPoint[key], 2)) + "\t\t"
                 else:
-                    tempString += key + ": " + str(dataPoint[key]) + "\t"
+                    tempString += key + ": " + str(dataPoint[key]) + "\t\t"
             print tempString
+
+
+    def compute_indicator_ranges(self):
+        for indicator in self.indicatorsBeingUsed:
+            temp = []
+            for dataPoint in self.data:
+                if np.logical_not(np.isnan(dataPoint[indicator])):
+                    temp.append(dataPoint[indicator])
+            self.indicatorRange[(indicator + "lower")] = min(temp)
+            self.indicatorRange[(indicator + "upper")] = max(temp)
 
 
     def compute_technical_indicators(self):
@@ -101,11 +114,6 @@ class Lineage():
             command = "self.compute_" + indicator + "()"
             exec(command)
         gu.log("Technical indicator calculations complete")
-
-
-    def compute_SMA(self):
-        SMA = tl.SMA(self.priceOnly)
-        self.update_data(SMA, "SMA")
 
 
     def update_data(self, indicatorResults, keyName):
@@ -118,3 +126,29 @@ class Lineage():
         for dataPoint in self.data:
             self.priceOnly.append(dataPoint["price"])
         self.priceOnly = np.array(self.priceOnly)
+
+
+    def compute_SMA(self):
+        SMA = tl.SMA(self.priceOnly)
+        self.update_data(SMA, "SMA")
+        self.indicatorsBeingUsed.append("SMA")
+
+
+    def compute_MACD(self):
+        MACD, MACDsignal, MACDdiff = tl.MACD(self.priceOnly, fastperiod=12, slowperiod=26, signalperiod=9)
+        self.update_data(MACD, "MACD")
+        self.update_data(MACDsignal, "MACDsignal")
+        self.update_data(MACDdiff, "MACDdiff")
+        self.indicatorsBeingUsed.append("MACD")
+        self.indicatorsBeingUsed.append("MACDsignal")
+        self.indicatorsBeingUsed.append("MACDdiff")
+
+
+    def compute_BBANDS(self):
+        upper, middle, lower = tl.BBANDS(self.priceOnly, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
+        self.update_data(upper, "BBANDupper")
+        self.update_data(middle, "BBANDmiddle")
+        self.update_data(lower, "BBANDlower")
+        self.indicatorsBeingUsed.append("BBANDupper")
+        self.indicatorsBeingUsed.append("BBANDmiddle")
+        self.indicatorsBeingUsed.append("BBANDupper")

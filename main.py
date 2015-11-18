@@ -4,7 +4,7 @@ import LineageClass
 
 def main():
 
-    technicalIndicators = ["SMA"]
+    technicalIndicators = ["SMA", "MACD", "BBANDS"]
     dateRange = {}
     dateRange["startM"] = "01"      # Need to build in XML style config file ASAP
     dateRange["startD"] = "01"
@@ -15,9 +15,9 @@ def main():
 
     x = LineageClass.Lineage("GOOG", dateRange, technicalIndicators, 1, 1)
     x.pull_Yahoo_Finance_Data()
-    #x.printRawData()
     x.compute_technical_indicators()
     x.print_Raw_Data()
+    x.compute_indicator_ranges()
 
 
 main()
