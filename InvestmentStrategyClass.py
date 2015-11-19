@@ -1,6 +1,11 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
 
+'''
+    TODO:
+        - actually write the damn fitness function
+'''
+
 class InvestmentStrategy():
 
     def __init__(self, triggerConstraints, historicalData, lookbackLevel):

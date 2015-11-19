@@ -2,6 +2,12 @@ __author__ = 'Cameron'
 import GiroUtilities as gu
 import LineageClass
 
+'''
+    TODO:
+        Need to build in XML style config file ASAP
+            - or simple ':' separated param file
+'''
+
 def main():
     gu.log("Initializing Project GIRO...")
 
@@ -10,7 +16,7 @@ def main():
     generations = 1
     populatioSize = 1
     dateRange = {}
-    dateRange["startM"] = "01"      # Need to build in XML style config file ASAP
+    dateRange["startM"] = "01"
     dateRange["startD"] = "01"
     dateRange["startY"] = "2010"
     dateRange["stopM"] = "12"

@@ -9,6 +9,7 @@ import urllib2
 TODO:
         yahoo not fetching the correct date range
         dates in revers order
+        add threshold for days to trigger buy and individual indicators to trigger buy - just a member variable
 
 '''
 
@@ -153,6 +154,7 @@ class Lineage():
             command = "self.compute_" + indicator + "()"
             exec(command)
         gu.log("Technical indicator calculations complete")
+
 
     def compute_dayChange(self):
         self.indicatorsBeingUsed.append("dayChange")
