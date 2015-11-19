@@ -9,6 +9,7 @@ import urllib2
 TODO:
         yahoo not fetching the correct date range
         dates in reverse order
+        prepare to implement selection
 '''
 
 class Lineage():
@@ -136,21 +137,11 @@ class Lineage():
             for x in range(self.lookback):      # number of period lookbacks
                 myTriggers = {}
                 for indicator in self.indicatorsBeingUsed:  # for each indicator
-                    #w = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
-                    #x = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
-                    #y = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
-                    #z = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
-
                     test = np.random.uniform(initializationRanges[indicator][0], initializationRanges[indicator][1], 4)
                     test1 = []
                     for i in test:
                         test1.append(np.round(i,3))
                     test = test1
-
-                    #if w > x:
-                    #    w, x = x, w
-                    #if y > z:
-                    #    y, z = z, y
 
                     temp = {}
                     temp["BuyLower"] = test[0]
@@ -165,7 +156,8 @@ class Lineage():
                                                                               self.data,
                                                                               self.lookback,
                                                                               self.triggerThreshold,
-                                                                              self.dayTriggerThreshold))
+                                                                              self.dayTriggerThreshold,
+                                                                              self.indicatorsBeingUsed))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 

@@ -6,14 +6,19 @@ import LineageClass
     TODO:
         Need to build in XML style config file ASAP
             - or simple ':' separated param file
+
+        Need to start thinking about delegating these actions out to the GIROcontroller
+            - XML/ parameters read should be done in main
+            - system analysis shoudl also be done in main
+            - all real computation/setup/system control should be done in the controller
 '''
 
 def main():
     gu.log("Initializing Project GIRO...")
 
     technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
-    triggerThreshold = .70
-    dayTriggerThreshold = .70
+    triggerThreshold = .30
+    dayTriggerThreshold = .30
     lookbackLevel = 3
     generations = 1
     populatioSize = 1
@@ -28,11 +33,9 @@ def main():
     x = LineageClass.Lineage("GOOG", dateRange, technicalIndicators, populatioSize, generations, lookbackLevel, triggerThreshold, dayTriggerThreshold)
     x.pull_Yahoo_Finance_Data()
     x.compute_technical_indicators()
-    #x.print_Raw_Data()
     x.compute_indicator_ranges()
     x.initialize_population()
     x.population[0].print_constraints()
-    #x.population[0].compute_fitness_score()
-
+    x.population[0].compute_fitness_score()
 
 main()
