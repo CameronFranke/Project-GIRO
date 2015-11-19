@@ -18,6 +18,7 @@ def main():
     x.compute_technical_indicators()
     x.print_Raw_Data()
     x.compute_indicator_ranges()
+    x.initialize_population()
 
 
 main()

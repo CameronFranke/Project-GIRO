@@ -104,8 +104,39 @@ class Lineage():
             for dataPoint in self.data:
                 if np.logical_not(np.isnan(dataPoint[indicator])):
                     temp.append(dataPoint[indicator])
-            self.indicatorRange[(indicator + "lower")] = min(temp)
-            self.indicatorRange[(indicator + "upper")] = max(temp)
+            self.indicatorRange[(indicator + "min")] = min(temp)
+            self.indicatorRange[(indicator + "max")] = max(temp)
+            self.indicatorRange[(indicator + "range")] = max(temp) - min(temp)
+            self.indicatorRange[(indicator + "average")] = np.average(temp)
+
+    def initialize_population(self):
+        # Create the actual range of values that will make up the strategy trigger values
+
+        CONST_RANGE_MULTIPLIER = 1.15
+        initializationRanges = {}
+        for indicator in self.indicatorsBeingUsed:
+            x = self.indicatorRange[(indicator + "average")] - self.indicatorRange[(indicator + "min")]
+            initLowerBound = self.indicatorRange[(indicator + "average")] - (CONST_RANGE_MULTIPLIER * x)
+            x = self.indicatorRange[(indicator + "max")] - self.indicatorRange[(indicator + "average")]
+            initUpperBound = self.indicatorRange[(indicator + "average")] + (CONST_RANGE_MULTIPLIER * x)
+            temp = []
+            temp.append(initLowerBound)
+            temp.append(initUpperBound)
+            initializationRanges[indicator] = temp
+
+        # initialize the population
+        for i in range(self.populationSize):
+            myTriggers = {}
+            for i in self.indicatorsBeingUsed:
+                x = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
+                y = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
+                if x < y:           # x should be the upper value
+                    y, x = x, y
+                myTriggers[i] = [x,y]
+
+            print myTriggers
+
+
 
 
     def compute_technical_indicators(self):

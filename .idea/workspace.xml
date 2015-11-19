@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#23#49#0" expanded="true" />
               </folding>
@@ -40,16 +40,18 @@
       <file leaf-file-name="LineageClass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LineageClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45146728">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6275395">
+              <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
               <folding>
                 <element signature="e#23#49#0" expanded="true" />
                 <element signature="e#684#2847#0" expanded="false" />
                 <element signature="e#2888#3227#0" expanded="false" />
-                <element signature="e#3278#3637#0" expanded="false" />
-                <element signature="e#3692#3913#0" expanded="false" />
-                <element signature="e#3978#4089#0" expanded="false" />
-                <element signature="e#4137#4268#0" expanded="false" />
+                <element signature="e#5195#5416#0" expanded="false" />
+                <element signature="e#5481#5592#0" expanded="false" />
+                <element signature="e#5640#5771#0" expanded="false" />
+                <element signature="e#5809#5921#0" expanded="false" />
+                <element signature="e#5960#6349#0" expanded="false" />
+                <element signature="e#6390#6787#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -367,7 +369,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447880611805</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added more indicators &#10;prepped for population initialization &#10;">
+      <created>1447889766564</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447889766564</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -382,7 +390,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16388889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4161782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4161782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -415,7 +423,8 @@
     <MESSAGE value="finished yahoo data fetch&#10;began SMA calculator &#10;converted prices to numpy Double" />
     <MESSAGE value="functions converted to camel case" />
     <MESSAGE value="cleaned up print_raw_output" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up print_raw_output" />
+    <MESSAGE value="added more indicators &#10;prepped for population initialization &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more indicators &#10;prepped for population initialization &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,10 +449,12 @@
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#684#2847#0" expanded="false" />
             <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,68 +501,12 @@
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#684#2847#0" expanded="false" />
             <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LineageClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#684#2847#0" expanded="false" />
-            <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -606,10 +561,72 @@
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#684#2847#0" expanded="false" />
             <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#684#2847#0" expanded="false" />
+            <element signature="e#2888#3227#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,10 +681,12 @@
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#684#2847#0" expanded="false" />
             <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,7 +804,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
           </folding>
@@ -794,16 +813,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LineageClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45146728">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6275395">
+          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#684#2847#0" expanded="false" />
             <element signature="e#2888#3227#0" expanded="false" />
-            <element signature="e#3278#3637#0" expanded="false" />
-            <element signature="e#3692#3913#0" expanded="false" />
-            <element signature="e#3978#4089#0" expanded="false" />
-            <element signature="e#4137#4268#0" expanded="false" />
+            <element signature="e#5195#5416#0" expanded="false" />
+            <element signature="e#5481#5592#0" expanded="false" />
+            <element signature="e#5640#5771#0" expanded="false" />
+            <element signature="e#5809#5921#0" expanded="false" />
+            <element signature="e#5960#6349#0" expanded="false" />
+            <element signature="e#6390#6787#0" expanded="false" />
           </folding>
         </state>
       </provider>
