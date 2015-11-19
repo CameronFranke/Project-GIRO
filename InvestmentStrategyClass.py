@@ -17,3 +17,7 @@ class InvestmentStrategy():
         for day in range(self.lookback):
             print("Day-" + str(day) + ": " + str(self.constraints[day]))
 
+    def compute_fitness_score(self):
+        for x in self.historicalData:
+            print x
+

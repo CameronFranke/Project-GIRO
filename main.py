@@ -3,11 +3,12 @@ import GiroUtilities as gu
 import LineageClass
 
 def main():
+    gu.log("Initializing Project GIRO...")
 
     technicalIndicators = ["SMA", "MACD", "BBANDS"]
     lookbackLevel = 3
     generations = 1
-    populatioSize = 100
+    populatioSize = 1
     dateRange = {}
     dateRange["startM"] = "01"      # Need to build in XML style config file ASAP
     dateRange["startD"] = "01"
@@ -23,6 +24,7 @@ def main():
     x.compute_indicator_ranges()
     x.initialize_population()
     x.population[0].print_constraints()
+    x.population[0].compute_fitness_score()
 
 
 main()
