@@ -30,7 +30,7 @@ def main():
     x.compute_indicator_ranges()
     x.initialize_population()
     x.population[0].print_constraints()
-    x.population[0].compute_fitness_score()
+    #x.population[0].compute_fitness_score()
 
 
 main()

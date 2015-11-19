@@ -8,9 +8,9 @@ import urllib2
 '''
 TODO:
         yahoo not fetching the correct date range
-        dates in revers order
+        dates in reverse order
         add threshold for days to trigger buy and individual indicators to trigger buy - just a member variable
-
+        NEED RANDOM FLOAT GENERATOR
 '''
 
 class Lineage():
@@ -131,16 +131,34 @@ class Lineage():
             initializationRanges[indicator] = temp
 
         # initialize the population
-        for i in range(self.populationSize):
+        for i in range(self.populationSize):    # number of strategies to make
             myStrategies = []
-            for x in range(self.lookback):
+            for x in range(self.lookback):      # number of period lookbacks
                 myTriggers = {}
-                for i in self.indicatorsBeingUsed:
-                    x = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
-                    y = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
-                    if x < y:           # x should be the upper value
-                        y, x = x, y
-                    myTriggers[i] = [x,y]
+                for indicator in self.indicatorsBeingUsed:  # for each indicator
+                    #w = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
+                    #x = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
+                    #y = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
+                    #z = np.random.random_integers(initializationRanges[indicator][0], initializationRanges[indicator][1])
+
+                    test = np.random.uniform(initializationRanges[indicator][0], initializationRanges[indicator][1], 4)
+                    test1 = []
+                    for i in test:
+                        test1.append(np.round(i,3))
+                    test = test1
+
+                    #if w > x:
+                    #    w, x = x, w
+                    #if y > z:
+                    #    y, z = z, y
+
+                    temp = {}
+                    temp["BuyLower"] = test[0]
+                    temp["BuyUpper"] = test[1]
+                    temp["SellLower"] = test[2]
+                    temp["SellUpper"] = test[3]
+
+                    myTriggers[indicator] = temp
                 myStrategies.append(myTriggers)
 
             self.population.append(InvestmentStrategyClass.InvestmentStrategy(myStrategies, self.data, self.lookback))
