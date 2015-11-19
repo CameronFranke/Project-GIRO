@@ -8,12 +8,14 @@ import GiroUtilities as gu
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold):
 
         self.lookback = lookbackLevel
         self.constraints = triggerConstraints
         self.historicalData = historicalData
         self.fitnessScore = -10000.00
+        self.triggerThreshold = triggerThreshold
+        self.lookbackThreshold = lookbackthreshold
         self.profit = 0
         self.tradeCount = 0
         self.Debug = True

@@ -9,13 +9,11 @@ import urllib2
 TODO:
         yahoo not fetching the correct date range
         dates in reverse order
-        add threshold for days to trigger buy and individual indicators to trigger buy - just a member variable
-        NEED RANDOM FLOAT GENERATOR
 '''
 
 class Lineage():
 
-    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel):
+    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel, triggerThreshold, dayTriggerThreshold):
 
         self.lookback = lookbackLevel
         self.dateRange = dateRange
@@ -28,6 +26,8 @@ class Lineage():
         self.indicatorRange = {}
         self.generationCount = generationCount
         self.data = []
+        self.triggerThreshold = triggerThreshold
+        self.dayTriggerThreshold = dayTriggerThreshold
         self.debug = True
 
 
@@ -161,7 +161,11 @@ class Lineage():
                     myTriggers[indicator] = temp
                 myStrategies.append(myTriggers)
 
-            self.population.append(InvestmentStrategyClass.InvestmentStrategy(myStrategies, self.data, self.lookback))
+            self.population.append(InvestmentStrategyClass.InvestmentStrategy(myStrategies,
+                                                                              self.data,
+                                                                              self.lookback,
+                                                                              self.triggerThreshold,
+                                                                              self.dayTriggerThreshold))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
