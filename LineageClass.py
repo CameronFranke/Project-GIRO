@@ -1,18 +1,22 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
+import InvestmentStrategyClass
 import numpy as np
 import talib as tl
 import urllib2
 
 '''
 TODO:
-'''
+        yahoo not fetching the correct date range
+        dates in revers order
 
+'''
 
 class Lineage():
 
-    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount):
+    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel):
 
+        self.lookback = lookbackLevel
         self.dateRange = dateRange
         self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
@@ -109,6 +113,7 @@ class Lineage():
             self.indicatorRange[(indicator + "range")] = max(temp) - min(temp)
             self.indicatorRange[(indicator + "average")] = np.average(temp)
 
+
     def initialize_population(self):
         # Create the actual range of values that will make up the strategy trigger values
 
@@ -126,17 +131,20 @@ class Lineage():
 
         # initialize the population
         for i in range(self.populationSize):
-            myTriggers = {}
-            for i in self.indicatorsBeingUsed:
-                x = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
-                y = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
-                if x < y:           # x should be the upper value
-                    y, x = x, y
-                myTriggers[i] = [x,y]
+            myStrategies = []
+            for x in range(self.lookback):
+                myTriggers = {}
+                for i in self.indicatorsBeingUsed:
+                    x = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
+                    y = np.random.random_integers(initializationRanges[i][0], initializationRanges[i][1])
+                    if x < y:           # x should be the upper value
+                        y, x = x, y
+                    myTriggers[i] = [x,y]
+                myStrategies.append(myTriggers)
 
-            print myTriggers
+            self.population.append(InvestmentStrategyClass.InvestmentStrategy(myStrategies, self.data, self.lookback))
 
-
+        gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
 
     def compute_technical_indicators(self):
@@ -182,4 +190,4 @@ class Lineage():
         self.update_data(lower, "BBANDlower")
         self.indicatorsBeingUsed.append("BBANDupper")
         self.indicatorsBeingUsed.append("BBANDmiddle")
-        self.indicatorsBeingUsed.append("BBANDupper")
+        self.indicatorsBeingUsed.append("BBANDlower")
