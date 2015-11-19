@@ -154,6 +154,13 @@ class Lineage():
             exec(command)
         gu.log("Technical indicator calculations complete")
 
+    def compute_dayChange(self):
+        self.indicatorsBeingUsed.append("dayChange")
+        dayChangePercentage = [np.nan]
+        for day in range(1,len(self.data)):
+            dayChangePercentage.append(1-(self.data[day-1]["price"]/self.data[day]["price"]))
+        self.update_data(dayChangePercentage, "dayChange")
+
 
     def update_data(self, indicatorResults, keyName):
         for dataPoint in range(len(self.data)):

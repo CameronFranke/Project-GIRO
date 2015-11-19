@@ -5,7 +5,7 @@ import LineageClass
 def main():
     gu.log("Initializing Project GIRO...")
 
-    technicalIndicators = ["SMA", "MACD", "BBANDS"]
+    technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
     lookbackLevel = 3
     generations = 1
     populatioSize = 1
