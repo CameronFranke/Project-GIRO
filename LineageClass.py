@@ -14,7 +14,7 @@ TODO:
 
 class Lineage():
 
-    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel, triggerThreshold, dayTriggerThreshold):
+    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel, triggerThreshold, dayTriggerThreshold, selectionPercentage):
 
         self.lookback = lookbackLevel
         self.dateRange = dateRange
@@ -30,6 +30,8 @@ class Lineage():
         self.triggerThreshold = triggerThreshold
         self.dayTriggerThreshold = dayTriggerThreshold
         self.bestStrategyIndex = 0
+        self.fitnessScores = []
+        self.selectionPercentage = selectionPercentage
         self.debug = True
 
 
@@ -168,10 +170,12 @@ class Lineage():
 
     def compute_fitness_scores(self):
         bestStrategyIndex = 0
+        scores = []
 
         for strategy in range(self.populationSize):
             self.population[strategy].compute_fitness_score()
             bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
+            scores.append(self.population[strategy].fitnessScore)
 
             if self.debug: gu.log("Strategy " + str(strategy) + " fitness score: " +
                                   str(self.population[strategy].fitnessScore))
@@ -182,6 +186,27 @@ class Lineage():
         if self.debug: gu.log("Highest Fitness Score: " + str(bestFitnessScore))
 
         self.bestStrategyIndex = bestStrategyIndex
+        self.fitnessScores = scores
+
+
+    def roulette_wheel_selection(self):
+        strategiesToSelect = np.round((self.populationSize*self.selectionPercentage), 0)
+        baseChance = min(self.fitnessScores)/2
+        chancePoints = []
+        newPopulation = []
+
+        for i in self.fitnessScores:
+            if i < 0:
+                chancePoints.append(baseChance)
+            else:
+                chancePoints.append(baseChance + i)
+
+        totalPoints = sum(chancePoints)
+
+
+        for i in range(strategiesToSelect):
+
+
 
 
     def compute_technical_indicators(self):

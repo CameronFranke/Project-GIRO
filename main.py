@@ -17,11 +17,17 @@ def main():
     gu.log("Initializing Project GIRO...")
 
     technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
+
     triggerThreshold = .30
     dayTriggerThreshold = .50
+
     lookbackLevel = 3
+
     generations = 1
     populatioSize = 8
+
+    selectionPercentage = .75
+
     dateRange = {}
     dateRange["startM"] = "00"
     dateRange["startD"] = "01"
