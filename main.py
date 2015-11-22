@@ -18,17 +18,17 @@ def main():
 
     technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
     triggerThreshold = .30
-    dayTriggerThreshold = .30
+    dayTriggerThreshold = .50
     lookbackLevel = 3
     generations = 1
     populatioSize = 1
     dateRange = {}
-    dateRange["startM"] = "01"
+    dateRange["startM"] = "00"
     dateRange["startD"] = "01"
     dateRange["startY"] = "2010"
-    dateRange["stopM"] = "12"
+    dateRange["stopM"] = "11"
     dateRange["stopD"] = "31"
-    dateRange["stopY"] = "2014"
+    dateRange["stopY"] = "2015"
 
     x = LineageClass.Lineage("GOOG", dateRange, technicalIndicators, populatioSize, generations, lookbackLevel, triggerThreshold, dayTriggerThreshold)
     x.pull_Yahoo_Finance_Data()

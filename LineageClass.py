@@ -6,9 +6,9 @@ import talib as tl
 import urllib2
 
 '''
+        Yahoo finance does not provide access to data past a certain date.
 TODO:
-        yahoo not fetching the correct date range
-        dates in reverse order
+
         prepare to implement selection
 '''
 
@@ -75,9 +75,12 @@ class Lineage():
                    + "&f=" + self.dateRange["stopY"]\
                    + "&g=d&ignore=.cvs"
 
+            gu.log("Download URL: " + base)
+
             response = urllib2.urlopen(base)
             response = str(response.read())
             response = response.splitlines()
+            response.pop(0)
 
             for line in response:
                 line = line.split(",")
@@ -85,7 +88,7 @@ class Lineage():
                 temp["date"] = line[0]
                 temp["price"] = np.double(line[6])
                 self.data.append(temp)
-            self.data.pop(0)
+            self.data.reverse()
 
             gu.log("Creating storage file for " + self.symbol)
             nf = open(fileName, 'w+')
