@@ -29,6 +29,7 @@ class Lineage():
         self.data = []
         self.triggerThreshold = triggerThreshold
         self.dayTriggerThreshold = dayTriggerThreshold
+        self.bestStrategyIndex = 0
         self.debug = True
 
 
@@ -163,6 +164,24 @@ class Lineage():
                                                                               self.indicatorsBeingUsed))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
+
+
+    def compute_fitness_scores(self):
+        bestStrategyIndex = 0
+
+        for strategy in range(self.populationSize):
+            self.population[strategy].compute_fitness_score()
+            bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
+
+            if self.debug: gu.log("Strategy " + str(strategy) + " fitness score: " +
+                                  str(self.population[strategy].fitnessScore))
+
+            if self.population[strategy].fitnessScore > bestFitnessScore:
+                bestStrategyIndex = strategy
+
+        if self.debug: gu.log("Highest Fitness Score: " + str(bestFitnessScore))
+
+        self.bestStrategyIndex = bestStrategyIndex
 
 
     def compute_technical_indicators(self):

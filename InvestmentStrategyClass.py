@@ -26,7 +26,7 @@ class InvestmentStrategy():
         self.lookbackThreshold = int(lookbackthreshold*self.lookback)
         self.profit = 0
         self.tradeCount = 0
-        self.Debug = True
+        self.Debug = False
 
     def print_constraints(self):
         for day in range(self.lookback):
@@ -84,19 +84,21 @@ class InvestmentStrategy():
         else:
             profit = myCash - self.startingCash
         self.profit = profit
-        gu.log("Profit: " + str(profit))
-        gu.log("Number of trades: " + str(trades))
+        if self.Debug: gu.log("Profit: " + str(profit))
+        if self.Debug: gu.log("Number of trades: " + str(trades))
 
         # aggregate fitness scoring                       # could throw in penalty for cost of trade here: profit -= trades*transactionCost
         if trades > 0:
             profitPerTrade = profit/float(trades)
         else:
             profitPerTrade = 0
-        gu.log("Average profit per trade: " + str(profitPerTrade))
+        if self.Debug: gu.log("Average profit per trade: " + str(profitPerTrade))
 
         if trades > 0:
             # log function maybe...
             # testFitnessScore = np.round(((profit/(trades*trades))*np.abs(profitPerTrade)), 2)
-            testFitnessScore = np.round(profit*np.log10(np.abs(trades + 1)), 2)
+            testFitnessScore = np.round((profit*np.log10(np.abs(trades + 1))), 2)
 
-            gu.log("Aggregate fitness score: " + str(testFitnessScore))
+            if self.Debug: gu.log("Aggregate fitness score: " + str(testFitnessScore))
+
+            self.fitnessScore = testFitnessScore

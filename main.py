@@ -21,7 +21,7 @@ def main():
     dayTriggerThreshold = .50
     lookbackLevel = 3
     generations = 1
-    populatioSize = 1
+    populatioSize = 8
     dateRange = {}
     dateRange["startM"] = "00"
     dateRange["startD"] = "01"
@@ -35,7 +35,7 @@ def main():
     x.compute_technical_indicators()
     x.compute_indicator_ranges()
     x.initialize_population()
-    x.population[0].print_constraints()
-    x.population[0].compute_fitness_score()
+
+    x.compute_fitness_scores()
 
 main()
