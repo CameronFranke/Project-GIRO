@@ -24,7 +24,7 @@ def main():
     lookbackLevel = 3
 
     generations = 1
-    populatioSize = 8
+    populatioSize = 15
 
     selectionPercentage = .75
 
@@ -36,12 +36,21 @@ def main():
     dateRange["stopD"] = "31"
     dateRange["stopY"] = "2015"
 
-    x = LineageClass.Lineage("GOOG", dateRange, technicalIndicators, populatioSize, generations, lookbackLevel, triggerThreshold, dayTriggerThreshold, selectionPercentage)
+    x = LineageClass.Lineage("GOOG",
+                             dateRange,
+                             technicalIndicators,
+                             populatioSize,
+                             generations,
+                             lookbackLevel,
+                             triggerThreshold,
+                             dayTriggerThreshold,
+                             selectionPercentage)
+
     x.pull_Yahoo_Finance_Data()
     x.compute_technical_indicators()
     x.compute_indicator_ranges()
     x.initialize_population()
-
     x.compute_fitness_scores()
+    x.tournament_selection()
 
 main()

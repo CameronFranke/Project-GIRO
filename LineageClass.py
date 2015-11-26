@@ -1,6 +1,7 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
 import InvestmentStrategyClass
+from random import randrange
 import numpy as np
 import talib as tl
 import urllib2
@@ -222,6 +223,26 @@ class Lineage():
             print
         '''
         print("Placeholder- Function not implemented")
+
+
+    def tournament_selection(self):
+
+        newPopulation = []
+        newPopulationSize = int(np.round((self.selectionPercentage * self.populationSize),0))   # need cast to in, python complains about the numpy type float32
+        if self.debug: gu.log("new population size = " + str(newPopulationSize))
+
+        for i in range(newPopulationSize):
+            indexX = randrange(0, self.populationSize)
+            indexY = randrange(0, self.populationSize)
+            x = self.fitnessScores[indexX]
+            y = self.fitnessScores[indexY]
+
+            if x > y:
+                newPopulation.append(self.population[indexX])
+            else:
+                newPopulation.append(self.population[indexY])
+
+        self.population = newPopulation
 
 
     def compute_technical_indicators(self):
