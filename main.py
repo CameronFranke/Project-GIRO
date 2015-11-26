@@ -24,7 +24,7 @@ def main():
     lookbackLevel = 3
 
     generations = 1
-    populatioSize = 15
+    populatioSize = 4
 
     selectionPercentage = .75
 
@@ -52,5 +52,6 @@ def main():
     x.initialize_population()
     x.compute_fitness_scores()
     x.tournament_selection()
+    x.uniform_crossover()
 
 main()

@@ -245,6 +245,33 @@ class Lineage():
         self.population = newPopulation
 
 
+    def uniform_crossover(self):
+
+        triggerNames = ["BuyLower", "BuyUpper", "SellLower", "SellUpper"]
+
+        crossoverPopulationSize = self.populationSize - len(self.population)
+        selectedPopulationSize = len(self.population)
+
+        for strategy in range(crossoverPopulationSize):
+            #choose strategies to dual
+            indexA = randrange(0, selectedPopulationSize)
+            indexB = randrange(0, selectedPopulationSize)
+            parents = [indexA, indexB]
+            entireStratedy = []
+            for day in range(self.lookback):
+                dayStrategy = {}
+                for indicator in self.indicatorsBeingUsed:
+                    temp = {}
+                    for trigger in triggerNames:
+                        parent = randrange(0,2)
+                        temp[trigger] = self.population[parents[parent]][day][indicator][trigger]
+
+                    dayStrategy[indicator] = temp
+                entireStratedy[day] = dayStrategy
+
+            for x in entireStratedy:
+                print x
+
     def compute_technical_indicators(self):
         self.build_raw_price_list()
         for indicator in self.technicalIndicators:
