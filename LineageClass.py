@@ -190,8 +190,20 @@ class Lineage():
 
 
     def roulette_wheel_selection(self):
+        print("Placeholder- Function not implemented")
+        '''
+        This might be the best method to use but it is slightly more computationally intensive and
+        time consuming to write so I will use tournament selection until I can talk to Dr. Hayes
+
+        CONST_BASE_DIVISOR = 2
+
         strategiesToSelect = np.round((self.populationSize*self.selectionPercentage), 0)
-        baseChance = min(self.fitnessScores)/2
+        temp = []
+        for i in self.fitnessScores:
+            if i > 0:
+                temp.append(i)
+
+        baseChance = min(temp)/CONST_BASE_DIVISOR
         chancePoints = []
         newPopulation = []
 
@@ -202,11 +214,14 @@ class Lineage():
                 chancePoints.append(baseChance + i)
 
         totalPoints = sum(chancePoints)
-
+        temp = list(chancePoints)
+        for i in range(len(temp)):
+            chancePoints =
 
         for i in range(strategiesToSelect):
-
-
+            print
+        '''
+        print("Placeholder- Function not implemented")
 
 
     def compute_technical_indicators(self):
