@@ -178,8 +178,8 @@ class Lineage():
             bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
             scores.append(self.population[strategy].fitnessScore)
 
-            if self.debug: gu.log("Strategy " + str(strategy) + " fitness score: " +
-                                  str(self.population[strategy].fitnessScore))
+            #if self.debug: gu.log("Strategy " + str(strategy) + " fitness score: " +
+            #                      str(self.population[strategy].fitnessScore))
 
             if self.population[strategy].fitnessScore > bestFitnessScore:
                 bestStrategyIndex = strategy
@@ -188,6 +188,8 @@ class Lineage():
 
         self.bestStrategyIndex = bestStrategyIndex
         self.fitnessScores = scores
+
+        if self.debug: gu.log("Average fitness: " + str(np.average(self.fitnessScores)) + "\n")
 
 
     def roulette_wheel_selection(self):
@@ -229,7 +231,6 @@ class Lineage():
 
         newPopulation = []
         newPopulationSize = int(np.round((self.selectionPercentage * self.populationSize),0))   # need cast to in, python complains about the numpy type float32
-        if self.debug: gu.log("new population size = " + str(newPopulationSize))
 
         for i in range(newPopulationSize):
             indexX = randrange(0, self.populationSize)
@@ -264,13 +265,18 @@ class Lineage():
                     temp = {}
                     for trigger in triggerNames:
                         parent = randrange(0,2)
-                        temp[trigger] = self.population[parents[parent]][day][indicator][trigger]
+                        temp[trigger] = self.population[parents[parent]].constraints[day][indicator][trigger]
 
                     dayStrategy[indicator] = temp
-                entireStratedy[day] = dayStrategy
+                entireStratedy.append(dayStrategy)
 
-            for x in entireStratedy:
-                print x
+            self.population.append(InvestmentStrategyClass.InvestmentStrategy(entireStratedy,
+                                                                              self.data,
+                                                                              self.lookback,
+                                                                              self.triggerThreshold,
+                                                                              self.dayTriggerThreshold,
+                                                                              self.indicatorsBeingUsed))
+
 
     def compute_technical_indicators(self):
         self.build_raw_price_list()

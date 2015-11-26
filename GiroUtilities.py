@@ -1,7 +1,13 @@
 __author__ = 'Cameron'
-import time
+from datetime import datetime
+from threading import Lock
 
+global logLock
+logLock = Lock()
 
 def log(myString):
-    currentTime = time.strftime("%H:%M.%S")
-    print("ProjectGiro LOG " + str(currentTime) + ">\t" + str(myString))
+    logLock.acquire()
+    dt = datetime.now()
+    time = (str(dt.hour) + ":" + str(dt.minute) + "." + str(dt.second) + "." + str(dt.microsecond).replace(' ', '')[:-3])
+    print("ProjectGiro LOG " + time + ">\t" + str(myString))
+    logLock.release()

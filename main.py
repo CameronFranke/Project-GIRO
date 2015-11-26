@@ -24,7 +24,7 @@ def main():
     lookbackLevel = 3
 
     generations = 1
-    populatioSize = 4
+    populationSize = 512
 
     selectionPercentage = .75
 
@@ -39,7 +39,7 @@ def main():
     x = LineageClass.Lineage("GOOG",
                              dateRange,
                              technicalIndicators,
-                             populatioSize,
+                             populationSize,
                              generations,
                              lookbackLevel,
                              triggerThreshold,
@@ -50,8 +50,10 @@ def main():
     x.compute_technical_indicators()
     x.compute_indicator_ranges()
     x.initialize_population()
-    x.compute_fitness_scores()
-    x.tournament_selection()
-    x.uniform_crossover()
+
+    for generation in range(0, 25):
+        x.compute_fitness_scores()
+        x.tournament_selection()
+        x.uniform_crossover()
 
 main()
