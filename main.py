@@ -1,6 +1,5 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
-import LineageClass
 import GIROControllerClass
 
 '''
@@ -17,8 +16,9 @@ import GIROControllerClass
 def main():
     gu.log("Initializing Project GIRO...")
 
-    GIRO = GIROControllerClass.GiroController("results", "StockData/stocksToAnalyze.txt")
+    GIRO = GIROControllerClass.GiroController("results", "StockData/stocksToAnalyze.txt", "configs/giroConfig.txt")
     GIRO.init_stock_list()
+    GIRO.get_settings()
     GIRO.giro_start()
 
 

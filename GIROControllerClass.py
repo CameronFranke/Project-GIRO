@@ -2,11 +2,18 @@ __author__ = 'Cameron'
 import LineageClass
 import GiroUtilities as gu
 
+'''
+TODO:
+        Need to read settings in from file
+'''
+
 class GiroController():
 
-    def __init__(self, resultsFile, stocksFile):
+    def __init__(self, resultsFile, stocksFile, configFile):
+        self.configFile = configFile
         self.results = open(resultsFile, "w+")
         self.stocks = stocksFile
+        self.settings = {}
 
     def init_stock_list(self):
         f = open(self.stocks, "r")
@@ -18,6 +25,16 @@ class GiroController():
 
         self.stocks = temp
         print self.stocks
+
+    def get_settings(self):
+        f = open(self.configFile, "r")
+        temp = f.readlines()
+
+        for line in temp:
+            line = line.rstrip()
+            line = line.split("=")
+            self.settings[line[0]] = line[1]
+
 
     def giro_start(self):
 
@@ -31,26 +48,16 @@ class GiroController():
         dateRange["stopD"] = "31"
         dateRange["stopY"] = "2015"
 
-        triggerThreshold = .30
-        dayTriggerThreshold = .50
-
-        lookbackLevel = 3
-
-        generations = 3
-        populationSize = 8
-
-        selectionPercentage = .75
-
         for stock in self.stocks:
             x = LineageClass.Lineage(stock,
                                     dateRange,
                                     technicalIndicators,
-                                    populationSize,
-                                    generations,
-                                    lookbackLevel,
-                                    triggerThreshold,
-                                    dayTriggerThreshold,
-                                    selectionPercentage)
+                                    int(self.settings["populationSize"]),
+                                    int(self.settings["generations"]),
+                                    int(self.settings["lookbackLevel"]),
+                                    float(self.settings["triggerThreshold"]),
+                                    float(self.settings["dayTriggerThreshold"]),
+                                    float(self.settings["selectionPercentage"]))
             x.master_initialize()
             recommendation = x.evolve()
             gu.log("Recommendation: " + recommendation)
