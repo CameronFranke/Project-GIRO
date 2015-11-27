@@ -1,6 +1,7 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
 import LineageClass
+import GIROControllerClass
 
 '''
     TODO:
@@ -16,38 +17,9 @@ import LineageClass
 def main():
     gu.log("Initializing Project GIRO...")
 
-    technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
+    GIRO = GIROControllerClass.GiroController("results", "StockData/stocksToAnalyze.txt")
+    GIRO.init_stock_list()
+    GIRO.giro_start()
 
-    triggerThreshold = .30
-    dayTriggerThreshold = .50
-
-    lookbackLevel = 3
-
-    generations = 3
-    populationSize = 8
-
-    selectionPercentage = .75
-
-    dateRange = {}
-    dateRange["startM"] = "00"
-    dateRange["startD"] = "01"
-    dateRange["startY"] = "2010"
-    dateRange["stopM"] = "11"
-    dateRange["stopD"] = "31"
-    dateRange["stopY"] = "2015"
-
-    x = LineageClass.Lineage("GOOG",
-                                 dateRange,
-                                 technicalIndicators,
-                                 populationSize,
-                                 generations,
-                                 lookbackLevel,
-                                 triggerThreshold,
-                                 dayTriggerThreshold,
-                                 selectionPercentage)
-
-    x.master_initialize()
-    recommendation = x.evolve()
-    gu.log("Recommendation: " + recommendation)
 
 main()

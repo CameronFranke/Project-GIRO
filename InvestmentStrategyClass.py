@@ -4,12 +4,11 @@ import numpy as np
 
 '''
     TODO:
-        - factor in lookback
-        - compute a rudimentary fitness score, compounded can come later
-        - verify fitness function
         - prepare to implement mutation function
         - find numpy exponent function to clean up fitness function
         - fitness score needs to be adjusted... static multiplier maybe- also needs more precise type
+        - need a mutation/immegration function
+        - DOWJ and NASDAQ day change averages
 '''
 
 class InvestmentStrategy():
@@ -29,6 +28,7 @@ class InvestmentStrategy():
         self.finalTrade = "NULL"
         self.Debug = False
 
+
     def print_constraints(self):
         for day in range(self.lookback):
             print("Day-" + str(day))
@@ -36,6 +36,7 @@ class InvestmentStrategy():
                 print ("\t" + indicator)
                 for constraint in self.constraints[day][indicator]:
                     print("\t\t" + constraint + ": " + str(self.constraints[day][indicator][constraint]))
+
 
     def compute_fitness_score(self):
         trades = 0
