@@ -53,6 +53,12 @@ class Lineage():
             self.tournament_selection()
             self.uniform_crossover()
 
+        recommendation = self.population[self.bestStrategyIndex].finalTrade
+        if recommendation == "NULL":
+            return "No Action"
+        else:
+            return recommendation
+
 
     def master_initialize(self):
         self.pull_Yahoo_Finance_Data()
@@ -208,6 +214,7 @@ class Lineage():
 
         self.bestStrategyIndex = bestStrategyIndex
         self.fitnessScores = scores
+
 
     def roulette_wheel_selection(self):
         print("Placeholder- Function not implemented")

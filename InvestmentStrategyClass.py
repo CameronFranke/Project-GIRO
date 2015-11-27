@@ -26,6 +26,7 @@ class InvestmentStrategy():
         self.lookbackThreshold = int(lookbackthreshold*self.lookback)
         self.profit = 0
         self.tradeCount = 0
+        self.finalTrade = "NULL"
         self.Debug = False
 
     def print_constraints(self):
@@ -41,6 +42,7 @@ class InvestmentStrategy():
         myCash = self.startingCash
         invested = 0
         for dayIndex in range(self.lookback, len(self.historicalData)):
+            lastTrade = "NULL"
             invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
             lookbackTriggers = [0]*self.lookback
 
@@ -69,12 +71,14 @@ class InvestmentStrategy():
                     invested = myCash
                     myCash = 0
                     trades += 1
+                    lastTrade = "BUY"
 
             elif lookbackTriggers.count('s') > self.lookbackThreshold and lookbackTriggers.count('s') > lookbackTriggers.count('b'):
                 if invested != 0:
                     myCash = invested
                     invested = 0
                     trades += 1
+                    lastTrade = "SELL"
 
             if self.Debug:
                 gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
@@ -96,9 +100,11 @@ class InvestmentStrategy():
 
         if trades > 0:
             # log function maybe...
-            # testFitnessScore = np.round(((profit/(trades*trades))*np.abs(profitPerTrade)), 2)
             testFitnessScore = np.round((profit*np.log10(np.abs(trades + 1))), 2)
 
             if self.Debug: gu.log("Aggregate fitness score: " + str(testFitnessScore))
 
             self.fitnessScore = testFitnessScore
+
+        if lastTrade != "":
+            self.finalTrade = lastTrade

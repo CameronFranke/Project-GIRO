@@ -23,8 +23,8 @@ def main():
 
     lookbackLevel = 3
 
-    generations = 10
-    populationSize = 96
+    generations = 3
+    populationSize = 8
 
     selectionPercentage = .75
 
@@ -37,16 +37,17 @@ def main():
     dateRange["stopY"] = "2015"
 
     x = LineageClass.Lineage("GOOG",
-                             dateRange,
-                             technicalIndicators,
-                             populationSize,
-                             generations,
-                             lookbackLevel,
-                             triggerThreshold,
-                             dayTriggerThreshold,
-                             selectionPercentage)
+                                 dateRange,
+                                 technicalIndicators,
+                                 populationSize,
+                                 generations,
+                                 lookbackLevel,
+                                 triggerThreshold,
+                                 dayTriggerThreshold,
+                                 selectionPercentage)
 
     x.master_initialize()
-    x.evolve()
+    recommendation = x.evolve()
+    gu.log("Recommendation: " + recommendation)
 
 main()
