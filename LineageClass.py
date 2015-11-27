@@ -15,7 +15,16 @@ TODO:
 
 class Lineage():
 
-    def __init__(self, stockSymbol, dateRange, technicalIndicators, populationSize, generationCount, lookbackLevel, triggerThreshold, dayTriggerThreshold, selectionPercentage):
+    def __init__(self,
+                 stockSymbol,
+                 dateRange,
+                 technicalIndicators,
+                 populationSize,
+                 generationCount,
+                 lookbackLevel,
+                 triggerThreshold,
+                 dayTriggerThreshold,
+                 selectionPercentage):
 
         self.lookback = lookbackLevel
         self.dateRange = dateRange
@@ -34,6 +43,22 @@ class Lineage():
         self.fitnessScores = []
         self.selectionPercentage = selectionPercentage
         self.debug = True
+
+    def evolve(self):
+        for generations in range(self.generationCount):
+            gu.log(self.symbol + " Generation: " + str(generations))
+            self.compute_fitness_scores()
+            gu.log("\tHighest fitness this round: " + str(max(self.fitnessScores)))
+            gu.log("\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
+            self.tournament_selection()
+            self.uniform_crossover()
+
+
+    def master_initialize(self):
+        self.pull_Yahoo_Finance_Data()
+        self.compute_technical_indicators()
+        self.compute_indicator_ranges()
+        self.initialize_population()
 
 
     def pull_Yahoo_Finance_Data(self):
@@ -178,19 +203,11 @@ class Lineage():
             bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
             scores.append(self.population[strategy].fitnessScore)
 
-            #if self.debug: gu.log("Strategy " + str(strategy) + " fitness score: " +
-            #                      str(self.population[strategy].fitnessScore))
-
             if self.population[strategy].fitnessScore > bestFitnessScore:
                 bestStrategyIndex = strategy
 
-        if self.debug: gu.log("Highest Fitness Score: " + str(bestFitnessScore))
-
         self.bestStrategyIndex = bestStrategyIndex
         self.fitnessScores = scores
-
-        if self.debug: gu.log("Average fitness: " + str(np.average(self.fitnessScores)) + "\n")
-
 
     def roulette_wheel_selection(self):
         print("Placeholder- Function not implemented")

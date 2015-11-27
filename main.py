@@ -23,8 +23,8 @@ def main():
 
     lookbackLevel = 3
 
-    generations = 1
-    populationSize = 512
+    generations = 10
+    populationSize = 96
 
     selectionPercentage = .75
 
@@ -46,14 +46,7 @@ def main():
                              dayTriggerThreshold,
                              selectionPercentage)
 
-    x.pull_Yahoo_Finance_Data()
-    x.compute_technical_indicators()
-    x.compute_indicator_ranges()
-    x.initialize_population()
-
-    for generation in range(0, 25):
-        x.compute_fitness_scores()
-        x.tournament_selection()
-        x.uniform_crossover()
+    x.master_initialize()
+    x.evolve()
 
 main()
