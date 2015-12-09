@@ -4,12 +4,11 @@ import GIROControllerClass
 
 '''
     TODO:
-        Need to build in XML style config file ASAP
-            - or simple ':' separated param file
+        Need to expand options included in config file
+        add in self test of predictive capabilities
 
         Need to start thinking about delegating these actions out to the GIROcontroller
-            - XML/ parameters read should be done in main
-            - system analysis shoudl also be done in main
+            - system analysis should also be done in main
             - all real computation/setup/system control should be done in the controller
 '''
 

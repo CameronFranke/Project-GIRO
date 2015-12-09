@@ -9,8 +9,9 @@ import urllib2
 '''
         Yahoo finance does not provide access to data past a certain date.
 TODO:
-
-        prepare to implement selection
+        Need to refactor yahoo finance function so that it names the file according to the dates that
+            are actually available as they may differ from the requested data and will not update if
+            the dates listed are incorrect.
 '''
 
 class Lineage():
