@@ -27,7 +27,9 @@ class Lineage():
                  dayTriggerThreshold,
                  selectionPercentage,
                  mutationRate,
-                 mutationRateDelta):
+                 mutationRateDelta,
+                 startingMoney,
+                 transactionCost):
 
         self.lookback = lookbackLevel
         self.dateRange = dateRange
@@ -47,9 +49,12 @@ class Lineage():
         self.selectionPercentage = selectionPercentage
         self.mutationRate = mutationRate
         self.mutationRateDelta = mutationRateDelta
+        self.startingMoney = startingMoney
+        self.transactionCost = transactionCost
         self.debug = True
 
     def evolve(self):
+        gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
         for generations in range(self.generationCount):
             gu.log(self.symbol + " Generation: " + str(generations))
             self.compute_fitness_scores()
@@ -203,7 +208,9 @@ class Lineage():
                                                                               self.lookback,
                                                                               self.triggerThreshold,
                                                                               self.dayTriggerThreshold,
-                                                                              self.indicatorsBeingUsed))
+                                                                              self.indicatorsBeingUsed,
+                                                                              self.startingMoney,
+                                                                              self.transactionCost))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
@@ -325,7 +332,9 @@ class Lineage():
                                                                               self.lookback,
                                                                               self.triggerThreshold,
                                                                               self.dayTriggerThreshold,
-                                                                              self.indicatorsBeingUsed))
+                                                                              self.indicatorsBeingUsed,
+                                                                              self.startingMoney,
+                                                                              self.transactionCost))
 
 
     def compute_technical_indicators(self):

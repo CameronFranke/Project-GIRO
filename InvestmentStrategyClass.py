@@ -13,14 +13,15 @@ import numpy as np
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost):
 
         self.indicatorsUsed = indicatorsUsed
         self.lookback = lookbackLevel
         self.constraints = triggerConstraints
         self.historicalData = historicalData
         self.fitnessScore = -1000000.00
-        self.startingCash = 100000
+        self.startingCash = startingMoney
+        self.transactionCost = transactionCost
         self.triggerThreshold = int(triggerThreshold*len(self.constraints[0]))
         self.lookbackThreshold = int(lookbackthreshold*self.lookback)
         self.profit = 0

@@ -59,7 +59,9 @@ class GiroController():
                                     float(self.settings["dayTriggerThreshold"]),
                                     float(self.settings["selectionPercentage"]),
                                     float(self.settings["mutationRate"]),
-                                    float(self.settings["mutationRateDelta"]))
+                                    float(self.settings["mutationRateDelta"]),
+                                    float(self.settings["startingMoney"]),
+                                    float(self.settings["transactionCost"]))
             x.master_initialize()
             recommendation = x.evolve()
             gu.log("Recommendation: " + recommendation)
