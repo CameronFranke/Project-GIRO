@@ -222,7 +222,8 @@ class Lineage():
 
 
     def updata_mutation_rate(self):
-        self.mutationRate += self.mutationRateDelta
+        if self.mutationRate > 0:
+            self.mutationRate += self.mutationRateDelta
 
 
     def compute_fitness_scores(self):

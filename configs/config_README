@@ -1,0 +1,42 @@
+This document will ser as the manual page for the config file.
+
+
+
+
+startYear: year for the starting date of the historical data that will be used to generate trading models
+
+
+startMonth: month for the starting date of the historical data that will be used to generate trading models
+
+
+startDay: day for the starting date of the historical data that will be used to generate trading models
+
+
+triggerThreshold: This value indicates the number of technical indicators that must signal an action in order for an
+    action signal to be triggered for that day.
+
+
+dayTriggerThreshold: This value indicates the fraction of lookback days that must signal an action in orfer for an
+        action to be taken. GIRO can compute indicators for the days leading up to the "current" day. For example if you
+        are looking to make a trade today you will not look at just the technical indicator values for today but for
+        several days prior as well. dayTriggerThreshold indicated the percentage of the provious days that need to agree
+        on an action in order for an action to be taken.
+
+
+lookbackLevel: The number of previous days that GIRO will consider when making action desicions
+
+
+generations: The number of generations that the genetic algorithm will run in the search for an optimal strategy
+
+
+populationSize: The number of strategy elements in the population that is evolving
+
+
+selectionPercentage: The portion of the population that moves on to the next generation and that will be "mated" to
+    for new strategies in the population.
+
+
+mutationRate: The chance that any given gene (technical indicator upper or lower bound) will mutate
+
+
+mutationRateDelta: The change in mutation rate each generation. (must be negative if you want the mutation chance to decrease over time)
