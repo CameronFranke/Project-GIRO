@@ -57,7 +57,9 @@ class GiroController():
                                     int(self.settings["lookbackLevel"]),
                                     float(self.settings["triggerThreshold"]),
                                     float(self.settings["dayTriggerThreshold"]),
-                                    float(self.settings["selectionPercentage"]))
+                                    float(self.settings["selectionPercentage"]),
+                                    float(self.settings["mutationRate"]),
+                                    float(self.settings["mutationRateDelta"]))
             x.master_initialize()
             recommendation = x.evolve()
             gu.log("Recommendation: " + recommendation)

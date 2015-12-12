@@ -25,7 +25,9 @@ class Lineage():
                  lookbackLevel,
                  triggerThreshold,
                  dayTriggerThreshold,
-                 selectionPercentage):
+                 selectionPercentage,
+                 mutationRate,
+                 mutationRateDelta):
 
         self.lookback = lookbackLevel
         self.dateRange = dateRange
@@ -43,6 +45,8 @@ class Lineage():
         self.bestStrategyIndex = 0
         self.fitnessScores = []
         self.selectionPercentage = selectionPercentage
+        self.mutationRate = mutationRate
+        self.mutationRateDelta = mutationRateDelta
         self.debug = True
 
     def evolve(self):
@@ -53,6 +57,8 @@ class Lineage():
             gu.log("\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
             self.tournament_selection()
             self.uniform_crossover()
+            self.mutate_population()
+            self.updata_mutation_rate()
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
         if recommendation == "NULL":
@@ -200,6 +206,23 @@ class Lineage():
                                                                               self.indicatorsBeingUsed))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
+
+
+    def mutate_population(self):
+        for strategy in range(len(self.population)):
+            for day in range(len(self.population[strategy].constraints)):
+                for indicator in self.population[strategy].constraints[day]:
+                    for boundingValue in self.population[strategy].constraints[day][indicator]:
+                        chance = float(randrange(0, 100000))
+                        if chance <= (self.mutationRate * 100000):
+                            mutationMultiplier = float(randrange(-100, 100))
+                            mutationMultiplier = 1 + (mutationMultiplier / 100)
+                            newValue = self.population[strategy].constraints[day][indicator][boundingValue] * mutationMultiplier
+                            self.population[strategy].constraints[day][indicator][boundingValue] = newValue
+
+
+    def updata_mutation_rate(self):
+        self.mutationRate += self.mutationRateDelta
 
 
     def compute_fitness_scores(self):
