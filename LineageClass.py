@@ -130,6 +130,7 @@ class Lineage():
             nf = open(fileName, 'w+')
             for dataPoint in self.data:
                 nf.write(dataPoint["date"] + " " + str(dataPoint["price"]) + "\n")
+            nf.close()
 
 
     def print_Raw_Data(self):
