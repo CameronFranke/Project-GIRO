@@ -1,7 +1,8 @@
 __author__ = 'Cameron'
 import LineageClass
 import GiroUtilities as gu
-
+import threading
+global stockThreads
 '''
 TODO:
         Need to read settings in from file
@@ -14,6 +15,7 @@ class GiroController():
         self.results = open(resultsFile, "w+")
         self.stocks = stocksFile
         self.settings = {}
+        self.resultsLock = threading.Lock()
 
     def init_stock_list(self):
         f = open(self.stocks, "r")
@@ -37,7 +39,7 @@ class GiroController():
 
 
     def giro_start(self):
-
+        global stockThreads
         technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
 
         dateRange = {}
@@ -48,20 +50,34 @@ class GiroController():
         dateRange["stopD"] = "31"
         dateRange["stopY"] = "2015"
 
+        stockThreads = []
         for stock in self.stocks:
-            x = LineageClass.Lineage(stock,
-                                    dateRange,
-                                    technicalIndicators,
-                                    int(self.settings["populationSize"]),
-                                    int(self.settings["generations"]),
-                                    int(self.settings["lookbackLevel"]),
-                                    float(self.settings["triggerThreshold"]),
-                                    float(self.settings["dayTriggerThreshold"]),
-                                    float(self.settings["selectionPercentage"]),
-                                    float(self.settings["mutationRate"]),
-                                    float(self.settings["mutationRateDelta"]),
-                                    float(self.settings["startingMoney"]),
-                                    float(self.settings["transactionCost"]))
-            x.master_initialize()
-            recommendation = x.evolve()
-            gu.log("Recommendation: " + recommendation)
+            x = (LineageClass.Lineage(stock,
+                                                    dateRange,
+                                                    technicalIndicators,
+                                                    int(self.settings["populationSize"]),
+                                                    int(self.settings["generations"]),
+                                                    int(self.settings["lookbackLevel"]),
+                                                    float(self.settings["triggerThreshold"]),
+                                                    float(self.settings["dayTriggerThreshold"]),
+                                                    float(self.settings["selectionPercentage"]),
+                                                    float(self.settings["mutationRate"]),
+                                                    float(self.settings["mutationRateDelta"]),
+                                                    float(self.settings["startingMoney"]),
+                                                    float(self.settings["transactionCost"])))
+            y = threading.Thread(target=self.start_thread, args=(x,))
+            stockThreads.append(y)
+
+        for x in stockThreads:
+            x.start()
+
+        for x in stockThreads:
+            x.join()
+
+
+    def start_thread(self, stock):
+        stock.master_initialize()
+        recommendation = stock.evolve()
+        self.resultsLock.acquire()
+        self.results.write(str(stock.symbol) + ": " + recommendation + "\n")
+        self.resultsLock.release()

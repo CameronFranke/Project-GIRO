@@ -70,14 +70,14 @@ class InvestmentStrategy():
             # count up lookback signals
             if lookbackTriggers.count('b') > self.lookbackThreshold and lookbackTriggers.count('b') > lookbackTriggers.count('s'):
                 if myCash != 0:
-                    invested = myCash
+                    invested = myCash - self.transactionCost
                     myCash = 0
                     trades += 1
                     lastTrade = "BUY"
 
             elif lookbackTriggers.count('s') > self.lookbackThreshold and lookbackTriggers.count('s') > lookbackTriggers.count('b'):
                 if invested != 0:
-                    myCash = invested
+                    myCash = invested - self.transactionCost
                     invested = 0
                     trades += 1
                     lastTrade = "SELL"
@@ -90,10 +90,11 @@ class InvestmentStrategy():
         else:
             profit = myCash - self.startingCash
         self.profit = profit
-        if self.Debug: gu.log("Profit: " + str(profit))
-        if self.Debug: gu.log("Number of trades: " + str(trades))
+        if self.Debug:
+            gu.log("Profit: " + str(profit))
+            gu.log("Number of trades: " + str(trades))
 
-        # aggregate fitness scoring                       # could throw in penalty for cost of trade here: profit -= trades*transactionCost
+        # aggregate fitness scoring
         if trades > 0:
             profitPerTrade = profit/float(trades)
         else:

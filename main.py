@@ -1,6 +1,7 @@
 __author__ = 'Cameron'
 import GiroUtilities as gu
 import GIROControllerClass
+from time import time
 
 '''
     TODO:
@@ -14,11 +15,12 @@ import GIROControllerClass
 
 def main():
     gu.log("Initializing Project GIRO...")
-
-    GIRO = GIROControllerClass.GiroController("results", "StockData/stocksToAnalyze.txt", "configs/giroConfig.txt")
+    start = time()
+    GIRO = GIROControllerClass.GiroController("results.txt", "StockData/stocksToAnalyze.txt", "configs/giroConfig.txt")
     GIRO.init_stock_list()
     GIRO.get_settings()
     GIRO.giro_start()
-
+    stop = time()
+    gu.log("GIRO total execution time: " + str(stop - start))
 
 main()

@@ -74,3 +74,21 @@ YAHOY
 YNDX
 YOOIF
 YIPI
+
+
+Benchmark settings:
+====================
+startYear=2015
+startMonth=01
+startDay=01
+triggerThreshold=.3
+dayTriggerThreshold=.6
+lookbackLevel=3
+generations=25
+populationSize=128
+selectionPercentage=.60
+mutationRate=.01
+mutationRateDelta=-.000
+startingMoney=100000
+transactionCost=0
+====================

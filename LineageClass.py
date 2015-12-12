@@ -56,10 +56,10 @@ class Lineage():
     def evolve(self):
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
         for generations in range(self.generationCount):
-            gu.log(self.symbol + " Generation: " + str(generations))
             self.compute_fitness_scores()
-            gu.log("\tHighest fitness this round: " + str(max(self.fitnessScores)))
-            gu.log("\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
+            gu.log(self.symbol + " Generation: " + str(generations) +
+                   "\n\t\t\t\t\t\t\t\t\tHighest fitness this round: " + str(max(self.fitnessScores)) +
+                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
