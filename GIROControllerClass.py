@@ -5,7 +5,6 @@ import threading
 global stockThreads
 '''
 TODO:
-        Need to read settings in from file
 '''
 
 class GiroController():

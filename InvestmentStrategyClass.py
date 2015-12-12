@@ -60,12 +60,12 @@ class InvestmentStrategy():
                         sellSignals += 1
 
                 if buySignals > sellSignals and buySignals > self.triggerThreshold:    # if buy trigger
-                    if myCash != 0:
-                        lookbackTriggers[lookbackIndex] = 'b'
+                    #if myCash != 0:
+                    lookbackTriggers[lookbackIndex] = 'b'
 
                 elif sellSignals > buySignals and sellSignals > self.triggerThreshold:  # if sell trigger
-                    if invested != 0:
-                        lookbackTriggers[lookbackIndex] = 's'
+                    #if invested != 0:
+                    lookbackTriggers[lookbackIndex] = 's'
 
             # count up lookback signals
             if lookbackTriggers.count('b') > self.lookbackThreshold and lookbackTriggers.count('b') > lookbackTriggers.count('s'):
@@ -74,6 +74,8 @@ class InvestmentStrategy():
                     myCash = 0
                     trades += 1
                     lastTrade = "BUY"
+                else:
+                    lastTrade = "BUY/COVER"
 
             elif lookbackTriggers.count('s') > self.lookbackThreshold and lookbackTriggers.count('s') > lookbackTriggers.count('b'):
                 if invested != 0:
@@ -81,6 +83,8 @@ class InvestmentStrategy():
                     invested = 0
                     trades += 1
                     lastTrade = "SELL"
+                else:
+                    lastTrade = "SELL/SHORT"
 
             if self.Debug:
                 gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
