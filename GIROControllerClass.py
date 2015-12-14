@@ -73,6 +73,8 @@ class GiroController():
         for x in stockThreads:
             x.join()
 
+        self.results.close()
+
 
     def start_thread(self, stock):
         stock.master_initialize()

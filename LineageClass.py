@@ -12,6 +12,12 @@ TODO:
         Need to refactor yahoo finance function so that it names the file according to the dates that
             are actually available as they may differ from the requested data and will not update if
             the dates listed are incorrect.
+
+        TECHNICAL INDICATORS TO ADD:
+            - RSI
+            - volatility
+            - NASQAQ/DOW EMA, RSI
+            - pattern recognition....
 '''
 
 class Lineage():
@@ -52,6 +58,7 @@ class Lineage():
         self.startingMoney = startingMoney
         self.transactionCost = transactionCost
         self.debug = True
+
 
     def evolve(self):
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)

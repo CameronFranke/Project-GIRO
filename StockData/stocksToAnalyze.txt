@@ -1,3 +1,7 @@
 GOOG
 EA
 DIS
+TSLA
+TSM
+BXLT
+EA
