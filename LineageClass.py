@@ -73,10 +73,12 @@ class Lineage():
             self.updata_mutation_rate()
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
+
         if recommendation == "NULL":
-            return "No Action"
-        else:
-            return recommendation
+            recommendation = "No Action"
+
+        gu.log(self.symbol + " action recommendation: " + recommendation)
+        return recommendation
 
 
     def master_initialize(self):

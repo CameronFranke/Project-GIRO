@@ -36,6 +36,8 @@ class GiroController():
             line = line.split("=")
             self.settings[line[0]] = line[1]
 
+        self.settings["threads"] = int(self.settings["threads"]) - 1
+
 
     def giro_start(self):
         global stockThreads
@@ -67,11 +69,13 @@ class GiroController():
             y = threading.Thread(target=self.start_thread, args=(x,))
             stockThreads.append(y)
 
-        for x in stockThreads:
-            x.start()
+        for x in range(len(stockThreads)):
+            stockThreads[x].start()
+            if x >= self.settings["threads"]:
+                stockThreads[x - self.settings["threads"]].join()
 
-        for x in stockThreads:
-            x.join()
+        for x in range((len(stockThreads)-self.settings["threads"]), (len(stockThreads))):
+            stockThreads[x].join()
 
         self.results.close()
 
