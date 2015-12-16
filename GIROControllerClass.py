@@ -45,6 +45,8 @@ class GiroController():
         global workerThreads
         workerThreads = []
 
+        gu.log("Initiating analysis of " + str(len(self.stocks)) + " securities")
+
         dateRange = {}
         dateRange["startM"] = "00"
         dateRange["startD"] = "01"

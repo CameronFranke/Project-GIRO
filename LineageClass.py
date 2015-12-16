@@ -66,7 +66,6 @@ class Lineage():
 
     def evolve(self):
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
-        print self.data
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
