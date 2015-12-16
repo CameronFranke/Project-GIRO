@@ -41,7 +41,11 @@ class Lineage():
         self.dateRange = dateRange
         self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
-        self.priceOnly = []
+        self.open = []
+        self.high = []
+        self.low = []
+        self.close = []
+        self.volume = []
         self.technicalIndicators = technicalIndicators
         self.populationSize = populationSize
         self.population = []
@@ -62,6 +66,7 @@ class Lineage():
 
     def evolve(self):
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
+        print self.data
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
@@ -112,7 +117,11 @@ class Lineage():
                 temp = temp.split(" ")
                 tempDict = {}
                 tempDict["date"] = temp[0]
-                tempDict["price"] = np.double(temp[1])
+                tempDict["open"] = np.double(temp[1])
+                tempDict["high"] = np.double(temp[2])
+                tempDict["low"] = np.double(temp[3])
+                tempDict["close"] = np.double(temp[4])
+                tempDict["volume"] = np.double(temp[5])
                 tempData.append(tempDict)
             f.close()
             self.data = tempData
@@ -140,16 +149,26 @@ class Lineage():
 
             for line in response:
                 line = line.split(",")
-                temp= {}
-                temp["date"] = line[0]
-                temp["price"] = np.double(line[6])
-                self.data.append(temp)
+                tempDict= {}
+                tempDict["date"] = line[0]
+                tempDict["open"] = np.double(line[1])
+                tempDict["high"] = np.double(line[2])
+                tempDict["low"] = np.double(line[3])
+                tempDict["close"] = np.double(line[4])
+                tempDict["volume"] = np.double(line[5])
+                self.data.append(tempDict)
             self.data.reverse()
 
             gu.log("Creating storage file for " + self.symbol)
             nf = open(fileName, 'w+')
             for dataPoint in self.data:
-                nf.write(dataPoint["date"] + " " + str(dataPoint["price"]) + "\n")
+                nf.write(dataPoint["date"] + " " +
+                         str(dataPoint["open"]) + " " +
+                         str(dataPoint["high"]) + " " +
+                         str(dataPoint["low"])+ " " +
+                         str(dataPoint["low"]) + " " +
+                         str(dataPoint["close"])+ " " +
+                         str(dataPoint["volume"]) + "\n")
             nf.close()
 
 
@@ -161,7 +180,6 @@ class Lineage():
                     tempString += key + ": " + str(np.round(dataPoint[key], 2)) + "\t\t"
                 else:
                     tempString += key + ": " + str(dataPoint[key]) + "\t\t"
-            print tempString
 
 
     def compute_indicator_ranges(self):
@@ -358,7 +376,7 @@ class Lineage():
         self.indicatorsBeingUsed.append("dayChange")
         dayChangePercentage = [np.nan]
         for day in range(1,len(self.data)):
-            dayChangePercentage.append(1-(self.data[day-1]["price"]/self.data[day]["price"]))
+            dayChangePercentage.append(1-(self.data[day-1]["close"]/self.data[day]["close"]))
         self.update_data(dayChangePercentage, "dayChange")
 
 
@@ -368,20 +386,29 @@ class Lineage():
 
 
     def build_raw_price_list(self):
-
+        # this function should be renames
         for dataPoint in self.data:
-            self.priceOnly.append(dataPoint["price"])
-        self.priceOnly = np.array(self.priceOnly)
+            self.open.append(dataPoint["open"])
+            self.high.append(dataPoint["high"])
+            self.low.append(dataPoint["low"])
+            self.close.append(dataPoint["close"])
+            self.volume.append(dataPoint["volume"])
+
+        self.open = np.array(self.open)
+        self.high = np.array(self.high)
+        self.low = np.array(self.low)
+        self.close = np.array(self.close)
+        self.volume = np.array(self.volume)
 
 
     def compute_SMA(self):
-        SMA = tl.SMA(self.priceOnly)
+        SMA = tl.SMA(self.close)
         self.update_data(SMA, "SMA")
         self.indicatorsBeingUsed.append("SMA")
 
 
     def compute_MACD(self):
-        MACD, MACDsignal, MACDdiff = tl.MACD(self.priceOnly, fastperiod=12, slowperiod=26, signalperiod=9)
+        MACD, MACDsignal, MACDdiff = tl.MACD(self.close, fastperiod=12, slowperiod=26, signalperiod=9)
         self.update_data(MACD, "MACD")
         self.update_data(MACDsignal, "MACDsignal")
         self.update_data(MACDdiff, "MACDdiff")
@@ -391,10 +418,72 @@ class Lineage():
 
 
     def compute_BBANDS(self):
-        upper, middle, lower = tl.BBANDS(self.priceOnly, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
+        upper, middle, lower = tl.BBANDS(self.close, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
         self.update_data(upper, "BBANDupper")
         self.update_data(middle, "BBANDmiddle")
         self.update_data(lower, "BBANDlower")
         self.indicatorsBeingUsed.append("BBANDupper")
         self.indicatorsBeingUsed.append("BBANDmiddle")
         self.indicatorsBeingUsed.append("BBANDlower")
+
+
+    def compute_RSI(self):
+        rsi = tl.RSI(self.close)
+        self.update_data(rsi, "RSI")
+        self.indicatorsBeingUsed.append("RSI")
+
+
+    def compute_CCI(self):
+        cci = tl.CCI(self.high, self.low, self.close)
+        self.update_data(cci, "CCI")
+        self.indicatorsBeingUsed.append("CCI")
+
+
+    def compute_volumeROCP(self):
+        #rate of change percentage
+        volumeROCP = tl.ROCP(self.close)
+        self.update_data(volumeROCP, "volumeROCP")
+        self.indicatorsBeingUsed.append("volumeROCP")
+
+
+    def compute_chaikinAD(self):
+        chaikinAD = tl.ADOSC(self.high, self.low, self.close, self.volume)
+        self.update_data(chaikinAD, "chaikinAD")
+        self.indicatorsBeingUsed.append("chaikinAD")
+
+
+    def compute_hammer(self):
+        #hammer pattern
+        hammer = tl.CDLHAMMER(self.open, self.high, self.low, self.close)
+        self.update_data(hammer, "hammer")
+        self.indicatorsBeingUsed.append("hammer")
+
+
+    def compute_3starsSouth(self):
+        #SEEMS TO BE BROKEN, ALWAYS RETURNS 0s
+        #three stars in the south pattern
+        startsSouth = tl.CDL3STARSINSOUTH(self.open, self.high, self.low, self.close)
+        self.update_data(startsSouth, "3starsSouth")
+        self.indicatorsBeingUsed.append("3starsSouth")
+
+
+    def compute_3advancingSoldiers(self):
+        #SEEMS TO BE BROKEN, ALWAYS RETURNS 0s
+        #three advancing white soldiers pattern
+        soldiers = tl.CDL3WHITESOLDIERS(self.open, self.high, self.low, self.close)
+        self.update_data(soldiers, "3advancingSoldiers")
+        self.indicatorsBeingUsed.append("3advancingSoldiers")
+
+
+    def compute_morningStar(self):
+        #morning star pattern
+        star = tl.CDLMORNINGSTAR(self.open, self.high, self.low, self.close)
+        self.update_data(star, "morningStar")
+        self.indicatorsBeingUsed.append("morningStar")
+
+
+    def compute_shootingStar(self):
+        #shooting star pattern
+        star = tl.CDLSHOOTINGSTAR(self.open, self.high, self.low, self.close)
+        self.update_data(star, "shootingStar")
+        self.indicatorsBeingUsed.append("shootingStar")

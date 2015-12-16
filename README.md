@@ -1,6 +1,7 @@
 # Project-GIRO Cameron Franke
 
 This repository will contain the Senior Project entitled "Project GIRO" by Cameron Franke
+shooting star seems to dramatically lower fitness levels.
 
 Yahoo Finance has data for: (so far)
 GOOG

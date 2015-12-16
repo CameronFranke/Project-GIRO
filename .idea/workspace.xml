@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b9588c6-4030-4b63-80f6-4c2ab84735e7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIROControllerClass.py" afterPath="$PROJECT_DIR$/GIROControllerClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineageClass.py" afterPath="$PROJECT_DIR$/LineageClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" afterPath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -26,17 +28,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.935">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="135" selection-start-line="67" selection-start-column="135" selection-end-line="67" selection-end-column="135" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
+                <element signature="e#217#443#0" expanded="false" />
                 <element signature="e#484#698#0" expanded="false" />
                 <element signature="e#737#1006#0" expanded="false" />
-                <element signature="e#1043#1703#0" expanded="false" />
-                <element signature="e#1742#3573#0" expanded="false" />
+                <element signature="e#1043#1634#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,28 +48,31 @@
         <entry file="file://$PROJECT_DIR$/LineageClass.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+              <caret line="488" column="53" selection-start-line="488" selection-start-column="53" selection-end-line="488" selection-end-column="53" />
               <folding>
                 <element signature="e#23#49#0" expanded="true" />
-                <element signature="e#2007#2895#0" expanded="false" />
-                <element signature="e#2939#3090#0" expanded="false" />
-                <element signature="e#3141#5403#0" expanded="false" />
-                <element signature="e#5444#5783#0" expanded="false" />
-                <element signature="e#5834#6344#0" expanded="false" />
-                <element signature="e#6392#8980#0" expanded="false" />
-                <element signature="e#9024#9837#0" expanded="false" />
-                <element signature="e#9884#9965#0" expanded="false" />
-                <element signature="e#10014#10523#0" expanded="false" />
-                <element signature="e#10574#11607#0" expanded="false" />
-                <element signature="e#11655#12280#0" expanded="false" />
-                <element signature="e#12325#14066#0" expanded="false" />
-                <element signature="e#14121#14342#0" expanded="false" />
-                <element signature="e#14386#14666#0" expanded="false" />
-                <element signature="e#14731#14842#0" expanded="false" />
-                <element signature="e#14890#15021#0" expanded="false" />
-                <element signature="e#15059#15171#0" expanded="false" />
-                <element signature="e#15210#15599#0" expanded="false" />
-                <element signature="e#15640#16037#0" expanded="false" />
+                <element signature="e#3052#3203#0" expanded="false" />
+                <element signature="e#3254#6269#0" expanded="false" />
+                <element signature="e#6671#7181#0" expanded="false" />
+                <element signature="e#7229#9817#0" expanded="false" />
+                <element signature="e#9861#10674#0" expanded="false" />
+                <element signature="e#10721#10802#0" expanded="false" />
+                <element signature="e#10851#11360#0" expanded="false" />
+                <element signature="e#11411#12444#0" expanded="false" />
+                <element signature="e#12492#13117#0" expanded="false" />
+                <element signature="e#13162#14903#0" expanded="false" />
+                <element signature="e#15223#15503#0" expanded="false" />
+                <element signature="e#15568#15679#0" expanded="false" />
+                <element signature="e#15726#16244#0" expanded="false" />
+                <element signature="e#16282#16390#0" expanded="false" />
+                <element signature="e#16429#16814#0" expanded="false" />
+                <element signature="e#16855#17248#0" expanded="false" />
+                <element signature="e#17286#17394#0" expanded="false" />
+                <element signature="e#17432#17561#0" expanded="false" />
+                <element signature="e#17606#17778#0" expanded="false" />
+                <element signature="e#17822#17990#0" expanded="false" />
+                <element signature="e#18031#18213#0" expanded="false" />
+                <element signature="e#18259#18533#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -76,8 +81,18 @@
       <file leaf-file-name="stocksToAnalyze.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17509727">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -117,15 +132,15 @@
         <option value="$PROJECT_DIR$/StockData/GiroControllerClass.py" />
         <option value="$PROJECT_DIR$/GiroUtilities.py" />
         <option value="$PROJECT_DIR$/configs/config_README" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/InvestmentStrategyClass.py" />
         <option value="$PROJECT_DIR$/StockData/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/results.txt" />
         <option value="$PROJECT_DIR$/LineageClass.py" />
-        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
         <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/configs/giroConfig.txt" />
+        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -196,20 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project-GIRO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project-GIRO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project-GIRO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,7 +646,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450144944033</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="implemented worker thread system">
+      <created>1450148071841</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1450148071841</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,7 +671,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4121447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.63178295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -709,7 +716,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="or not..." />
     <MESSAGE value="sell parameters" />
     <MESSAGE value="fixed random number generation to be more efficient and produce floats, added in trigger/day thresholds" />
     <MESSAGE value="cleaned up strategy output- much easier to read now" />
@@ -734,7 +740,8 @@
     <MESSAGE value="added functionality for short/cover signals so that recommendations are not limited by location of money" />
     <MESSAGE value="-pushing old commits" />
     <MESSAGE value="about to branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="about to branch" />
+    <MESSAGE value="implemented worker thread system" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented worker thread system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,25 +756,28 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#2007#2895#0" expanded="false" />
-            <element signature="e#2939#3090#0" expanded="false" />
-            <element signature="e#3141#5403#0" expanded="false" />
-            <element signature="e#5444#5783#0" expanded="false" />
-            <element signature="e#5834#6344#0" expanded="false" />
-            <element signature="e#6392#8980#0" expanded="false" />
-            <element signature="e#9024#9837#0" expanded="false" />
-            <element signature="e#9884#9965#0" expanded="false" />
-            <element signature="e#10014#10523#0" expanded="false" />
-            <element signature="e#10574#11607#0" expanded="false" />
-            <element signature="e#11655#12280#0" expanded="false" />
-            <element signature="e#12325#14066#0" expanded="false" />
-            <element signature="e#14121#14342#0" expanded="false" />
-            <element signature="e#14386#14666#0" expanded="false" />
-            <element signature="e#14731#14842#0" expanded="false" />
-            <element signature="e#14890#15021#0" expanded="false" />
-            <element signature="e#15059#15171#0" expanded="false" />
-            <element signature="e#15210#15599#0" expanded="false" />
-            <element signature="e#15640#16037#0" expanded="false" />
+            <element signature="e#3052#3203#0" expanded="false" />
+            <element signature="e#3254#6269#0" expanded="false" />
+            <element signature="e#6671#7181#0" expanded="false" />
+            <element signature="e#7229#9817#0" expanded="false" />
+            <element signature="e#9861#10674#0" expanded="false" />
+            <element signature="e#10721#10802#0" expanded="false" />
+            <element signature="e#10851#11360#0" expanded="false" />
+            <element signature="e#11411#12444#0" expanded="false" />
+            <element signature="e#12492#13117#0" expanded="false" />
+            <element signature="e#13162#14903#0" expanded="false" />
+            <element signature="e#15223#15503#0" expanded="false" />
+            <element signature="e#15568#15679#0" expanded="false" />
+            <element signature="e#15726#16244#0" expanded="false" />
+            <element signature="e#16282#16390#0" expanded="false" />
+            <element signature="e#16429#16814#0" expanded="false" />
+            <element signature="e#16855#17248#0" expanded="false" />
+            <element signature="e#17286#17394#0" expanded="false" />
+            <element signature="e#17432#17561#0" expanded="false" />
+            <element signature="e#17606#17778#0" expanded="false" />
+            <element signature="e#17822#17990#0" expanded="false" />
+            <element signature="e#18031#18213#0" expanded="false" />
+            <element signature="e#18259#18533#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -820,25 +830,28 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#2007#2895#0" expanded="false" />
-            <element signature="e#2939#3090#0" expanded="false" />
-            <element signature="e#3141#5403#0" expanded="false" />
-            <element signature="e#5444#5783#0" expanded="false" />
-            <element signature="e#5834#6344#0" expanded="false" />
-            <element signature="e#6392#8980#0" expanded="false" />
-            <element signature="e#9024#9837#0" expanded="false" />
-            <element signature="e#9884#9965#0" expanded="false" />
-            <element signature="e#10014#10523#0" expanded="false" />
-            <element signature="e#10574#11607#0" expanded="false" />
-            <element signature="e#11655#12280#0" expanded="false" />
-            <element signature="e#12325#14066#0" expanded="false" />
-            <element signature="e#14121#14342#0" expanded="false" />
-            <element signature="e#14386#14666#0" expanded="false" />
-            <element signature="e#14731#14842#0" expanded="false" />
-            <element signature="e#14890#15021#0" expanded="false" />
-            <element signature="e#15059#15171#0" expanded="false" />
-            <element signature="e#15210#15599#0" expanded="false" />
-            <element signature="e#15640#16037#0" expanded="false" />
+            <element signature="e#3052#3203#0" expanded="false" />
+            <element signature="e#3254#6269#0" expanded="false" />
+            <element signature="e#6671#7181#0" expanded="false" />
+            <element signature="e#7229#9817#0" expanded="false" />
+            <element signature="e#9861#10674#0" expanded="false" />
+            <element signature="e#10721#10802#0" expanded="false" />
+            <element signature="e#10851#11360#0" expanded="false" />
+            <element signature="e#11411#12444#0" expanded="false" />
+            <element signature="e#12492#13117#0" expanded="false" />
+            <element signature="e#13162#14903#0" expanded="false" />
+            <element signature="e#15223#15503#0" expanded="false" />
+            <element signature="e#15568#15679#0" expanded="false" />
+            <element signature="e#15726#16244#0" expanded="false" />
+            <element signature="e#16282#16390#0" expanded="false" />
+            <element signature="e#16429#16814#0" expanded="false" />
+            <element signature="e#16855#17248#0" expanded="false" />
+            <element signature="e#17286#17394#0" expanded="false" />
+            <element signature="e#17432#17561#0" expanded="false" />
+            <element signature="e#17606#17778#0" expanded="false" />
+            <element signature="e#17822#17990#0" expanded="false" />
+            <element signature="e#18031#18213#0" expanded="false" />
+            <element signature="e#18259#18533#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,25 +904,28 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#2007#2895#0" expanded="false" />
-            <element signature="e#2939#3090#0" expanded="false" />
-            <element signature="e#3141#5403#0" expanded="false" />
-            <element signature="e#5444#5783#0" expanded="false" />
-            <element signature="e#5834#6344#0" expanded="false" />
-            <element signature="e#6392#8980#0" expanded="false" />
-            <element signature="e#9024#9837#0" expanded="false" />
-            <element signature="e#9884#9965#0" expanded="false" />
-            <element signature="e#10014#10523#0" expanded="false" />
-            <element signature="e#10574#11607#0" expanded="false" />
-            <element signature="e#11655#12280#0" expanded="false" />
-            <element signature="e#12325#14066#0" expanded="false" />
-            <element signature="e#14121#14342#0" expanded="false" />
-            <element signature="e#14386#14666#0" expanded="false" />
-            <element signature="e#14731#14842#0" expanded="false" />
-            <element signature="e#14890#15021#0" expanded="false" />
-            <element signature="e#15059#15171#0" expanded="false" />
-            <element signature="e#15210#15599#0" expanded="false" />
-            <element signature="e#15640#16037#0" expanded="false" />
+            <element signature="e#3052#3203#0" expanded="false" />
+            <element signature="e#3254#6269#0" expanded="false" />
+            <element signature="e#6671#7181#0" expanded="false" />
+            <element signature="e#7229#9817#0" expanded="false" />
+            <element signature="e#9861#10674#0" expanded="false" />
+            <element signature="e#10721#10802#0" expanded="false" />
+            <element signature="e#10851#11360#0" expanded="false" />
+            <element signature="e#11411#12444#0" expanded="false" />
+            <element signature="e#12492#13117#0" expanded="false" />
+            <element signature="e#13162#14903#0" expanded="false" />
+            <element signature="e#15223#15503#0" expanded="false" />
+            <element signature="e#15568#15679#0" expanded="false" />
+            <element signature="e#15726#16244#0" expanded="false" />
+            <element signature="e#16282#16390#0" expanded="false" />
+            <element signature="e#16429#16814#0" expanded="false" />
+            <element signature="e#16855#17248#0" expanded="false" />
+            <element signature="e#17286#17394#0" expanded="false" />
+            <element signature="e#17432#17561#0" expanded="false" />
+            <element signature="e#17606#17778#0" expanded="false" />
+            <element signature="e#17822#17990#0" expanded="false" />
+            <element signature="e#18031#18213#0" expanded="false" />
+            <element signature="e#18259#18533#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -962,25 +978,28 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#2007#2895#0" expanded="false" />
-            <element signature="e#2939#3090#0" expanded="false" />
-            <element signature="e#3141#5403#0" expanded="false" />
-            <element signature="e#5444#5783#0" expanded="false" />
-            <element signature="e#5834#6344#0" expanded="false" />
-            <element signature="e#6392#8980#0" expanded="false" />
-            <element signature="e#9024#9837#0" expanded="false" />
-            <element signature="e#9884#9965#0" expanded="false" />
-            <element signature="e#10014#10523#0" expanded="false" />
-            <element signature="e#10574#11607#0" expanded="false" />
-            <element signature="e#11655#12280#0" expanded="false" />
-            <element signature="e#12325#14066#0" expanded="false" />
-            <element signature="e#14121#14342#0" expanded="false" />
-            <element signature="e#14386#14666#0" expanded="false" />
-            <element signature="e#14731#14842#0" expanded="false" />
-            <element signature="e#14890#15021#0" expanded="false" />
-            <element signature="e#15059#15171#0" expanded="false" />
-            <element signature="e#15210#15599#0" expanded="false" />
-            <element signature="e#15640#16037#0" expanded="false" />
+            <element signature="e#3052#3203#0" expanded="false" />
+            <element signature="e#3254#6269#0" expanded="false" />
+            <element signature="e#6671#7181#0" expanded="false" />
+            <element signature="e#7229#9817#0" expanded="false" />
+            <element signature="e#9861#10674#0" expanded="false" />
+            <element signature="e#10721#10802#0" expanded="false" />
+            <element signature="e#10851#11360#0" expanded="false" />
+            <element signature="e#11411#12444#0" expanded="false" />
+            <element signature="e#12492#13117#0" expanded="false" />
+            <element signature="e#13162#14903#0" expanded="false" />
+            <element signature="e#15223#15503#0" expanded="false" />
+            <element signature="e#15568#15679#0" expanded="false" />
+            <element signature="e#15726#16244#0" expanded="false" />
+            <element signature="e#16282#16390#0" expanded="false" />
+            <element signature="e#16429#16814#0" expanded="false" />
+            <element signature="e#16855#17248#0" expanded="false" />
+            <element signature="e#17286#17394#0" expanded="false" />
+            <element signature="e#17432#17561#0" expanded="false" />
+            <element signature="e#17606#17778#0" expanded="false" />
+            <element signature="e#17822#17990#0" expanded="false" />
+            <element signature="e#18031#18213#0" expanded="false" />
+            <element signature="e#18259#18533#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,118 +1073,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/GOOG:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.442379">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configs/config_README">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76510066">
           <caret line="41" column="136" selection-start-line="41" selection-start-column="136" selection-end-line="41" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/TSM:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.974537">
-          <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/AGTK:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5069447">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/SOHU:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/MOMO:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/JCOM:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/CXDO:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/AKAM:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/BIDU:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/EA:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="219" column="20" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/DIS:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6353467">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1186,15 +1097,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05597015">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/BLNKF:00-01-2015_11-31-2015.txt">
+    <entry file="file://$PROJECT_DIR$/StockData/GOOG:00-01-2015_11-31-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1202,7 +1105,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/CCOI:00-01-2015_11-31-2015.txt">
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.09174312">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#1198#1534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StockData/TSM:00-01-2015_11-31-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1210,7 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/BRNW:00-01-2015_11-31-2015.txt">
+    <entry file="file://$PROJECT_DIR$/StockData/BCOR:00-01-2015_11-31-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1218,31 +1131,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+    <entry file="file://$PROJECT_DIR$/StockData/EA:00-01-2015_11-31-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <caret line="233" column="70" selection-start-line="233" selection-start-column="70" selection-end-line="233" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0505836">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#2007#2895#0" expanded="false" />
-            <element signature="e#2939#3090#0" expanded="false" />
-            <element signature="e#3141#5403#0" expanded="false" />
-            <element signature="e#5444#5783#0" expanded="false" />
-            <element signature="e#5834#6344#0" expanded="false" />
-            <element signature="e#6392#8980#0" expanded="false" />
-            <element signature="e#9024#9837#0" expanded="false" />
-            <element signature="e#9884#9965#0" expanded="false" />
-            <element signature="e#10014#10523#0" expanded="false" />
-            <element signature="e#10574#11607#0" expanded="false" />
-            <element signature="e#11655#12280#0" expanded="false" />
-            <element signature="e#12325#14066#0" expanded="false" />
-            <element signature="e#14121#14342#0" expanded="false" />
-            <element signature="e#14386#14666#0" expanded="false" />
-            <element signature="e#14731#14842#0" expanded="false" />
-            <element signature="e#14890#15021#0" expanded="false" />
-            <element signature="e#15059#15171#0" expanded="false" />
-            <element signature="e#15210#15599#0" expanded="false" />
-            <element signature="e#15640#16037#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1255,25 +1165,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
+          <caret line="488" column="53" selection-start-line="488" selection-start-column="53" selection-end-line="488" selection-end-column="53" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#3052#3203#0" expanded="false" />
+            <element signature="e#3254#6269#0" expanded="false" />
+            <element signature="e#6671#7181#0" expanded="false" />
+            <element signature="e#7229#9817#0" expanded="false" />
+            <element signature="e#9861#10674#0" expanded="false" />
+            <element signature="e#10721#10802#0" expanded="false" />
+            <element signature="e#10851#11360#0" expanded="false" />
+            <element signature="e#11411#12444#0" expanded="false" />
+            <element signature="e#12492#13117#0" expanded="false" />
+            <element signature="e#13162#14903#0" expanded="false" />
+            <element signature="e#15223#15503#0" expanded="false" />
+            <element signature="e#15568#15679#0" expanded="false" />
+            <element signature="e#15726#16244#0" expanded="false" />
+            <element signature="e#16282#16390#0" expanded="false" />
+            <element signature="e#16429#16814#0" expanded="false" />
+            <element signature="e#16855#17248#0" expanded="false" />
+            <element signature="e#17286#17394#0" expanded="false" />
+            <element signature="e#17432#17561#0" expanded="false" />
+            <element signature="e#17606#17778#0" expanded="false" />
+            <element signature="e#17822#17990#0" expanded="false" />
+            <element signature="e#18031#18213#0" expanded="false" />
+            <element signature="e#18259#18533#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.935">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="135" selection-start-line="67" selection-start-column="135" selection-end-line="67" selection-end-column="135" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
+            <element signature="e#217#443#0" expanded="false" />
             <element signature="e#484#698#0" expanded="false" />
             <element signature="e#737#1006#0" expanded="false" />
-            <element signature="e#1043#1703#0" expanded="false" />
-            <element signature="e#1742#3573#0" expanded="false" />
+            <element signature="e#1043#1634#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17509727">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

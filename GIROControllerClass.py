@@ -44,7 +44,6 @@ class GiroController():
     def giro_start(self):
         global workerThreads
         workerThreads = []
-        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
 
         dateRange = {}
         dateRange["startM"] = "00"
@@ -66,7 +65,8 @@ class GiroController():
 
 
     def start_worker(self):
-        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
+        #technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "hammer", "shootingStar"]
+        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "hammer"]
 
         dateRange = {}
         dateRange["startM"] = "00"
