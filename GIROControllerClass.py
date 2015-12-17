@@ -86,16 +86,7 @@ class GiroController():
                 x = (LineageClass.Lineage(myStock,
                                             self.dateRange,
                                             technicalIndicators,
-                                            int(self.settings["populationSize"]),
-                                            int(self.settings["generations"]),
-                                            int(self.settings["lookbackLevel"]),
-                                            float(self.settings["triggerThreshold"]),
-                                            float(self.settings["dayTriggerThreshold"]),
-                                            float(self.settings["selectionPercentage"]),
-                                            float(self.settings["mutationRate"]),
-                                            float(self.settings["mutationRateDelta"]),
-                                            float(self.settings["startingMoney"]),
-                                            float(self.settings["transactionCost"])))
+                                            self.settings))
 
                 x.master_initialize()
 

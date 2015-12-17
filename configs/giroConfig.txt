@@ -12,3 +12,6 @@ mutationRateDelta=-.000
 startingMoney=100000
 transactionCost=0
 threads=3
+incrementDayThresholdGens=50,70
+incrementTriggerThresholdGens=60
+incrementAmount=.1

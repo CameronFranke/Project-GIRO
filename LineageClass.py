@@ -22,18 +22,9 @@ class Lineage():
                  stockSymbol,
                  dateRange,
                  technicalIndicators,
-                 populationSize,
-                 generationCount,
-                 lookbackLevel,
-                 triggerThreshold,
-                 dayTriggerThreshold,
-                 selectionPercentage,
-                 mutationRate,
-                 mutationRateDelta,
-                 startingMoney,
-                 transactionCost):
+                 settings):
 
-        self.lookback = lookbackLevel
+        self.lookback = int(settings["lookbackLevel"])
         self.dateRange = dateRange
         self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
@@ -43,20 +34,20 @@ class Lineage():
         self.close = []
         self.volume = []
         self.technicalIndicators = technicalIndicators
-        self.populationSize = populationSize
+        self.populationSize = int(settings["populationSize"])
         self.population = []
         self.indicatorRange = {}
-        self.generationCount = generationCount
+        self.generationCount = int(settings["generations"])
         self.data = []
-        self.triggerThreshold = triggerThreshold
-        self.dayTriggerThreshold = dayTriggerThreshold
+        self.triggerThreshold = float(settings["triggerThreshold"])
+        self.dayTriggerThreshold = float(settings["dayTriggerThreshold"])
         self.bestStrategyIndex = 0
         self.fitnessScores = []
-        self.selectionPercentage = selectionPercentage
-        self.mutationRate = mutationRate
-        self.mutationRateDelta = mutationRateDelta
-        self.startingMoney = startingMoney
-        self.transactionCost = transactionCost
+        self.selectionPercentage = float(settings["selectionPercentage"])
+        self.mutationRate = float(settings["mutationRate"])
+        self.mutationRateDelta = float(settings["mutationRateDelta"])
+        self.startingMoney = float(settings["startingMoney"])
+        self.transactionCost = float(settings["transactionCost"])
         self.debug = True
 
 
@@ -72,13 +63,8 @@ class Lineage():
             self.mutate_population()
             self.updata_mutation_rate()
 
-            #if generations == 25:
-            #    self.dayTriggerThreshold += .1
-            #    self.triggerThreshold += .1
             if generations == 55:
                 self.dayTriggerThreshold += .1
-                #self.triggerThreshold += .1
-
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
 
