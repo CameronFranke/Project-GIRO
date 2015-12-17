@@ -48,6 +48,10 @@ class Lineage():
         self.mutationRateDelta = float(settings["mutationRateDelta"])
         self.startingMoney = float(settings["startingMoney"])
         self.transactionCost = float(settings["transactionCost"])
+        self.dayTrigIncrementGens = settings["incrementDayThresholdGens"]
+        self.trigIncrementGens = settings["incrementTriggerThresholdGens"]
+        self.dayTrigIncrementAmount = float(settings["dayTrigIncrementAmount"])
+        self.trigIncrementAmount = float(settings["TrigIncrementAmount"])
         self.debug = True
 
 
@@ -63,8 +67,11 @@ class Lineage():
             self.mutate_population()
             self.updata_mutation_rate()
 
-            if generations == 55:
-                self.dayTriggerThreshold += .1
+            if generations in self.dayTrigIncrementGens:
+                self.dayTriggerThreshold += self.dayTrigIncrementAmount
+
+            if generations in self.trigIncrementGens:
+                self.triggerThreshold += self.trigIncrementAmount
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
 
@@ -77,6 +84,7 @@ class Lineage():
 
     def master_initialize(self):
         self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
+        self.parse_trigger_settings()
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
         self.initialize_population()
@@ -102,6 +110,18 @@ class Lineage():
             self.indicatorRange[(indicator + "max")] = max(temp)
             self.indicatorRange[(indicator + "range")] = max(temp) - min(temp)
             self.indicatorRange[(indicator + "average")] = np.average(temp)
+
+
+    def parse_trigger_settings(self):
+        temp = []
+        for x in self.dayTrigIncrementGens.split(","):
+            temp.append(int(x))
+        self.dayTrigIncrementGens = temp
+
+        temp = []
+        for x in self.trigIncrementGens.split(","):
+            temp.append(int(x))
+        self.trigIncrementGens = temp
 
 
     def initialize_population(self):
