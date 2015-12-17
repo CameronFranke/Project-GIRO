@@ -3,6 +3,8 @@
 This repository will contain the Senior Project entitled "Project GIRO" by Cameron Franke
 shooting star seems to dramatically lower fitness levels.
 
+So far data in pattern recognition indicators is too scarce to be useful
+
 Yahoo Finance has data for: (so far)
 GOOG
 VNET

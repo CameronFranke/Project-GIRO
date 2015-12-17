@@ -71,6 +71,7 @@ class Lineage():
             self.uniform_crossover()
             self.mutate_population()
             self.updata_mutation_rate()
+
             #if generations == 25:
             #    self.dayTriggerThreshold += .1
             #    self.triggerThreshold += .1
@@ -410,3 +411,15 @@ class Lineage():
         star = tl.CDLSHOOTINGSTAR(self.open, self.high, self.low, self.close)
         self.update_data(star, "shootingStar")
         self.indicatorsBeingUsed.append("shootingStar")
+
+
+    def compute_nasdaqChange(self):
+        nasdaq = gu.pull_Yahoo_Finance_Data("^IXIC", self.dateRange)
+
+        temp = []
+        for x in nasdaq:
+            temp.append(np.double(x["close"]))
+        nasdaq = np.array(temp)
+        nasdaq = tl.ROCP(nasdaq)
+        self.update_data(nasdaq, "nasdaqChange")
+        self.indicatorsBeingUsed.append("nasdaqChange")

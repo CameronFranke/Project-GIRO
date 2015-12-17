@@ -16,7 +16,7 @@ def log(myString):
     print("ProjectGiro LOG " + time + ">\t" + str(myString))
     logLock.release()
 
-
+#rewrite to accept fields parameter and return only the requested data
 def pull_Yahoo_Finance_Data(symbol, dateRange):
 
         fileName = "StockData/"\
@@ -95,3 +95,4 @@ def pull_Yahoo_Finance_Data(symbol, dateRange):
                          str(dataPoint["close"])+ " " +
                          str(dataPoint["volume"]) + "\n")
             nf.close()
+            return data
