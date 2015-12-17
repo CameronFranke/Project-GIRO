@@ -4,7 +4,6 @@ import InvestmentStrategyClass
 from random import randrange
 import numpy as np
 import talib as tl
-import urllib2
 
 '''
         Yahoo finance does not provide access to data past a certain date.
@@ -14,10 +13,7 @@ TODO:
             the dates listed are incorrect.
 
         TECHNICAL INDICATORS TO ADD:
-            - RSI
-            - volatility
-            - NASQAQ/DOW EMA, RSI
-            - pattern recognition....
+            - NASDAQ/DOW
 '''
 
 class Lineage():
@@ -75,6 +71,13 @@ class Lineage():
             self.uniform_crossover()
             self.mutate_population()
             self.updata_mutation_rate()
+            #if generations == 25:
+            #    self.dayTriggerThreshold += .1
+            #    self.triggerThreshold += .1
+            if generations == 55:
+                self.dayTriggerThreshold += .1
+                #self.triggerThreshold += .1
+
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
 
@@ -86,89 +89,10 @@ class Lineage():
 
 
     def master_initialize(self):
-        self.pull_Yahoo_Finance_Data()
+        self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
         self.initialize_population()
-
-
-    def pull_Yahoo_Finance_Data(self):
-
-        fileName = "StockData/"\
-                   + self.symbol + ":"\
-                   + self.dateRange["startM"]\
-                   + "-" + self.dateRange["startD"]\
-                   + "-" + self.dateRange["startY"]\
-                   + "_" + self.dateRange["stopM"]\
-                   + "-" + self.dateRange["stopD"]\
-                   + "-" + self.dateRange["stopY"]\
-                   + ".txt"
-
-        gu.log(fileName)
-
-        try:
-            f = open(fileName, "r")
-            data = f.readlines()
-            tempData = []
-            gu.log("Using stored data for " + self.symbol)
-            for line in data:
-                temp = line.rstrip()
-                temp = temp.split(" ")
-                tempDict = {}
-                tempDict["date"] = temp[0]
-                tempDict["open"] = np.double(temp[1])
-                tempDict["high"] = np.double(temp[2])
-                tempDict["low"] = np.double(temp[3])
-                tempDict["close"] = np.double(temp[4])
-                tempDict["volume"] = np.double(temp[5])
-                tempData.append(tempDict)
-            f.close()
-            self.data = tempData
-
-        except:
-            gu.log("No stored data available for " + self.symbol)
-            gu.log("Pulling stock data for " + self.symbol + " from yahoo")
-
-            base = "http://ichart.yahoo.com/table.csv?s="\
-                   + self.symbol\
-                   + "&a=" + self.dateRange["startM"]\
-                   + "&b=" + self.dateRange["startD"]\
-                   + "&c=" + self.dateRange["startY"]\
-                   + "&d=" + self.dateRange["stopM"]\
-                   + "&e=" + self.dateRange["stopD"]\
-                   + "&f=" + self.dateRange["stopY"]\
-                   + "&g=d&ignore=.cvs"
-
-            gu.log("Download URL: " + base)
-
-            response = urllib2.urlopen(base)
-            response = str(response.read())
-            response = response.splitlines()
-            response.pop(0)
-
-            for line in response:
-                line = line.split(",")
-                tempDict= {}
-                tempDict["date"] = line[0]
-                tempDict["open"] = np.double(line[1])
-                tempDict["high"] = np.double(line[2])
-                tempDict["low"] = np.double(line[3])
-                tempDict["close"] = np.double(line[4])
-                tempDict["volume"] = np.double(line[5])
-                self.data.append(tempDict)
-            self.data.reverse()
-
-            gu.log("Creating storage file for " + self.symbol)
-            nf = open(fileName, 'w+')
-            for dataPoint in self.data:
-                nf.write(dataPoint["date"] + " " +
-                         str(dataPoint["open"]) + " " +
-                         str(dataPoint["high"]) + " " +
-                         str(dataPoint["low"])+ " " +
-                         str(dataPoint["low"]) + " " +
-                         str(dataPoint["close"])+ " " +
-                         str(dataPoint["volume"]) + "\n")
-            nf.close()
 
 
     def print_Raw_Data(self):

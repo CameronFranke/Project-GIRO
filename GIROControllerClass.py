@@ -3,8 +3,14 @@ import LineageClass
 import GiroUtilities as gu
 import threading
 global workerThreads
+workerThreads = []
 '''
 TODO:
+
+    get market averages as indicators
+    dowJ = DJIA
+    nasdaq composite = ^IXIC
+
 '''
 
 class GiroController():
@@ -16,6 +22,7 @@ class GiroController():
         self.settings = {}
         self.resultsLock = threading.Lock()
         self.stockQueueLock = threading.Lock()
+
 
     def init_stock_list(self):
         f = open(self.stocks, "r")
@@ -43,7 +50,6 @@ class GiroController():
 
     def giro_start(self):
         global workerThreads
-        workerThreads = []
 
         gu.log("Initiating analysis of " + str(len(self.stocks)) + " securities")
 
