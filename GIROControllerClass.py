@@ -2,9 +2,17 @@ __author__ = 'Cameron'
 import LineageClass
 import GiroUtilities as gu
 import threading
+import talib as tl
+import numpy as np
 global workerThreads
+workerThreads = []
 '''
 TODO:
+
+    get market averages as indicators
+    dowJ = DJIA
+    nasdaq composite = ^IXIC
+
 '''
 
 class GiroController():
@@ -16,6 +24,9 @@ class GiroController():
         self.settings = {}
         self.resultsLock = threading.Lock()
         self.stockQueueLock = threading.Lock()
+        self.dateRange = {}
+        self.nasdaq = []
+
 
     def init_stock_list(self):
         f = open(self.stocks, "r")
@@ -43,16 +54,15 @@ class GiroController():
 
     def giro_start(self):
         global workerThreads
-        workerThreads = []
-        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
 
-        dateRange = {}
-        dateRange["startM"] = "00"
-        dateRange["startD"] = "01"
-        dateRange["startY"] = "2015"
-        dateRange["stopM"] = "11"
-        dateRange["stopD"] = "31"
-        dateRange["stopY"] = "2015"
+        gu.log("Initiating analysis of " + str(len(self.stocks)) + " securities")
+
+        self.dateRange["startM"] = "00"
+        self.dateRange["startD"] = "01"
+        self.dateRange["startY"] = "2015"
+        self.dateRange["stopM"] = "11"
+        self.dateRange["stopD"] = "31"
+        self.dateRange["stopY"] = "2015"
 
         for thread in range(self.settings["threads"]):
             workerThread = threading.Thread(target=self.start_worker, args=())
@@ -66,15 +76,7 @@ class GiroController():
 
 
     def start_worker(self):
-        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange"]
-
-        dateRange = {}
-        dateRange["startM"] = "00"
-        dateRange["startD"] = "01"
-        dateRange["startY"] = "2015"
-        dateRange["stopM"] = "11"
-        dateRange["stopD"] = "31"
-        dateRange["stopY"] = "2015"
+        technicalIndicators = ["SMA", "MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange"]
 
         while True:
             self.stockQueueLock.acquire()
@@ -82,19 +84,14 @@ class GiroController():
                 myStock = self.stocks.pop(0)
                 self.stockQueueLock.release()
                 x = (LineageClass.Lineage(myStock,
-                                            dateRange,
+                                            self.dateRange,
                                             technicalIndicators,
-                                            int(self.settings["populationSize"]),
-                                            int(self.settings["generations"]),
-                                            int(self.settings["lookbackLevel"]),
-                                            float(self.settings["triggerThreshold"]),
-                                            float(self.settings["dayTriggerThreshold"]),
-                                            float(self.settings["selectionPercentage"]),
-                                            float(self.settings["mutationRate"]),
-                                            float(self.settings["mutationRateDelta"]),
-                                            float(self.settings["startingMoney"]),
-                                            float(self.settings["transactionCost"])))
+                                            self.settings))
+
                 x.master_initialize()
+
+                print x.data ############################
+
                 recommendation = x.evolve()
                 self.resultsLock.acquire()
                 self.results.write(myStock + ": " + recommendation + "\n")

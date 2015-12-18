@@ -4,7 +4,6 @@ import InvestmentStrategyClass
 from random import randrange
 import numpy as np
 import talib as tl
-import urllib2
 
 '''
         Yahoo finance does not provide access to data past a certain date.
@@ -14,10 +13,7 @@ TODO:
             the dates listed are incorrect.
 
         TECHNICAL INDICATORS TO ADD:
-            - RSI
-            - volatility
-            - NASQAQ/DOW EMA, RSI
-            - pattern recognition....
+            - NASDAQ/DOW
 '''
 
 class Lineage():
@@ -26,37 +22,36 @@ class Lineage():
                  stockSymbol,
                  dateRange,
                  technicalIndicators,
-                 populationSize,
-                 generationCount,
-                 lookbackLevel,
-                 triggerThreshold,
-                 dayTriggerThreshold,
-                 selectionPercentage,
-                 mutationRate,
-                 mutationRateDelta,
-                 startingMoney,
-                 transactionCost):
+                 settings):
 
-        self.lookback = lookbackLevel
+        self.lookback = int(settings["lookbackLevel"])
         self.dateRange = dateRange
         self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
-        self.priceOnly = []
+        self.open = []
+        self.high = []
+        self.low = []
+        self.close = []
+        self.volume = []
         self.technicalIndicators = technicalIndicators
-        self.populationSize = populationSize
+        self.populationSize = int(settings["populationSize"])
         self.population = []
         self.indicatorRange = {}
-        self.generationCount = generationCount
+        self.generationCount = int(settings["generations"])
         self.data = []
-        self.triggerThreshold = triggerThreshold
-        self.dayTriggerThreshold = dayTriggerThreshold
+        self.triggerThreshold = float(settings["triggerThreshold"])
+        self.dayTriggerThreshold = float(settings["dayTriggerThreshold"])
         self.bestStrategyIndex = 0
         self.fitnessScores = []
-        self.selectionPercentage = selectionPercentage
-        self.mutationRate = mutationRate
-        self.mutationRateDelta = mutationRateDelta
-        self.startingMoney = startingMoney
-        self.transactionCost = transactionCost
+        self.selectionPercentage = float(settings["selectionPercentage"])
+        self.mutationRate = float(settings["mutationRate"])
+        self.mutationRateDelta = float(settings["mutationRateDelta"])
+        self.startingMoney = float(settings["startingMoney"])
+        self.transactionCost = float(settings["transactionCost"])
+        self.dayTrigIncrementGens = settings["incrementDayThresholdGens"]
+        self.trigIncrementGens = settings["incrementTriggerThresholdGens"]
+        self.dayTrigIncrementAmount = float(settings["dayTrigIncrementAmount"])
+        self.trigIncrementAmount = float(settings["TrigIncrementAmount"])
         self.debug = True
 
 
@@ -66,11 +61,18 @@ class Lineage():
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
                    "\n\t\t\t\t\t\t\t\t\tHighest fitness this round: " + str(max(self.fitnessScores)) +
-                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
+                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)) +
+                   "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
             self.updata_mutation_rate()
+
+            if generations in self.dayTrigIncrementGens:
+                self.dayTriggerThreshold += self.dayTrigIncrementAmount
+
+            if generations in self.trigIncrementGens:
+                self.triggerThreshold += self.trigIncrementAmount
 
         recommendation = self.population[self.bestStrategyIndex].finalTrade
 
@@ -78,79 +80,16 @@ class Lineage():
             recommendation = "No Action"
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
+        self.population[self.bestStrategyIndex].print_constraints()
         return recommendation
 
 
     def master_initialize(self):
-        self.pull_Yahoo_Finance_Data()
+        self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
+        self.parse_trigger_settings()
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
         self.initialize_population()
-
-
-    def pull_Yahoo_Finance_Data(self):
-
-        fileName = "StockData/"\
-                   + self.symbol + ":"\
-                   + self.dateRange["startM"]\
-                   + "-" + self.dateRange["startD"]\
-                   + "-" + self.dateRange["startY"]\
-                   + "_" + self.dateRange["stopM"]\
-                   + "-" + self.dateRange["stopD"]\
-                   + "-" + self.dateRange["stopY"]\
-                   + ".txt"
-
-        gu.log(fileName)
-
-        try:
-            f = open(fileName, "r")
-            data = f.readlines()
-            tempData = []
-            gu.log("Using stored data for " + self.symbol)
-            for line in data:
-                temp = line.rstrip()
-                temp = temp.split(" ")
-                tempDict = {}
-                tempDict["date"] = temp[0]
-                tempDict["price"] = np.double(temp[1])
-                tempData.append(tempDict)
-            f.close()
-            self.data = tempData
-
-        except:
-            gu.log("No stored data available for " + self.symbol)
-            gu.log("Pulling stock data for " + self.symbol + " from yahoo")
-
-            base = "http://ichart.yahoo.com/table.csv?s="\
-                   + self.symbol\
-                   + "&a=" + self.dateRange["startM"]\
-                   + "&b=" + self.dateRange["startD"]\
-                   + "&c=" + self.dateRange["startY"]\
-                   + "&d=" + self.dateRange["stopM"]\
-                   + "&e=" + self.dateRange["stopD"]\
-                   + "&f=" + self.dateRange["stopY"]\
-                   + "&g=d&ignore=.cvs"
-
-            gu.log("Download URL: " + base)
-
-            response = urllib2.urlopen(base)
-            response = str(response.read())
-            response = response.splitlines()
-            response.pop(0)
-
-            for line in response:
-                line = line.split(",")
-                temp= {}
-                temp["date"] = line[0]
-                temp["price"] = np.double(line[6])
-                self.data.append(temp)
-            self.data.reverse()
-
-            gu.log("Creating storage file for " + self.symbol)
-            nf = open(fileName, 'w+')
-            for dataPoint in self.data:
-                nf.write(dataPoint["date"] + " " + str(dataPoint["price"]) + "\n")
-            nf.close()
 
 
     def print_Raw_Data(self):
@@ -161,7 +100,6 @@ class Lineage():
                     tempString += key + ": " + str(np.round(dataPoint[key], 2)) + "\t\t"
                 else:
                     tempString += key + ": " + str(dataPoint[key]) + "\t\t"
-            print tempString
 
 
     def compute_indicator_ranges(self):
@@ -174,6 +112,18 @@ class Lineage():
             self.indicatorRange[(indicator + "max")] = max(temp)
             self.indicatorRange[(indicator + "range")] = max(temp) - min(temp)
             self.indicatorRange[(indicator + "average")] = np.average(temp)
+
+
+    def parse_trigger_settings(self):
+        temp = []
+        for x in self.dayTrigIncrementGens.split(","):
+            temp.append(int(x))
+        self.dayTrigIncrementGens = temp
+
+        temp = []
+        for x in self.trigIncrementGens.split(","):
+            temp.append(int(x))
+        self.trigIncrementGens = temp
 
 
     def initialize_population(self):
@@ -358,7 +308,7 @@ class Lineage():
         self.indicatorsBeingUsed.append("dayChange")
         dayChangePercentage = [np.nan]
         for day in range(1,len(self.data)):
-            dayChangePercentage.append(1-(self.data[day-1]["price"]/self.data[day]["price"]))
+            dayChangePercentage.append(1-(self.data[day-1]["close"]/self.data[day]["close"]))
         self.update_data(dayChangePercentage, "dayChange")
 
 
@@ -368,20 +318,29 @@ class Lineage():
 
 
     def build_raw_price_list(self):
-
+        # this function should be renames
         for dataPoint in self.data:
-            self.priceOnly.append(dataPoint["price"])
-        self.priceOnly = np.array(self.priceOnly)
+            self.open.append(dataPoint["open"])
+            self.high.append(dataPoint["high"])
+            self.low.append(dataPoint["low"])
+            self.close.append(dataPoint["close"])
+            self.volume.append(dataPoint["volume"])
+
+        self.open = np.array(self.open)
+        self.high = np.array(self.high)
+        self.low = np.array(self.low)
+        self.close = np.array(self.close)
+        self.volume = np.array(self.volume)
 
 
     def compute_SMA(self):
-        SMA = tl.SMA(self.priceOnly)
+        SMA = tl.SMA(self.close)
         self.update_data(SMA, "SMA")
         self.indicatorsBeingUsed.append("SMA")
 
 
     def compute_MACD(self):
-        MACD, MACDsignal, MACDdiff = tl.MACD(self.priceOnly, fastperiod=12, slowperiod=26, signalperiod=9)
+        MACD, MACDsignal, MACDdiff = tl.MACD(self.close, fastperiod=12, slowperiod=26, signalperiod=9)
         self.update_data(MACD, "MACD")
         self.update_data(MACDsignal, "MACDsignal")
         self.update_data(MACDdiff, "MACDdiff")
@@ -391,10 +350,84 @@ class Lineage():
 
 
     def compute_BBANDS(self):
-        upper, middle, lower = tl.BBANDS(self.priceOnly, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
+        upper, middle, lower = tl.BBANDS(self.close, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
         self.update_data(upper, "BBANDupper")
         self.update_data(middle, "BBANDmiddle")
         self.update_data(lower, "BBANDlower")
         self.indicatorsBeingUsed.append("BBANDupper")
         self.indicatorsBeingUsed.append("BBANDmiddle")
         self.indicatorsBeingUsed.append("BBANDlower")
+
+
+    def compute_RSI(self):
+        rsi = tl.RSI(self.close)
+        self.update_data(rsi, "RSI")
+        self.indicatorsBeingUsed.append("RSI")
+
+
+    def compute_CCI(self):
+        cci = tl.CCI(self.high, self.low, self.close)
+        self.update_data(cci, "CCI")
+        self.indicatorsBeingUsed.append("CCI")
+
+
+    def compute_volumeROCP(self):
+        #rate of change percentage
+        volumeROCP = tl.ROCP(self.close)
+        self.update_data(volumeROCP, "volumeROCP")
+        self.indicatorsBeingUsed.append("volumeROCP")
+
+
+    def compute_chaikinAD(self):
+        chaikinAD = tl.ADOSC(self.high, self.low, self.close, self.volume)
+        self.update_data(chaikinAD, "chaikinAD")
+        self.indicatorsBeingUsed.append("chaikinAD")
+
+
+    def compute_hammer(self):
+        #hammer pattern
+        hammer = tl.CDLHAMMER(self.open, self.high, self.low, self.close)
+        self.update_data(hammer, "hammer")
+        self.indicatorsBeingUsed.append("hammer")
+
+
+    def compute_3starsSouth(self):
+        #SEEMS TO BE BROKEN, ALWAYS RETURNS 0s
+        #three stars in the south pattern
+        startsSouth = tl.CDL3STARSINSOUTH(self.open, self.high, self.low, self.close)
+        self.update_data(startsSouth, "3starsSouth")
+        self.indicatorsBeingUsed.append("3starsSouth")
+
+
+    def compute_3advancingSoldiers(self):
+        #SEEMS TO BE BROKEN, ALWAYS RETURNS 0s
+        #three advancing white soldiers pattern
+        soldiers = tl.CDL3WHITESOLDIERS(self.open, self.high, self.low, self.close)
+        self.update_data(soldiers, "3advancingSoldiers")
+        self.indicatorsBeingUsed.append("3advancingSoldiers")
+
+
+    def compute_morningStar(self):
+        #morning star pattern
+        star = tl.CDLMORNINGSTAR(self.open, self.high, self.low, self.close)
+        self.update_data(star, "morningStar")
+        self.indicatorsBeingUsed.append("morningStar")
+
+
+    def compute_shootingStar(self):
+        #shooting star pattern
+        star = tl.CDLSHOOTINGSTAR(self.open, self.high, self.low, self.close)
+        self.update_data(star, "shootingStar")
+        self.indicatorsBeingUsed.append("shootingStar")
+
+
+    def compute_nasdaqChange(self):
+        nasdaq = gu.pull_Yahoo_Finance_Data("^IXIC", self.dateRange)
+
+        temp = []
+        for x in nasdaq:
+            temp.append(np.double(x["close"]))
+        nasdaq = np.array(temp)
+        nasdaq = tl.ROCP(nasdaq)
+        self.update_data(nasdaq, "nasdaqChange")
+        self.indicatorsBeingUsed.append("nasdaqChange")
