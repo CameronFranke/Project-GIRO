@@ -61,7 +61,8 @@ class Lineage():
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
                    "\n\t\t\t\t\t\t\t\t\tHighest fitness this round: " + str(max(self.fitnessScores)) +
-                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)))
+                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)) +
+                   "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
@@ -79,6 +80,7 @@ class Lineage():
             recommendation = "No Action"
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
+        self.population[self.bestStrategyIndex].print_constraints()
         return recommendation
 
 
