@@ -1,6 +1,7 @@
 __author__ = 'Cameron'
 import LineageClass
 import GiroUtilities as gu
+from multiprocessing import Process
 import threading
 global stockThreads
 '''
@@ -66,7 +67,8 @@ class GiroController():
                                                     float(self.settings["mutationRateDelta"]),
                                                     float(self.settings["startingMoney"]),
                                                     float(self.settings["transactionCost"])))
-            y = threading.Thread(target=self.start_thread, args=(x,))
+            #y = threading.Thread(target=self.start_thread, args=(x,))
+            y = Process(target=self.start_thread, args=(x,))
             stockThreads.append(y)
 
         for x in range(len(stockThreads)):

@@ -11,4 +11,4 @@ mutationRate=.01
 mutationRateDelta=-.000
 startingMoney=100000
 transactionCost=0
-threads=2
+threads=4
