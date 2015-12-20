@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9588c6-4030-4b63-80f6-4c2ab84735e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineageClass.py" afterPath="$PROJECT_DIR$/LineageClass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Project-GIRO.iml" afterPath="$PROJECT_DIR$/.idea/Project-GIRO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIROControllerClass.py" afterPath="$PROJECT_DIR$/GIROControllerClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineageClass.py" afterPath="$PROJECT_DIR$/LineageClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" afterPath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
     </list>
     <ignored path="Project-GIRO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,29 +29,36 @@
     <favorites_list name="Project-GIRO" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state vertical-scroll-proportion="-25.838709">
+              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
               <folding>
-                <element signature="e#23#49#0" expanded="true" />
+                <element signature="e#23#42#0" expanded="true" />
+                <element signature="e#2248#3004#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+      <file leaf-file-name="results.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
-              <folding>
-                <element signature="e#23#42#0" expanded="true" />
-                <element signature="e#680#894#0" expanded="false" />
-                <element signature="e#1239#1893#0" expanded="false" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LLNW:00-01-2015_11-31-2015.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StockData/LLNW:00-01-2015_11-31-2015.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.569833">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,14 +66,11 @@
       <file leaf-file-name="LineageClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LineageClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="66" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
+            <state vertical-scroll-proportion="-13.064516">
+              <caret line="423" column="35" selection-start-line="423" selection-start-column="35" selection-end-line="423" selection-end-column="35" />
               <folding>
-                <element signature="e#23#49#0" expanded="true" />
+                <element signature="e#2158#3449#0" expanded="false" />
                 <element signature="e#3760#4070#0" expanded="false" />
-                <element signature="e#4121#4631#0" expanded="false" />
-                <element signature="e#5006#7594#0" expanded="false" />
-                <element signature="e#7638#8451#0" expanded="false" />
                 <element signature="e#8498#8579#0" expanded="false" />
                 <element signature="e#8628#9137#0" expanded="false" />
                 <element signature="e#9188#10221#0" expanded="false" />
@@ -69,7 +78,6 @@
                 <element signature="e#10939#12680#0" expanded="false" />
                 <element signature="e#12735#12956#0" expanded="false" />
                 <element signature="e#13000#13280#0" expanded="false" />
-                <element signature="e#13345#13456#0" expanded="false" />
                 <element signature="e#13503#14021#0" expanded="false" />
                 <element signature="e#14059#14167#0" expanded="false" />
                 <element signature="e#14206#14591#0" expanded="false" />
@@ -83,17 +91,17 @@
                 <element signature="e#16363#16652#0" expanded="false" />
                 <element signature="e#16698#16897#0" expanded="false" />
                 <element signature="e#16944#17147#0" expanded="false" />
-                <element signature="e#17194#17515#0" expanded="false" />
+                <element signature="e#17194#17514#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="giroConfig.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -103,44 +111,8 @@
         <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GiroUtilities.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-              <folding>
-                <element signature="e#23#52#0" expanded="true" />
-                <element signature="e#171#463#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="giroConfig.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29577464">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvestmentStrategyClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="e#1198#1534#0" expanded="false" />
-                <element signature="e#1582#4800#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,38 +128,29 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/StockClass.py" />
         <option value="$PROJECT_DIR$/StockData/GiroControllerClass.py" />
-        <option value="$PROJECT_DIR$/configs/config_README" />
-        <option value="$PROJECT_DIR$/InvestmentStrategyClass.py" />
-        <option value="$PROJECT_DIR$/StockData/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/results.txt" />
-        <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
+        <option value="$PROJECT_DIR$/InvestmentStrategyClass.py" />
         <option value="$PROJECT_DIR$/GiroUtilities.py" />
+        <option value="$PROJECT_DIR$/StockData/stocksToAnalyze.txt" />
+        <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
         <option value="$PROJECT_DIR$/LineageClass.py" />
+        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
         <option value="$PROJECT_DIR$/configs/giroConfig.txt" />
       </list>
     </option>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="843" />
+    <option name="x" value="406" />
+    <option name="y" value="52" />
+    <option name="width" value="1854" />
+    <option name="height" value="1388" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -229,8 +192,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,7 +231,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -273,29 +238,130 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2492864" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="153" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="156" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="950" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="950" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/configs" />
-    </key>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Project-GIRO.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/GIROControllerClass.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/GiroUtilities.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/InvestmentStrategyClass.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/LineageClass.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/configs/giroConfig.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/configs/config_README</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/configs/stocksToAnalyze.txt</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/StockData/stocksToAnalyze.txt</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -655,138 +721,33 @@
       <option name="project" value="LOCAL" />
       <updated>1449886144114</updated>
     </task>
-    <task id="LOCAL-00034" summary="implemented mutation function&#10;mutation rate and a mutation delta value">
-      <created>1449946358536</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1449946358536</updated>
-    </task>
-    <task id="LOCAL-00035" summary="added config readme">
-      <created>1449947292286</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1449947292287</updated>
-    </task>
-    <task id="LOCAL-00036" summary="added in config for starting cash and transaction cost.">
-      <created>1449948410860</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1449948410860</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Parallelized GIRO- no performance gain on laptop with threading library. Cleaned up results output to file.">
-      <created>1449952309046</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1449952309046</updated>
-    </task>
-    <task id="LOCAL-00038" summary="added functionality for short/cover signals so that recommendations are not limited by location of money">
-      <created>1449955308629</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1449955308629</updated>
-    </task>
-    <task id="LOCAL-00039" summary="-pushing old commits">
-      <created>1450072735481</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1450072735481</updated>
-    </task>
-    <task id="LOCAL-00040" summary="about to branch">
-      <created>1450144944033</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1450144944033</updated>
-    </task>
-    <task id="LOCAL-00041" summary="implemented worker thread system">
-      <created>1450148071841</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1450148071841</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Added lots of new technicals">
-      <created>1450225179636</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1450225179636</updated>
-    </task>
-    <task id="LOCAL-00043" summary="post testing commit">
-      <created>1450233428904</created>
-      <option name="number" value="00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1450233428904</updated>
-    </task>
-    <task id="LOCAL-00044" summary="moved yahoo function to gu">
-      <created>1450325348563</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1450325348563</updated>
-    </task>
-    <task id="LOCAL-00045" summary="added NASDAQ % change indicator">
-      <created>1450330279891</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1450330279891</updated>
-    </task>
-    <task id="LOCAL-00046" summary="lineage change to accept settings struct.">
-      <created>1450333462055</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1450333462055</updated>
-    </task>
-    <task id="LOCAL-00047" summary="configurable trigger thresholds">
-      <created>1450340853149</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1450340853149</updated>
-    </task>
-    <option name="localTasksCounter" value="48" />
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="843" extended-state="0" />
-    <editor active="false" />
+    <frame x="406" y="52" width="1854" height="1388" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50516796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1639698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7047184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29859486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4278607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -803,6 +764,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="functions converted to camel case" />
+    <MESSAGE value="cleaned up print_raw_output" />
+    <MESSAGE value="added more indicators &#10;prepped for population initialization &#10;" />
+    <MESSAGE value="basic strategy initialization" />
+    <MESSAGE value="fixed bug with bollinger bands&#10;finished initialization function" />
+    <MESSAGE value="preparing to write fitness function" />
+    <MESSAGE value="added % day change indicator&#10;NOW im ready to write the fitness function" />
+    <MESSAGE value="or not..." />
+    <MESSAGE value="sell parameters" />
+    <MESSAGE value="fixed random number generation to be more efficient and produce floats, added in trigger/day thresholds" />
+    <MESSAGE value="cleaned up strategy output- much easier to read now" />
+    <MESSAGE value="Successfully ran a basic version of the fitness function!&#10;System is now able to simulate trading on the historical data and, to some degree, analyze its performance. &#10;&#10;NOTE TO SELF: Go have a beer." />
+    <MESSAGE value="Fixed data ordering. &#10;Yahoo finance issue not a bug, yahoo just sucks &#10;Basic fitness function implemented- will be revised" />
+    <MESSAGE value="implemented function to calculate fitness of entire population of a lineage" />
     <MESSAGE value="It's past midnight the day of a swim meet and I am in a van... I tried to make a roulette wheel function but... zzz" />
     <MESSAGE value="Set aside roulette wheel selection for later." />
     <MESSAGE value="Implemented tournament selection" />
@@ -814,132 +789,37 @@
     <MESSAGE value="Implemented config file" />
     <MESSAGE value="changed fitness to strict profit for now" />
     <MESSAGE value="fixed log time spacing bug" />
-    <MESSAGE value="implemented mutation function&#10;mutation rate and a mutation delta value" />
-    <MESSAGE value="added config readme" />
-    <MESSAGE value="added in config for starting cash and transaction cost." />
-    <MESSAGE value="Parallelized GIRO- no performance gain on laptop with threading library. Cleaned up results output to file." />
-    <MESSAGE value="added functionality for short/cover signals so that recommendations are not limited by location of money" />
-    <MESSAGE value="-pushing old commits" />
-    <MESSAGE value="about to branch" />
-    <MESSAGE value="implemented worker thread system" />
-    <MESSAGE value="Added lots of new technicals" />
-    <MESSAGE value="post testing commit" />
-    <MESSAGE value="moved yahoo function to gu" />
-    <MESSAGE value="added NASDAQ % change indicator" />
-    <MESSAGE value="lineage change to accept settings struct." />
-    <MESSAGE value="configurable trigger thresholds" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurable trigger thresholds" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed log time spacing bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="84" selection-start-line="97" selection-start-column="84" selection-end-line="97" selection-end-column="84" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-            <element signature="e#680#894#0" expanded="false" />
-            <element signature="e#1239#1893#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LineageClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="301" column="28" selection-start-line="301" selection-start-column="28" selection-end-line="301" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
-            <element signature="e#8498#8579#0" expanded="false" />
-            <element signature="e#8628#9137#0" expanded="false" />
-            <element signature="e#9188#10221#0" expanded="false" />
-            <element signature="e#10269#10894#0" expanded="false" />
-            <element signature="e#10939#12680#0" expanded="false" />
-            <element signature="e#12735#12956#0" expanded="false" />
-            <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
-            <element signature="e#13503#14021#0" expanded="false" />
-            <element signature="e#14059#14167#0" expanded="false" />
-            <element signature="e#14206#14591#0" expanded="false" />
-            <element signature="e#14632#15025#0" expanded="false" />
-            <element signature="e#15063#15171#0" expanded="false" />
-            <element signature="e#15209#15338#0" expanded="false" />
-            <element signature="e#15383#15555#0" expanded="false" />
-            <element signature="e#15599#15767#0" expanded="false" />
-            <element signature="e#15808#15990#0" expanded="false" />
-            <element signature="e#16036#16310#0" expanded="false" />
-            <element signature="e#16363#16652#0" expanded="false" />
-            <element signature="e#16698#16897#0" expanded="false" />
-            <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-            <element signature="e#171#463#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LineageClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#2158#3449#0" expanded="false" />
             <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
             <element signature="e#8498#8579#0" expanded="false" />
             <element signature="e#8628#9137#0" expanded="false" />
             <element signature="e#9188#10221#0" expanded="false" />
@@ -947,7 +827,6 @@
             <element signature="e#10939#12680#0" expanded="false" />
             <element signature="e#12735#12956#0" expanded="false" />
             <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
             <element signature="e#13503#14021#0" expanded="false" />
             <element signature="e#14059#14167#0" expanded="false" />
             <element signature="e#14206#14591#0" expanded="false" />
@@ -961,7 +840,105 @@
             <element signature="e#16363#16652#0" expanded="false" />
             <element signature="e#16698#16897#0" expanded="false" />
             <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <element signature="e#2158#3449#0" expanded="false" />
+            <element signature="e#3760#4070#0" expanded="false" />
+            <element signature="e#8498#8579#0" expanded="false" />
+            <element signature="e#8628#9137#0" expanded="false" />
+            <element signature="e#9188#10221#0" expanded="false" />
+            <element signature="e#10269#10894#0" expanded="false" />
+            <element signature="e#10939#12680#0" expanded="false" />
+            <element signature="e#12735#12956#0" expanded="false" />
+            <element signature="e#13000#13280#0" expanded="false" />
+            <element signature="e#13503#14021#0" expanded="false" />
+            <element signature="e#14059#14167#0" expanded="false" />
+            <element signature="e#14206#14591#0" expanded="false" />
+            <element signature="e#14632#15025#0" expanded="false" />
+            <element signature="e#15063#15171#0" expanded="false" />
+            <element signature="e#15209#15338#0" expanded="false" />
+            <element signature="e#15383#15555#0" expanded="false" />
+            <element signature="e#15599#15767#0" expanded="false" />
+            <element signature="e#15808#15990#0" expanded="false" />
+            <element signature="e#16036#16310#0" expanded="false" />
+            <element signature="e#16363#16652#0" expanded="false" />
+            <element signature="e#16698#16897#0" expanded="false" />
+            <element signature="e#16944#17147#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2158#3449#0" expanded="false" />
+            <element signature="e#3760#4070#0" expanded="false" />
+            <element signature="e#8498#8579#0" expanded="false" />
+            <element signature="e#8628#9137#0" expanded="false" />
+            <element signature="e#9188#10221#0" expanded="false" />
+            <element signature="e#10269#10894#0" expanded="false" />
+            <element signature="e#10939#12680#0" expanded="false" />
+            <element signature="e#12735#12956#0" expanded="false" />
+            <element signature="e#13000#13280#0" expanded="false" />
+            <element signature="e#13503#14021#0" expanded="false" />
+            <element signature="e#14059#14167#0" expanded="false" />
+            <element signature="e#14206#14591#0" expanded="false" />
+            <element signature="e#14632#15025#0" expanded="false" />
+            <element signature="e#15063#15171#0" expanded="false" />
+            <element signature="e#15209#15338#0" expanded="false" />
+            <element signature="e#15383#15555#0" expanded="false" />
+            <element signature="e#15599#15767#0" expanded="false" />
+            <element signature="e#15808#15990#0" expanded="false" />
+            <element signature="e#16036#16310#0" expanded="false" />
+            <element signature="e#16363#16652#0" expanded="false" />
+            <element signature="e#16698#16897#0" expanded="false" />
+            <element signature="e#16944#17147#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,8 +948,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-            <element signature="e#1582#4800#0" expanded="false" />
+            <element signature="e#23#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -988,9 +964,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2158#3449#0" expanded="false" />
+            <element signature="e#3760#4070#0" expanded="false" />
+            <element signature="e#8498#8579#0" expanded="false" />
+            <element signature="e#8628#9137#0" expanded="false" />
+            <element signature="e#9188#10221#0" expanded="false" />
+            <element signature="e#10269#10894#0" expanded="false" />
+            <element signature="e#10939#12680#0" expanded="false" />
+            <element signature="e#12735#12956#0" expanded="false" />
+            <element signature="e#13000#13280#0" expanded="false" />
+            <element signature="e#13503#14021#0" expanded="false" />
+            <element signature="e#14059#14167#0" expanded="false" />
+            <element signature="e#14206#14591#0" expanded="false" />
+            <element signature="e#14632#15025#0" expanded="false" />
+            <element signature="e#15063#15171#0" expanded="false" />
+            <element signature="e#15209#15338#0" expanded="false" />
+            <element signature="e#15383#15555#0" expanded="false" />
+            <element signature="e#15599#15767#0" expanded="false" />
+            <element signature="e#15808#15990#0" expanded="false" />
+            <element signature="e#16036#16310#0" expanded="false" />
+            <element signature="e#16363#16652#0" expanded="false" />
+            <element signature="e#16698#16897#0" expanded="false" />
+            <element signature="e#16944#17147#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1013,11 +1049,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#2158#3449#0" expanded="false" />
             <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
             <element signature="e#8498#8579#0" expanded="false" />
             <element signature="e#8628#9137#0" expanded="false" />
             <element signature="e#9188#10221#0" expanded="false" />
@@ -1025,7 +1058,6 @@
             <element signature="e#10939#12680#0" expanded="false" />
             <element signature="e#12735#12956#0" expanded="false" />
             <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
             <element signature="e#13503#14021#0" expanded="false" />
             <element signature="e#14059#14167#0" expanded="false" />
             <element signature="e#14206#14591#0" expanded="false" />
@@ -1039,7 +1071,7 @@
             <element signature="e#16363#16652#0" expanded="false" />
             <element signature="e#16698#16897#0" expanded="false" />
             <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1049,8 +1081,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-            <element signature="e#1582#4800#0" expanded="false" />
+            <element signature="e#23#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1066,9 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,11 +1119,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#2158#3449#0" expanded="false" />
             <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
             <element signature="e#8498#8579#0" expanded="false" />
             <element signature="e#8628#9137#0" expanded="false" />
             <element signature="e#9188#10221#0" expanded="false" />
@@ -1103,7 +1128,6 @@
             <element signature="e#10939#12680#0" expanded="false" />
             <element signature="e#12735#12956#0" expanded="false" />
             <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
             <element signature="e#13503#14021#0" expanded="false" />
             <element signature="e#14059#14167#0" expanded="false" />
             <element signature="e#14206#14591#0" expanded="false" />
@@ -1117,7 +1141,7 @@
             <element signature="e#16363#16652#0" expanded="false" />
             <element signature="e#16698#16897#0" expanded="false" />
             <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1127,8 +1151,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-            <element signature="e#1582#4800#0" expanded="false" />
+            <element signature="e#23#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1144,9 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,11 +1189,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#2158#3449#0" expanded="false" />
             <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
             <element signature="e#8498#8579#0" expanded="false" />
             <element signature="e#8628#9137#0" expanded="false" />
             <element signature="e#9188#10221#0" expanded="false" />
@@ -1181,7 +1198,6 @@
             <element signature="e#10939#12680#0" expanded="false" />
             <element signature="e#12735#12956#0" expanded="false" />
             <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
             <element signature="e#13503#14021#0" expanded="false" />
             <element signature="e#14059#14167#0" expanded="false" />
             <element signature="e#14206#14591#0" expanded="false" />
@@ -1195,7 +1211,7 @@
             <element signature="e#16363#16652#0" expanded="false" />
             <element signature="e#16698#16897#0" expanded="false" />
             <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1205,8 +1221,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-            <element signature="e#1582#4800#0" expanded="false" />
+            <element signature="e#23#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1222,9 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,9 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,99 +1272,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/config_README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76510066">
-          <caret line="41" column="136" selection-start-line="41" selection-start-column="136" selection-end-line="41" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockData/EA:00-01-2015_11-31-2015.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StockData/^IXIC:00-01-2015_11-31-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3816794">
-          <caret line="10" column="20" selection-start-line="9" selection-start-column="11" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-            <element signature="e#680#894#0" expanded="false" />
-            <element signature="e#1239#1893#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-            <element signature="e#171#463#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="1.0260631">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LineageClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="66" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
+        <state vertical-scroll-proportion="-13.064516">
+          <caret line="423" column="35" selection-start-line="423" selection-start-column="35" selection-end-line="423" selection-end-column="35" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#2158#3449#0" expanded="false" />
             <element signature="e#3760#4070#0" expanded="false" />
-            <element signature="e#4121#4631#0" expanded="false" />
-            <element signature="e#5006#7594#0" expanded="false" />
-            <element signature="e#7638#8451#0" expanded="false" />
             <element signature="e#8498#8579#0" expanded="false" />
             <element signature="e#8628#9137#0" expanded="false" />
             <element signature="e#9188#10221#0" expanded="false" />
@@ -1363,7 +1338,6 @@
             <element signature="e#10939#12680#0" expanded="false" />
             <element signature="e#12735#12956#0" expanded="false" />
             <element signature="e#13000#13280#0" expanded="false" />
-            <element signature="e#13345#13456#0" expanded="false" />
             <element signature="e#13503#14021#0" expanded="false" />
             <element signature="e#14059#14167#0" expanded="false" />
             <element signature="e#14206#14591#0" expanded="false" />
@@ -1377,26 +1351,42 @@
             <element signature="e#16363#16652#0" expanded="false" />
             <element signature="e#16698#16897#0" expanded="false" />
             <element signature="e#16944#17147#0" expanded="false" />
-            <element signature="e#17194#17515#0" expanded="false" />
+            <element signature="e#17194#17514#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
+    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state vertical-scroll-proportion="-25.838709">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
           <folding>
-            <element signature="e#1198#1534#0" expanded="false" />
-            <element signature="e#1582#4800#0" expanded="false" />
+            <element signature="e#23#42#0" expanded="true" />
+            <element signature="e#2248#3004#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29577464">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StockData/LLNW:00-01-2015_11-31-2015.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.569833">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

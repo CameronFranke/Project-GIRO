@@ -423,7 +423,6 @@ class Lineage():
 
     def compute_nasdaqChange(self):
         nasdaq = gu.pull_Yahoo_Finance_Data("^IXIC", self.dateRange)
-
         temp = []
         for x in nasdaq:
             temp.append(np.double(x["close"]))
