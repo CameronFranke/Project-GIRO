@@ -332,7 +332,7 @@ class Lineage():
         for indicator in self.technicalIndicators:
             command = "self.compute_" + indicator + "()"
             exec(command)
-        gu.log("Technical indicator calculations complete")
+        gu.log(self.symbol + " Technical indicator calculations complete")
 
 
     def compute_dayChange(self):
