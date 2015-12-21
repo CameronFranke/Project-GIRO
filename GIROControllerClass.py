@@ -24,7 +24,6 @@ class GiroController():
         self.settings = {}
         self.resultsLock = threading.Lock()
         self.stockQueueLock = threading.Lock()
-        self.dateRange = {}
         self.nasdaq = []
         self.manager = multiprocessing.Manager()
 
@@ -57,18 +56,8 @@ class GiroController():
         global workerThreads
 
         gu.log("Initiating analysis of " + str(len(self.stocks)) + " securities")
-
-        self.dateRange["startM"] = "00"
-        self.dateRange["startD"] = "01"
-        self.dateRange["startY"] = "2015"
-        self.dateRange["stopM"] = "11"
-        self.dateRange["stopD"] = "31"
-        self.dateRange["stopY"] = "2015"
-
         self.stocks = self.manager.list(self.stocks)
         self.resultStrings = self.manager.list()
-
-
 
         mylock = multiprocessing.Lock()
         for thread in range(self.settings["threads"]):
@@ -93,9 +82,8 @@ class GiroController():
                 myStock = self.stocks.pop(0)
                 lock.release()
                 x = (LineageClass.Lineage(myStock,
-                                            self.dateRange,
-                                            technicalIndicators,
-                                            self.settings))
+                                          technicalIndicators,
+                                          self.settings))
 
                 x.master_initialize()
                 recommendation = x.evolve()

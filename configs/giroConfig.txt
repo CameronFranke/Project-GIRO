@@ -1,6 +1,11 @@
 startYear=2015
 startMonth=01
 startDay=01
+stopYear=2015
+stopMonth=11
+stopDay=17
+useTodaysDate=False
+performanceTest=True
 triggerThreshold=.3
 dayTriggerThreshold=.5
 lookbackLevel=3

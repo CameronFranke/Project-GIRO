@@ -20,12 +20,13 @@ class Lineage():
 
     def __init__(self,
                  stockSymbol,
-                 dateRange,
                  technicalIndicators,
                  settings):
 
         self.lookback = int(settings["lookbackLevel"])
-        self.dateRange = dateRange
+        self.perfTest = settings["performanceTest"]
+        self.settings = settings
+        self.dateRange = {}
         self.indicatorsBeingUsed = []
         self.symbol = stockSymbol
         self.open = []
@@ -52,6 +53,7 @@ class Lineage():
         self.trigIncrementGens = settings["incrementTriggerThresholdGens"]
         self.dayTrigIncrementAmount = float(settings["dayTrigIncrementAmount"])
         self.trigIncrementAmount = float(settings["TrigIncrementAmount"])
+        self.lastDay = ""
         self.debug = True
 
 
@@ -78,14 +80,43 @@ class Lineage():
 
         if recommendation == "NULL":
             recommendation = "No Action"
+        else:
+            if recommendation == "BUY/COVER":
+                if self.lastDay["close"] > self.data.pop()["close"]:
+                    recommendation += "--CORRECT"
+                else:
+                    recommendation += "--INCORRECT"
+
+            elif recommendation == "SELL/SHORT":
+                if self.lastDay["close"] < self.data.pop()["close"]:
+                    recommendation += "--CORRECT"
+                else:
+                    recommendation += "--INCORRECT"
+
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
-        self.population[self.bestStrategyIndex].print_constraints()
+        #self.population[self.bestStrategyIndex].print_constraints()
+
+
+
         return recommendation
 
 
     def master_initialize(self):
+        self.dateRange["startY"] = self.settings["startYear"]
+        self.dateRange["startM"] = self.settings["startMonth"]
+        self.dateRange["startD"] = self.settings["startDay"]
+        self.dateRange["stopY"] = self.settings["stopYear"]
+        self.dateRange["stopM"] = self.settings["stopMonth"]
+        self.dateRange["stopD"] = self.settings["stopDay"]
+        if self.perfTest == "True":
+            self.perfTest = True
+        else: self.perfTest = False
+
         self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
+        if self.perfTest:
+            self.lastDay = self.data.pop()
+
         self.parse_trigger_settings()
         self.compute_technical_indicators()
         self.compute_indicator_ranges()

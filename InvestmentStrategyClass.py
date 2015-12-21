@@ -73,7 +73,7 @@ class InvestmentStrategy():
                     invested = myCash - self.transactionCost
                     myCash = 0
                     trades += 1
-                    lastTrade = "BUY"
+                    lastTrade = "BUY/COVER"
                 else:
                     lastTrade = "BUY/COVER"
 
@@ -82,7 +82,7 @@ class InvestmentStrategy():
                     myCash = invested - self.transactionCost
                     invested = 0
                     trades += 1
-                    lastTrade = "SELL"
+                    lastTrade = "SELL/SHORT"
                 else:
                     lastTrade = "SELL/SHORT"
 
