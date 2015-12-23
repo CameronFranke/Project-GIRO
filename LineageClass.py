@@ -97,8 +97,6 @@ class Lineage():
         gu.log(self.symbol + " action recommendation: " + recommendation)
         #self.population[self.bestStrategyIndex].print_constraints()
 
-
-
         return recommendation
 
 
@@ -461,3 +459,10 @@ class Lineage():
         nasdaq = tl.ROCP(nasdaq)
         self.update_data(nasdaq, "nasdaqChange")
         self.indicatorsBeingUsed.append("nasdaqChange")
+
+
+    def compute_ADMI(self):
+        # average directional ovement index rating
+        ADMI = tl.ADXR(self.high, self.low, self.close)
+        self.update_data(ADMI, "ADMI")
+        self.indicatorsBeingUsed.append("ADMI")

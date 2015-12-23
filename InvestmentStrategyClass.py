@@ -106,12 +106,6 @@ class InvestmentStrategy():
         if self.Debug: gu.log("Average profit per trade: " + str(profitPerTrade))
 
         if trades > 0:
-            # log function maybe...
-            #testFitnessScore = np.round((profit*np.log10(np.abs(trades + 1))), 2)
-
-            #if self.Debug: gu.log("Aggregate fitness score: " + str(testFitnessScore))
-
-            #self.fitnessScore = testFitnessScore
             self.fitnessScore = profit
 
         if lastTrade != "":
