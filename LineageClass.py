@@ -54,6 +54,7 @@ class Lineage():
         self.dayTrigIncrementAmount = float(settings["dayTrigIncrementAmount"])
         self.trigIncrementAmount = float(settings["TrigIncrementAmount"])
         self.lastDay = ""
+        self.tournamentSize = int(settings["tournamentSize"])
         self.debug = True
 
 
@@ -240,56 +241,22 @@ class Lineage():
         self.fitnessScores = scores
 
 
-    def roulette_wheel_selection(self):
-        print("Placeholder- Function not implemented")
-        '''
-        This might be the best method to use but it is slightly more computationally intensive and
-        time consuming to write so I will use tournament selection until I can talk to Dr. Hayes
-
-        CONST_BASE_DIVISOR = 2
-
-        strategiesToSelect = np.round((self.populationSize*self.selectionPercentage), 0)
-        temp = []
-        for i in self.fitnessScores:
-            if i > 0:
-                temp.append(i)
-
-        baseChance = min(temp)/CONST_BASE_DIVISOR
-        chancePoints = []
-        newPopulation = []
-
-        for i in self.fitnessScores:
-            if i < 0:
-                chancePoints.append(baseChance)
-            else:
-                chancePoints.append(baseChance + i)
-
-        totalPoints = sum(chancePoints)
-        temp = list(chancePoints)
-        for i in range(len(temp)):
-            chancePoints =
-
-        for i in range(strategiesToSelect):
-            print
-        '''
-        print("Placeholder- Function not implemented")
-
-
     def tournament_selection(self):
 
         newPopulation = []
         newPopulationSize = int(np.round((self.selectionPercentage * self.populationSize),0))   # need cast to in, python complains about the numpy type float32
 
         for i in range(newPopulationSize):
-            indexX = randrange(0, self.populationSize)
-            indexY = randrange(0, self.populationSize)
-            x = self.fitnessScores[indexX]
-            y = self.fitnessScores[indexY]
+            contestants = []
+            for competitor in range(self.tournamentSize):
+                contestants.append(randrange(0, self.populationSize))
 
-            if x > y:
-                newPopulation.append(self.population[indexX])
-            else:
-                newPopulation.append(self.population[indexY])
+            contestantScores = []
+            for contestant in contestants:
+                contestantScores.append(self.fitnessScores[contestant])
+
+            newPopulation.append(self.population[contestants[contestantScores.index(max(contestantScores))]])
+
 
         self.population = newPopulation
 
@@ -465,7 +432,7 @@ class Lineage():
 
 
     def compute_ADMI(self):
-        # average directional ovement index rating
+        # average directional movement index rating
         ADMI = tl.ADXR(self.high, self.low, self.close)
         self.update_data(ADMI, "ADMI")
         self.indicatorsBeingUsed.append("ADMI")
@@ -487,3 +454,11 @@ class Lineage():
         print obv
         self.update_data(obv, "OBV")
         self.indicatorsBeingUsed.append("OBV")
+
+
+    def compute_aroon(self):
+        aroonDown, aroonUp = tl.AROON(self.high, self.low)
+        self.update_data(aroonDown, "aroonDown")
+        self.update_data(aroonUp, "aroonUp")
+        self.indicatorsBeingUsed.append("aroonDown")
+        self.indicatorsBeingUsed.append("aroonUp")
