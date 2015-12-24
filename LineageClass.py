@@ -97,6 +97,9 @@ class Lineage():
         gu.log(self.symbol + " action recommendation: " + recommendation)
         #self.population[self.bestStrategyIndex].print_constraints()
 
+        self.data = ""
+        self.population = ""        # manage hardware related memory issue on laptop?
+
         return recommendation
 
 
@@ -217,7 +220,7 @@ class Lineage():
 
 
     def updata_mutation_rate(self):
-        if self.mutationRate > 0:
+        if self.mutationRate > 0.00001:
             self.mutationRate += self.mutationRateDelta
 
 
@@ -466,3 +469,21 @@ class Lineage():
         ADMI = tl.ADXR(self.high, self.low, self.close)
         self.update_data(ADMI, "ADMI")
         self.indicatorsBeingUsed.append("ADMI")
+
+
+    def compute_stochastic(self):
+        slowk, slowd = tl.STOCH(self.high, self.low, self.close)
+        self.update_data(slowk, "slowk")
+        self.update_data(slowd, "slowd")
+        self.indicatorsBeingUsed.append("slowk")
+        self.indicatorsBeingUsed.append("slowd")
+
+
+    def compute_OBV(self):
+        # on balance volume indicator
+        # DOES NOT APPEAR TO BE WORKING PROPERLY
+        obv = np.array
+        obv = tl.OBV(self.volume)
+        print obv
+        self.update_data(obv, "OBV")
+        self.indicatorsBeingUsed.append("OBV")
