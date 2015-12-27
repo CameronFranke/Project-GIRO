@@ -63,8 +63,8 @@ class Lineage():
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
-                   "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney, 2)) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney, 2)) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
                    "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate))
             self.tournament_selection()
             self.uniform_crossover()
