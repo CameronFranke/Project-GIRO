@@ -63,8 +63,8 @@ class Lineage():
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
             gu.log(self.symbol + " Generation: " + str(generations) +
-                   "\n\t\t\t\t\t\t\t\t\tHighest fitness this round: " + str(max(self.fitnessScores)) +
-                   "\n\t\t\t\t\t\t\t\t\tAverage fitness this round: " + str(np.average(self.fitnessScores)) +
+                   "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney, 2)) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney, 2)) + "%" +
                    "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate))
             self.tournament_selection()
             self.uniform_crossover()
@@ -83,7 +83,7 @@ class Lineage():
             recommendation = "No Action"
         else:
             if recommendation == "BUY/COVER":
-                if self.lastDay["close"] > self.data.pop()["close"]:
+                if self.lastDay["close"] > self.data.pop()["close"]:    #could be a recurring problem here TypeError: string indices must be integers, not str
                     recommendation += "--CORRECT"
                 else:
                     recommendation += "--INCORRECT"
