@@ -13,7 +13,7 @@ import numpy as np
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment):
 
         self.indicatorsUsed = indicatorsUsed
         self.lookback = lookbackLevel
@@ -27,6 +27,7 @@ class InvestmentStrategy():
         self.profit = 0
         self.tradeCount = 0
         self.finalTrade = "NULL"
+        self.punishment = punishment
         self.Debug = False
 
 
@@ -43,6 +44,7 @@ class InvestmentStrategy():
         trades = 0
         myCash = self.startingCash
         invested = 0
+        valueOnLastAction = self.startingCash
         for dayIndex in range(self.lookback, len(self.historicalData)):
             lastTrade = "NULL"
             invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
@@ -60,29 +62,33 @@ class InvestmentStrategy():
                         sellSignals += 1
 
                 if buySignals > sellSignals and buySignals > self.triggerThreshold:    # if buy trigger
-                    #if myCash != 0:
                     lookbackTriggers[lookbackIndex] = 'b'
 
                 elif sellSignals > buySignals and sellSignals > self.triggerThreshold:  # if sell trigger
-                    #if invested != 0:
                     lookbackTriggers[lookbackIndex] = 's'
 
             # count up lookback signals
             if lookbackTriggers.count('b') > self.lookbackThreshold and lookbackTriggers.count('b') > lookbackTriggers.count('s'):
                 if myCash != 0:
                     invested = myCash - self.transactionCost
+                    if invested < valueOnLastAction:
+                        invested = invested * (1-self.punishment)
                     myCash = 0
                     trades += 1
                     lastTrade = "BUY/COVER"
+                    valueOnLastAction = invested
                 else:
                     lastTrade = "BUY/COVER"
 
             elif lookbackTriggers.count('s') > self.lookbackThreshold and lookbackTriggers.count('s') > lookbackTriggers.count('b'):
                 if invested != 0:
                     myCash = invested - self.transactionCost
+                    if myCash < valueOnLastAction:
+                        myCash = myCash * (1-self.punishment)
                     invested = 0
                     trades += 1
                     lastTrade = "SELL/SHORT"
+                    valueOnLastAction = myCash
                 else:
                     lastTrade = "SELL/SHORT"
 

@@ -5,6 +5,26 @@ shooting star seems to dramatically lower fitness levels.
 
 So far data in pattern recognition indicators is too scarce to be useful
 
+Startup - setting up on new linux install
+=======
+sudo apt-get update
+sudo apt-get install python-dev
+sudo apt-get install python-pip
+sudo pip install numpy
+    * in downloads directory
+wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+tar -xzvf ta-lib-0.4.0-src.tar.gz
+cd ta-lib
+./configure (./configure --prefix=/usr ???)
+sudo make install
+cd ~
+sudo apt-get install git
+git clone https://github.com/CameronFranke/Project-GIRO
+cd Project-GIRO
+mkdir StockData
+python main.py
+
+
 Yahoo Finance has data for: (so far)
 GOOG
 VNET

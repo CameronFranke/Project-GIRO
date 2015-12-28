@@ -53,6 +53,7 @@ class Lineage():
         self.trigIncrementGens = settings["incrementTriggerThresholdGens"]
         self.dayTrigIncrementAmount = float(settings["dayTrigIncrementAmount"])
         self.trigIncrementAmount = float(settings["TrigIncrementAmount"])
+        self.settings["tradeOnLossPunishment"] = float(settings["tradeOnLossPunishment"])
         self.lastDay = ""
         self.tournamentSize = int(settings["tournamentSize"])
         self.debug = True
@@ -82,17 +83,18 @@ class Lineage():
         if recommendation == "NULL":
             recommendation = "No Action"
         else:
-            if recommendation == "BUY/COVER":
-                if self.lastDay["close"] > self.data.pop()["close"]:    #could be a recurring problem here TypeError: string indices must be integers, not str
-                    recommendation += "--CORRECT"
-                else:
-                    recommendation += "--INCORRECT"
+            if self.perfTest:
+                if recommendation == "BUY/COVER":
+                    if self.lastDay["close"] > self.data.pop()["close"]:
+                        recommendation += "--CORRECT"
+                    else:
+                        recommendation += "--INCORRECT"
 
-            elif recommendation == "SELL/SHORT":
-                if self.lastDay["close"] < self.data.pop()["close"]:
-                    recommendation += "--CORRECT"
-                else:
-                    recommendation += "--INCORRECT"
+                elif recommendation == "SELL/SHORT":
+                    if self.lastDay["close"] < self.data.pop()["close"]:
+                        recommendation += "--CORRECT"
+                    else:
+                        recommendation += "--INCORRECT"
 
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
@@ -202,7 +204,8 @@ class Lineage():
                                                                               self.dayTriggerThreshold,
                                                                               self.indicatorsBeingUsed,
                                                                               self.startingMoney,
-                                                                              self.transactionCost))
+                                                                              self.transactionCost,
+                                                                              self.settings["tradeOnLossPunishment"]))
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
@@ -292,7 +295,8 @@ class Lineage():
                                                                               self.dayTriggerThreshold,
                                                                               self.indicatorsBeingUsed,
                                                                               self.startingMoney,
-                                                                              self.transactionCost))
+                                                                              self.transactionCost,
+                                                                              self.settings["tradeOnLossPunishment"]))
 
 
     def compute_technical_indicators(self):
