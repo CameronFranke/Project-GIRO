@@ -6,7 +6,7 @@ shooting star seems to dramatically lower fitness levels.
 So far data in pattern recognition indicators is too scarce to be useful
 
 Startup - setting up on new linux install
-=======
+===========================================================================
 sudo apt-get update
 sudo apt-get install python-dev
 sudo apt-get install python-pip
@@ -23,6 +23,36 @@ git clone https://github.com/CameronFranke/Project-GIRO
 cd Project-GIRO
 mkdir StockData
 python main.py
+
+
+Current best settings
+============================================================================
+startYear=2013
+startMonth=11
+startDay=23
+stopYear=2015
+stopMonth=11
+stopDay=23
+useTodaysDate=True
+performanceTest=True
+triggerThreshold=.3
+dayTriggerThreshold=.6
+lookbackLevel=3
+generations=20
+populationSize=256
+selectionPercentage=.50
+mutationRate=.06
+mutationRateDelta=-.0001
+startingMoney=100000
+transactionCost=6.95
+threads=1
+incrementDayThresholdGens=0
+incrementTriggerThresholdGens=120
+dayTrigIncrementAmount=.00
+TrigIncrementAmount=.00
+tournamentSize=2
+tradeOnLossPunishment=.03
+
 
 
 Yahoo Finance has data for: (so far)
@@ -188,23 +218,3 @@ ABT
 CAT
 MO
 ADM
-
-
-
-
-Benchmark settings:
-====================
-startYear=2015
-startMonth=01
-startDay=01
-triggerThreshold=.3
-dayTriggerThreshold=.6
-lookbackLevel=3
-generations=25
-populationSize=128
-selectionPercentage=.60
-mutationRate=.01
-mutationRateDelta=-.000
-startingMoney=100000
-transactionCost=0
-====================

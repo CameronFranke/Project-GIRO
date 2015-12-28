@@ -8,12 +8,14 @@ import talib as tl
 '''
         Yahoo finance does not provide access to data past a certain date.
 TODO:
-        Need to refactor yahoo finance function so that it names the file according to the dates that
+        -Need to refactor yahoo finance function so that it names the file according to the dates that
             are actually available as they may differ from the requested data and will not update if
             the dates listed are incorrect.
 
-        TECHNICAL INDICATORS TO ADD:
-            - NASDAQ/DOW
+        - kpoint crossover
+
+        -
+
 '''
 
 class Lineage():
@@ -66,7 +68,6 @@ class Lineage():
             actions = 0
             for strategy in self.population:
                 actions += strategy.actionCount
-            gu.log(str(actions))
             actions /=self.populationSize
             gu.log(self.symbol + " Generation: " + str(generations) +
                    "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
