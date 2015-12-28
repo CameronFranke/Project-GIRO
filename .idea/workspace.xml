@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b9588c6-4030-4b63-80f6-4c2ab84735e7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIROControllerClass.py" afterPath="$PROJECT_DIR$/GIROControllerClass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineageClass.py" afterPath="$PROJECT_DIR$/LineageClass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
     </list>
     <ignored path="Project-GIRO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -429,12 +425,6 @@
       <option name="number" value="Default" />
       <updated>1443027368514</updated>
     </task>
-    <task id="LOCAL-00007" summary="added more indicators &#10;prepped for population initialization &#10;">
-      <created>1447889766564</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1447889766564</updated>
-    </task>
     <task id="LOCAL-00008" summary="basic strategy initialization">
       <created>1447891443647</created>
       <option name="number" value="00008" />
@@ -723,7 +713,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451286925386</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="perf tweaks">
+      <created>1451288051598</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1451288051598</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,7 +783,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented config file" />
     <MESSAGE value="changed fitness to strict profit for now" />
     <MESSAGE value="fixed log time spacing bug" />
     <MESSAGE value="implemented mutation function&#10;mutation rate and a mutation delta value" />
@@ -812,7 +807,8 @@
     <MESSAGE value="fixed percentage bug" />
     <MESSAGE value="implemented trade on loss penalty" />
     <MESSAGE value="buy and sell signals cncel eachother out" />
-    <option name="LAST_COMMIT_MESSAGE" value="buy and sell signals cncel eachother out" />
+    <MESSAGE value="perf tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="perf tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
