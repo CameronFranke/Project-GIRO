@@ -63,14 +63,20 @@ class Lineage():
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
+            actions = 0
+            for strategy in self.population:
+                actions += strategy.actionCount
+            gu.log(str(actions))
+            actions /=self.populationSize
             gu.log(self.symbol + " Generation: " + str(generations) +
                    "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
                    "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate))
+                   "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate) +
+                   "\n\t\t\t\t\t\t\t\t\tAverage trade count: " + str(actions))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
-            self.updata_mutation_rate()
+            self.update_mutation_rate()
 
             if generations in self.dayTrigIncrementGens:
                 self.dayTriggerThreshold += self.dayTrigIncrementAmount
@@ -223,7 +229,7 @@ class Lineage():
                             self.population[strategy].constraints[day][indicator][boundingValue] = newValue
 
 
-    def updata_mutation_rate(self):
+    def update_mutation_rate(self):
         if self.mutationRate > 0.00001:
             self.mutationRate += self.mutationRateDelta
 

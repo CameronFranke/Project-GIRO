@@ -29,6 +29,7 @@ class InvestmentStrategy():
         self.finalTrade = "NULL"
         self.punishment = punishment
         self.Debug = False
+        self.actionCount = 0
 
 
     def print_constraints(self):
@@ -41,6 +42,7 @@ class InvestmentStrategy():
 
 
     def compute_fitness_score(self):
+        self.actionCount = 0
         trades = 0
         myCash = self.startingCash
         invested = 0
@@ -68,7 +70,8 @@ class InvestmentStrategy():
                     lookbackTriggers[lookbackIndex] = 's'
 
             # count up lookback signals
-            if lookbackTriggers.count('b') > self.lookbackThreshold and lookbackTriggers.count('b') > lookbackTriggers.count('s'):
+            if (lookbackTriggers.count('b') - lookbackTriggers.count('s')) > self.lookbackThreshold:
+                self.actionCount += 1
                 if myCash != 0:
                     invested = myCash - self.transactionCost
                     if invested < valueOnLastAction:
@@ -80,7 +83,8 @@ class InvestmentStrategy():
                 else:
                     lastTrade = "BUY/COVER"
 
-            elif lookbackTriggers.count('s') > self.lookbackThreshold and lookbackTriggers.count('s') > lookbackTriggers.count('b'):
+            elif (lookbackTriggers.count('s') - lookbackTriggers.count('b')) > self.lookbackThreshold:
+                self.actionCount += 1
                 if invested != 0:
                     myCash = invested - self.transactionCost
                     if myCash < valueOnLastAction:
