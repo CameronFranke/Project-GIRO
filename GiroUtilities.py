@@ -5,6 +5,7 @@ import numpy as np
 import urllib2
 
 global logLock
+global logFileName
 logLock = Lock()
 
 def log(myString):
@@ -13,7 +14,9 @@ def log(myString):
     time = (str(dt.hour) + ":" + str(dt.minute) + "." + str(dt.second) + "." + str(dt.microsecond).replace(' ', '')[:-3])
     while len(time) < 11:
         time += "0"
-    print("ProjectGiro LOG " + time + ">\t" + str(myString))
+    logOutput = ("ProjectGiro LOG " + time + ">\t" + str(myString))
+    update_log_file(logOutput)
+    print logOutput
     logLock.release()
 
 #rewrite to accept fields parameter and return only the requested data
@@ -96,3 +99,19 @@ def pull_Yahoo_Finance_Data(symbol, dateRange):
                          str(dataPoint["volume"]) + "\n")
             nf.close()
             return data
+
+
+def create_log_file():
+    global logFile
+    global logFileName
+    dt = datetime.now()
+    logFileName = "Logs/Giro_Log_" + str(dt.month) + "-" + str(dt.day) + "-" + str(dt.year) + "_" + str(dt.hour) + ":" + str(dt.minute)
+    logFile = open(logFileName, 'w+')
+    logFile.close()
+
+
+def update_log_file(myString):
+    global logFileName
+    logFile = open(logFileName, 'a')
+    logFile.write(myString + "\n")
+    logFile.close()

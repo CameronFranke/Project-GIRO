@@ -37,8 +37,6 @@ class GiroController():
             temp.append(symbol)
 
         self.stocks = temp
-        print self.stocks
-
 
     def get_settings(self):
         f = open(self.configFile, "r")
@@ -50,6 +48,9 @@ class GiroController():
             self.settings[line[0]] = line[1]
 
         self.settings["threads"] = int(self.settings["threads"])
+
+        for key in self.settings:
+            gu.log(key + "=" + str(self.settings[key]))
 
 
     def giro_start(self):
@@ -69,7 +70,9 @@ class GiroController():
             thread.join()
 
         for line in self.resultStrings:
-            self.resultsFile.write(line)
+            if "No Action" not in line:
+                self.resultsFile.write(line)
+                gu.log(line.replace("\n", ""))
         self.resultsFile.close()
 
 

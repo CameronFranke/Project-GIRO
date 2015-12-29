@@ -14,9 +14,10 @@ from time import time
 '''
 
 def main():
+    gu.create_log_file()
     gu.log("Initializing Project GIRO...")
     start = time()
-    GIRO = GIROControllerClass.GiroController("results.txt", "configs/stocksToAnalyze.txt", "configs/giroConfig.txt")
+    GIRO = GIROControllerClass.GiroController("Logs/results.txt", "configs/stocksToAnalyze.txt", "configs/giroConfig.txt")
     GIRO.init_stock_list()
     GIRO.get_settings()
     GIRO.giro_start()
