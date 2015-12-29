@@ -28,8 +28,10 @@ class InvestmentStrategy():
         self.tradeCount = 0
         self.finalTrade = "NULL"
         self.punishment = punishment
+        self.badTrades = 0
         self.Debug = False
         self.actionCount = 0
+        self.relativeCorrectness = 0
 
 
     def print_constraints(self):
@@ -43,6 +45,7 @@ class InvestmentStrategy():
 
     def compute_fitness_score(self):
         self.actionCount = 0
+        self.badTrades = 0
         trades = 0
         myCash = self.startingCash
         invested = 0
@@ -76,6 +79,7 @@ class InvestmentStrategy():
                     invested = myCash - self.transactionCost
                     if invested < valueOnLastAction:
                         invested = invested * (1-self.punishment)
+                        self.badTrades += 1
                     myCash = 0
                     trades += 1
                     lastTrade = "BUY/COVER"
@@ -89,6 +93,7 @@ class InvestmentStrategy():
                     myCash = invested - self.transactionCost
                     if myCash < valueOnLastAction:
                         myCash = myCash * (1-self.punishment)
+                        self.badTrades += 1
                     invested = 0
                     trades += 1
                     lastTrade = "SELL/SHORT"
@@ -120,3 +125,6 @@ class InvestmentStrategy():
 
         if lastTrade != "":
             self.finalTrade = lastTrade
+
+        if self.actionCount > 0:
+            self.relativeCorrectness = 1 - (float(self.badTrades)/float(self.actionCount))
