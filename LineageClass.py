@@ -74,7 +74,8 @@ class Lineage():
                    "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
                    "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate) +
                    "\n\t\t\t\t\t\t\t\t\tAverage trade count: " + str(actions) +
-                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade correctness: \t" + str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%")
+                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade correctness: \t" + str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade count: " + str(self.population[self.bestStrategyIndex].actionCount))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()

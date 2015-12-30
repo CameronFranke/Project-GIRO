@@ -38,6 +38,7 @@ class GiroController():
 
         self.stocks = temp
 
+
     def get_settings(self):
         f = open(self.configFile, "r")
         temp = f.readlines()
