@@ -78,12 +78,13 @@ class GiroController():
                 gu.log(line.replace("\n", ""))
                 if self.settings["performanceTest"] == "True":
                     totalRecs += 1
-                    if "Incorrect" in line:
+                    if "INCORRECT" in line:
                         incorrectRecs += 1
 
         if self.settings["performanceTest"] == "True":
-            self.resultsFile.write(str(totalRecs-incorrectRecs) + " of " + str(totalRecs) + " correct")
-
+            string = (str(totalRecs-incorrectRecs) + " of " + str(totalRecs) + " correct")
+            self.resultsFile.write(string)
+            gu.log(string)
 
         self.resultsFile.close()
 
