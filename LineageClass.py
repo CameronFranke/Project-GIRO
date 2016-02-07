@@ -245,7 +245,7 @@ class Lineage():
         scores = []
 
         for strategy in range(self.populationSize):
-            self.population[strategy].compute_fitness_score()
+            self.population[strategy].compute_fitness_score_2()
             bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
             scores.append(self.population[strategy].fitnessScore)
 

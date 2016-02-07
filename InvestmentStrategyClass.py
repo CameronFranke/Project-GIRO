@@ -31,6 +31,8 @@ class InvestmentStrategy():
         self.actionCount = 0
         self.relativeCorrectness = 0
         self.tradeLimit = tradeLimit
+        #print lookbackthreshold = daytriggerthreshold
+        #print triggerThreshold = triggerthreshold
 
 
     def print_constraints(self):
@@ -87,6 +89,94 @@ class InvestmentStrategy():
                     lastTrade = "BUY/COVER"
 
             elif (lookbackTriggers.count('s') - lookbackTriggers.count('b')) > self.lookbackThreshold:
+                self.actionCount += 1
+                if invested != 0:
+                    myCash = invested - self.transactionCost
+                    if myCash < valueOnLastAction:
+                        myCash = myCash * (1-self.punishment)
+                        self.badTrades += 1
+                    invested = 0
+                    trades += 1
+                    lastTrade = "SELL/SHORT"
+                    valueOnLastAction = myCash
+                else:
+                    lastTrade = "SELL/SHORT"
+
+            if self.actionCount >= self.tradeLimit:
+                break
+
+            if self.Debug:
+                gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
+
+        if invested != 0:
+            profit = invested - self.startingCash
+        else:
+            profit = myCash - self.startingCash
+        self.profit = profit
+        if self.Debug:
+            gu.log("Profit: " + str(profit))
+            gu.log("Number of trades: " + str(trades))
+
+        # aggregate fitness scoring
+        if trades > 0:
+            profitPerTrade = profit/float(trades)
+        else:
+            profitPerTrade = 0
+        if self.Debug: gu.log("Average profit per trade: " + str(profitPerTrade))
+
+        if trades > 0:
+            self.fitnessScore = profit
+
+        if lastTrade != "":
+            self.finalTrade = lastTrade
+
+        if self.actionCount > 0:
+            self.relativeCorrectness = 1 - (float(self.badTrades)/float(self.actionCount))
+
+
+    def compute_fitness_score_2(self):
+        self.actionCount = 0
+        self.badTrades = 0
+        trades = 0
+        myCash = self.startingCash
+        invested = 0
+        valueOnLastAction = self.startingCash
+
+        for dayIndex in range(self.lookback, len(self.historicalData)):
+            lastTrade = "NULL"
+            invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
+            triggers = []
+
+            for indicator in self.constraints[0]:
+                value = self.historicalData[dayIndex][indicator]
+                contstraintBuyTriggers = 0
+                contstraintSellTriggers = 0
+                for day in range(self.lookback):
+                    if self.constraints[day][indicator]["BuyUpper"] > value > self.constraints[day][indicator]["BuyLower"]:
+                        contstraintBuyTriggers += 1
+                    if self.constraints[day][indicator]["SellUpper"] > value > self.constraints[day][indicator]["SellLower"]:
+                        contstraintSellTriggers += 1
+                if contstraintBuyTriggers - contstraintSellTriggers >= self.lookbackThreshold:
+                    triggers.append("b")
+                elif contstraintSellTriggers - contstraintBuyTriggers >= self.lookbackThreshold:
+                    triggers.append("s")
+
+            # count up lookback signals
+            if (triggers.count('b') - triggers.count('s')) > self.triggerThreshold:
+                self.actionCount += 1
+                if myCash != 0:
+                    invested = myCash - self.transactionCost
+                    if invested < valueOnLastAction:
+                        invested = invested * (1-self.punishment)
+                        self.badTrades += 1
+                    myCash = 0
+                    trades += 1
+                    lastTrade = "BUY/COVER"
+                    valueOnLastAction = invested
+                else:
+                    lastTrade = "BUY/COVER"
+
+            elif (triggers.count('s') - triggers.count('b')) > self.triggerThreshold:
                 self.actionCount += 1
                 if invested != 0:
                     myCash = invested - self.transactionCost
