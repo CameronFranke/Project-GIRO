@@ -70,10 +70,21 @@ class GiroController():
         for thread in workerThreads:
             thread.join()
 
+        totalRecs = 0
+        incorrectRecs = 0
         for line in self.resultStrings:
             if "No Action" not in line:
                 self.resultsFile.write(line)
                 gu.log(line.replace("\n", ""))
+                if self.settings["performanceTest"] == "True":
+                    totalRecs += 1
+                    if "Incorrect" in line:
+                        incorrectRecs += 1
+
+        if self.setting["performanceTest"] == "True":
+            self.resultsFile.write(str(totalRecs-incorrectRecs) + " of " + str(totalRecs) + " correct")
+
+
         self.resultsFile.close()
 
 
