@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIROControllerClass.py" afterPath="$PROJECT_DIR$/GIROControllerClass.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" afterPath="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
     </list>
     <ignored path="Project-GIRO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +29,14 @@
       <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54545456">
-              <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.38016528">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
                 <element signature="e#344#680#0" expanded="false" />
                 <element signature="e#722#910#0" expanded="false" />
                 <element signature="e#949#1305#0" expanded="false" />
-                <element signature="e#2525#3241#0" expanded="false" />
+                <element signature="e#2526#3242#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -116,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -168,10 +169,10 @@
         <option value="$PROJECT_DIR$/GiroUtilities.py" />
         <option value="$PROJECT_DIR$/results.txt" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/InvestmentStrategyClass.py" />
         <option value="$PROJECT_DIR$/LineageClass.py" />
         <option value="$PROJECT_DIR$/configs/giroConfig.txt" />
+        <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
         <option value="$PROJECT_DIR$/GIROControllerClass.py" />
       </list>
     </option>
@@ -436,12 +437,6 @@
       <created>1443027368514</created>
       <option name="number" value="Default" />
       <updated>1443027368514</updated>
-    </task>
-    <task id="LOCAL-00014" summary="sell parameters">
-      <created>1447907339937</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1447907339937</updated>
     </task>
     <task id="LOCAL-00015" summary="fixed random number generation to be more efficient and produce floats, added in trigger/day thresholds">
       <created>1447907734395</created>
@@ -731,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454805873831</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="global recommendation correstness score">
+      <created>1454808791106</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1454808791106</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -744,7 +745,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4621733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4621733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -795,7 +796,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Parallelized GIRO- no performance gain on laptop with threading library. Cleaned up results output to file." />
     <MESSAGE value="added functionality for short/cover signals so that recommendations are not limited by location of money" />
     <MESSAGE value="-pushing old commits" />
     <MESSAGE value="about to branch" />
@@ -820,7 +820,8 @@
     <MESSAGE value="implemented log output files" />
     <MESSAGE value="perf test" />
     <MESSAGE value="trade count limit" />
-    <option name="LAST_COMMIT_MESSAGE" value="trade count limit" />
+    <MESSAGE value="global recommendation correstness score" />
+    <option name="LAST_COMMIT_MESSAGE" value="global recommendation correstness score" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1246,14 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InvestmentStrategyClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.111111">
@@ -1274,26 +1267,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="4" selection-start-line="58" selection-start-column="0" selection-end-line="97" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46280992">
           <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1337,16 +1314,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="4" selection-start-line="58" selection-start-column="0" selection-end-line="97" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/stocksToAnalyze.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.38016528">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
             <element signature="e#344#680#0" expanded="false" />
             <element signature="e#722#910#0" expanded="false" />
             <element signature="e#949#1305#0" expanded="false" />
-            <element signature="e#2525#3241#0" expanded="false" />
+            <element signature="e#2526#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>

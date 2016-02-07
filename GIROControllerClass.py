@@ -81,7 +81,7 @@ class GiroController():
                     if "Incorrect" in line:
                         incorrectRecs += 1
 
-        if self.setting["performanceTest"] == "True":
+        if self.settings["performanceTest"] == "True":
             self.resultsFile.write(str(totalRecs-incorrectRecs) + " of " + str(totalRecs) + " correct")
 
 
