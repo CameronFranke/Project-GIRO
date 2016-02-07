@@ -58,6 +58,7 @@ class Lineage():
         self.settings["tradeOnLossPunishment"] = float(settings["tradeOnLossPunishment"])
         self.lastDay = ""
         self.tournamentSize = int(settings["tournamentSize"])
+        self.tradeLimit = int(self.settings["tradeCountLimit"])
         self.debug = True
 
 
@@ -214,7 +215,9 @@ class Lineage():
                                                                               self.indicatorsBeingUsed,
                                                                               self.startingMoney,
                                                                               self.transactionCost,
-                                                                              self.settings["tradeOnLossPunishment"]))
+                                                                              self.settings["tradeOnLossPunishment"],
+                                                                              self.tradeLimit))
+
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
@@ -305,7 +308,8 @@ class Lineage():
                                                                               self.indicatorsBeingUsed,
                                                                               self.startingMoney,
                                                                               self.transactionCost,
-                                                                              self.settings["tradeOnLossPunishment"]))
+                                                                              self.settings["tradeOnLossPunishment"],
+                                                                              self.tradeLimit))
 
 
     def compute_technical_indicators(self):

@@ -4,16 +4,14 @@ import numpy as np
 
 '''
     TODO:
-        - prepare to implement mutation function
-        - find numpy exponent function to clean up fitness function
-        - fitness score needs to be adjusted... static multiplier maybe- also needs more precise type
-        - need a mutation/immegration function
-        - DOWJ and NASDAQ day change averages
+        - find numpy tools to clean up fitness function
+        - implement hard trade count limit
+        - mode where system can record the dates of trades and write them to a file
 '''
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment, tradeLimit):
 
         self.indicatorsUsed = indicatorsUsed
         self.lookback = lookbackLevel
@@ -32,6 +30,7 @@ class InvestmentStrategy():
         self.Debug = False
         self.actionCount = 0
         self.relativeCorrectness = 0
+        self.tradeLimit = tradeLimit
 
 
     def print_constraints(self):
@@ -100,6 +99,9 @@ class InvestmentStrategy():
                     valueOnLastAction = myCash
                 else:
                     lastTrade = "SELL/SHORT"
+
+            if self.actionCount >= self.tradeLimit:
+                break
 
             if self.Debug:
                 gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
