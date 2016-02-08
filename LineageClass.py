@@ -198,9 +198,7 @@ class Lineage():
                     for i in test:
                         test1.append(np.round(i,3))
                     test = test1
-
                     weightValues = np.random.uniform(0,1,2)
-                    print weightValues
 
                     temp = {}
                     temp["BuyLower"] = test[0]

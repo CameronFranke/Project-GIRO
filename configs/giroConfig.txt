@@ -1,4 +1,4 @@
-startYear=2014
+startYear=2013
 startMonth=11
 startDay=23
 stopYear=2016
@@ -10,8 +10,8 @@ triggerThreshold=.2
 dayTriggerThreshold=.2
 lookbackLevel=5
 generations=20
-populationSize=12
-selectionPercentage=.40
+populationSize=64
+selectionPercentage=.75
 mutationRate=.04
 mutationRateDelta=-.0001
 startingMoney=300
