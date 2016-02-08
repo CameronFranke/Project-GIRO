@@ -147,6 +147,8 @@ class InvestmentStrategy():
             invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
             triggers = []
 
+            dayBuyStrength = 0
+            daySellStrength = 0
             for indicator in self.constraints[0]:
                 value = self.historicalData[dayIndex][indicator]
                 contstraintBuyTriggers = 0
@@ -157,12 +159,12 @@ class InvestmentStrategy():
                     if self.constraints[day][indicator]["SellUpper"] > value > self.constraints[day][indicator]["SellLower"]:
                         contstraintSellTriggers += 1
                 if contstraintBuyTriggers - contstraintSellTriggers >= self.lookbackThreshold:
-                    triggers.append("b")
+                    dayBuyStrength += (1 * self.constraints[day][indicator]["BuyWeight"])
                 elif contstraintSellTriggers - contstraintBuyTriggers >= self.lookbackThreshold:
-                    triggers.append("s")
+                    daySellStrength += (1 * self.constraints[day][indicator]["SellWeight"])
 
             # count up lookback signals
-            if (triggers.count('b') - triggers.count('s')) > self.triggerThreshold:
+            if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
                 self.actionCount += 1
                 if myCash != 0:
                     invested = myCash - self.transactionCost
@@ -176,7 +178,7 @@ class InvestmentStrategy():
                 else:
                     lastTrade = "BUY/COVER"
 
-            elif (triggers.count('s') - triggers.count('b')) > self.triggerThreshold:
+            elif (daySellStrength - dayBuyStrength) >= self.triggerThreshold:
                 self.actionCount += 1
                 if invested != 0:
                     myCash = invested - self.transactionCost
