@@ -108,10 +108,11 @@ class Lineage():
 
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
-        #self.population[self.bestStrategyIndex].print_constraints()
+        self.population[self.bestStrategyIndex].print_constraints()
 
         self.data = ""
         self.population = ""        # manage hardware related memory issue on laptop?
+
 
         return recommendation
 
@@ -197,12 +198,15 @@ class Lineage():
                     for i in test:
                         test1.append(np.round(i,3))
                     test = test1
+                    weightValues = np.random.uniform(0,1,2)
 
                     temp = {}
                     temp["BuyLower"] = test[0]
                     temp["BuyUpper"] = test[1]
                     temp["SellLower"] = test[2]
                     temp["SellUpper"] = test[3]
+                    temp["BuyWeight"] = weightValues[0]
+                    temp["SellWeight"] = weightValues[1]
 
                     myTriggers[indicator] = temp
                 myStrategies.append(myTriggers)
@@ -278,7 +282,7 @@ class Lineage():
 
     def uniform_crossover(self):
 
-        triggerNames = ["BuyLower", "BuyUpper", "SellLower", "SellUpper"]
+        triggerNames = ["BuyLower", "BuyUpper", "SellLower", "SellUpper", "BuyWeight", "SellWeight"]
 
         crossoverPopulationSize = self.populationSize - len(self.population)
         selectedPopulationSize = len(self.population)
