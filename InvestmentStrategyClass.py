@@ -31,6 +31,7 @@ class InvestmentStrategy():
         self.actionCount = 0
         self.relativeCorrectness = 0
         self.tradeLimit = tradeLimit
+        self.buysellScores = [0,0]
         #print lookbackthreshold = daytriggerthreshold
         #print triggerThreshold = triggerthreshold
 
@@ -163,6 +164,7 @@ class InvestmentStrategy():
                 elif contstraintSellTriggers - contstraintBuyTriggers >= self.lookbackThreshold:
                     daySellStrength += (1 * self.constraints[day][indicator]["SellWeight"])
 
+            self.buysellScores = [dayBuyStrength, daySellStrength]
             # count up lookback signals
             if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
                 self.actionCount += 1
