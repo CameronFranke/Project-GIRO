@@ -4,9 +4,9 @@ import numpy as np
 
 '''
     TODO:
-        - find numpy tools to clean up fitness function
-        - implement hard trade count limit
+        - find numpy tools to clean up fitness function <-- it is messy and inefficient
         - mode where system can record the dates of trades and write them to a file
+        - weight days
 '''
 
 class InvestmentStrategy():

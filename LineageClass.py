@@ -109,7 +109,7 @@ class Lineage():
             buysell = self.population[self.bestStrategyIndex].buysellScores
             if recommendation == "No Action":
                 if buysell[0] > buysell[1] and self.lastDay["close"] > self.data.pop()["close"]:
-                    recommendation += ("     - Goog model scores" + str(buysell))
+                    recommendation += ("     - Good model scores" + str(buysell))
                 elif buysell[1] > buysell[0] and self.lastDay["close"] < self.data.pop()["close"]:
                     recommendation += ("     - Bad model scores" + str(buysell))
 
@@ -117,7 +117,7 @@ class Lineage():
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
         #self.population[self.bestStrategyIndex].print_constraints()
-        gu.log(self.population[self.bestStrategyIndex].buysellScores)
+        #gu.log(self.population[self.bestStrategyIndex].buysellScores)
 
         self.data = ""
         self.population = ""        # manage hardware related memory issue on laptop?
