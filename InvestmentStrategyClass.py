@@ -7,6 +7,7 @@ import numpy as np
         - find numpy tools to clean up fitness function <-- it is messy and inefficient
         - mode where system can record the dates of trades and write them to a file
         - weight days
+        - judge correct/incorrect strategies based on price action for a few days following recommendation
 '''
 
 class InvestmentStrategy():
@@ -43,6 +44,10 @@ class InvestmentStrategy():
                 print ("\t" + indicator)
                 for constraint in self.constraints[day][indicator]:
                     print("\t\t" + constraint + ": " + str(self.constraints[day][indicator][constraint]))
+
+    def save_constraint_set(self, savefileName):
+        savefile = open(savefileName, "w+")
+        savefile.write(str(self.constraints))
 
 
     def compute_fitness_score(self):

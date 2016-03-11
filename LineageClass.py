@@ -4,6 +4,7 @@ import InvestmentStrategyClass
 from random import randrange
 import numpy as np
 import talib as tl
+from ast import literal_eval
 
 '''
         Yahoo finance does not provide access to data past a certain date.
@@ -114,7 +115,7 @@ class Lineage():
                     recommendation += ("     - Bad model scores" + str(buysell))
 
 
-
+        self.population[self.bestStrategyIndex].save_constraint_set(self.symbol)
         gu.log(self.symbol + " action recommendation: " + recommendation)
         #self.population[self.bestStrategyIndex].print_constraints()
         #gu.log(self.population[self.bestStrategyIndex].buysellScores)
@@ -198,6 +199,20 @@ class Lineage():
 
         # initialize the population
         for i in range(self.populationSize):    # number of strategies to make
+            if i == 1:
+                temp_strategy = self.load_stored_strategie()
+                if temp_strategy != 0:
+                    gu.log("Stored strategy loaded.")
+                    self.population.append(InvestmentStrategyClass.InvestmentStrategy(temp_strategy,
+                                                                              self.data,
+                                                                              self.lookback,
+                                                                              self.triggerThreshold,
+                                                                              self.dayTriggerThreshold,
+                                                                              self.indicatorsBeingUsed,
+                                                                              self.startingMoney,
+                                                                              self.transactionCost,
+                                                                              self.settings["tradeOnLossPunishment"],
+                                                                              self.tradeLimit))
             myStrategies = []
             for x in range(self.lookback):      # number of period lookbacks
                 myTriggers = {}
@@ -492,3 +507,16 @@ class Lineage():
         self.update_data(aroonUp, "aroonUp")
         self.indicatorsBeingUsed.append("aroonDown")
         self.indicatorsBeingUsed.append("aroonUp")
+
+
+    def load_stored_strategie(self):
+        try:
+            f = open("Strategies/" + self.symbol)
+            strategy_text = f.readlines()
+            if len(strategy_text)>1:
+                gu.log("ERROR: Bad strategy save file. ")
+            gu.log(strategy_text)
+            return literal_eval(strategy_text[0])
+        except:
+            gu.log("Strategy file read error")
+            return 0
