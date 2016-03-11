@@ -46,9 +46,8 @@ class InvestmentStrategy():
                     print("\t\t" + constraint + ": " + str(self.constraints[day][indicator][constraint]))
 
     def save_constraint_set(self, savefileName):
-        savefile = open(savefileName, "w+")
+        savefile = open("Strategies/" + savefileName, "w+")
         savefile.write(str(self.constraints))
-
 
     def compute_fitness_score(self):
         self.actionCount = 0

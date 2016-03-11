@@ -103,7 +103,8 @@ class GiroController():
 
                 x.master_initialize()
                 recommendation = x.evolve()
-                self.resultStrings.append(str(myStock + ": " + recommendation + "\n"))
+                giroScore = abs(recommendation[1][0] - recommendation[1][1]) #buy - sell
+                self.resultStrings.append(str(myStock + ": " + recommendation[0] + "\n\tGiro Score: " + str(giroScore)))
 
             else:
                 lock.release()

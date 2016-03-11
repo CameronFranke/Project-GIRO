@@ -71,13 +71,21 @@ class Lineage():
             for strategy in self.population:
                 actions += strategy.actionCount
             actions /=self.populationSize
-            gu.log(self.symbol + " Generation: " + str(generations) +
-                   "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate) +
-                   "\n\t\t\t\t\t\t\t\t\tAverage trade count: " + str(actions) +
-                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade correctness: \t" + str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade count: " + str(self.population[self.bestStrategyIndex].actionCount))
+
+            report = [""]*7
+            report[0] = self.symbol + " Generation: " + str(generations)
+            report[1] = '{:<40} {:40}'.format("Highest profit this round: ", (str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%"))
+            report[2] = '{:<40} {:40}'.format("Average profit this round: ",  str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" )
+            report[3] = '{:<40} {:40}'.format("Mutation Rate: ", str(self.mutationRate))
+            report[4] = '{:<40} {:40}'.format("Average trade count: ", str(actions))
+            report[5] = '{:<40} {:40}'.format("Best strategie's trade correctness: ", str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%")
+            report[6] = '{:<40} {:40}'.format("Best strategie's trade count: ", str(self.population[self.bestStrategyIndex].actionCount))
+
+            msg = ""
+            for x in report:
+                msg += "\t\t\t\t\t" + x + "\n"
+            gu.log(msg)
+
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
@@ -117,14 +125,11 @@ class Lineage():
 
         self.population[self.bestStrategyIndex].save_constraint_set(self.symbol)
         gu.log(self.symbol + " action recommendation: " + recommendation)
-        #self.population[self.bestStrategyIndex].print_constraints()
-        #gu.log(self.population[self.bestStrategyIndex].buysellScores)
 
-        self.data = ""
-        self.population = ""        # manage hardware related memory issue on laptop?
+        #self.data = ""
+        #self.population = ""        # manage hardware related memory issue on laptop?
 
-
-        return recommendation
+        return [recommendation, self.population[self.bestStrategyIndex].buysellScores]
 
 
     def master_initialize(self):
@@ -515,7 +520,6 @@ class Lineage():
             strategy_text = f.readlines()
             if len(strategy_text)>1:
                 gu.log("ERROR: Bad strategy save file. ")
-            gu.log(strategy_text)
             return literal_eval(strategy_text[0])
         except:
             gu.log("Strategy file read error")
