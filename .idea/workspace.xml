@@ -121,6 +121,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -426,12 +427,6 @@
       <option name="number" value="Default" />
       <updated>1443027368514</updated>
     </task>
-    <task id="LOCAL-00023" summary="Set aside roulette wheel selection for later.">
-      <created>1448522555828</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1448522555828</updated>
-    </task>
     <task id="LOCAL-00024" summary="Implemented tournament selection">
       <created>1448524424940</created>
       <option name="number" value="00024" />
@@ -720,7 +715,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458332608919</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Finished implementing strategy saving">
+      <created>1458332710658</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1458332710659</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView">
