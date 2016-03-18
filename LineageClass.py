@@ -60,6 +60,7 @@ class Lineage():
         self.lastDay = ""
         self.tournamentSize = int(settings["tournamentSize"])
         self.tradeLimit = int(self.settings["tradeCountLimit"])
+        self.stored_strategies = []
         self.debug = True
 
 
@@ -114,15 +115,14 @@ class Lineage():
                 elif buysell[1] > buysell[0] and self.lastDay["close"] < self.data.pop()["close"]:
                     recommendation += ("     - Bad model scores" + str(buysell))
 
+        filename = "Strategies/" + self.symbol
+        savefile = open(filename, "w+")
+        savefile.close()
 
-        self.population[self.bestStrategyIndex].save_constraint_set(self.symbol)
+        for strategyIndex in range(int(self.settings["numStrategiesToSave"])):
+            self.population[strategyIndex].save_constraint_set(filename)
+
         gu.log(self.symbol + " action recommendation: " + recommendation)
-        #self.population[self.bestStrategyIndex].print_constraints()
-        #gu.log(self.population[self.bestStrategyIndex].buysellScores)
-
-        self.data = ""
-        self.population = ""        # manage hardware related memory issue on laptop?
-
 
         return recommendation
 
@@ -198,11 +198,14 @@ class Lineage():
             initializationRanges[indicator] = temp
 
         # initialize the population
+        num_loaded_strategies = int(self.populationSize * float(self.settings["loadedStrategieRatio"]))
+        gu.log("Loading " + str(num_loaded_strategies) + " stored strategies")
+
+        count = 0
         for i in range(self.populationSize):    # number of strategies to make
-            if i == 1:
-                temp_strategy = self.load_stored_strategie()
+            if i <= num_loaded_strategies and len(self.stored_strategies) > count:
+                temp_strategy = self.stored_strategies[count]
                 if temp_strategy != 0:
-                    gu.log("Stored strategy loaded.")
                     self.population.append(InvestmentStrategyClass.InvestmentStrategy(temp_strategy,
                                                                               self.data,
                                                                               self.lookback,
@@ -245,7 +248,7 @@ class Lineage():
                                                                               self.transactionCost,
                                                                               self.settings["tradeOnLossPunishment"],
                                                                               self.tradeLimit))
-
+            count +=1
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
@@ -511,12 +514,17 @@ class Lineage():
 
     def load_stored_strategie(self):
         try:
+            temp = []
             f = open("Strategies/" + self.symbol)
             strategy_text = f.readlines()
-            if len(strategy_text)>1:
-                gu.log("ERROR: Bad strategy save file. ")
-            gu.log(strategy_text)
-            return literal_eval(strategy_text[0])
+            for line in strategy_text:
+                if line != "":
+                    gu.log(line)
+                    temp.append(literal_eval(line))
+
+            self.stored_strategies = temp
+
+
         except:
             gu.log("Strategy file read error")
             return 0
