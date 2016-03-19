@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b9588c6-4030-4b63-80f6-4c2ab84735e7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIROControllerClass.py" afterPath="$PROJECT_DIR$/GIROControllerClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineageClass.py" afterPath="$PROJECT_DIR$/LineageClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/giroConfig.txt" afterPath="$PROJECT_DIR$/configs/giroConfig.txt" />
     </list>
     <ignored path="Project-GIRO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,18 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GIROControllerClass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.42696628">
+              <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
-                <element signature="e#344#680#0" expanded="false" />
-                <element signature="e#722#910#0" expanded="false" />
-                <element signature="e#949#1305#0" expanded="false" />
-                <element signature="e#1342#2537#0" expanded="false" />
+                <element signature="e#750#938#0" expanded="false" />
+                <element signature="e#977#1333#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Logs/results.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,12 +54,13 @@
         <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="e#190#540#0" expanded="false" />
                 <element signature="e#670#3603#0" expanded="false" />
                 <element signature="e#3633#3888#0" expanded="false" />
                 <element signature="e#3926#4036#0" expanded="false" />
+                <element signature="e#4067#4464#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,21 +69,21 @@
       <file leaf-file-name="LineageClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LineageClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state vertical-scroll-proportion="-26.592592">
+              <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
               <folding>
                 <element signature="e#23#49#0" expanded="true" />
-                <element signature="e#22461#22863#0" expanded="false" />
+                <element signature="e#22421#22823#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="giroConfig.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="giroConfig.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66079295">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -95,7 +107,6 @@
               <folding>
                 <element signature="e#23#49#0" expanded="true" />
                 <element signature="e#1943#5572#0" expanded="false" />
-                <element signature="e#5622#9346#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -145,11 +156,11 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Strategies/BP" />
-        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
-        <option value="$PROJECT_DIR$/LineageClass.py" />
         <option value="$PROJECT_DIR$/InvestmentStrategyClass.py" />
         <option value="$PROJECT_DIR$/configs/stocksToAnalyze.txt" />
+        <option value="$PROJECT_DIR$/LineageClass.py" />
         <option value="$PROJECT_DIR$/configs/giroConfig.txt" />
+        <option value="$PROJECT_DIR$/GIROControllerClass.py" />
       </list>
     </option>
   </component>
@@ -231,7 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Strategies" />
+              <option name="myItemId" value="Logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,12 +437,6 @@
       <created>1443027368514</created>
       <option name="number" value="Default" />
       <updated>1443027368514</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Implemented tournament selection">
-      <created>1448524424940</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1448524424940</updated>
     </task>
     <task id="LOCAL-00025" summary="partial crossover">
       <created>1448557720358</created>
@@ -721,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458332710659</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Finished implementing strategy saving">
+      <created>1458332758438</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1458332758439</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView">
@@ -735,7 +746,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20225511" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -744,7 +755,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3828425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35979512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -823,7 +834,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -862,7 +873,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#22461#22863#0" expanded="false" />
+            <element signature="e#22421#22823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -874,7 +885,6 @@
           <folding>
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#1943#5572#0" expanded="false" />
-            <element signature="e#5622#9346#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +923,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#22461#22863#0" expanded="false" />
+            <element signature="e#22421#22823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,7 +935,6 @@
           <folding>
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#1943#5572#0" expanded="false" />
-            <element signature="e#5622#9346#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,7 +973,7 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#22461#22863#0" expanded="false" />
+            <element signature="e#22421#22823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -976,7 +985,6 @@
           <folding>
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#1943#5572#0" expanded="false" />
-            <element signature="e#5622#9346#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1128,13 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StockData/EA:11-23-2013_11-24-2015.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1164,41 +1165,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+    <entry file="file://$PROJECT_DIR$/Strategies/BP">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-            <element signature="e#344#680#0" expanded="false" />
-            <element signature="e#722#910#0" expanded="false" />
-            <element signature="e#949#1305#0" expanded="false" />
-            <element signature="e#1342#2537#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#190#540#0" expanded="false" />
-            <element signature="e#670#3603#0" expanded="false" />
-            <element signature="e#3633#3888#0" expanded="false" />
-            <element signature="e#3926#4036#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LineageClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-            <element signature="e#22461#22863#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,16 +1180,26 @@
           <folding>
             <element signature="e#23#49#0" expanded="true" />
             <element signature="e#1943#5572#0" expanded="false" />
-            <element signature="e#5622#9346#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strategies/BP">
+    <entry file="file://$PROJECT_DIR$/Logs/results.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LineageClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.592592">
+          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#22421#22823#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,9 +1213,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/giroConfig.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66079295">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiroUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="e#190#540#0" expanded="false" />
+            <element signature="e#670#3603#0" expanded="false" />
+            <element signature="e#3633#3888#0" expanded="false" />
+            <element signature="e#3926#4036#0" expanded="false" />
+            <element signature="e#4067#4464#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIROControllerClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42696628">
+          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+            <element signature="e#750#938#0" expanded="false" />
+            <element signature="e#977#1333#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

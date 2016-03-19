@@ -111,9 +111,9 @@ class Lineage():
             buysell = self.population[self.bestStrategyIndex].buysellScores
             if recommendation == "No Action":
                 if buysell[0] > buysell[1] and self.lastDay["close"] > self.data.pop()["close"]:
-                    recommendation += ("     - Good model scores" + str(buysell))
+                    recommendation += (" - Good model")
                 elif buysell[1] > buysell[0] and self.lastDay["close"] < self.data.pop()["close"]:
-                    recommendation += ("     - Bad model scores" + str(buysell))
+                    recommendation += (" - Bad model")
 
         filename = "Strategies/" + self.symbol
         savefile = open(filename, "w+")
@@ -122,9 +122,10 @@ class Lineage():
         for strategyIndex in range(int(self.settings["numStrategiesToSave"])):
             self.population[strategyIndex].save_constraint_set(filename)
 
+
         gu.log(self.symbol + " action recommendation: " + recommendation)
 
-        return recommendation
+        return [recommendation, buysell]
 
 
     def master_initialize(self):

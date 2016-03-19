@@ -3,8 +3,11 @@ import LineageClass
 import GiroUtilities as gu
 import multiprocessing
 import threading
+from operator import itemgetter
+
 global workerThreads
 workerThreads = []
+
 '''
 TODO:
 
@@ -19,7 +22,7 @@ class GiroController():
     def __init__(self, resultsFile, stocksFile, configFile):
         self.configFile = configFile
         self.resultsFile = open(resultsFile, "w+")
-        self.resultStrings = ""
+        self.results = ""
         self.stocks = stocksFile
         self.settings = {}
         self.resultsLock = threading.Lock()
@@ -59,7 +62,7 @@ class GiroController():
 
         gu.log("Initiating analysis of " + str(len(self.stocks)) + " securities")
         self.stocks = self.manager.list(self.stocks)
-        self.resultStrings = self.manager.list()
+        self.results = self.manager.list()
 
         mylock = multiprocessing.Lock()
         for thread in range(self.settings["threads"]):
@@ -70,11 +73,15 @@ class GiroController():
         for thread in workerThreads:
             thread.join()
 
+        self.results = sorted(self.results, key=itemgetter(2))
+        self.results.reverse()
+
         totalRecs = 0
         incorrectRecs = 0
-        for line in self.resultStrings:
+        for line in self.results:
             if "No Action" not in line:
-                self.resultsFile.write(line)
+                line = str(line)
+                self.resultsFile.write(line + "\n")
                 gu.log(line.replace("\n", ""))
                 if self.settings["performanceTest"] == "True":
                     totalRecs += 1
@@ -87,6 +94,13 @@ class GiroController():
             gu.log(string)
 
         self.resultsFile.close()
+
+        allResults = "Results: \n"
+        row_format = "{:>10} {:>20} {:>30} {:>10}"
+        for result in self.results:
+            allResults += (row_format.format("", *result) + "\n")
+        gu.log(allResults)
+
 
 
     def start_worker(self, lock):
@@ -104,7 +118,7 @@ class GiroController():
                 x.master_initialize()
                 recommendation = x.evolve()
                 giroScore = abs(recommendation[1][0] - recommendation[1][1]) #buy - sell
-                self.resultStrings.append(str(myStock + ": " + recommendation[0] + "\n\tGiro Score: " + str(giroScore)))
+                self.results.append([myStock, recommendation[0], round(giroScore, 3)])
 
             else:
                 lock.release()
