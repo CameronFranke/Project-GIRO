@@ -25,7 +25,7 @@ mkdir StockData
 python main.py
 
 
-Current best settings
+Settings
 ============================================================================
 startYear=2013
 startMonth=11
@@ -35,6 +35,7 @@ stopMonth=11
 stopDay=23
 useTodaysDate=True
 performanceTest=True
+benchmarkingPeriod=28 (Number of TRADING days, not regular days)
 triggerThreshold=.3
 dayTriggerThreshold=.6
 lookbackLevel=3

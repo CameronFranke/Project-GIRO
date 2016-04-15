@@ -61,6 +61,7 @@ class Lineage():
         self.tournamentSize = int(settings["tournamentSize"])
         self.tradeLimit = int(self.settings["tradeCountLimit"])
         self.stored_strategies = []
+        self.benchmarkset = []
         self.debug = True
 
 
@@ -146,6 +147,7 @@ class Lineage():
         self.parse_trigger_settings()
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
+        self.partition_benchmark_dataset()  #pulls out data to benchmark with later
         self.initialize_population()
 
 
@@ -529,3 +531,12 @@ class Lineage():
         except:
             gu.log("Strategy file read error")
             return 0
+
+
+    def partition_benchmark_dataset(self):
+        if self.perfTest:
+            for benchmarkDay in range(0, int(self.settings["benchmarkingPeriod"])):
+                self.benchmarkset.append(self.data.pop())
+            gu.log(self.benchmarkset)
+            gu.log(len(self.benchmarkset))
+        else: return
