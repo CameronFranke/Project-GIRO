@@ -115,3 +115,22 @@ def update_log_file(myString):
     logFile = open(logFileName, 'a')
     logFile.write(myString + "\n")
     logFile.close()
+
+
+def pull_stock_list():
+
+    url = "ftp://ftp.nasdaqtrader.com/SymbolDirectory/nasdaqlisted.txt"
+    response = urllib2.urlopen(url)
+    response = str(response.read())
+    response = response.splitlines()
+    stock_list = []
+    for line in response:
+        if "Common Stock" in line:
+            stock_list.append(line.split("|")[0])
+
+        else: continue
+
+    print (stock_list)
+    for x in stock_list:
+        print(x)
+

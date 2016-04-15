@@ -4,6 +4,7 @@ import InvestmentStrategyClass
 from random import randrange
 import numpy as np
 import talib as tl
+from ast import literal_eval
 
 '''
         Yahoo finance does not provide access to data past a certain date.
@@ -59,6 +60,8 @@ class Lineage():
         self.lastDay = ""
         self.tournamentSize = int(settings["tournamentSize"])
         self.tradeLimit = int(self.settings["tradeCountLimit"])
+        self.stored_strategies = []
+        self.benchmarkset = []
         self.debug = True
 
 
@@ -92,29 +95,38 @@ class Lineage():
 
         if recommendation == "NULL":
             recommendation = "No Action"
-        else:
-            if self.perfTest:
-                if recommendation == "BUY/COVER":
-                    if self.lastDay["close"] > self.data.pop()["close"]:
-                        recommendation += "--CORRECT"
-                    else:
-                        recommendation += "--INCORRECT"
 
-                elif recommendation == "SELL/SHORT":
-                    if self.lastDay["close"] < self.data.pop()["close"]:
-                        recommendation += "--CORRECT"
-                    else:
-                        recommendation += "--INCORRECT"
+        if self.perfTest:
+            if recommendation == "BUY/COVER":
+                if self.lastDay["close"] > self.data.pop()["close"]:
+                    recommendation += "--CORRECT"
+                else:
+                    recommendation += "--INCORRECT"
+
+            elif recommendation == "SELL/SHORT":
+                if self.lastDay["close"] < self.data.pop()["close"]:
+                    recommendation += "--CORRECT"
+                else:
+                    recommendation += "--INCORRECT"
+
+            buysell = self.population[self.bestStrategyIndex].buysellScores
+            if recommendation == "No Action":
+                if buysell[0] > buysell[1] and self.lastDay["close"] > self.data.pop()["close"]:
+                    recommendation += (" - Good model")
+                elif buysell[1] > buysell[0] and self.lastDay["close"] < self.data.pop()["close"]:
+                    recommendation += (" - Bad model")
+
+        filename = "Strategies/" + self.symbol
+        savefile = open(filename, "w+")
+        savefile.close()
+
+        for strategyIndex in range(int(self.settings["numStrategiesToSave"])):
+            self.population[strategyIndex].save_constraint_set(filename)
 
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
-        self.population[self.bestStrategyIndex].print_constraints()
 
-        self.data = ""
-        self.population = ""        # manage hardware related memory issue on laptop?
-
-
-        return recommendation
+        return [recommendation, buysell]
 
 
     def master_initialize(self):
@@ -135,6 +147,7 @@ class Lineage():
         self.parse_trigger_settings()
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
+        self.partition_benchmark_dataset()  #pulls out data to benchmark with later
         self.initialize_population()
 
 
@@ -188,7 +201,24 @@ class Lineage():
             initializationRanges[indicator] = temp
 
         # initialize the population
+        num_loaded_strategies = int(self.populationSize * float(self.settings["loadedStrategieRatio"]))
+        gu.log("Loading " + str(num_loaded_strategies) + " stored strategies")
+
+        count = 0
         for i in range(self.populationSize):    # number of strategies to make
+            if i <= num_loaded_strategies and len(self.stored_strategies) > count:
+                temp_strategy = self.stored_strategies[count]
+                if temp_strategy != 0:
+                    self.population.append(InvestmentStrategyClass.InvestmentStrategy(temp_strategy,
+                                                                              self.data,
+                                                                              self.lookback,
+                                                                              self.triggerThreshold,
+                                                                              self.dayTriggerThreshold,
+                                                                              self.indicatorsBeingUsed,
+                                                                              self.startingMoney,
+                                                                              self.transactionCost,
+                                                                              self.settings["tradeOnLossPunishment"],
+                                                                              self.tradeLimit))
             myStrategies = []
             for x in range(self.lookback):      # number of period lookbacks
                 myTriggers = {}
@@ -221,7 +251,7 @@ class Lineage():
                                                                               self.transactionCost,
                                                                               self.settings["tradeOnLossPunishment"],
                                                                               self.tradeLimit))
-
+            count +=1
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
 
@@ -483,3 +513,30 @@ class Lineage():
         self.update_data(aroonUp, "aroonUp")
         self.indicatorsBeingUsed.append("aroonDown")
         self.indicatorsBeingUsed.append("aroonUp")
+
+
+    def load_stored_strategie(self):
+        try:
+            temp = []
+            f = open("Strategies/" + self.symbol)
+            strategy_text = f.readlines()
+            for line in strategy_text:
+                if line != "":
+                    gu.log(line)
+                    temp.append(literal_eval(line))
+
+            self.stored_strategies = temp
+
+
+        except:
+            gu.log("Strategy file read error")
+            return 0
+
+
+    def partition_benchmark_dataset(self):
+        if self.perfTest:
+            for benchmarkDay in range(0, int(self.settings["benchmarkingPeriod"])):
+                self.benchmarkset.append(self.data.pop())
+            gu.log(self.benchmarkset)
+            gu.log(len(self.benchmarkset))
+        else: return

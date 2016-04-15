@@ -4,9 +4,10 @@ import numpy as np
 
 '''
     TODO:
-        - find numpy tools to clean up fitness function
-        - implement hard trade count limit
+        - find numpy tools to clean up fitness function <-- it is messy and inefficient
         - mode where system can record the dates of trades and write them to a file
+        - weight days
+        - judge correct/incorrect strategies based on price action for a few days following recommendation
 '''
 
 class InvestmentStrategy():
@@ -31,8 +32,7 @@ class InvestmentStrategy():
         self.actionCount = 0
         self.relativeCorrectness = 0
         self.tradeLimit = tradeLimit
-        #print lookbackthreshold = daytriggerthreshold
-        #print triggerThreshold = triggerthreshold
+        self.buysellScores = [0,0]
 
 
     def print_constraints(self):
@@ -42,6 +42,10 @@ class InvestmentStrategy():
                 print ("\t" + indicator)
                 for constraint in self.constraints[day][indicator]:
                     print("\t\t" + constraint + ": " + str(self.constraints[day][indicator][constraint]))
+
+    def save_constraint_set(self, savefileName):
+        savefile = open(savefileName, "a")
+        savefile.write(str(self.constraints) + "\n")
 
 
     def compute_fitness_score(self):
@@ -163,6 +167,7 @@ class InvestmentStrategy():
                 elif contstraintSellTriggers - contstraintBuyTriggers >= self.lookbackThreshold:
                     daySellStrength += (1 * self.constraints[day][indicator]["SellWeight"])
 
+            self.buysellScores = [dayBuyStrength, daySellStrength]
             # count up lookback signals
             if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
                 self.actionCount += 1

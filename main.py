@@ -14,6 +14,7 @@ from time import time
 '''
 
 def main():
+    #gu.pull_stock_list()
     gu.create_log_file()
     gu.log("Initializing Project GIRO...")
     start = time()
