@@ -1,0 +1,256 @@
+ProjectGiro LOG 19:16.2.855>	Initializing Project GIRO...
+ProjectGiro LOG 19:16.2.871>	transactionCost=6.95
+ProjectGiro LOG 19:16.2.871>	benchmarkingPeriod=90
+ProjectGiro LOG 19:16.2.871>	stopYear=2016
+ProjectGiro LOG 19:16.2.871>	useTodaysDate=True
+ProjectGiro LOG 19:16.2.871>	startDay=23
+ProjectGiro LOG 19:16.2.871>	mutationRateDelta=-0.00
+ProjectGiro LOG 19:16.2.872>	populationSize=84
+ProjectGiro LOG 19:16.2.872>	stopDay=13
+ProjectGiro LOG 19:16.2.872>	triggerThreshold=0.1
+ProjectGiro LOG 19:16.2.872>	startYear=2011
+ProjectGiro LOG 19:16.2.872>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 19:16.2.872>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 19:16.2.872>	stopMonth=3
+ProjectGiro LOG 19:16.2.872>	startMonth=11
+ProjectGiro LOG 19:16.2.872>	mutationRate=0.015
+ProjectGiro LOG 19:16.2.872>	tournamentSize=4
+ProjectGiro LOG 19:16.2.872>	selectionPercentage=0.6
+ProjectGiro LOG 19:16.2.872>	lookbackLevel=3
+ProjectGiro LOG 19:16.2.872>	TrigIncrementAmount=0.00
+ProjectGiro LOG 19:16.2.872>	marginInterestRate=0.0425
+ProjectGiro LOG 19:16.2.872>	loadedStrategieRatio=0.40
+ProjectGiro LOG 19:16.2.872>	threads=4
+ProjectGiro LOG 19:16.2.872>	startingMoney=1000000
+ProjectGiro LOG 19:16.2.872>	shortPortfolioRatio=0.3
+ProjectGiro LOG 19:16.2.872>	numStrategiesToSave=1
+ProjectGiro LOG 19:16.2.872>	dayTriggerThreshold=0.1
+ProjectGiro LOG 19:16.2.872>	performanceTest=True
+ProjectGiro LOG 19:16.2.872>	incrementDayThresholdGens=0
+ProjectGiro LOG 19:16.2.872>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 19:16.2.872>	tradeCountLimit=300
+ProjectGiro LOG 19:16.2.872>	generations=60
+ProjectGiro LOG 19:16.2.872>	Initiating analysis of 1 securities
+ProjectGiro LOG 19:16.2.882>	StockData/INTC:11-23-2011_3-13-2016.txt
+ProjectGiro LOG 19:16.2.883>	Using stored data for INTC
+ProjectGiro LOG 19:16.2.900>	INTC Technical indicator calculations complete
+ProjectGiro LOG 19:16.2.924>	Strategy file read error
+ProjectGiro LOG 19:16.2.924>	Loading 33 stored strategies
+ProjectGiro LOG 19:16.3.130>	Population initialiazed with 84 investment strategies
+ProjectGiro LOG 19:16.3.130>	Beginning 60 generation simulation of INTC
+ProjectGiro LOG 19:16.5.832>	INTC Generation: 0
+									Highest profit this round: 261982.57		26.2%
+									Average profit this round: -282581.63		-28.26%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 36
+									Best strategy's trade correctness: 	67.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.8.524>	INTC Generation: 1
+									Highest profit this round: 261982.57		26.2%
+									Average profit this round: -12904.15		-1.29%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 13
+									Best strategy's trade correctness: 	67.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.11.130>	INTC Generation: 2
+									Highest profit this round: 261982.57		26.2%
+									Average profit this round: 89891.7		8.99%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 13
+									Best strategy's trade correctness: 	67.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.13.748>	INTC Generation: 3
+									Highest profit this round: 188789.87		18.88%
+									Average profit this round: 108099.65		10.81%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 5
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.16.274>	INTC Generation: 4
+									Highest profit this round: 188789.87		18.88%
+									Average profit this round: 148313.78		14.83%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.18.828>	INTC Generation: 5
+									Highest profit this round: 188789.87		18.88%
+									Average profit this round: 112096.13		11.21%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 4
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.21.373>	INTC Generation: 6
+									Highest profit this round: 188789.87		18.88%
+									Average profit this round: 123797.72		12.38%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 5
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.23.928>	INTC Generation: 7
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 151911.8		15.19%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 4
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.26.483>	INTC Generation: 8
+									Highest profit this round: 212033.55		21.2%
+									Average profit this round: 172276.99		17.23%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 2
+									Best strategy's trade correctness: 	31.0%
+									Best strategy's trade count: 13
+ProjectGiro LOG 19:16.29.48>	INTC Generation: 9
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 91022.0		9.1%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 7
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.31.586>	INTC Generation: 10
+									Highest profit this round: 248581.23		24.86%
+									Average profit this round: 145779.63		14.58%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	36.0%
+									Best strategy's trade count: 11
+ProjectGiro LOG 19:16.34.165>	INTC Generation: 11
+									Highest profit this round: 248581.23		24.86%
+									Average profit this round: 96727.94		9.67%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 13
+									Best strategy's trade correctness: 	36.0%
+									Best strategy's trade count: 11
+ProjectGiro LOG 19:16.36.722>	INTC Generation: 12
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 87253.74		8.73%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 7
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.39.257>	INTC Generation: 13
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 131696.37		13.17%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 5
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.41.774>	INTC Generation: 14
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 183463.05		18.35%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 2
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.44.283>	INTC Generation: 15
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 195722.27		19.57%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 2
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.46.797>	INTC Generation: 16
+									Highest profit this round: 211425.04		21.14%
+									Average profit this round: 181527.42		18.15%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 4
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:16.49.296>	INTC Generation: 17
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 183311.12		18.33%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 5
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.51.813>	INTC Generation: 18
+									Highest profit this round: 211208.21		21.12%
+									Average profit this round: 207257.31		20.73%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 19:16.54.325>	INTC Generation: 19
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 193576.78		19.36%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:16.56.843>	INTC Generation: 20
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 194364.94		19.44%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 4
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:16.59.350>	INTC Generation: 21
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 207239.27		20.72%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:17.1.855>	INTC Generation: 22
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 204176.63		20.42%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:17.4.357>	INTC Generation: 23
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 205109.08		20.51%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:17.6.885>	INTC Generation: 24
+									Highest profit this round: 214813.05		21.48%
+									Average profit this round: 204826.65		20.48%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5
+ProjectGiro LOG 19:17.9.603>	INTC Generation: 25
+									Highest profit this round: 272300.78		27.23%
+									Average profit this round: 190577.47		19.06%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 6
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 9
+ProjectGiro LOG 19:17.12.322>	INTC Generation: 26
+									Highest profit this round: 235300.86		23.53%
+									Average profit this round: 206196.05		20.62%
+									Buy and hold profit: 406095.452797
+									Mutation Rate: 0.015
+									Average trade count: 5
+									Best strategy's trade correctness: 	20.0%
+									Best strategy's trade count: 5

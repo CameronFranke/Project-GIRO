@@ -1,0 +1,97 @@
+ProjectGiro LOG 15:53.2.330>	Initializing Project GIRO...
+ProjectGiro LOG 15:53.2.500>	transactionCost=6.95
+ProjectGiro LOG 15:53.2.500>	benchmarkingPeriod=36
+ProjectGiro LOG 15:53.2.500>	stopYear=2016
+ProjectGiro LOG 15:53.2.500>	useTodaysDate=True
+ProjectGiro LOG 15:53.2.500>	startDay=23
+ProjectGiro LOG 15:53.2.500>	mutationRateDelta=-.00025
+ProjectGiro LOG 15:53.2.500>	populationSize=1
+ProjectGiro LOG 15:53.2.500>	stopDay=13
+ProjectGiro LOG 15:53.2.500>	triggerThreshold=0.2
+ProjectGiro LOG 15:53.2.500>	startYear=2013
+ProjectGiro LOG 15:53.2.500>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 15:53.2.500>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 15:53.2.500>	stopMonth=3
+ProjectGiro LOG 15:53.2.500>	startMonth=11
+ProjectGiro LOG 15:53.2.500>	mutationRate=0.06
+ProjectGiro LOG 15:53.2.500>	tournamentSize=3
+ProjectGiro LOG 15:53.2.500>	selectionPercentage=0.60
+ProjectGiro LOG 15:53.2.500>	lookbackLevel=3
+ProjectGiro LOG 15:53.2.500>	TrigIncrementAmount=0.00
+ProjectGiro LOG 15:53.2.500>	marginInterestRate=0.0425
+ProjectGiro LOG 15:53.2.500>	loadedStrategieRatio=0.40
+ProjectGiro LOG 15:53.2.500>	threads=1
+ProjectGiro LOG 15:53.2.500>	startingMoney=10000
+ProjectGiro LOG 15:53.2.500>	shortPortfolioRatio=0.3
+ProjectGiro LOG 15:53.2.510>	numStrategiesToSave=15
+ProjectGiro LOG 15:53.2.510>	dayTriggerThreshold=0.2
+ProjectGiro LOG 15:53.2.510>	performanceTest=True
+ProjectGiro LOG 15:53.2.510>	incrementDayThresholdGens=0
+ProjectGiro LOG 15:53.2.510>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 15:53.2.510>	tradeCountLimit=50
+ProjectGiro LOG 15:53.2.510>	generations=5
+ProjectGiro LOG 15:53.2.510>	Initiating analysis of 1 securities
+ProjectGiro LOG 15:53.2.580>	StockData/TSM:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:53.2.580>	Using stored data for TSM
+ProjectGiro LOG 15:53.2.630>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:53.2.640>	Using stored data for ^IXIC
+ProjectGiro LOG 15:53.2.660>	TSM Technical indicator calculations complete
+ProjectGiro LOG 15:53.2.100>	Loading 0 stored strategies
+ProjectGiro LOG 15:53.2.102>	Population initialiazed with 1 investment strategies
+ProjectGiro LOG 15:53.2.102>	Beginning 5 generation simulation of TSM
+ProjectGiro LOG 15:53.2.113>	TSM Generation: 0
+									Highest profit this round: 2358.65		23.59%
+									Average profit this round: 2358.65		23.59%
+									Buy and hold profit: 3156.66860804
+									Mutation Rate: 0.06
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:53.2.129>	TSM Generation: 1
+									Highest profit this round: 3179.85		31.8%
+									Average profit this round: 3179.85		31.8%
+									Buy and hold profit: 3156.66860804
+									Mutation Rate: 0.05975
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:53.2.134>	TSM Generation: 2
+									Highest profit this round: 2078.21		20.78%
+									Average profit this round: 2078.21		20.78%
+									Buy and hold profit: 3156.66860804
+									Mutation Rate: 0.0595
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:53.2.139>	TSM Generation: 3
+									Highest profit this round: 2078.21		20.78%
+									Average profit this round: 2078.21		20.78%
+									Buy and hold profit: 3156.66860804
+									Mutation Rate: 0.05925
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:53.2.141>	DEBUG: shorting
+ProjectGiro LOG 15:53.2.141>	DEBUG: Loan: 3055.83899565
+ProjectGiro LOG 15:53.2.141>	DEBUG: shares: 173.627215662
+ProjectGiro LOG 15:53.2.141>	DEBUG: short profit: 263.529478032
+ProjectGiro LOG 15:53.2.143>	DEBUG: shorting
+ProjectGiro LOG 15:53.2.143>	DEBUG: Loan: 3444.40726185
+ProjectGiro LOG 15:53.2.143>	DEBUG: shares: 177.090338548
+ProjectGiro LOG 15:53.2.143>	DEBUG: short profit: 190.97132554
+ProjectGiro LOG 15:53.2.143>	DEBUG: shorting
+ProjectGiro LOG 15:53.2.143>	DEBUG: Loan: 3479.01585797
+ProjectGiro LOG 15:53.2.143>	DEBUG: shares: 174.299400414
+ProjectGiro LOG 15:53.2.143>	DEBUG: short profit: 340.346014112
+ProjectGiro LOG 15:53.2.143>	TSM Generation: 4
+									Highest profit this round: 2066.39		20.66%
+									Average profit this round: 2066.39		20.66%
+									Buy and hold profit: 3156.66860804
+									Mutation Rate: 0.059
+									Average trade count: 50
+									Best strategy's trade correctness: 	96.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:53.2.148>	0 of 0 correct
+ProjectGiro LOG 15:53.2.148>	Results: 
+
+ProjectGiro LOG 15:53.2.148>	GIRO total execution time: 0.115139961243

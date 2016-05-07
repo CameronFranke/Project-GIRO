@@ -1,0 +1,43 @@
+ProjectGiro LOG 16:57.52.300>	Initializing Project GIRO...
+ProjectGiro LOG 16:57.52.317>	transactionCost=6.95
+ProjectGiro LOG 16:57.52.317>	benchmarkingPeriod=60
+ProjectGiro LOG 16:57.52.317>	stopYear=2016
+ProjectGiro LOG 16:57.52.317>	useTodaysDate=True
+ProjectGiro LOG 16:57.52.317>	startDay=23
+ProjectGiro LOG 16:57.52.317>	mutationRateDelta=-.00025
+ProjectGiro LOG 16:57.52.317>	populationSize=100
+ProjectGiro LOG 16:57.52.317>	stopDay=13
+ProjectGiro LOG 16:57.52.317>	triggerThreshold=0.1
+ProjectGiro LOG 16:57.52.317>	startYear=2013
+ProjectGiro LOG 16:57.52.317>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 16:57.52.317>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 16:57.52.317>	stopMonth=3
+ProjectGiro LOG 16:57.52.317>	startMonth=11
+ProjectGiro LOG 16:57.52.317>	mutationRate=0.03
+ProjectGiro LOG 16:57.52.317>	tournamentSize=6
+ProjectGiro LOG 16:57.52.317>	selectionPercentage=0.6
+ProjectGiro LOG 16:57.52.317>	lookbackLevel=2
+ProjectGiro LOG 16:57.52.317>	TrigIncrementAmount=0.00
+ProjectGiro LOG 16:57.52.317>	marginInterestRate=0.0425
+ProjectGiro LOG 16:57.52.317>	loadedStrategieRatio=0.40
+ProjectGiro LOG 16:57.52.317>	threads=1
+ProjectGiro LOG 16:57.52.317>	startingMoney=1000000
+ProjectGiro LOG 16:57.52.317>	shortPortfolioRatio=0.3
+ProjectGiro LOG 16:57.52.317>	numStrategiesToSave=15
+ProjectGiro LOG 16:57.52.317>	dayTriggerThreshold=0.1
+ProjectGiro LOG 16:57.52.317>	performanceTest=True
+ProjectGiro LOG 16:57.52.317>	incrementDayThresholdGens=0
+ProjectGiro LOG 16:57.52.317>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 16:57.52.318>	tradeCountLimit=50
+ProjectGiro LOG 16:57.52.318>	generations=50
+ProjectGiro LOG 16:57.52.318>	Initiating analysis of 1 securities
+ProjectGiro LOG 16:57.52.325>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 16:57.52.325>	Using stored data for EA
+ProjectGiro LOG 16:57.52.328>	EA Technical indicator calculations complete
+ProjectGiro LOG 16:57.52.341>	Loading 40 stored strategies
+ProjectGiro LOG 16:57.52.367>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 16:57.52.367>	Beginning 50 generation simulation of EA
+ProjectGiro LOG 16:57.52.389>	0 of 0 correct
+ProjectGiro LOG 16:57.52.389>	Results: 
+
+ProjectGiro LOG 16:57.52.389>	GIRO total execution time: 0.0892329216003

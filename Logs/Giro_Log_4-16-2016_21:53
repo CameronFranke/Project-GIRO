@@ -1,0 +1,45 @@
+ProjectGiro LOG 21:53.58.830>	Initializing Project GIRO...
+ProjectGiro LOG 21:53.58.847>	transactionCost=6.95
+ProjectGiro LOG 21:53.58.847>	benchmarkingPeriod=60
+ProjectGiro LOG 21:53.58.847>	stopYear=2016
+ProjectGiro LOG 21:53.58.847>	useTodaysDate=True
+ProjectGiro LOG 21:53.58.847>	startDay=23
+ProjectGiro LOG 21:53.58.847>	mutationRateDelta=-0.00
+ProjectGiro LOG 21:53.58.847>	populationSize=256
+ProjectGiro LOG 21:53.58.847>	stopDay=13
+ProjectGiro LOG 21:53.58.847>	triggerThreshold=0.1
+ProjectGiro LOG 21:53.58.847>	startYear=2013
+ProjectGiro LOG 21:53.58.847>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 21:53.58.847>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 21:53.58.847>	stopMonth=3
+ProjectGiro LOG 21:53.58.847>	startMonth=11
+ProjectGiro LOG 21:53.58.847>	mutationRate=0.015
+ProjectGiro LOG 21:53.58.847>	tournamentSize=4
+ProjectGiro LOG 21:53.58.847>	selectionPercentage=0.6
+ProjectGiro LOG 21:53.58.847>	lookbackLevel=3
+ProjectGiro LOG 21:53.58.847>	TrigIncrementAmount=0.00
+ProjectGiro LOG 21:53.58.847>	marginInterestRate=0.0425
+ProjectGiro LOG 21:53.58.847>	loadedStrategieRatio=0.40
+ProjectGiro LOG 21:53.58.847>	threads=4
+ProjectGiro LOG 21:53.58.847>	startingMoney=1000000
+ProjectGiro LOG 21:53.58.847>	shortPortfolioRatio=0.3
+ProjectGiro LOG 21:53.58.847>	numStrategiesToSave=1
+ProjectGiro LOG 21:53.58.847>	dayTriggerThreshold=0.1
+ProjectGiro LOG 21:53.58.847>	performanceTest=True
+ProjectGiro LOG 21:53.58.848>	incrementDayThresholdGens=0
+ProjectGiro LOG 21:53.58.848>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 21:53.58.848>	tradeCountLimit=300
+ProjectGiro LOG 21:53.58.848>	generations=50
+ProjectGiro LOG 21:53.58.848>	Initiating analysis of 4 securities
+ProjectGiro LOG 21:53.58.857>	StockData/FB:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:53.58.857>	Using stored data for FB
+ProjectGiro LOG 21:53.58.858>	StockData/BP:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:53.58.859>	Using stored data for BP
+ProjectGiro LOG 21:53.58.859>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:53.58.859>	Using stored data for EA
+ProjectGiro LOG 21:53.58.859>	StockData/TSM:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:53.58.859>	Using stored data for TSM
+ProjectGiro LOG 21:53.58.883>	0 of 0 correct
+ProjectGiro LOG 21:53.58.883>	Results: 
+
+ProjectGiro LOG 21:53.58.883>	GIRO total execution time: 0.0526440143585

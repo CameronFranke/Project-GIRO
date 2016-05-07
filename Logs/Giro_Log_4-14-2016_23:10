@@ -1,0 +1,59 @@
+ProjectGiro LOG 23:10.25.333>	Initializing Project GIRO...
+ProjectGiro LOG 23:10.25.350>	transactionCost=6.95
+ProjectGiro LOG 23:10.25.351>	benchmarkingPeriod=30
+ProjectGiro LOG 23:10.25.351>	stopYear=2016
+ProjectGiro LOG 23:10.25.351>	useTodaysDate=True
+ProjectGiro LOG 23:10.25.351>	startDay=23
+ProjectGiro LOG 23:10.25.351>	mutationRateDelta=-.00025
+ProjectGiro LOG 23:10.25.351>	populationSize=350
+ProjectGiro LOG 23:10.25.351>	stopDay=13
+ProjectGiro LOG 23:10.25.351>	triggerThreshold=.2
+ProjectGiro LOG 23:10.25.351>	startYear=2013
+ProjectGiro LOG 23:10.25.351>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 23:10.25.351>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 23:10.25.351>	stopMonth=3
+ProjectGiro LOG 23:10.25.351>	startMonth=11
+ProjectGiro LOG 23:10.25.351>	mutationRate=.03
+ProjectGiro LOG 23:10.25.351>	tournamentSize=4
+ProjectGiro LOG 23:10.25.351>	selectionPercentage=.60
+ProjectGiro LOG 23:10.25.351>	lookbackLevel=5
+ProjectGiro LOG 23:10.25.351>	TrigIncrementAmount=.00
+ProjectGiro LOG 23:10.25.351>	loadedStrategieRatio=.40
+ProjectGiro LOG 23:10.25.351>	threads=7
+ProjectGiro LOG 23:10.25.351>	startingMoney=120000
+ProjectGiro LOG 23:10.25.351>	numStrategiesToSave=15
+ProjectGiro LOG 23:10.25.351>	dayTriggerThreshold=.2
+ProjectGiro LOG 23:10.25.351>	performanceTest=True
+ProjectGiro LOG 23:10.25.351>	incrementDayThresholdGens=0
+ProjectGiro LOG 23:10.25.351>	tradeOnLossPunishment=.02
+ProjectGiro LOG 23:10.25.351>	tradeCountLimit=100
+ProjectGiro LOG 23:10.25.351>	generations=80
+ProjectGiro LOG 23:10.25.351>	Initiating analysis of 3 securities
+ProjectGiro LOG 23:10.25.379>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.379>	Using stored data for EA
+ProjectGiro LOG 23:10.25.381>	StockData/AMZN:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.381>	Using stored data for AMZN
+ProjectGiro LOG 23:10.25.383>	StockData/WIFI:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.383>	Using stored data for WIFI
+ProjectGiro LOG 23:10.25.385>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.385>	Using stored data for ^IXIC
+ProjectGiro LOG 23:10.25.387>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.387>	Using stored data for ^IXIC
+ProjectGiro LOG 23:10.25.389>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:10.25.389>	Using stored data for ^IXIC
+ProjectGiro LOG 23:10.25.390>	EA Technical indicator calculations complete
+ProjectGiro LOG 23:10.25.392>	AMZN Technical indicator calculations complete
+ProjectGiro LOG 23:10.25.393>	WIFI Technical indicator calculations complete
+ProjectGiro LOG 23:10.25.453>	Loading 140 stored strategies
+ProjectGiro LOG 23:10.25.456>	Loading 140 stored strategies
+ProjectGiro LOG 23:10.25.457>	Loading 140 stored strategies
+ProjectGiro LOG 23:10.26.398>	Population initialiazed with 350 investment strategies
+ProjectGiro LOG 23:10.26.398>	Beginning 80 generation simulation of AMZN
+ProjectGiro LOG 23:10.26.440>	Population initialiazed with 350 investment strategies
+ProjectGiro LOG 23:10.26.440>	Beginning 80 generation simulation of WIFI
+ProjectGiro LOG 23:10.26.452>	Population initialiazed with 350 investment strategies
+ProjectGiro LOG 23:10.26.452>	Beginning 80 generation simulation of EA
+ProjectGiro LOG 23:10.26.493>	0 of 0 correct
+ProjectGiro LOG 23:10.26.493>	Results: 
+
+ProjectGiro LOG 23:10.26.493>	GIRO total execution time: 1.15966391563

@@ -1,0 +1,79 @@
+ProjectGiro LOG 22:15.59.75>	Initializing Project GIRO...
+ProjectGiro LOG 22:15.59.92>	transactionCost=6.95
+ProjectGiro LOG 22:15.59.92>	benchmarkingPeriod=30
+ProjectGiro LOG 22:15.59.92>	stopYear=2016
+ProjectGiro LOG 22:15.59.92>	useTodaysDate=True
+ProjectGiro LOG 22:15.59.92>	startDay=23
+ProjectGiro LOG 22:15.59.92>	mutationRateDelta=-.00025
+ProjectGiro LOG 22:15.59.92>	populationSize=32
+ProjectGiro LOG 22:15.59.92>	stopDay=13
+ProjectGiro LOG 22:15.59.92>	triggerThreshold=.2
+ProjectGiro LOG 22:15.59.92>	startYear=2013
+ProjectGiro LOG 22:15.59.92>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 22:15.59.92>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 22:15.59.92>	stopMonth=3
+ProjectGiro LOG 22:15.59.92>	startMonth=11
+ProjectGiro LOG 22:15.59.92>	mutationRate=.04
+ProjectGiro LOG 22:15.59.92>	tournamentSize=5
+ProjectGiro LOG 22:15.59.92>	selectionPercentage=.60
+ProjectGiro LOG 22:15.59.92>	lookbackLevel=3
+ProjectGiro LOG 22:15.59.92>	TrigIncrementAmount=.00
+ProjectGiro LOG 22:15.59.92>	loadedStrategieRatio=.40
+ProjectGiro LOG 22:15.59.92>	threads=7
+ProjectGiro LOG 22:15.59.92>	startingMoney=120000
+ProjectGiro LOG 22:15.59.92>	numStrategiesToSave=15
+ProjectGiro LOG 22:15.59.92>	dayTriggerThreshold=.2
+ProjectGiro LOG 22:15.59.92>	performanceTest=True
+ProjectGiro LOG 22:15.59.92>	incrementDayThresholdGens=0
+ProjectGiro LOG 22:15.59.92>	tradeOnLossPunishment=.02
+ProjectGiro LOG 22:15.59.92>	tradeCountLimit=100
+ProjectGiro LOG 22:15.59.92>	generations=5
+ProjectGiro LOG 22:15.59.92>	Initiating analysis of 1 securities
+ProjectGiro LOG 22:15.59.101>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:15.59.101>	Using stored data for EA
+ProjectGiro LOG 22:15.59.107>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:15.59.107>	Using stored data for ^IXIC
+ProjectGiro LOG 22:15.59.112>	EA Technical indicator calculations complete
+ProjectGiro LOG 22:15.59.147>	Loading 12 stored strategies
+ProjectGiro LOG 22:15.59.199>	Population initialiazed with 32 investment strategies
+ProjectGiro LOG 22:15.59.199>	Beginning 5 generation simulation of EA
+ProjectGiro LOG 22:15.59.592>	EA Generation: 0
+									Highest profit this round: 186675.81		155.56%
+									Average profit this round: 72580.17		60.48%
+									Mutation Rate: 0.04
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:16.0.195>	EA Generation: 1
+									Highest profit this round: 209955.66		174.96%
+									Average profit this round: 103909.62		86.59%
+									Mutation Rate: 0.03975
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:16.0.904>	EA Generation: 2
+									Highest profit this round: 204798.97		170.67%
+									Average profit this round: 86244.58		71.87%
+									Mutation Rate: 0.0395
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:16.1.769>	EA Generation: 3
+									Highest profit this round: 204798.97		170.67%
+									Average profit this round: 121858.47		101.55%
+									Mutation Rate: 0.03925
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:16.2.739>	EA Generation: 4
+									Highest profit this round: 205391.44		171.16%
+									Average profit this round: 151296.26		126.08%
+									Mutation Rate: 0.039
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:16.2.765>	Benchmarking <listreverseiterator object at 0x7f21c365f490>
+ProjectGiro LOG 22:16.2.780>	0 of 0 correct
+ProjectGiro LOG 22:16.2.780>	Results: 
+
+ProjectGiro LOG 22:16.2.780>	GIRO total execution time: 3.70519399643

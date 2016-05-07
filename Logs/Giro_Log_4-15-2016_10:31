@@ -1,0 +1,135 @@
+ProjectGiro LOG 10:31.34.454>	Initializing Project GIRO...
+ProjectGiro LOG 10:31.34.471>	transactionCost=6.95
+ProjectGiro LOG 10:31.34.471>	benchmarkingPeriod=60
+ProjectGiro LOG 10:31.34.471>	stopYear=2016
+ProjectGiro LOG 10:31.34.471>	useTodaysDate=True
+ProjectGiro LOG 10:31.34.471>	startDay=23
+ProjectGiro LOG 10:31.34.471>	mutationRateDelta=-.00025
+ProjectGiro LOG 10:31.34.471>	populationSize=256
+ProjectGiro LOG 10:31.34.471>	stopDay=13
+ProjectGiro LOG 10:31.34.471>	triggerThreshold=.2
+ProjectGiro LOG 10:31.34.471>	startYear=2013
+ProjectGiro LOG 10:31.34.471>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 10:31.34.471>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 10:31.34.471>	stopMonth=3
+ProjectGiro LOG 10:31.34.471>	startMonth=11
+ProjectGiro LOG 10:31.34.471>	mutationRate=.03
+ProjectGiro LOG 10:31.34.471>	tournamentSize=4
+ProjectGiro LOG 10:31.34.471>	selectionPercentage=.60
+ProjectGiro LOG 10:31.34.471>	lookbackLevel=3
+ProjectGiro LOG 10:31.34.471>	TrigIncrementAmount=.00
+ProjectGiro LOG 10:31.34.471>	loadedStrategieRatio=.40
+ProjectGiro LOG 10:31.34.471>	threads=6
+ProjectGiro LOG 10:31.34.472>	startingMoney=1000000
+ProjectGiro LOG 10:31.34.472>	numStrategiesToSave=15
+ProjectGiro LOG 10:31.34.472>	dayTriggerThreshold=.2
+ProjectGiro LOG 10:31.34.472>	performanceTest=True
+ProjectGiro LOG 10:31.34.472>	incrementDayThresholdGens=0
+ProjectGiro LOG 10:31.34.472>	tradeOnLossPunishment=.00
+ProjectGiro LOG 10:31.34.472>	tradeCountLimit=400
+ProjectGiro LOG 10:31.34.472>	generations=70
+ProjectGiro LOG 10:31.34.472>	Initiating analysis of 1 securities
+ProjectGiro LOG 10:31.34.495>	StockData/WIFI:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 10:31.34.495>	Using stored data for WIFI
+ProjectGiro LOG 10:31.34.501>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 10:31.34.501>	Using stored data for ^IXIC
+ProjectGiro LOG 10:31.34.505>	WIFI Technical indicator calculations complete
+ProjectGiro LOG 10:31.34.557>	Loading 102 stored strategies
+ProjectGiro LOG 10:31.34.938>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 10:31.34.938>	Beginning 70 generation simulation of WIFI
+ProjectGiro LOG 10:31.42.560>	WIFI Generation: 0
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: -332079.85		-33.21%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.03
+									Average trade count: 240
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:31.49.960>	WIFI Generation: 1
+									Highest profit this round: 170194.01		17.02%
+									Average profit this round: -184036.96		-18.4%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02975
+									Average trade count: 317
+									Best strategy's trade correctness: 	96.0%
+									Best strategy's trade count: 100
+ProjectGiro LOG 10:31.57.105>	WIFI Generation: 2
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: -99960.54		-10.0%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.0295
+									Average trade count: 355
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.3.947>	WIFI Generation: 3
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: -38207.33		-3.82%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02925
+									Average trade count: 384
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.10.606>	WIFI Generation: 4
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 36053.64		3.61%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.029
+									Average trade count: 396
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.17.289>	WIFI Generation: 5
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 28652.44		2.87%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02875
+									Average trade count: 399
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.23.920>	WIFI Generation: 6
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 11481.86		1.15%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.0285
+									Average trade count: 394
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.30.402>	WIFI Generation: 7
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 42685.39		4.27%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02825
+									Average trade count: 395
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.36.820>	WIFI Generation: 8
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 56008.25		5.6%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.028
+									Average trade count: 396
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.43.631>	WIFI Generation: 9
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 38385.23		3.84%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02775
+									Average trade count: 395
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.50.788>	WIFI Generation: 10
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 42390.36		4.24%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.0275
+									Average trade count: 395
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400
+ProjectGiro LOG 10:32.57.608>	WIFI Generation: 11
+									Highest profit this round: 152225.58		15.22%
+									Average profit this round: 43549.13		4.35%
+									Buy and hold profit: -70312.5
+									Mutation Rate: 0.02725
+									Average trade count: 396
+									Best strategy's trade correctness: 	100.0%
+									Best strategy's trade count: 400

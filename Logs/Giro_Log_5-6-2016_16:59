@@ -1,0 +1,527 @@
+ProjectGiro LOG 16:59.15.394>	Initializing Project GIRO...
+ProjectGiro LOG 16:59.15.417>	transactionCost=6.95
+ProjectGiro LOG 16:59.15.417>	benchmarkingPeriod=60
+ProjectGiro LOG 16:59.15.417>	stopYear=2016
+ProjectGiro LOG 16:59.15.417>	useTodaysDate=True
+ProjectGiro LOG 16:59.15.417>	startDay=23
+ProjectGiro LOG 16:59.15.417>	mutationRateDelta=-0.00
+ProjectGiro LOG 16:59.15.417>	populationSize=184
+ProjectGiro LOG 16:59.15.417>	stopDay=5
+ProjectGiro LOG 16:59.15.417>	triggerThreshold=0.1
+ProjectGiro LOG 16:59.15.417>	startYear=2013
+ProjectGiro LOG 16:59.15.417>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 16:59.15.417>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 16:59.15.417>	stopMonth=4
+ProjectGiro LOG 16:59.15.417>	startMonth=11
+ProjectGiro LOG 16:59.15.417>	mutationRate=0.015
+ProjectGiro LOG 16:59.15.417>	tournamentSize=12
+ProjectGiro LOG 16:59.15.417>	selectionPercentage=0.6
+ProjectGiro LOG 16:59.15.417>	lookbackLevel=3
+ProjectGiro LOG 16:59.15.417>	TrigIncrementAmount=0.00
+ProjectGiro LOG 16:59.15.417>	marginInterestRate=0.0425
+ProjectGiro LOG 16:59.15.417>	loadedStrategieRatio=0.40
+ProjectGiro LOG 16:59.15.417>	threads=1
+ProjectGiro LOG 16:59.15.417>	startingMoney=10000
+ProjectGiro LOG 16:59.15.417>	shortPortfolioRatio=0.3
+ProjectGiro LOG 16:59.15.417>	numStrategiesToSave=1
+ProjectGiro LOG 16:59.15.417>	dayTriggerThreshold=0.1
+ProjectGiro LOG 16:59.15.417>	performanceTest=False
+ProjectGiro LOG 16:59.15.417>	incrementDayThresholdGens=0
+ProjectGiro LOG 16:59.15.418>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 16:59.15.418>	tradeCountLimit=300
+ProjectGiro LOG 16:59.15.418>	generations=60
+ProjectGiro LOG 16:59.15.418>	Initiating analysis of 1 securities
+ProjectGiro LOG 16:59.15.430>	StockData/O:11-23-2013_4-5-2016.txt
+ProjectGiro LOG 16:59.15.431>	Using stored data for O
+ProjectGiro LOG 16:59.15.437>	StockData/^IXIC:11-23-2013_4-5-2016.txt
+ProjectGiro LOG 16:59.15.440>	Using stored data for ^IXIC
+ProjectGiro LOG 16:59.15.444>	O Technical indicator calculations complete
+ProjectGiro LOG 16:59.15.475>	Loading 73 stored strategies
+ProjectGiro LOG 16:59.15.733>	Population initialiazed with 184 investment strategies
+ProjectGiro LOG 16:59.15.734>	Beginning 60 generation simulation of O
+ProjectGiro LOG 16:59.22.437>	O Generation: 0
+									Highest profit this round: 10303.73		103.04%
+									Average profit this round: 5105.0		51.05%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 4
+									Best strategy's trade correctness: 	30.0%
+									Best strategy's trade count: 53
+ProjectGiro LOG 16:59.29.308>	O Generation: 1
+									Highest profit this round: 9736.19		97.36%
+									Average profit this round: 5601.74		56.02%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 7
+									Best strategy's trade correctness: 	50.0%
+									Best strategy's trade count: 8
+ProjectGiro LOG 16:59.35.173>	O Generation: 2
+									Highest profit this round: 9736.19		97.36%
+									Average profit this round: 5383.11		53.83%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	50.0%
+									Best strategy's trade count: 8
+ProjectGiro LOG 16:59.40.334>	O Generation: 3
+									Highest profit this round: 11906.49		119.06%
+									Average profit this round: 6292.65		62.93%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 10
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 16:59.45.80>	O Generation: 4
+									Highest profit this round: 11906.49		119.06%
+									Average profit this round: 6275.28		62.75%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 8
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 16:59.50.426>	O Generation: 5
+									Highest profit this round: 12127.26		121.27%
+									Average profit this round: 6520.5		65.2%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 6
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 16:59.55.654>	O Generation: 6
+									Highest profit this round: 12127.26		121.27%
+									Average profit this round: 6557.23		65.57%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 10
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.0.6620>	O Generation: 7
+									Highest profit this round: 11906.49		119.06%
+									Average profit this round: 7033.45		70.33%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 14
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.5.5120>	O Generation: 8
+									Highest profit this round: 11135.01		111.35%
+									Average profit this round: 6533.54		65.34%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 11
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:0.10.329>	O Generation: 9
+									Highest profit this round: 11909.28		119.09%
+									Average profit this round: 7125.59		71.26%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 11
+									Best strategy's trade correctness: 	42.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.15.545>	O Generation: 10
+									Highest profit this round: 11904.37		119.04%
+									Average profit this round: 7431.59		74.32%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 11
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.20.603>	O Generation: 11
+									Highest profit this round: 11972.88		119.73%
+									Average profit this round: 8208.3		82.08%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 12
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:0.25.889>	O Generation: 12
+									Highest profit this round: 11972.88		119.73%
+									Average profit this round: 9069.12		90.69%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 16
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:0.31.273>	O Generation: 13
+									Highest profit this round: 12097.76		120.98%
+									Average profit this round: 9148.25		91.48%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:0.37.220>	O Generation: 14
+									Highest profit this round: 12167.21		121.67%
+									Average profit this round: 9740.01		97.4%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:0.42.761>	O Generation: 15
+									Highest profit this round: 12527.89		125.28%
+									Average profit this round: 10350.37		103.5%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 16
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.48.295>	O Generation: 16
+									Highest profit this round: 12527.89		125.28%
+									Average profit this round: 8365.19		83.65%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 14
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.54.470>	O Generation: 17
+									Highest profit this round: 12527.89		125.28%
+									Average profit this round: 10104.95		101.05%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:0.59.804>	O Generation: 18
+									Highest profit this round: 13170.56		131.71%
+									Average profit this round: 10082.46		100.82%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:1.5.7960>	O Generation: 19
+									Highest profit this round: 13337.55		133.38%
+									Average profit this round: 10775.68		107.76%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 16
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 21
+ProjectGiro LOG 17:1.12.281>	O Generation: 20
+									Highest profit this round: 13350.15		133.5%
+									Average profit this round: 10240.92		102.41%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 16
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 19
+ProjectGiro LOG 17:1.18.383>	O Generation: 21
+									Highest profit this round: 13518.55		135.19%
+									Average profit this round: 9110.02		91.1%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 18
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 21
+ProjectGiro LOG 17:1.24.493>	O Generation: 22
+									Highest profit this round: 13689.78		136.9%
+									Average profit this round: 9115.38		91.15%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:1.30.469>	O Generation: 23
+									Highest profit this round: 13689.78		136.9%
+									Average profit this round: 10036.39		100.36%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:1.36.525>	O Generation: 24
+									Highest profit this round: 13926.24		139.26%
+									Average profit this round: 9780.87		97.81%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:1.43.186>	O Generation: 25
+									Highest profit this round: 13827.35		138.27%
+									Average profit this round: 10553.53		105.54%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 18
+									Best strategy's trade correctness: 	43.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:1.49.585>	O Generation: 26
+									Highest profit this round: 13827.35		138.27%
+									Average profit this round: 9577.08		95.77%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 19
+									Best strategy's trade correctness: 	43.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:1.56.659>	O Generation: 27
+									Highest profit this round: 13873.21		138.73%
+									Average profit this round: 9603.57		96.04%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 17
+									Best strategy's trade correctness: 	47.0%
+									Best strategy's trade count: 17
+ProjectGiro LOG 17:2.2.9450>	O Generation: 28
+									Highest profit this round: 14106.89		141.07%
+									Average profit this round: 10490.04		104.9%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 18
+									Best strategy's trade correctness: 	43.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:2.9.4360>	O Generation: 29
+									Highest profit this round: 14106.89		141.07%
+									Average profit this round: 9360.39		93.6%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	43.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:2.15.837>	O Generation: 30
+									Highest profit this round: 14240.73		142.41%
+									Average profit this round: 10205.84		102.06%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 16
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:2.22.770>	O Generation: 31
+									Highest profit this round: 14525.34		145.25%
+									Average profit this round: 11385.88		113.86%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 18
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:2.28.385>	O Generation: 32
+									Highest profit this round: 14532.6		145.33%
+									Average profit this round: 9531.69		95.32%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:2.34.686>	O Generation: 33
+									Highest profit this round: 14958.78		149.59%
+									Average profit this round: 10507.81		105.08%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 19
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:2.41.243>	O Generation: 34
+									Highest profit this round: 14958.78		149.59%
+									Average profit this round: 10828.22		108.28%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 20
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:2.47.680>	O Generation: 35
+									Highest profit this round: 15421.02		154.21%
+									Average profit this round: 11284.26		112.84%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 21
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:2.54.264>	O Generation: 36
+									Highest profit this round: 15782.19		157.82%
+									Average profit this round: 11265.38		112.65%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:3.0.6400>	O Generation: 37
+									Highest profit this round: 15938.96		159.39%
+									Average profit this round: 11816.9		118.17%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	48.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 17:3.6.8720>	O Generation: 38
+									Highest profit this round: 16717.42		167.17%
+									Average profit this round: 12037.01		120.37%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.13.483>	O Generation: 39
+									Highest profit this round: 16717.42		167.17%
+									Average profit this round: 11794.23		117.94%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.19.976>	O Generation: 40
+									Highest profit this round: 16954.83		169.55%
+									Average profit this round: 12343.47		123.43%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 24
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.26.540>	O Generation: 41
+									Highest profit this round: 16954.83		169.55%
+									Average profit this round: 11549.06		115.49%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.32.911>	O Generation: 42
+									Highest profit this round: 17121.62		171.22%
+									Average profit this round: 13489.32		134.89%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 25
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.39.548>	O Generation: 43
+									Highest profit this round: 17207.46		172.07%
+									Average profit this round: 10766.88		107.67%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 19
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.46.100>	O Generation: 44
+									Highest profit this round: 17207.46		172.07%
+									Average profit this round: 11268.96		112.69%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 21
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.52.795>	O Generation: 45
+									Highest profit this round: 17207.46		172.07%
+									Average profit this round: 12751.32		127.51%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:3.59.890>	O Generation: 46
+									Highest profit this round: 17525.34		175.25%
+									Average profit this round: 13008.58		130.09%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.8.8710>	O Generation: 47
+									Highest profit this round: 17525.34		175.25%
+									Average profit this round: 13006.84		130.07%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.16.671>	O Generation: 48
+									Highest profit this round: 17687.29		176.87%
+									Average profit this round: 13365.68		133.66%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 24
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.23.996>	O Generation: 49
+									Highest profit this round: 17687.29		176.87%
+									Average profit this round: 13436.53		134.37%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.30.810>	O Generation: 50
+									Highest profit this round: 17857.15		178.57%
+									Average profit this round: 12660.97		126.61%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 22
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.36.499>	O Generation: 51
+									Highest profit this round: 17857.15		178.57%
+									Average profit this round: 12539.1		125.39%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.44.579>	O Generation: 52
+									Highest profit this round: 17932.43		179.32%
+									Average profit this round: 13273.86		132.74%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 24
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 27
+ProjectGiro LOG 17:4.52.379>	O Generation: 53
+									Highest profit this round: 18099.04		180.99%
+									Average profit this round: 13179.12		131.79%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:4.59.449>	O Generation: 54
+									Highest profit this round: 18099.04		180.99%
+									Average profit this round: 13111.61		131.12%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 25
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.7.2970>	O Generation: 55
+									Highest profit this round: 18174.97		181.75%
+									Average profit this round: 12291.3		122.91%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.15.457>	O Generation: 56
+									Highest profit this round: 18313.43		183.13%
+									Average profit this round: 13591.78		135.92%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.23.139>	O Generation: 57
+									Highest profit this round: 18313.43		183.13%
+									Average profit this round: 13241.71		132.42%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.30.220>	O Generation: 58
+									Highest profit this round: 18313.43		183.13%
+									Average profit this round: 14268.06		142.68%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.37.796>	O Generation: 59
+									Highest profit this round: 18341.41		183.41%
+									Average profit this round: 12923.45		129.23%
+									Buy and hold profit: 6470.1181158
+									Mutation Rate: 0.015
+									Average trade count: 23
+									Best strategy's trade correctness: 	44.0%
+									Best strategy's trade count: 25
+ProjectGiro LOG 17:5.37.923>	O action recommendation: No Action - leaning towards SELL
+ProjectGiro LOG 17:5.37.929>	['O', 'No Action - leaning towards SELL', 0.0]
+ProjectGiro LOG 17:5.37.930>	Results: 
+                              O No Action - leaning towards SELL        0.0
+
+ProjectGiro LOG 17:5.37.930>	GIRO total execution time: 382.535235882

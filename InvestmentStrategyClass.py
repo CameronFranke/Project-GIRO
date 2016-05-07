@@ -12,7 +12,7 @@ import numpy as np
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment, tradeLimit):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment, tradeLimit, shortRatio, marginInterest):
 
         self.indicatorsUsed = indicatorsUsed
         self.lookback = lookbackLevel
@@ -33,6 +33,8 @@ class InvestmentStrategy():
         self.relativeCorrectness = 0
         self.tradeLimit = tradeLimit
         self.buysellScores = [0,0]
+        self.shortRatio = float(shortRatio)
+        self.marginInterest = float(marginInterest)
 
 
     def print_constraints(self):
@@ -43,9 +45,11 @@ class InvestmentStrategy():
                 for constraint in self.constraints[day][indicator]:
                     print("\t\t" + constraint + ": " + str(self.constraints[day][indicator][constraint]))
 
+
     def save_constraint_set(self, savefileName):
         savefile = open(savefileName, "a")
         savefile.write(str(self.constraints) + "\n")
+        return self.constraints
 
 
     def compute_fitness_score(self):
@@ -55,101 +59,10 @@ class InvestmentStrategy():
         myCash = self.startingCash
         invested = 0
         valueOnLastAction = self.startingCash
-        for dayIndex in range(self.lookback, len(self.historicalData)):
-            lastTrade = "NULL"
-            invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
-            lookbackTriggers = [0]*self.lookback
-
-            for lookbackIndex in range(self.lookback):
-                buySignals = 0
-                sellSignals = 0
-
-                for indicator in self.indicatorsUsed:
-                    value = self.historicalData[dayIndex][indicator]
-                    if self.constraints[lookbackIndex][indicator]["BuyUpper"] > value > self.constraints[lookbackIndex][indicator]["BuyLower"]:
-                        buySignals += 1
-                    elif self.constraints[lookbackIndex][indicator]["SellUpper"] > value > self.constraints[lookbackIndex][indicator]["SellLower"]:
-                        sellSignals += 1
-
-                if buySignals > sellSignals and buySignals > self.triggerThreshold:    # if buy trigger
-                    lookbackTriggers[lookbackIndex] = 'b'
-
-                elif sellSignals > buySignals and sellSignals > self.triggerThreshold:  # if sell trigger
-                    lookbackTriggers[lookbackIndex] = 's'
-
-            # count up lookback signals
-            if (lookbackTriggers.count('b') - lookbackTriggers.count('s')) > self.lookbackThreshold:
-                self.actionCount += 1
-                if myCash != 0:
-                    invested = myCash - self.transactionCost
-                    if invested < valueOnLastAction:
-                        invested = invested * (1-self.punishment)
-                        self.badTrades += 1
-                    myCash = 0
-                    trades += 1
-                    lastTrade = "BUY/COVER"
-                    valueOnLastAction = invested
-                else:
-                    lastTrade = "BUY/COVER"
-
-            elif (lookbackTriggers.count('s') - lookbackTriggers.count('b')) > self.lookbackThreshold:
-                self.actionCount += 1
-                if invested != 0:
-                    myCash = invested - self.transactionCost
-                    if myCash < valueOnLastAction:
-                        myCash = myCash * (1-self.punishment)
-                        self.badTrades += 1
-                    invested = 0
-                    trades += 1
-                    lastTrade = "SELL/SHORT"
-                    valueOnLastAction = myCash
-                else:
-                    lastTrade = "SELL/SHORT"
-
-            if self.actionCount >= self.tradeLimit:
-                break
-
-            if self.Debug:
-                gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
-
-        if invested != 0:
-            profit = invested - self.startingCash
-        else:
-            profit = myCash - self.startingCash
-        self.profit = profit
-        if self.Debug:
-            gu.log("Profit: " + str(profit))
-            gu.log("Number of trades: " + str(trades))
-
-        # aggregate fitness scoring
-        if trades > 0:
-            profitPerTrade = profit/float(trades)
-        else:
-            profitPerTrade = 0
-        if self.Debug: gu.log("Average profit per trade: " + str(profitPerTrade))
-
-        if trades > 0:
-            self.fitnessScore = profit
-
-        if lastTrade != "":
-            self.finalTrade = lastTrade
-
-        if self.actionCount > 0:
-            self.relativeCorrectness = 1 - (float(self.badTrades)/float(self.actionCount))
-
-
-    def compute_fitness_score_2(self):
-        self.actionCount = 0
-        self.badTrades = 0
-        trades = 0
-        myCash = self.startingCash
-        invested = 0
-        valueOnLastAction = self.startingCash
 
         for dayIndex in range(self.lookback, len(self.historicalData)):
             lastTrade = "NULL"
             invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])      # update value of investments
-            triggers = []
 
             dayBuyStrength = 0
             daySellStrength = 0
@@ -170,8 +83,9 @@ class InvestmentStrategy():
             self.buysellScores = [dayBuyStrength, daySellStrength]
             # count up lookback signals
             if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
-                self.actionCount += 1
+
                 if myCash != 0:
+                    self.actionCount += 1
                     invested = myCash - self.transactionCost
                     if invested < valueOnLastAction:
                         invested = invested * (1-self.punishment)
@@ -184,8 +98,8 @@ class InvestmentStrategy():
                     lastTrade = "BUY/COVER"
 
             elif (daySellStrength - dayBuyStrength) >= self.triggerThreshold:
-                self.actionCount += 1
                 if invested != 0:
+                    self.actionCount += 1
                     myCash = invested - self.transactionCost
                     if myCash < valueOnLastAction:
                         myCash = myCash * (1-self.punishment)
@@ -227,3 +141,150 @@ class InvestmentStrategy():
 
         if self.actionCount > 0:
             self.relativeCorrectness = 1 - (float(self.badTrades)/float(self.actionCount))
+
+
+    def benchmark(self):
+        gu.log("Benchmarking " + str(self.historicalData))
+        self.compute_fitness_score()
+        startingShares = self.startingCash/self.historicalData[self.lookback]["close"]
+        marketValue = startingShares * self.historicalData[len(self.historicalData)-1]["close"]
+
+        result = "starting money: " + str(self.startingCash) + "\n" +\
+        "share value: " + str(self.historicalData[self.lookback]["close"]) + " on " + str(self.historicalData[self.lookback]["date"]) + "\n" +\
+        "share value: " + str(self.historicalData[len(self.historicalData)-1]["close"]) + " on " + str(self.historicalData[len(self.historicalData)-1]["date"])+ "\n" +\
+        "profit: " + str(self.profit) + "\n" +\
+        "Buy + hold profit: " + str(marketValue - self.startingCash) + "\n" +\
+        "Trade count: " + str(self.actionCount)
+
+        if self.startingCash + self.profit > marketValue:
+            result += ("\n ------------------------ MONEY")
+
+        return result
+
+
+    def compute_options_fitness_score(self):
+
+        self.actionCount = 0
+        self.badTrades = 0
+        shortLoan = 0
+        loanInterest = self.marginInterest
+        shortedShares = 0
+        trades = 0
+        myCash = self.startingCash
+        invested = 0
+        valueOnLastAction = self.startingCash
+        dayCounter = 0
+
+        for dayIndex in range(self.lookback, len(self.historicalData)):
+            lastTrade = "NULL"
+            invested = invested * (1 + self.historicalData[dayIndex]["dayChange"])  # update value of investments
+
+
+            dayCounter +=1
+            if dayCounter >= 21:
+                #gu.log("DEBUG: Loan update from: " + str(shortLoan))
+                shortLoan = shortLoan * (1 - loanInterest)  #update for approximate monthly penalty compounding
+                #gu.log("DEBUG: Loan update to: " + str(shortLoan))
+
+            portfolioValue = invested + myCash #one of these values will be zero so it will just hold the actual protfolio value
+
+            dayBuyStrength = 0
+            daySellStrength = 0
+            for indicator in self.constraints[0]:
+                value = self.historicalData[dayIndex][indicator]
+                contstraintBuyTriggers = 0
+                contstraintSellTriggers = 0
+                for day in range(self.lookback):
+                    if self.constraints[day][indicator]["BuyUpper"] > value > self.constraints[day][indicator][
+                        "BuyLower"]:
+                        contstraintBuyTriggers += 1
+                    if self.constraints[day][indicator]["SellUpper"] > value > self.constraints[day][indicator][
+                        "SellLower"]:
+                        contstraintSellTriggers += 1
+                if contstraintBuyTriggers - contstraintSellTriggers >= self.lookbackThreshold:
+                    dayBuyStrength += (1 * self.constraints[day][indicator]["BuyWeight"])
+                elif contstraintSellTriggers - contstraintBuyTriggers >= self.lookbackThreshold:
+                    daySellStrength += (1 * self.constraints[day][indicator]["SellWeight"])
+
+            self.buysellScores = [dayBuyStrength, daySellStrength]
+            # count up lookback signals
+            if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
+                if myCash != 0:
+                    self.actionCount += 1
+                    if shortedShares > 0:               # cover position
+                        marketvalue = shortedShares * self.historicalData[dayIndex]["close"]
+                        shortProfit = shortLoan - marketvalue
+                        myCash += shortProfit
+                        shortedShares = 0.0
+                        shortLoan = 0.0
+
+                        #debug = ("DEBUG: short profit: " + str(shortProfit))
+                        #if shortProfit > 0:
+                        #    debug += "**********"
+                        #    gu.log(debug)
+
+                    invested = myCash - self.transactionCost
+                    if invested < valueOnLastAction:
+                        invested = invested * (1 - self.punishment)
+                        self.badTrades += 1
+                    myCash = 0
+                    trades += 1
+                    lastTrade = "BUY/COVER"
+                    valueOnLastAction = invested
+                else:
+                    lastTrade = "BUY/COVER"
+
+            elif (daySellStrength - dayBuyStrength) >= self.triggerThreshold:
+                if invested != 0:
+                    self.actionCount += 1
+                    myCash = invested - self.transactionCost
+                    if myCash < valueOnLastAction:
+                        myCash = myCash * (1 - self.punishment)
+                        self.badTrades += 1
+                    invested = 0
+                    trades += 1
+                    lastTrade = "SELL/SHORT"
+                    valueOnLastAction = myCash
+                else:
+                    lastTrade = "SELL/SHORT"
+
+                #gu.log(shortLoan)
+
+                if shortLoan == 0.0:
+                    #gu.log("DEBUG: shorting")
+                    shortLoan = portfolioValue * self.shortRatio
+                    #gu.log("DEBUG: Loan: " + str(shortLoan))
+                    shortedShares = shortLoan/float(self.historicalData[dayIndex]["close"])
+                    #gu.log("DEBUG: shares: " + str(shortedShares))
+
+            if self.actionCount >= self.tradeLimit:
+                break
+
+            if self.Debug:
+                gu.log("Cash = " + str(myCash) + " \t Invested: " + str(invested))
+
+        if invested != 0:
+            profit = invested - self.startingCash
+        else:
+            profit = myCash - self.startingCash
+        self.profit = profit
+        if self.Debug:
+            gu.log("Profit: " + str(profit))
+            gu.log("Number of trades: " + str(trades))
+
+        # aggregate fitness scoring
+        if trades > 0:
+            profitPerTrade = profit / float(trades)
+        else:
+            profitPerTrade = 0
+        if self.Debug: gu.log("Average profit per trade: " + str(profitPerTrade))
+
+        if trades > 0:
+            self.fitnessScore = profit
+
+        if lastTrade != "":
+            self.finalTrade = lastTrade
+
+        if self.actionCount > 0:
+            self.relativeCorrectness = 1 - (float(self.badTrades) / float(self.actionCount))
+

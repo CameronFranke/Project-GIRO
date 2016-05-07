@@ -1,0 +1,233 @@
+ProjectGiro LOG 16:13.53.301>	Initializing Project GIRO...
+ProjectGiro LOG 16:13.53.318>	transactionCost=6.95
+ProjectGiro LOG 16:13.53.318>	benchmarkingPeriod=36
+ProjectGiro LOG 16:13.53.318>	stopYear=2016
+ProjectGiro LOG 16:13.53.318>	useTodaysDate=True
+ProjectGiro LOG 16:13.53.318>	startDay=23
+ProjectGiro LOG 16:13.53.318>	mutationRateDelta=-.00025
+ProjectGiro LOG 16:13.53.318>	populationSize=128
+ProjectGiro LOG 16:13.53.318>	stopDay=13
+ProjectGiro LOG 16:13.53.318>	triggerThreshold=0.2
+ProjectGiro LOG 16:13.53.318>	startYear=2013
+ProjectGiro LOG 16:13.53.318>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 16:13.53.318>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 16:13.53.318>	stopMonth=3
+ProjectGiro LOG 16:13.53.318>	startMonth=11
+ProjectGiro LOG 16:13.53.318>	mutationRate=0.06
+ProjectGiro LOG 16:13.53.318>	tournamentSize=3
+ProjectGiro LOG 16:13.53.318>	selectionPercentage=0.60
+ProjectGiro LOG 16:13.53.318>	lookbackLevel=3
+ProjectGiro LOG 16:13.53.318>	TrigIncrementAmount=0.00
+ProjectGiro LOG 16:13.53.318>	marginInterestRate=0.0425
+ProjectGiro LOG 16:13.53.318>	loadedStrategieRatio=0.40
+ProjectGiro LOG 16:13.53.318>	threads=1
+ProjectGiro LOG 16:13.53.318>	startingMoney=100000
+ProjectGiro LOG 16:13.53.318>	shortPortfolioRatio=0.3
+ProjectGiro LOG 16:13.53.318>	numStrategiesToSave=15
+ProjectGiro LOG 16:13.53.318>	dayTriggerThreshold=0.2
+ProjectGiro LOG 16:13.53.318>	performanceTest=True
+ProjectGiro LOG 16:13.53.318>	incrementDayThresholdGens=0
+ProjectGiro LOG 16:13.53.318>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 16:13.53.318>	tradeCountLimit=50
+ProjectGiro LOG 16:13.53.318>	generations=50
+ProjectGiro LOG 16:13.53.319>	Initiating analysis of 1 securities
+ProjectGiro LOG 16:13.53.326>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 16:13.53.326>	Using stored data for EA
+ProjectGiro LOG 16:13.53.331>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 16:13.53.331>	Using stored data for ^IXIC
+ProjectGiro LOG 16:13.53.334>	EA Technical indicator calculations complete
+ProjectGiro LOG 16:13.53.363>	Strategy file read error
+ProjectGiro LOG 16:13.53.363>	Loading 51 stored strategies
+ProjectGiro LOG 16:13.53.557>	Population initialiazed with 128 investment strategies
+ProjectGiro LOG 16:13.53.557>	Beginning 50 generation simulation of EA
+ProjectGiro LOG 16:13.54.117>	DEBUG: short profit: -46259.234177
+ProjectGiro LOG 16:13.54.589>	DEBUG: short profit: -44376.7591662
+ProjectGiro LOG 16:13.54.831>	DEBUG: short profit: -66839.3770723
+ProjectGiro LOG 16:13.54.953>	DEBUG: short profit: -40305.7245237
+ProjectGiro LOG 16:13.55.11>	DEBUG: short profit: -74436.7402474
+ProjectGiro LOG 16:13.55.245>	DEBUG: short profit: -19907.1799536
+ProjectGiro LOG 16:13.57.145>	DEBUG: short profit: -81718.915644
+ProjectGiro LOG 16:13.57.662>	EA Generation: 0
+									Highest profit this round: 122280.03		122.28%
+									Average profit this round: 104544.33		104.54%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.06
+									Average trade count: 1
+									Best strategy's trade correctness: 	50.0%
+									Best strategy's trade count: 2
+ProjectGiro LOG 16:13.58.582>	DEBUG: short profit: -39200.1078286
+ProjectGiro LOG 16:13.58.594>	DEBUG: short profit: -70187.1660305
+ProjectGiro LOG 16:14.0.243>	DEBUG: short profit: -3584.42729465
+ProjectGiro LOG 16:14.0.921>	DEBUG: short profit: -49326.2767752
+ProjectGiro LOG 16:14.1.347>	DEBUG: short profit: -88653.2538832
+ProjectGiro LOG 16:14.1.352>	DEBUG: short profit: -13914.7787238
+ProjectGiro LOG 16:14.1.841>	EA Generation: 1
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 105711.55		105.71%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05975
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.2.735>	DEBUG: short profit: -66931.7843579
+ProjectGiro LOG 16:14.3.489>	DEBUG: short profit: -12145.9060203
+ProjectGiro LOG 16:14.3.742>	DEBUG: short profit: -12145.9060203
+ProjectGiro LOG 16:14.4.464>	DEBUG: short profit: -24780.634885
+ProjectGiro LOG 16:14.4.469>	DEBUG: short profit: -33656.5280689
+ProjectGiro LOG 16:14.4.484>	DEBUG: short profit: -38835.724702
+ProjectGiro LOG 16:14.4.491>	DEBUG: short profit: -13529.9924892
+ProjectGiro LOG 16:14.4.704>	DEBUG: short profit: -70027.1071699
+ProjectGiro LOG 16:14.4.951>	DEBUG: short profit: -23880.9800837
+ProjectGiro LOG 16:14.4.970>	DEBUG: short profit: -20124.4659355
+ProjectGiro LOG 16:14.5.361>	DEBUG: short profit: -20984.4338897
+ProjectGiro LOG 16:14.5.402>	DEBUG: short profit: -9545.4236983
+ProjectGiro LOG 16:14.5.889>	DEBUG: short profit: -61614.4196692
+ProjectGiro LOG 16:14.6.530>	EA Generation: 2
+									Highest profit this round: 116090.78		116.09%
+									Average profit this round: 104771.33		104.77%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.0595
+									Average trade count: 1
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 3
+ProjectGiro LOG 16:14.6.142>	DEBUG: short profit: -23673.7462852
+ProjectGiro LOG 16:14.6.151>	DEBUG: short profit: -25237.3451006
+ProjectGiro LOG 16:14.6.154>	DEBUG: short profit: -27571.9893057
+ProjectGiro LOG 16:14.6.800>	DEBUG: short profit: -23673.7462852
+ProjectGiro LOG 16:14.6.809>	DEBUG: short profit: -25237.3451006
+ProjectGiro LOG 16:14.6.811>	DEBUG: short profit: -27571.9893057
+ProjectGiro LOG 16:14.6.875>	DEBUG: short profit: -89818.0506859
+ProjectGiro LOG 16:14.8.908>	DEBUG: short profit: -24507.1921981
+ProjectGiro LOG 16:14.9.579>	DEBUG: short profit: -14321.2107146
+ProjectGiro LOG 16:14.9.719>	DEBUG: short profit: -62437.224142
+ProjectGiro LOG 16:14.9.723>	DEBUG: short profit: -40142.2241921
+ProjectGiro LOG 16:14.9.943>	DEBUG: short profit: -17073.184305
+ProjectGiro LOG 16:14.10.252>	EA Generation: 3
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 104509.81		104.51%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05925
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.10.710>	DEBUG: short profit: -81651.4487407
+ProjectGiro LOG 16:14.11.150>	DEBUG: short profit: -40216.3517766
+ProjectGiro LOG 16:14.11.153>	DEBUG: short profit: -36934.9282478
+ProjectGiro LOG 16:14.11.167>	DEBUG: short profit: -24846.9216247
+ProjectGiro LOG 16:14.11.505>	DEBUG: short profit: -40216.3517766
+ProjectGiro LOG 16:14.11.508>	DEBUG: short profit: -36934.9282478
+ProjectGiro LOG 16:14.11.522>	DEBUG: short profit: -24846.9216247
+ProjectGiro LOG 16:14.12.20>	DEBUG: short profit: -30929.6729714
+ProjectGiro LOG 16:14.12.672>	DEBUG: short profit: -81651.4487407
+ProjectGiro LOG 16:14.12.802>	DEBUG: short profit: -81651.4487407
+ProjectGiro LOG 16:14.12.952>	DEBUG: short profit: -31331.2559691
+ProjectGiro LOG 16:14.13.356>	DEBUG: short profit: -13371.3966281
+ProjectGiro LOG 16:14.13.455>	DEBUG: short profit: -53304.965736
+ProjectGiro LOG 16:14.13.825>	DEBUG: short profit: -23276.8926084
+ProjectGiro LOG 16:14.13.843>	DEBUG: short profit: -25184.6975157
+ProjectGiro LOG 16:14.14.34>	DEBUG: short profit: -28974.7525913
+ProjectGiro LOG 16:14.14.36>	DEBUG: short profit: -14305.018316
+ProjectGiro LOG 16:14.14.46>	DEBUG: short profit: -7047.90358471
+ProjectGiro LOG 16:14.14.48>	DEBUG: short profit: -17144.808188
+ProjectGiro LOG 16:14.14.55>	DEBUG: short profit: -15489.1685033
+ProjectGiro LOG 16:14.14.56>	DEBUG: short profit: -8141.42004016
+ProjectGiro LOG 16:14.14.522>	EA Generation: 4
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 94104.04		94.1%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.059
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.17.809>	DEBUG: short profit: -18974.0676059
+ProjectGiro LOG 16:14.18.681>	EA Generation: 5
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 108855.34		108.86%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05875
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.19.686>	DEBUG: short profit: -56479.9692132
+ProjectGiro LOG 16:14.20.624>	DEBUG: short profit: -49469.6799565
+ProjectGiro LOG 16:14.22.156>	DEBUG: short profit: -9387.26012773
+ProjectGiro LOG 16:14.22.604>	DEBUG: short profit: -18239.9189368
+ProjectGiro LOG 16:14.22.607>	DEBUG: short profit: -21417.326678
+ProjectGiro LOG 16:14.22.616>	DEBUG: short profit: -24203.1523003
+ProjectGiro LOG 16:14.22.623>	DEBUG: short profit: -30819.267543
+ProjectGiro LOG 16:14.22.888>	DEBUG: short profit: -76561.2420965
+ProjectGiro LOG 16:14.22.890>	DEBUG: short profit: -8118.05893809
+ProjectGiro LOG 16:14.22.986>	EA Generation: 6
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 105815.09		105.82%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.0585
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.24.222>	DEBUG: short profit: -52227.7963018
+ProjectGiro LOG 16:14.25.111>	DEBUG: short profit: -18492.9341979
+ProjectGiro LOG 16:14.26.643>	DEBUG: short profit: -68101.2446375
+ProjectGiro LOG 16:14.27.154>	EA Generation: 7
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 106114.13		106.11%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05825
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.29.736>	DEBUG: short profit: -73960.4214761
+ProjectGiro LOG 16:14.30.755>	DEBUG: short profit: -46969.8323084
+ProjectGiro LOG 16:14.31.321>	EA Generation: 8
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 106936.76		106.94%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.058
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.33.99>	DEBUG: short profit: -17252.3097345
+ProjectGiro LOG 16:14.34.325>	DEBUG: short profit: -73786.6454503
+ProjectGiro LOG 16:14.35.478>	EA Generation: 9
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 108225.04		108.23%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05775
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.38.163>	DEBUG: short profit: -11276.9195797
+ProjectGiro LOG 16:14.38.166>	DEBUG: short profit: -19239.446138
+ProjectGiro LOG 16:14.38.167>	DEBUG: short profit: -16540.3881515
+ProjectGiro LOG 16:14.38.169>	DEBUG: short profit: -12876.5233055
+ProjectGiro LOG 16:14.38.172>	DEBUG: short profit: -18084.927976
+ProjectGiro LOG 16:14.39.626>	EA Generation: 10
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 108102.35		108.1%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.0575
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.42.199>	DEBUG: short profit: -66570.0938242
+ProjectGiro LOG 16:14.43.804>	EA Generation: 11
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 108034.2		108.03%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.05725
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.44.572>	DEBUG: short profit: -15266.7147201
+ProjectGiro LOG 16:14.45.199>	DEBUG: short profit: -15266.7147201
+ProjectGiro LOG 16:14.45.811>	DEBUG: short profit: -15266.7147201
+ProjectGiro LOG 16:14.48.70>	EA Generation: 12
+									Highest profit this round: 108983.17		108.98%
+									Average profit this round: 108683.36		108.68%
+									Buy and hold profit: 155333.926944
+									Mutation Rate: 0.057
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:14.49.567>	DEBUG: short profit: -16426.9848427
+ProjectGiro LOG 16:14.50.365>	DEBUG: short profit: -16426.9848427

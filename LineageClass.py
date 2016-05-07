@@ -63,9 +63,13 @@ class Lineage():
         self.stored_strategies = []
         self.benchmarkset = []
         self.debug = True
+        self.buyandholdprofit = 0
+        self.settings['shortPortfolioRation'] = float(self.settings['shortPortfolioRatio'])
+        self.settings['marginInterestRate'] = float(self.settings['marginInterestRate'])
 
 
     def evolve(self):
+
         gu.log("Beginning " + str(self.generationCount) + " generation simulation of " + self.symbol)
         for generations in range(self.generationCount):
             self.compute_fitness_scores()
@@ -76,10 +80,11 @@ class Lineage():
             gu.log(self.symbol + " Generation: " + str(generations) +
                    "\n\t\t\t\t\t\t\t\t\tHighest profit this round: " + str(round(max(self.fitnessScores), 2)) + "\t\t" + str(round((max(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
                    "\n\t\t\t\t\t\t\t\t\tAverage profit this round: " + str(round(np.average(self.fitnessScores), 2)) + "\t\t" + str(round((np.average(self.fitnessScores))/self.startingMoney*100, 2)) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tBuy and hold profit: " + str(self.buyandholdprofit) +
                    "\n\t\t\t\t\t\t\t\t\tMutation Rate: " + str(self.mutationRate) +
                    "\n\t\t\t\t\t\t\t\t\tAverage trade count: " + str(actions) +
-                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade correctness: \t" + str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%" +
-                   "\n\t\t\t\t\t\t\t\t\tBest strategie's trade count: " + str(self.population[self.bestStrategyIndex].actionCount))
+                   "\n\t\t\t\t\t\t\t\t\tBest strategy's trade correctness: \t" + str(round(self.population[self.bestStrategyIndex].relativeCorrectness, 2)*100) + "%" +
+                   "\n\t\t\t\t\t\t\t\t\tBest strategy's trade count: " + str(self.population[self.bestStrategyIndex].actionCount))
             self.tournament_selection()
             self.uniform_crossover()
             self.mutate_population()
@@ -108,21 +113,33 @@ class Lineage():
                     recommendation += "--CORRECT"
                 else:
                     recommendation += "--INCORRECT"
-
             buysell = self.population[self.bestStrategyIndex].buysellScores
+
             if recommendation == "No Action":
                 if buysell[0] > buysell[1] and self.lastDay["close"] > self.data.pop()["close"]:
                     recommendation += (" - Good model")
                 elif buysell[1] > buysell[0] and self.lastDay["close"] < self.data.pop()["close"]:
                     recommendation += (" - Bad model")
+        else:
+            buysell = self.population[self.bestStrategyIndex].buysellScores
+            if buysell[0] > buysell[1]:
+                recommendation += (" - leaning towards BUY")
+            else:
+                recommendation += (" - leaning towards SELL")
+
 
         filename = "Strategies/" + self.symbol
         savefile = open(filename, "w+")
         savefile.close()
 
         for strategyIndex in range(int(self.settings["numStrategiesToSave"])):
-            self.population[strategyIndex].save_constraint_set(filename)
+            topConstraints = self.population[strategyIndex].save_constraint_set(filename)
 
+        ###########################
+
+        self.test_strategy(topConstraints)
+
+        ###########################
 
         gu.log(self.symbol + " action recommendation: " + recommendation)
 
@@ -148,6 +165,8 @@ class Lineage():
         self.compute_technical_indicators()
         self.compute_indicator_ranges()
         self.partition_benchmark_dataset()  #pulls out data to benchmark with later
+        self.load_stored_strategy()
+        self.get_base_profit()
         self.initialize_population()
 
 
@@ -188,7 +207,7 @@ class Lineage():
     def initialize_population(self):
         # Create the actual range of values that will make up the strategy trigger values
 
-        CONST_RANGE_MULTIPLIER = 1.15
+        CONST_RANGE_MULTIPLIER = 2.0
         initializationRanges = {}
         for indicator in self.indicatorsBeingUsed:
             x = self.indicatorRange[(indicator + "average")] - self.indicatorRange[(indicator + "min")]
@@ -218,7 +237,10 @@ class Lineage():
                                                                               self.startingMoney,
                                                                               self.transactionCost,
                                                                               self.settings["tradeOnLossPunishment"],
-                                                                              self.tradeLimit))
+                                                                              self.tradeLimit,
+                                                                              self.settings['shortPortfolioRatio'],
+                                                                              self.settings['marginInterestRate']))
+
             myStrategies = []
             for x in range(self.lookback):      # number of period lookbacks
                 myTriggers = {}
@@ -250,7 +272,9 @@ class Lineage():
                                                                               self.startingMoney,
                                                                               self.transactionCost,
                                                                               self.settings["tradeOnLossPunishment"],
-                                                                              self.tradeLimit))
+                                                                              self.tradeLimit,
+                                                                              self.settings['shortPortfolioRatio'],
+                                                                              self.settings['marginInterestRate']))
             count +=1
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
@@ -276,15 +300,18 @@ class Lineage():
 
     def compute_fitness_scores(self):
         bestStrategyIndex = 0
+        bestFitnessScore = 0
         scores = []
 
         for strategy in range(self.populationSize):
-            self.population[strategy].compute_fitness_score_2()
-            bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
+            #self.population[strategy].compute_fitness_score()
+            self.population[strategy].compute_fitness_score()
+
             scores.append(self.population[strategy].fitnessScore)
 
             if self.population[strategy].fitnessScore > bestFitnessScore:
                 bestStrategyIndex = strategy
+                bestFitnessScore = self.population[bestStrategyIndex].fitnessScore
 
         self.bestStrategyIndex = bestStrategyIndex
         self.fitnessScores = scores
@@ -343,7 +370,9 @@ class Lineage():
                                                                               self.startingMoney,
                                                                               self.transactionCost,
                                                                               self.settings["tradeOnLossPunishment"],
-                                                                              self.tradeLimit))
+                                                                              self.tradeLimit,
+                                                                              self.settings['shortPortfolioRatio'],
+                                                                              self.settings['marginInterestRate']))
 
 
     def compute_technical_indicators(self):
@@ -515,18 +544,16 @@ class Lineage():
         self.indicatorsBeingUsed.append("aroonUp")
 
 
-    def load_stored_strategie(self):
+    def load_stored_strategy(self):
         try:
             temp = []
-            f = open("Strategies/" + self.symbol)
+            f = open("Strategies/" + self.symbol, "r")
             strategy_text = f.readlines()
             for line in strategy_text:
                 if line != "":
-                    gu.log(line)
                     temp.append(literal_eval(line))
 
             self.stored_strategies = temp
-
 
         except:
             gu.log("Strategy file read error")
@@ -535,8 +562,32 @@ class Lineage():
 
     def partition_benchmark_dataset(self):
         if self.perfTest:
-            for benchmarkDay in range(0, int(self.settings["benchmarkingPeriod"])):
+            for benchmarkDay in range(0, int(self.settings["benchmarkingPeriod"]) + self.lookback):
                 self.benchmarkset.append(self.data.pop())
-            gu.log(self.benchmarkset)
-            gu.log(len(self.benchmarkset))
+            self.benchmarkset.reverse()
         else: return
+
+
+    def test_strategy(self, constraints):
+        if self.perfTest:
+            mystrategy = InvestmentStrategyClass.InvestmentStrategy(constraints,
+                                                                    self.benchmarkset,
+                                                                    self.lookback,
+                                                                    float(self.settings["triggerThreshold"]),
+                                                                    float(self.settings["triggerThreshold"]),
+                                                                    self.indicatorsBeingUsed,
+                                                                    self.startingMoney,
+                                                                    self.transactionCost,
+                                                                    self.settings["tradeOnLossPunishment"],
+                                                                    self.tradeLimit,
+                                                                    self.settings['shortPortfolioRatio'],
+                                                                    self.settings['marginInterestRate']
+                                                                    )
+
+            result = mystrategy.benchmark()
+            gu.log(self.symbol + "\n===================\n" + result)
+
+
+    def get_base_profit(self):
+        startingShares = self.startingMoney / self.data[self.lookback]["close"]
+        self.buyandholdprofit = (startingShares * self.data[len(self.data) - 1]["close"]) - self.startingMoney

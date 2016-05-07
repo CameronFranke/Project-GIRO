@@ -35,7 +35,7 @@ stopMonth=11
 stopDay=23
 useTodaysDate=True
 performanceTest=True
-benchmarkingPeriod=28 (Number of TRADING days, not regular days)
+benchmarkingPeriod=36 (Number of TRADING days, not regular days)
 triggerThreshold=.3
 dayTriggerThreshold=.6
 lookbackLevel=3
@@ -53,6 +53,8 @@ dayTrigIncrementAmount=.00
 TrigIncrementAmount=.00
 tournamentSize=2
 tradeOnLossPunishment=.03
+shortPortfolioRatio = % of portfolio value that is allowed to be loans for a short sell
+marginInterestRate = %(0 to 1) interest on margin loan per MONTH
 
 
 

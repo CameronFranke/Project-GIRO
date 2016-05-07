@@ -1,0 +1,153 @@
+ProjectGiro LOG 18:3.2.9250>	Initializing Project GIRO...
+ProjectGiro LOG 18:3.2.9410>	transactionCost=6.95
+ProjectGiro LOG 18:3.2.9420>	mutationRateDelta=-.00025
+ProjectGiro LOG 18:3.2.9420>	stopYear=2016
+ProjectGiro LOG 18:3.2.9420>	useTodaysDate=True
+ProjectGiro LOG 18:3.2.9420>	startDay=23
+ProjectGiro LOG 18:3.2.9420>	populationSize=100
+ProjectGiro LOG 18:3.2.9420>	stopDay=13
+ProjectGiro LOG 18:3.2.9420>	triggerThreshold=.2
+ProjectGiro LOG 18:3.2.9420>	startYear=2013
+ProjectGiro LOG 18:3.2.9420>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 18:3.2.9420>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 18:3.2.9420>	stopMonth=3
+ProjectGiro LOG 18:3.2.9420>	startMonth=11
+ProjectGiro LOG 18:3.2.9420>	mutationRate=.04
+ProjectGiro LOG 18:3.2.9420>	tournamentSize=5
+ProjectGiro LOG 18:3.2.9420>	selectionPercentage=.60
+ProjectGiro LOG 18:3.2.9420>	lookbackLevel=3
+ProjectGiro LOG 18:3.2.9420>	TrigIncrementAmount=.00
+ProjectGiro LOG 18:3.2.9420>	loadedStrategieRatio=.40
+ProjectGiro LOG 18:3.2.9420>	threads=4
+ProjectGiro LOG 18:3.2.9420>	startingMoney=1000000
+ProjectGiro LOG 18:3.2.9420>	numStrategiesToSave=15
+ProjectGiro LOG 18:3.2.9420>	dayTriggerThreshold=.2
+ProjectGiro LOG 18:3.2.9420>	performanceTest=True
+ProjectGiro LOG 18:3.2.9420>	incrementDayThresholdGens=0
+ProjectGiro LOG 18:3.2.9420>	tradeOnLossPunishment=.03
+ProjectGiro LOG 18:3.2.9420>	tradeCountLimit=100
+ProjectGiro LOG 18:3.2.9420>	generations=2
+ProjectGiro LOG 18:3.2.9420>	Initiating analysis of 4 securities
+ProjectGiro LOG 18:3.2.9510>	StockData/BP:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.2.9510>	No stored data available for BP
+ProjectGiro LOG 18:3.2.9510>	Pulling stock data for BP from yahoo
+ProjectGiro LOG 18:3.2.9510>	Download URL: http://ichart.yahoo.com/table.csv?s=BP&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.2.9520>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.2.9530>	No stored data available for EA
+ProjectGiro LOG 18:3.2.9530>	Pulling stock data for EA from yahoo
+ProjectGiro LOG 18:3.2.9530>	Download URL: http://ichart.yahoo.com/table.csv?s=EA&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.2.9530>	StockData/TSLA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.2.9530>	No stored data available for TSLA
+ProjectGiro LOG 18:3.2.9530>	Pulling stock data for TSLA from yahoo
+ProjectGiro LOG 18:3.2.9530>	Download URL: http://ichart.yahoo.com/table.csv?s=TSLA&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.2.9530>	StockData/HD:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.2.9530>	No stored data available for HD
+ProjectGiro LOG 18:3.2.9540>	Pulling stock data for HD from yahoo
+ProjectGiro LOG 18:3.2.9540>	Download URL: http://ichart.yahoo.com/table.csv?s=HD&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.3.3970>	Creating storage file for EA
+ProjectGiro LOG 18:3.3.4020>	Creating storage file for BP
+ProjectGiro LOG 18:3.3.4050>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.3.4050>	No stored data available for ^IXIC
+ProjectGiro LOG 18:3.3.4050>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:3.3.4050>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.3.4090>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.3.4090>	No stored data available for ^IXIC
+ProjectGiro LOG 18:3.3.4090>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:3.3.4090>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.3.4180>	Creating storage file for TSLA
+ProjectGiro LOG 18:3.3.4260>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.3.4260>	No stored data available for ^IXIC
+ProjectGiro LOG 18:3.3.4260>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:3.3.4260>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=3&e=13&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:3.3.8560>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:3.3.8630>	BP Technical indicator calculations complete
+ProjectGiro LOG 18:3.3.8720>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:3.3.8800>	TSLA Technical indicator calculations complete
+ProjectGiro LOG 18:3.3.8950>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:3.3.8980>	Loading 40 stored strategies
+ProjectGiro LOG 18:3.3.9020>	EA Technical indicator calculations complete
+ProjectGiro LOG 18:3.3.9240>	Loading 40 stored strategies
+ProjectGiro LOG 18:3.3.9360>	Loading 40 stored strategies
+ProjectGiro LOG 18:3.4.6900>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:3.4.6900>	Beginning 2 generation simulation of BP
+ProjectGiro LOG 18:3.4.9500>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:3.4.9500>	Beginning 2 generation simulation of TSLA
+ProjectGiro LOG 18:3.4.1130>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:3.4.1130>	Beginning 2 generation simulation of EA
+ProjectGiro LOG 18:3.5.5530>	EA Generation: 0
+									Highest profit this round: 1576716.52		157.67%
+									Average profit this round: 522810.17		52.28%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:3.5.6020>	BP Generation: 0
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: -99285.19		-9.93%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:3.5.6280>	TSLA Generation: 0
+									Highest profit this round: 1376170.58		137.62%
+									Average profit this round: 219565.61		21.96%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 22
+ProjectGiro LOG 18:3.6.6210>	BP Generation: 1
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: 10829.24		1.08%
+									Mutation Rate: 0.03975
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:3.6.7120>	BP action recommendation: BUY/COVER--CORRECT
+ProjectGiro LOG 18:3.7.2780>	TSLA Generation: 1
+									Highest profit this round: 979228.98		97.92%
+									Average profit this round: 248247.35		24.82%
+									Mutation Rate: 0.03975
+									Average trade count: 96
+									Best strategie's trade correctness: 	86.0%
+									Best strategie's trade count: 36
+ProjectGiro LOG 18:3.7.3490>	TSLA action recommendation: No Action
+ProjectGiro LOG 18:3.7.9690>	EA Generation: 1
+									Highest profit this round: 1657617.75		165.76%
+									Average profit this round: 748104.28		74.81%
+									Mutation Rate: 0.03975
+									Average trade count: 93
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 33
+ProjectGiro LOG 18:3.8.3800>	EA action recommendation: No Action
+ProjectGiro LOG 18:3.8.4080>	Creating storage file for HD
+ProjectGiro LOG 18:3.8.4160>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:3.8.4160>	Using stored data for ^IXIC
+ProjectGiro LOG 18:3.8.4210>	HD Technical indicator calculations complete
+ProjectGiro LOG 18:3.8.4560>	Loading 40 stored strategies
+ProjectGiro LOG 18:3.8.6270>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:3.8.6270>	Beginning 2 generation simulation of HD
+ProjectGiro LOG 18:3.10.340>	HD Generation: 0
+									Highest profit this round: 507492.36		50.75%
+									Average profit this round: 35218.8		3.52%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 34
+ProjectGiro LOG 18:3.12.319>	HD Generation: 1
+									Highest profit this round: 483023.44		48.3%
+									Average profit this round: 175687.07		17.57%
+									Mutation Rate: 0.03975
+									Average trade count: 89
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:3.12.387>	HD action recommendation: BUY/COVER--INCORRECT
+ProjectGiro LOG 18:3.12.398>	['BP', 'BUY/COVER--CORRECT', 6.36]
+ProjectGiro LOG 18:3.12.398>	['HD', 'BUY/COVER--INCORRECT', 3.289]
+ProjectGiro LOG 18:3.12.398>	1 of 2 correct
+ProjectGiro LOG 18:3.12.398>	Results: 
+                             BP             BUY/COVER--CORRECT       6.36
+                             HD           BUY/COVER--INCORRECT      3.289
+                             EA                      No Action        0.0
+                           TSLA                      No Action        0.0
+
+ProjectGiro LOG 18:3.12.398>	GIRO total execution time: 9.47312116623

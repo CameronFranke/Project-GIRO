@@ -1,0 +1,54 @@
+ProjectGiro LOG 17:57.41.915>	Initializing Project GIRO...
+ProjectGiro LOG 17:57.41.935>	transactionCost=6.95
+ProjectGiro LOG 17:57.41.936>	mutationRateDelta=-.00025
+ProjectGiro LOG 17:57.41.936>	stopYear=2016
+ProjectGiro LOG 17:57.41.936>	useTodaysDate=True
+ProjectGiro LOG 17:57.41.936>	startDay=23
+ProjectGiro LOG 17:57.41.936>	populationSize=100
+ProjectGiro LOG 17:57.41.936>	stopDay=1
+ProjectGiro LOG 17:57.41.936>	triggerThreshold=.2
+ProjectGiro LOG 17:57.41.936>	startYear=2013
+ProjectGiro LOG 17:57.41.936>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 17:57.41.936>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 17:57.41.936>	stopMonth=0
+ProjectGiro LOG 17:57.41.936>	startMonth=11
+ProjectGiro LOG 17:57.41.936>	mutationRate=.04
+ProjectGiro LOG 17:57.41.936>	tournamentSize=5
+ProjectGiro LOG 17:57.41.936>	selectionPercentage=.60
+ProjectGiro LOG 17:57.41.936>	lookbackLevel=3
+ProjectGiro LOG 17:57.41.936>	TrigIncrementAmount=.00
+ProjectGiro LOG 17:57.41.936>	loadedStrategieRatio=.40
+ProjectGiro LOG 17:57.41.936>	threads=4
+ProjectGiro LOG 17:57.41.936>	startingMoney=1000000
+ProjectGiro LOG 17:57.41.936>	numStrategiesToSave=15
+ProjectGiro LOG 17:57.41.936>	dayTriggerThreshold=.2
+ProjectGiro LOG 17:57.41.936>	performanceTest=True
+ProjectGiro LOG 17:57.41.936>	incrementDayThresholdGens=0
+ProjectGiro LOG 17:57.41.936>	tradeOnLossPunishment=.03
+ProjectGiro LOG 17:57.41.936>	tradeCountLimit=100
+ProjectGiro LOG 17:57.41.936>	generations=50
+ProjectGiro LOG 17:57.41.936>	Initiating analysis of 4 securities
+ProjectGiro LOG 17:57.41.946>	StockData/BP:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 17:57.41.947>	No stored data available for BP
+ProjectGiro LOG 17:57.41.947>	Pulling stock data for BP from yahoo
+ProjectGiro LOG 17:57.41.947>	Download URL: http://ichart.yahoo.com/table.csv?s=BP&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 17:57.41.948>	StockData/EA:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 17:57.41.948>	No stored data available for EA
+ProjectGiro LOG 17:57.41.948>	Pulling stock data for EA from yahoo
+ProjectGiro LOG 17:57.41.948>	Download URL: http://ichart.yahoo.com/table.csv?s=EA&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 17:57.41.949>	StockData/TSLA:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 17:57.41.949>	No stored data available for TSLA
+ProjectGiro LOG 17:57.41.949>	Pulling stock data for TSLA from yahoo
+ProjectGiro LOG 17:57.41.950>	Download URL: http://ichart.yahoo.com/table.csv?s=TSLA&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 17:57.41.950>	StockData/HD:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 17:57.41.950>	No stored data available for HD
+ProjectGiro LOG 17:57.41.950>	Pulling stock data for HD from yahoo
+ProjectGiro LOG 17:57.41.950>	Download URL: http://ichart.yahoo.com/table.csv?s=HD&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 17:57.42.314>	Creating storage file for HD
+ProjectGiro LOG 17:57.42.320>	Creating storage file for EA
+ProjectGiro LOG 17:57.42.359>	Creating storage file for BP
+ProjectGiro LOG 17:57.42.407>	Creating storage file for TSLA
+ProjectGiro LOG 17:57.42.410>	0 of 0 correct
+ProjectGiro LOG 17:57.42.410>	Results: 
+
+ProjectGiro LOG 17:57.42.411>	GIRO total execution time: 0.495372056961

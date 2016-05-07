@@ -1,0 +1,584 @@
+ProjectGiro LOG 22:40.24.275>	Initializing Project GIRO...
+ProjectGiro LOG 22:40.24.292>	transactionCost=6.95
+ProjectGiro LOG 22:40.24.292>	benchmarkingPeriod=30
+ProjectGiro LOG 22:40.24.292>	stopYear=2016
+ProjectGiro LOG 22:40.24.292>	useTodaysDate=True
+ProjectGiro LOG 22:40.24.292>	startDay=23
+ProjectGiro LOG 22:40.24.292>	mutationRateDelta=-.00025
+ProjectGiro LOG 22:40.24.292>	populationSize=64
+ProjectGiro LOG 22:40.24.292>	stopDay=13
+ProjectGiro LOG 22:40.24.292>	triggerThreshold=.2
+ProjectGiro LOG 22:40.24.292>	startYear=2013
+ProjectGiro LOG 22:40.24.292>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 22:40.24.292>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 22:40.24.292>	stopMonth=3
+ProjectGiro LOG 22:40.24.292>	startMonth=11
+ProjectGiro LOG 22:40.24.292>	mutationRate=.04
+ProjectGiro LOG 22:40.24.292>	tournamentSize=5
+ProjectGiro LOG 22:40.24.292>	selectionPercentage=.60
+ProjectGiro LOG 22:40.24.292>	lookbackLevel=3
+ProjectGiro LOG 22:40.24.292>	TrigIncrementAmount=.00
+ProjectGiro LOG 22:40.24.293>	loadedStrategieRatio=.40
+ProjectGiro LOG 22:40.24.293>	threads=7
+ProjectGiro LOG 22:40.24.293>	startingMoney=120000
+ProjectGiro LOG 22:40.24.293>	numStrategiesToSave=15
+ProjectGiro LOG 22:40.24.293>	dayTriggerThreshold=.2
+ProjectGiro LOG 22:40.24.293>	performanceTest=True
+ProjectGiro LOG 22:40.24.293>	incrementDayThresholdGens=0
+ProjectGiro LOG 22:40.24.293>	tradeOnLossPunishment=.02
+ProjectGiro LOG 22:40.24.293>	tradeCountLimit=100
+ProjectGiro LOG 22:40.24.293>	generations=50
+ProjectGiro LOG 22:40.24.293>	Initiating analysis of 7 securities
+ProjectGiro LOG 22:40.24.303>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.304>	Using stored data for EA
+ProjectGiro LOG 22:40.24.306>	StockData/AMZN:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.306>	Using stored data for AMZN
+ProjectGiro LOG 22:40.24.307>	StockData/GOOG:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.307>	Using stored data for GOOG
+ProjectGiro LOG 22:40.24.308>	StockData/LB:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.308>	Using stored data for LB
+ProjectGiro LOG 22:40.24.309>	StockData/O:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.309>	Using stored data for O
+ProjectGiro LOG 22:40.24.311>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.311>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.313>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.314>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.314>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.314>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.314>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.314>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.315>	AMZN Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.315>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.316>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.316>	StockData/TSLA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.316>	Using stored data for TSLA
+ProjectGiro LOG 22:40.24.318>	StockData/WIFI:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.318>	Using stored data for WIFI
+ProjectGiro LOG 22:40.24.319>	LB Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.319>	EA Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.320>	GOOG Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.321>	O Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.323>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.323>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.325>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:40.24.325>	Using stored data for ^IXIC
+ProjectGiro LOG 22:40.24.329>	TSLA Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.330>	WIFI Technical indicator calculations complete
+ProjectGiro LOG 22:40.24.361>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.362>	No strategies available to load
+ProjectGiro LOG 22:40.24.364>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.364>	No strategies available to load
+ProjectGiro LOG 22:40.24.364>	No strategies available to load
+ProjectGiro LOG 22:40.24.365>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.365>	No strategies available to load
+ProjectGiro LOG 22:40.24.366>	No strategies available to load
+ProjectGiro LOG 22:40.24.366>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.366>	No strategies available to load
+ProjectGiro LOG 22:40.24.366>	No strategies available to load
+ProjectGiro LOG 22:40.24.367>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.367>	No strategies available to load
+ProjectGiro LOG 22:40.24.368>	No strategies available to load
+ProjectGiro LOG 22:40.24.368>	No strategies available to load
+ProjectGiro LOG 22:40.24.368>	No strategies available to load
+ProjectGiro LOG 22:40.24.368>	No strategies available to load
+ProjectGiro LOG 22:40.24.369>	No strategies available to load
+ProjectGiro LOG 22:40.24.370>	No strategies available to load
+ProjectGiro LOG 22:40.24.370>	No strategies available to load
+ProjectGiro LOG 22:40.24.370>	No strategies available to load
+ProjectGiro LOG 22:40.24.370>	No strategies available to load
+ProjectGiro LOG 22:40.24.372>	No strategies available to load
+ProjectGiro LOG 22:40.24.372>	No strategies available to load
+ProjectGiro LOG 22:40.24.372>	No strategies available to load
+ProjectGiro LOG 22:40.24.372>	No strategies available to load
+ProjectGiro LOG 22:40.24.372>	No strategies available to load
+ProjectGiro LOG 22:40.24.373>	No strategies available to load
+ProjectGiro LOG 22:40.24.374>	No strategies available to load
+ProjectGiro LOG 22:40.24.374>	No strategies available to load
+ProjectGiro LOG 22:40.24.374>	No strategies available to load
+ProjectGiro LOG 22:40.24.375>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.375>	No strategies available to load
+ProjectGiro LOG 22:40.24.375>	No strategies available to load
+ProjectGiro LOG 22:40.24.375>	No strategies available to load
+ProjectGiro LOG 22:40.24.376>	No strategies available to load
+ProjectGiro LOG 22:40.24.376>	Loading 25 stored strategies
+ProjectGiro LOG 22:40.24.376>	No strategies available to load
+ProjectGiro LOG 22:40.24.376>	No strategies available to load
+ProjectGiro LOG 22:40.24.376>	No strategies available to load
+ProjectGiro LOG 22:40.24.377>	No strategies available to load
+ProjectGiro LOG 22:40.24.377>	No strategies available to load
+ProjectGiro LOG 22:40.24.377>	No strategies available to load
+ProjectGiro LOG 22:40.24.378>	No strategies available to load
+ProjectGiro LOG 22:40.24.378>	No strategies available to load
+ProjectGiro LOG 22:40.24.378>	No strategies available to load
+ProjectGiro LOG 22:40.24.379>	No strategies available to load
+ProjectGiro LOG 22:40.24.379>	No strategies available to load
+ProjectGiro LOG 22:40.24.379>	No strategies available to load
+ProjectGiro LOG 22:40.24.379>	No strategies available to load
+ProjectGiro LOG 22:40.24.380>	No strategies available to load
+ProjectGiro LOG 22:40.24.380>	No strategies available to load
+ProjectGiro LOG 22:40.24.381>	No strategies available to load
+ProjectGiro LOG 22:40.24.381>	No strategies available to load
+ProjectGiro LOG 22:40.24.381>	No strategies available to load
+ProjectGiro LOG 22:40.24.381>	No strategies available to load
+ProjectGiro LOG 22:40.24.381>	No strategies available to load
+ProjectGiro LOG 22:40.24.382>	No strategies available to load
+ProjectGiro LOG 22:40.24.383>	No strategies available to load
+ProjectGiro LOG 22:40.24.383>	No strategies available to load
+ProjectGiro LOG 22:40.24.383>	No strategies available to load
+ProjectGiro LOG 22:40.24.383>	No strategies available to load
+ProjectGiro LOG 22:40.24.383>	No strategies available to load
+ProjectGiro LOG 22:40.24.384>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.385>	No strategies available to load
+ProjectGiro LOG 22:40.24.386>	No strategies available to load
+ProjectGiro LOG 22:40.24.387>	No strategies available to load
+ProjectGiro LOG 22:40.24.387>	No strategies available to load
+ProjectGiro LOG 22:40.24.387>	No strategies available to load
+ProjectGiro LOG 22:40.24.387>	No strategies available to load
+ProjectGiro LOG 22:40.24.387>	No strategies available to load
+ProjectGiro LOG 22:40.24.388>	No strategies available to load
+ProjectGiro LOG 22:40.24.388>	No strategies available to load
+ProjectGiro LOG 22:40.24.389>	No strategies available to load
+ProjectGiro LOG 22:40.24.389>	No strategies available to load
+ProjectGiro LOG 22:40.24.389>	No strategies available to load
+ProjectGiro LOG 22:40.24.389>	No strategies available to load
+ProjectGiro LOG 22:40.24.390>	No strategies available to load
+ProjectGiro LOG 22:40.24.390>	No strategies available to load
+ProjectGiro LOG 22:40.24.390>	No strategies available to load
+ProjectGiro LOG 22:40.24.391>	No strategies available to load
+ProjectGiro LOG 22:40.24.391>	No strategies available to load
+ProjectGiro LOG 22:40.24.391>	No strategies available to load
+ProjectGiro LOG 22:40.24.392>	No strategies available to load
+ProjectGiro LOG 22:40.24.392>	No strategies available to load
+ProjectGiro LOG 22:40.24.392>	No strategies available to load
+ProjectGiro LOG 22:40.24.392>	No strategies available to load
+ProjectGiro LOG 22:40.24.393>	No strategies available to load
+ProjectGiro LOG 22:40.24.394>	No strategies available to load
+ProjectGiro LOG 22:40.24.394>	No strategies available to load
+ProjectGiro LOG 22:40.24.394>	No strategies available to load
+ProjectGiro LOG 22:40.24.394>	No strategies available to load
+ProjectGiro LOG 22:40.24.394>	No strategies available to load
+ProjectGiro LOG 22:40.24.395>	No strategies available to load
+ProjectGiro LOG 22:40.24.396>	No strategies available to load
+ProjectGiro LOG 22:40.24.396>	No strategies available to load
+ProjectGiro LOG 22:40.24.396>	No strategies available to load
+ProjectGiro LOG 22:40.24.397>	No strategies available to load
+ProjectGiro LOG 22:40.24.398>	No strategies available to load
+ProjectGiro LOG 22:40.24.398>	No strategies available to load
+ProjectGiro LOG 22:40.24.398>	No strategies available to load
+ProjectGiro LOG 22:40.24.399>	No strategies available to load
+ProjectGiro LOG 22:40.24.400>	No strategies available to load
+ProjectGiro LOG 22:40.24.400>	No strategies available to load
+ProjectGiro LOG 22:40.24.400>	No strategies available to load
+ProjectGiro LOG 22:40.24.401>	No strategies available to load
+ProjectGiro LOG 22:40.24.402>	No strategies available to load
+ProjectGiro LOG 22:40.24.402>	No strategies available to load
+ProjectGiro LOG 22:40.24.402>	No strategies available to load
+ProjectGiro LOG 22:40.24.404>	No strategies available to load
+ProjectGiro LOG 22:40.24.404>	No strategies available to load
+ProjectGiro LOG 22:40.24.404>	No strategies available to load
+ProjectGiro LOG 22:40.24.405>	No strategies available to load
+ProjectGiro LOG 22:40.24.406>	No strategies available to load
+ProjectGiro LOG 22:40.24.406>	No strategies available to load
+ProjectGiro LOG 22:40.24.406>	No strategies available to load
+ProjectGiro LOG 22:40.24.407>	No strategies available to load
+ProjectGiro LOG 22:40.24.408>	No strategies available to load
+ProjectGiro LOG 22:40.24.408>	No strategies available to load
+ProjectGiro LOG 22:40.24.408>	No strategies available to load
+ProjectGiro LOG 22:40.24.409>	No strategies available to load
+ProjectGiro LOG 22:40.24.410>	No strategies available to load
+ProjectGiro LOG 22:40.24.410>	No strategies available to load
+ProjectGiro LOG 22:40.24.410>	No strategies available to load
+ProjectGiro LOG 22:40.24.411>	No strategies available to load
+ProjectGiro LOG 22:40.24.411>	No strategies available to load
+ProjectGiro LOG 22:40.24.412>	No strategies available to load
+ProjectGiro LOG 22:40.24.413>	No strategies available to load
+ProjectGiro LOG 22:40.24.413>	No strategies available to load
+ProjectGiro LOG 22:40.24.413>	No strategies available to load
+ProjectGiro LOG 22:40.24.414>	No strategies available to load
+ProjectGiro LOG 22:40.24.415>	No strategies available to load
+ProjectGiro LOG 22:40.24.415>	No strategies available to load
+ProjectGiro LOG 22:40.24.416>	No strategies available to load
+ProjectGiro LOG 22:40.24.416>	No strategies available to load
+ProjectGiro LOG 22:40.24.417>	No strategies available to load
+ProjectGiro LOG 22:40.24.417>	No strategies available to load
+ProjectGiro LOG 22:40.24.418>	No strategies available to load
+ProjectGiro LOG 22:40.24.418>	No strategies available to load
+ProjectGiro LOG 22:40.24.419>	No strategies available to load
+ProjectGiro LOG 22:40.24.419>	No strategies available to load
+ProjectGiro LOG 22:40.24.420>	No strategies available to load
+ProjectGiro LOG 22:40.24.420>	No strategies available to load
+ProjectGiro LOG 22:40.24.421>	No strategies available to load
+ProjectGiro LOG 22:40.24.422>	No strategies available to load
+ProjectGiro LOG 22:40.24.422>	No strategies available to load
+ProjectGiro LOG 22:40.24.422>	No strategies available to load
+ProjectGiro LOG 22:40.24.423>	No strategies available to load
+ProjectGiro LOG 22:40.24.423>	No strategies available to load
+ProjectGiro LOG 22:40.24.424>	No strategies available to load
+ProjectGiro LOG 22:40.24.424>	No strategies available to load
+ProjectGiro LOG 22:40.24.425>	No strategies available to load
+ProjectGiro LOG 22:40.24.425>	No strategies available to load
+ProjectGiro LOG 22:40.24.426>	No strategies available to load
+ProjectGiro LOG 22:40.24.426>	No strategies available to load
+ProjectGiro LOG 22:40.24.427>	No strategies available to load
+ProjectGiro LOG 22:40.24.427>	No strategies available to load
+ProjectGiro LOG 22:40.24.427>	No strategies available to load
+ProjectGiro LOG 22:40.24.427>	No strategies available to load
+ProjectGiro LOG 22:40.24.428>	No strategies available to load
+ProjectGiro LOG 22:40.24.429>	No strategies available to load
+ProjectGiro LOG 22:40.24.429>	No strategies available to load
+ProjectGiro LOG 22:40.24.429>	No strategies available to load
+ProjectGiro LOG 22:40.24.429>	No strategies available to load
+ProjectGiro LOG 22:40.24.430>	No strategies available to load
+ProjectGiro LOG 22:40.24.430>	No strategies available to load
+ProjectGiro LOG 22:40.24.431>	No strategies available to load
+ProjectGiro LOG 22:40.24.431>	No strategies available to load
+ProjectGiro LOG 22:40.24.431>	No strategies available to load
+ProjectGiro LOG 22:40.24.431>	No strategies available to load
+ProjectGiro LOG 22:40.24.431>	No strategies available to load
+ProjectGiro LOG 22:40.24.432>	No strategies available to load
+ProjectGiro LOG 22:40.24.432>	No strategies available to load
+ProjectGiro LOG 22:40.24.433>	No strategies available to load
+ProjectGiro LOG 22:40.24.433>	No strategies available to load
+ProjectGiro LOG 22:40.24.433>	No strategies available to load
+ProjectGiro LOG 22:40.24.434>	No strategies available to load
+ProjectGiro LOG 22:40.24.434>	No strategies available to load
+ProjectGiro LOG 22:40.24.434>	No strategies available to load
+ProjectGiro LOG 22:40.24.435>	No strategies available to load
+ProjectGiro LOG 22:40.24.435>	No strategies available to load
+ProjectGiro LOG 22:40.24.435>	No strategies available to load
+ProjectGiro LOG 22:40.24.436>	No strategies available to load
+ProjectGiro LOG 22:40.24.436>	No strategies available to load
+ProjectGiro LOG 22:40.24.436>	No strategies available to load
+ProjectGiro LOG 22:40.24.437>	No strategies available to load
+ProjectGiro LOG 22:40.24.437>	No strategies available to load
+ProjectGiro LOG 22:40.24.437>	No strategies available to load
+ProjectGiro LOG 22:40.24.438>	No strategies available to load
+ProjectGiro LOG 22:40.24.438>	No strategies available to load
+ProjectGiro LOG 22:40.24.438>	No strategies available to load
+ProjectGiro LOG 22:40.24.439>	No strategies available to load
+ProjectGiro LOG 22:40.24.439>	No strategies available to load
+ProjectGiro LOG 22:40.24.439>	No strategies available to load
+ProjectGiro LOG 22:40.24.440>	No strategies available to load
+ProjectGiro LOG 22:40.24.440>	No strategies available to load
+ProjectGiro LOG 22:40.24.441>	No strategies available to load
+ProjectGiro LOG 22:40.24.442>	No strategies available to load
+ProjectGiro LOG 22:40.24.442>	No strategies available to load
+ProjectGiro LOG 22:40.24.442>	No strategies available to load
+ProjectGiro LOG 22:40.24.442>	No strategies available to load
+ProjectGiro LOG 22:40.24.442>	No strategies available to load
+ProjectGiro LOG 22:40.24.443>	No strategies available to load
+ProjectGiro LOG 22:40.24.444>	No strategies available to load
+ProjectGiro LOG 22:40.24.444>	No strategies available to load
+ProjectGiro LOG 22:40.24.444>	No strategies available to load
+ProjectGiro LOG 22:40.24.444>	No strategies available to load
+ProjectGiro LOG 22:40.24.444>	No strategies available to load
+ProjectGiro LOG 22:40.24.445>	No strategies available to load
+ProjectGiro LOG 22:40.24.446>	No strategies available to load
+ProjectGiro LOG 22:40.24.446>	No strategies available to load
+ProjectGiro LOG 22:40.24.446>	No strategies available to load
+ProjectGiro LOG 22:40.24.447>	No strategies available to load
+ProjectGiro LOG 22:40.24.447>	No strategies available to load
+ProjectGiro LOG 22:40.24.447>	No strategies available to load
+ProjectGiro LOG 22:40.24.447>	No strategies available to load
+ProjectGiro LOG 22:40.24.448>	No strategies available to load
+ProjectGiro LOG 22:40.24.448>	No strategies available to load
+ProjectGiro LOG 22:40.24.449>	No strategies available to load
+ProjectGiro LOG 22:40.24.449>	No strategies available to load
+ProjectGiro LOG 22:40.24.449>	No strategies available to load
+ProjectGiro LOG 22:40.24.449>	No strategies available to load
+ProjectGiro LOG 22:40.24.449>	No strategies available to load
+ProjectGiro LOG 22:40.24.450>	No strategies available to load
+ProjectGiro LOG 22:40.24.451>	No strategies available to load
+ProjectGiro LOG 22:40.24.451>	No strategies available to load
+ProjectGiro LOG 22:40.24.451>	No strategies available to load
+ProjectGiro LOG 22:40.24.451>	No strategies available to load
+ProjectGiro LOG 22:40.24.451>	No strategies available to load
+ProjectGiro LOG 22:40.24.452>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.453>	No strategies available to load
+ProjectGiro LOG 22:40.24.454>	No strategies available to load
+ProjectGiro LOG 22:40.24.455>	No strategies available to load
+ProjectGiro LOG 22:40.24.455>	No strategies available to load
+ProjectGiro LOG 22:40.24.455>	No strategies available to load
+ProjectGiro LOG 22:40.24.455>	No strategies available to load
+ProjectGiro LOG 22:40.24.456>	No strategies available to load
+ProjectGiro LOG 22:40.24.456>	No strategies available to load
+ProjectGiro LOG 22:40.24.456>	No strategies available to load
+ProjectGiro LOG 22:40.24.457>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.458>	No strategies available to load
+ProjectGiro LOG 22:40.24.459>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.460>	No strategies available to load
+ProjectGiro LOG 22:40.24.461>	No strategies available to load
+ProjectGiro LOG 22:40.24.462>	No strategies available to load
+ProjectGiro LOG 22:40.24.462>	No strategies available to load
+ProjectGiro LOG 22:40.24.462>	No strategies available to load
+ProjectGiro LOG 22:40.24.462>	No strategies available to load
+ProjectGiro LOG 22:40.24.462>	No strategies available to load
+ProjectGiro LOG 22:40.24.463>	No strategies available to load
+ProjectGiro LOG 22:40.24.464>	No strategies available to load
+ProjectGiro LOG 22:40.24.464>	No strategies available to load
+ProjectGiro LOG 22:40.24.464>	No strategies available to load
+ProjectGiro LOG 22:40.24.464>	No strategies available to load
+ProjectGiro LOG 22:40.24.464>	No strategies available to load
+ProjectGiro LOG 22:40.24.465>	No strategies available to load
+ProjectGiro LOG 22:40.24.465>	No strategies available to load
+ProjectGiro LOG 22:40.24.466>	No strategies available to load
+ProjectGiro LOG 22:40.24.466>	No strategies available to load
+ProjectGiro LOG 22:40.24.466>	No strategies available to load
+ProjectGiro LOG 22:40.24.466>	No strategies available to load
+ProjectGiro LOG 22:40.24.467>	No strategies available to load
+ProjectGiro LOG 22:40.24.467>	No strategies available to load
+ProjectGiro LOG 22:40.24.467>	No strategies available to load
+ProjectGiro LOG 22:40.24.468>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.469>	No strategies available to load
+ProjectGiro LOG 22:40.24.470>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.471>	No strategies available to load
+ProjectGiro LOG 22:40.24.472>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.473>	No strategies available to load
+ProjectGiro LOG 22:40.24.475>	No strategies available to load
+ProjectGiro LOG 22:40.24.475>	No strategies available to load
+ProjectGiro LOG 22:40.24.475>	No strategies available to load
+ProjectGiro LOG 22:40.24.475>	No strategies available to load
+ProjectGiro LOG 22:40.24.475>	No strategies available to load
+ProjectGiro LOG 22:40.24.476>	No strategies available to load
+ProjectGiro LOG 22:40.24.476>	No strategies available to load
+ProjectGiro LOG 22:40.24.477>	No strategies available to load
+ProjectGiro LOG 22:40.24.477>	No strategies available to load
+ProjectGiro LOG 22:40.24.477>	No strategies available to load
+ProjectGiro LOG 22:40.24.477>	No strategies available to load
+ProjectGiro LOG 22:40.24.478>	No strategies available to load
+ProjectGiro LOG 22:40.24.478>	No strategies available to load
+ProjectGiro LOG 22:40.24.478>	No strategies available to load
+ProjectGiro LOG 22:40.24.479>	No strategies available to load
+ProjectGiro LOG 22:40.24.479>	No strategies available to load
+ProjectGiro LOG 22:40.24.480>	No strategies available to load
+ProjectGiro LOG 22:40.24.480>	No strategies available to load
+ProjectGiro LOG 22:40.24.480>	No strategies available to load
+ProjectGiro LOG 22:40.24.480>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.482>	No strategies available to load
+ProjectGiro LOG 22:40.24.484>	No strategies available to load
+ProjectGiro LOG 22:40.24.484>	No strategies available to load
+ProjectGiro LOG 22:40.24.484>	No strategies available to load
+ProjectGiro LOG 22:40.24.484>	No strategies available to load
+ProjectGiro LOG 22:40.24.484>	No strategies available to load
+ProjectGiro LOG 22:40.24.485>	No strategies available to load
+ProjectGiro LOG 22:40.24.486>	No strategies available to load
+ProjectGiro LOG 22:40.24.486>	No strategies available to load
+ProjectGiro LOG 22:40.24.486>	No strategies available to load
+ProjectGiro LOG 22:40.24.487>	No strategies available to load
+ProjectGiro LOG 22:40.24.487>	No strategies available to load
+ProjectGiro LOG 22:40.24.488>	No strategies available to load
+ProjectGiro LOG 22:40.24.488>	No strategies available to load
+ProjectGiro LOG 22:40.24.488>	No strategies available to load
+ProjectGiro LOG 22:40.24.488>	No strategies available to load
+ProjectGiro LOG 22:40.24.489>	No strategies available to load
+ProjectGiro LOG 22:40.24.489>	No strategies available to load
+ProjectGiro LOG 22:40.24.490>	No strategies available to load
+ProjectGiro LOG 22:40.24.490>	No strategies available to load
+ProjectGiro LOG 22:40.24.490>	No strategies available to load
+ProjectGiro LOG 22:40.24.490>	No strategies available to load
+ProjectGiro LOG 22:40.24.491>	No strategies available to load
+ProjectGiro LOG 22:40.24.491>	No strategies available to load
+ProjectGiro LOG 22:40.24.492>	No strategies available to load
+ProjectGiro LOG 22:40.24.492>	No strategies available to load
+ProjectGiro LOG 22:40.24.493>	No strategies available to load
+ProjectGiro LOG 22:40.24.493>	No strategies available to load
+ProjectGiro LOG 22:40.24.493>	No strategies available to load
+ProjectGiro LOG 22:40.24.493>	No strategies available to load
+ProjectGiro LOG 22:40.24.493>	No strategies available to load
+ProjectGiro LOG 22:40.24.494>	No strategies available to load
+ProjectGiro LOG 22:40.24.494>	No strategies available to load
+ProjectGiro LOG 22:40.24.495>	No strategies available to load
+ProjectGiro LOG 22:40.24.495>	No strategies available to load
+ProjectGiro LOG 22:40.24.495>	No strategies available to load
+ProjectGiro LOG 22:40.24.495>	No strategies available to load
+ProjectGiro LOG 22:40.24.495>	No strategies available to load
+ProjectGiro LOG 22:40.24.496>	No strategies available to load
+ProjectGiro LOG 22:40.24.496>	No strategies available to load
+ProjectGiro LOG 22:40.24.497>	No strategies available to load
+ProjectGiro LOG 22:40.24.497>	No strategies available to load
+ProjectGiro LOG 22:40.24.497>	No strategies available to load
+ProjectGiro LOG 22:40.24.498>	No strategies available to load
+ProjectGiro LOG 22:40.24.498>	No strategies available to load
+ProjectGiro LOG 22:40.24.498>	No strategies available to load
+ProjectGiro LOG 22:40.24.499>	No strategies available to load
+ProjectGiro LOG 22:40.24.499>	No strategies available to load
+ProjectGiro LOG 22:40.24.499>	No strategies available to load
+ProjectGiro LOG 22:40.24.500>	No strategies available to load
+ProjectGiro LOG 22:40.24.500>	No strategies available to load
+ProjectGiro LOG 22:40.24.500>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.500>	Beginning 50 generation simulation of EA
+ProjectGiro LOG 22:40.24.500>	No strategies available to load
+ProjectGiro LOG 22:40.24.501>	No strategies available to load
+ProjectGiro LOG 22:40.24.501>	No strategies available to load
+ProjectGiro LOG 22:40.24.501>	No strategies available to load
+ProjectGiro LOG 22:40.24.502>	No strategies available to load
+ProjectGiro LOG 22:40.24.502>	No strategies available to load
+ProjectGiro LOG 22:40.24.503>	No strategies available to load
+ProjectGiro LOG 22:40.24.503>	No strategies available to load
+ProjectGiro LOG 22:40.24.504>	No strategies available to load
+ProjectGiro LOG 22:40.24.504>	No strategies available to load
+ProjectGiro LOG 22:40.24.504>	No strategies available to load
+ProjectGiro LOG 22:40.24.504>	No strategies available to load
+ProjectGiro LOG 22:40.24.505>	No strategies available to load
+ProjectGiro LOG 22:40.24.506>	No strategies available to load
+ProjectGiro LOG 22:40.24.506>	No strategies available to load
+ProjectGiro LOG 22:40.24.506>	No strategies available to load
+ProjectGiro LOG 22:40.24.506>	No strategies available to load
+ProjectGiro LOG 22:40.24.507>	No strategies available to load
+ProjectGiro LOG 22:40.24.508>	No strategies available to load
+ProjectGiro LOG 22:40.24.508>	No strategies available to load
+ProjectGiro LOG 22:40.24.508>	No strategies available to load
+ProjectGiro LOG 22:40.24.508>	No strategies available to load
+ProjectGiro LOG 22:40.24.509>	No strategies available to load
+ProjectGiro LOG 22:40.24.510>	No strategies available to load
+ProjectGiro LOG 22:40.24.510>	No strategies available to load
+ProjectGiro LOG 22:40.24.510>	No strategies available to load
+ProjectGiro LOG 22:40.24.510>	No strategies available to load
+ProjectGiro LOG 22:40.24.511>	No strategies available to load
+ProjectGiro LOG 22:40.24.511>	No strategies available to load
+ProjectGiro LOG 22:40.24.512>	No strategies available to load
+ProjectGiro LOG 22:40.24.512>	No strategies available to load
+ProjectGiro LOG 22:40.24.512>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.512>	Beginning 50 generation simulation of WIFI
+ProjectGiro LOG 22:40.24.513>	No strategies available to load
+ProjectGiro LOG 22:40.24.513>	No strategies available to load
+ProjectGiro LOG 22:40.24.513>	No strategies available to load
+ProjectGiro LOG 22:40.24.514>	No strategies available to load
+ProjectGiro LOG 22:40.24.515>	No strategies available to load
+ProjectGiro LOG 22:40.24.515>	No strategies available to load
+ProjectGiro LOG 22:40.24.515>	No strategies available to load
+ProjectGiro LOG 22:40.24.515>	No strategies available to load
+ProjectGiro LOG 22:40.24.516>	No strategies available to load
+ProjectGiro LOG 22:40.24.517>	No strategies available to load
+ProjectGiro LOG 22:40.24.517>	No strategies available to load
+ProjectGiro LOG 22:40.24.517>	No strategies available to load
+ProjectGiro LOG 22:40.24.519>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.519>	Beginning 50 generation simulation of TSLA
+ProjectGiro LOG 22:40.24.519>	No strategies available to load
+ProjectGiro LOG 22:40.24.519>	No strategies available to load
+ProjectGiro LOG 22:40.24.520>	No strategies available to load
+ProjectGiro LOG 22:40.24.521>	No strategies available to load
+ProjectGiro LOG 22:40.24.521>	No strategies available to load
+ProjectGiro LOG 22:40.24.522>	No strategies available to load
+ProjectGiro LOG 22:40.24.522>	No strategies available to load
+ProjectGiro LOG 22:40.24.523>	No strategies available to load
+ProjectGiro LOG 22:40.24.523>	No strategies available to load
+ProjectGiro LOG 22:40.24.524>	No strategies available to load
+ProjectGiro LOG 22:40.24.524>	No strategies available to load
+ProjectGiro LOG 22:40.24.525>	No strategies available to load
+ProjectGiro LOG 22:40.24.525>	No strategies available to load
+ProjectGiro LOG 22:40.24.526>	No strategies available to load
+ProjectGiro LOG 22:40.24.526>	No strategies available to load
+ProjectGiro LOG 22:40.24.528>	No strategies available to load
+ProjectGiro LOG 22:40.24.529>	No strategies available to load
+ProjectGiro LOG 22:40.24.530>	No strategies available to load
+ProjectGiro LOG 22:40.24.530>	No strategies available to load
+ProjectGiro LOG 22:40.24.531>	No strategies available to load
+ProjectGiro LOG 22:40.24.532>	No strategies available to load
+ProjectGiro LOG 22:40.24.532>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.532>	Beginning 50 generation simulation of AMZN
+ProjectGiro LOG 22:40.24.533>	No strategies available to load
+ProjectGiro LOG 22:40.24.534>	No strategies available to load
+ProjectGiro LOG 22:40.24.535>	No strategies available to load
+ProjectGiro LOG 22:40.24.536>	No strategies available to load
+ProjectGiro LOG 22:40.24.538>	No strategies available to load
+ProjectGiro LOG 22:40.24.538>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.538>	Beginning 50 generation simulation of GOOG
+ProjectGiro LOG 22:40.24.540>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.540>	Beginning 50 generation simulation of O
+ProjectGiro LOG 22:40.24.558>	No strategies available to load
+ProjectGiro LOG 22:40.24.561>	No strategies available to load
+ProjectGiro LOG 22:40.24.563>	No strategies available to load
+ProjectGiro LOG 22:40.24.565>	No strategies available to load
+ProjectGiro LOG 22:40.24.567>	No strategies available to load
+ProjectGiro LOG 22:40.24.580>	Population initialiazed with 64 investment strategies
+ProjectGiro LOG 22:40.24.580>	Beginning 50 generation simulation of LB
+ProjectGiro LOG 22:40.25.508>	GOOG Generation: 0
+									Highest profit this round: -125043.65		-104.2%
+									Average profit this round: -125458.24		-104.55%
+									Mutation Rate: 0.04
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:40.25.520>	TSLA Generation: 0
+									Highest profit this round: 64370.49		53.64%
+									Average profit this round: 21792.69		18.16%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:40.25.564>	EA Generation: 0
+									Highest profit this round: 209079.52		174.23%
+									Average profit this round: 71042.77		59.2%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:40.25.605>	LB Generation: 0
+									Highest profit this round: 53223.32		44.35%
+									Average profit this round: -3145.65		-2.62%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:40.25.644>	WIFI Generation: 0
+									Highest profit this round: 46827.33		39.02%
+									Average profit this round: -9991.92		-8.33%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 85
+ProjectGiro LOG 22:40.25.749>	O Generation: 0
+									Highest profit this round: 53210.05		44.34%
+									Average profit this round: 18430.67		15.36%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 88
+ProjectGiro LOG 22:40.25.785>	AMZN Generation: 0
+									Highest profit this round: 58177.67		48.48%
+									Average profit this round: -24188.94		-20.16%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	87.0%
+									Best strategie's trade count: 15

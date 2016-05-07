@@ -1,0 +1,476 @@
+ProjectGiro LOG 15:58.44.78>	Initializing Project GIRO...
+ProjectGiro LOG 15:58.44.95>	transactionCost=6.95
+ProjectGiro LOG 15:58.44.95>	benchmarkingPeriod=36
+ProjectGiro LOG 15:58.44.95>	stopYear=2016
+ProjectGiro LOG 15:58.44.95>	useTodaysDate=True
+ProjectGiro LOG 15:58.44.95>	startDay=23
+ProjectGiro LOG 15:58.44.95>	mutationRateDelta=-.00025
+ProjectGiro LOG 15:58.44.95>	populationSize=1
+ProjectGiro LOG 15:58.44.95>	stopDay=13
+ProjectGiro LOG 15:58.44.95>	triggerThreshold=0.2
+ProjectGiro LOG 15:58.44.95>	startYear=2013
+ProjectGiro LOG 15:58.44.95>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 15:58.44.95>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 15:58.44.95>	stopMonth=3
+ProjectGiro LOG 15:58.44.95>	startMonth=11
+ProjectGiro LOG 15:58.44.95>	mutationRate=0.06
+ProjectGiro LOG 15:58.44.95>	tournamentSize=3
+ProjectGiro LOG 15:58.44.95>	selectionPercentage=0.60
+ProjectGiro LOG 15:58.44.96>	lookbackLevel=3
+ProjectGiro LOG 15:58.44.96>	TrigIncrementAmount=0.00
+ProjectGiro LOG 15:58.44.96>	marginInterestRate=0.0425
+ProjectGiro LOG 15:58.44.96>	loadedStrategieRatio=0.40
+ProjectGiro LOG 15:58.44.96>	threads=1
+ProjectGiro LOG 15:58.44.96>	startingMoney=10000
+ProjectGiro LOG 15:58.44.96>	shortPortfolioRatio=0.3
+ProjectGiro LOG 15:58.44.96>	numStrategiesToSave=15
+ProjectGiro LOG 15:58.44.96>	dayTriggerThreshold=0.2
+ProjectGiro LOG 15:58.44.96>	performanceTest=True
+ProjectGiro LOG 15:58.44.96>	incrementDayThresholdGens=0
+ProjectGiro LOG 15:58.44.96>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 15:58.44.96>	tradeCountLimit=50
+ProjectGiro LOG 15:58.44.96>	generations=5
+ProjectGiro LOG 15:58.44.96>	Initiating analysis of 1 securities
+ProjectGiro LOG 15:58.44.103>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:58.44.106>	Using stored data for EA
+ProjectGiro LOG 15:58.44.111>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:58.44.111>	Using stored data for ^IXIC
+ProjectGiro LOG 15:58.44.114>	EA Technical indicator calculations complete
+ProjectGiro LOG 15:58.44.145>	Strategy file read error
+ProjectGiro LOG 15:58.44.145>	Loading 0 stored strategies
+ProjectGiro LOG 15:58.44.147>	Population initialiazed with 1 investment strategies
+ProjectGiro LOG 15:58.44.147>	Beginning 5 generation simulation of EA
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update from: 0
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.148>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.149>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.150>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.151>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.152>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.153>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.154>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.155>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.155>	EA Generation: 0
+									Highest profit this round: 1738.1		17.38%
+									Average profit this round: 1738.1		17.38%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.06
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.157>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.158>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.159>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.160>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.160>	EA Generation: 1
+									Highest profit this round: 2456.75		24.57%
+									Average profit this round: 2456.75		24.57%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.05975
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.162>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.163>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.164>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.165>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.165>	EA Generation: 2
+									Highest profit this round: 2456.75		24.57%
+									Average profit this round: 2456.75		24.57%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.0595
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.167>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.168>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.169>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.170>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.170>	EA Generation: 3
+									Highest profit this round: 2604.5		26.05%
+									Average profit this round: 2604.5		26.05%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.05925
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update from: 0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.172>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.173>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.174>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.175>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.176>	DEBUG: Loan update from: 0.0
+ProjectGiro LOG 15:58.44.176>	DEBUG: Loan update to: 0.0
+ProjectGiro LOG 15:58.44.176>	EA Generation: 4
+									Highest profit this round: 2503.33		25.03%
+									Average profit this round: 2503.33		25.03%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.059
+									Average trade count: 50
+									Best strategy's trade correctness: 	98.0%
+									Best strategy's trade count: 50
+ProjectGiro LOG 15:58.44.180>	0 of 0 correct
+ProjectGiro LOG 15:58.44.180>	Results: 
+
+ProjectGiro LOG 15:58.44.180>	GIRO total execution time: 0.10177397728

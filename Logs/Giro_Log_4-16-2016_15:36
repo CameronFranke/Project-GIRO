@@ -1,0 +1,46 @@
+ProjectGiro LOG 15:36.11.577>	Initializing Project GIRO...
+ProjectGiro LOG 15:36.11.593>	transactionCost=6.95
+ProjectGiro LOG 15:36.11.593>	benchmarkingPeriod=36
+ProjectGiro LOG 15:36.11.593>	stopYear=2016
+ProjectGiro LOG 15:36.11.593>	useTodaysDate=True
+ProjectGiro LOG 15:36.11.593>	startDay=23
+ProjectGiro LOG 15:36.11.593>	mutationRateDelta=-.00025
+ProjectGiro LOG 15:36.11.593>	populationSize=1
+ProjectGiro LOG 15:36.11.593>	stopDay=13
+ProjectGiro LOG 15:36.11.593>	triggerThreshold=0.2
+ProjectGiro LOG 15:36.11.593>	startYear=2013
+ProjectGiro LOG 15:36.11.593>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 15:36.11.593>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 15:36.11.594>	stopMonth=3
+ProjectGiro LOG 15:36.11.594>	startMonth=11
+ProjectGiro LOG 15:36.11.594>	mutationRate=0.06
+ProjectGiro LOG 15:36.11.594>	tournamentSize=3
+ProjectGiro LOG 15:36.11.594>	selectionPercentage=0.60
+ProjectGiro LOG 15:36.11.594>	lookbackLevel=3
+ProjectGiro LOG 15:36.11.594>	TrigIncrementAmount=0.00
+ProjectGiro LOG 15:36.11.594>	marginInterestRate=0.0425
+ProjectGiro LOG 15:36.11.594>	loadedStrategieRatio=0.40
+ProjectGiro LOG 15:36.11.594>	threads=1
+ProjectGiro LOG 15:36.11.594>	startingMoney=1000000
+ProjectGiro LOG 15:36.11.594>	shortPortfolioRatio=0.3
+ProjectGiro LOG 15:36.11.594>	numStrategiesToSave=15
+ProjectGiro LOG 15:36.11.594>	dayTriggerThreshold=0.2
+ProjectGiro LOG 15:36.11.594>	performanceTest=True
+ProjectGiro LOG 15:36.11.594>	incrementDayThresholdGens=0
+ProjectGiro LOG 15:36.11.594>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 15:36.11.594>	tradeCountLimit=50
+ProjectGiro LOG 15:36.11.594>	generations=1
+ProjectGiro LOG 15:36.11.594>	Initiating analysis of 1 securities
+ProjectGiro LOG 15:36.11.603>	StockData/O:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:36.11.603>	Using stored data for O
+ProjectGiro LOG 15:36.11.608>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 15:36.11.608>	Using stored data for ^IXIC
+ProjectGiro LOG 15:36.11.611>	O Technical indicator calculations complete
+ProjectGiro LOG 15:36.11.644>	Loading 0 stored strategies
+ProjectGiro LOG 15:36.11.646>	Population initialiazed with 1 investment strategies
+ProjectGiro LOG 15:36.11.646>	Beginning 1 generation simulation of O
+ProjectGiro LOG 15:36.11.650>	DEBUG: shorting
+ProjectGiro LOG 15:36.11.655>	0 of 0 correct
+ProjectGiro LOG 15:36.11.656>	Results: 
+
+ProjectGiro LOG 15:36.11.656>	GIRO total execution time: 0.0788850784302

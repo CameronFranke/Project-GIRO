@@ -1,0 +1,545 @@
+ProjectGiro LOG 23:7.26.575>	Initializing Project GIRO...
+ProjectGiro LOG 23:7.26.597>	transactionCost=6.95
+ProjectGiro LOG 23:7.26.597>	benchmarkingPeriod=30
+ProjectGiro LOG 23:7.26.597>	stopYear=2016
+ProjectGiro LOG 23:7.26.597>	useTodaysDate=True
+ProjectGiro LOG 23:7.26.597>	startDay=23
+ProjectGiro LOG 23:7.26.597>	mutationRateDelta=-.00025
+ProjectGiro LOG 23:7.26.597>	populationSize=256
+ProjectGiro LOG 23:7.26.597>	stopDay=13
+ProjectGiro LOG 23:7.26.597>	triggerThreshold=.2
+ProjectGiro LOG 23:7.26.597>	startYear=2013
+ProjectGiro LOG 23:7.26.597>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 23:7.26.597>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 23:7.26.597>	stopMonth=3
+ProjectGiro LOG 23:7.26.597>	startMonth=11
+ProjectGiro LOG 23:7.26.597>	mutationRate=.05
+ProjectGiro LOG 23:7.26.597>	tournamentSize=5
+ProjectGiro LOG 23:7.26.597>	selectionPercentage=.60
+ProjectGiro LOG 23:7.26.597>	lookbackLevel=1
+ProjectGiro LOG 23:7.26.597>	TrigIncrementAmount=.00
+ProjectGiro LOG 23:7.26.597>	loadedStrategieRatio=.40
+ProjectGiro LOG 23:7.26.597>	threads=7
+ProjectGiro LOG 23:7.26.597>	startingMoney=120000
+ProjectGiro LOG 23:7.26.597>	numStrategiesToSave=15
+ProjectGiro LOG 23:7.26.597>	dayTriggerThreshold=.2
+ProjectGiro LOG 23:7.26.597>	performanceTest=True
+ProjectGiro LOG 23:7.26.597>	incrementDayThresholdGens=0
+ProjectGiro LOG 23:7.26.597>	tradeOnLossPunishment=.02
+ProjectGiro LOG 23:7.26.597>	tradeCountLimit=100
+ProjectGiro LOG 23:7.26.597>	generations=80
+ProjectGiro LOG 23:7.26.598>	Initiating analysis of 3 securities
+ProjectGiro LOG 23:7.26.607>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.607>	Using stored data for EA
+ProjectGiro LOG 23:7.26.614>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.614>	StockData/AMZN:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.614>	Using stored data for ^IXIC
+ProjectGiro LOG 23:7.26.614>	Using stored data for AMZN
+ProjectGiro LOG 23:7.26.616>	StockData/WIFI:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.616>	Using stored data for WIFI
+ProjectGiro LOG 23:7.26.619>	EA Technical indicator calculations complete
+ProjectGiro LOG 23:7.26.619>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.619>	Using stored data for ^IXIC
+ProjectGiro LOG 23:7.26.622>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 23:7.26.622>	Using stored data for ^IXIC
+ProjectGiro LOG 23:7.26.625>	AMZN Technical indicator calculations complete
+ProjectGiro LOG 23:7.26.626>	WIFI Technical indicator calculations complete
+ProjectGiro LOG 23:7.26.679>	Loading 102 stored strategies
+ProjectGiro LOG 23:7.26.688>	Loading 102 stored strategies
+ProjectGiro LOG 23:7.26.691>	Loading 102 stored strategies
+ProjectGiro LOG 23:7.26.824>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 23:7.26.824>	Beginning 80 generation simulation of EA
+ProjectGiro LOG 23:7.26.827>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 23:7.26.827>	Beginning 80 generation simulation of WIFI
+ProjectGiro LOG 23:7.26.855>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 23:7.26.855>	Beginning 80 generation simulation of AMZN
+ProjectGiro LOG 23:7.28.186>	EA Generation: 0
+									Highest profit this round: 138164.81		115.14%
+									Average profit this round: 41951.9		34.96%
+									Mutation Rate: 0.05
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.28.350>	WIFI Generation: 0
+									Highest profit this round: -1827.16		-1.52%
+									Average profit this round: -57013.24		-47.51%
+									Mutation Rate: 0.05
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.28.434>	AMZN Generation: 0
+									Highest profit this round: 17435.42		14.53%
+									Average profit this round: -87293.74		-72.74%
+									Mutation Rate: 0.05
+									Average trade count: 94
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.29.728>	WIFI Generation: 1
+									Highest profit this round: 2157.66		1.8%
+									Average profit this round: -5184.62		-4.32%
+									Mutation Rate: 0.04975
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.30.227>	EA Generation: 1
+									Highest profit this round: 209774.07		174.81%
+									Average profit this round: 52956.98		44.13%
+									Mutation Rate: 0.04975
+									Average trade count: 99
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.30.466>	AMZN Generation: 1
+									Highest profit this round: 35583.87		29.65%
+									Average profit this round: -29748.96		-24.79%
+									Mutation Rate: 0.04975
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.31.134>	WIFI Generation: 2
+									Highest profit this round: 14389.22		11.99%
+									Average profit this round: -5497.53		-4.58%
+									Mutation Rate: 0.0495
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.32.609>	WIFI Generation: 3
+									Highest profit this round: 8251.38		6.88%
+									Average profit this round: -5624.18		-4.69%
+									Mutation Rate: 0.04925
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.33.282>	EA Generation: 2
+									Highest profit this round: 201946.86		168.29%
+									Average profit this round: 71349.11		59.46%
+									Mutation Rate: 0.0495
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.33.449>	AMZN Generation: 2
+									Highest profit this round: 42523.13		35.44%
+									Average profit this round: -21307.42		-17.76%
+									Mutation Rate: 0.0495
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.34.830>	WIFI Generation: 4
+									Highest profit this round: -1811.81		-1.51%
+									Average profit this round: -5005.88		-4.17%
+									Mutation Rate: 0.049
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.35.633>	WIFI Generation: 5
+									Highest profit this round: 4100.56		3.42%
+									Average profit this round: -6312.81		-5.26%
+									Mutation Rate: 0.04875
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.37.214>	WIFI Generation: 6
+									Highest profit this round: 8684.66		7.24%
+									Average profit this round: -5855.15		-4.88%
+									Mutation Rate: 0.0485
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.37.848>	EA Generation: 3
+									Highest profit this round: 204113.97		170.09%
+									Average profit this round: 103357.43		86.13%
+									Mutation Rate: 0.04925
+									Average trade count: 82
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.37.968>	AMZN Generation: 3
+									Highest profit this round: 42937.08		35.78%
+									Average profit this round: -8431.19		-7.03%
+									Mutation Rate: 0.04925
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.38.888>	WIFI Generation: 7
+									Highest profit this round: -379.67		-0.32%
+									Average profit this round: -5920.45		-4.93%
+									Mutation Rate: 0.04825
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.40.408>	WIFI Generation: 8
+									Highest profit this round: 381.28		0.32%
+									Average profit this round: -5068.46		-4.22%
+									Mutation Rate: 0.048
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.42.220>	WIFI Generation: 9
+									Highest profit this round: -694.11		-0.58%
+									Average profit this round: -4975.31		-4.15%
+									Mutation Rate: 0.04775
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.43.317>	EA Generation: 4
+									Highest profit this round: 207553.93		172.96%
+									Average profit this round: 115067.22		95.89%
+									Mutation Rate: 0.049
+									Average trade count: 79
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.43.738>	AMZN Generation: 4
+									Highest profit this round: 42728.86		35.61%
+									Average profit this round: -1843.99		-1.54%
+									Mutation Rate: 0.049
+									Average trade count: 75
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.43.886>	WIFI Generation: 10
+									Highest profit this round: 9898.33		8.25%
+									Average profit this round: -7604.01		-6.34%
+									Mutation Rate: 0.0475
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.45.383>	WIFI Generation: 11
+									Highest profit this round: 3406.22		2.84%
+									Average profit this round: -5630.65		-4.69%
+									Mutation Rate: 0.04725
+									Average trade count: 100
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.46.868>	WIFI Generation: 12
+									Highest profit this round: 380.55		0.32%
+									Average profit this round: -5620.54		-4.68%
+									Mutation Rate: 0.047
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.48.376>	EA Generation: 5
+									Highest profit this round: 202732.3		168.94%
+									Average profit this round: 95336.19		79.45%
+									Mutation Rate: 0.04875
+									Average trade count: 80
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.48.570>	WIFI Generation: 13
+									Highest profit this round: -3358.36		-2.8%
+									Average profit this round: -6132.47		-5.11%
+									Mutation Rate: 0.04675
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.49.432>	AMZN Generation: 5
+									Highest profit this round: 58007.84		48.34%
+									Average profit this round: -5472.35		-4.56%
+									Mutation Rate: 0.04875
+									Average trade count: 77
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.49.965>	WIFI Generation: 14
+									Highest profit this round: -4729.77		-3.94%
+									Average profit this round: -4917.72		-4.1%
+									Mutation Rate: 0.0465
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.51.344>	WIFI Generation: 15
+									Highest profit this round: -3358.36		-2.8%
+									Average profit this round: -4999.28		-4.17%
+									Mutation Rate: 0.04625
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.52.869>	WIFI Generation: 16
+									Highest profit this round: -4729.77		-3.94%
+									Average profit this round: -5070.62		-4.23%
+									Mutation Rate: 0.046
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.53.254>	EA Generation: 6
+									Highest profit this round: 206608.05		172.17%
+									Average profit this round: 102599.58		85.5%
+									Mutation Rate: 0.0485
+									Average trade count: 82
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.54.346>	WIFI Generation: 17
+									Highest profit this round: -3358.36		-2.8%
+									Average profit this round: -5154.2		-4.3%
+									Mutation Rate: 0.04575
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.54.875>	AMZN Generation: 6
+									Highest profit this round: 41717.6		34.76%
+									Average profit this round: -3804.83		-3.17%
+									Mutation Rate: 0.0485
+									Average trade count: 81
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.55.835>	WIFI Generation: 18
+									Highest profit this round: -3358.36		-2.8%
+									Average profit this round: -5173.07		-4.31%
+									Mutation Rate: 0.0455
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.57.229>	WIFI Generation: 19
+									Highest profit this round: -4729.77		-3.94%
+									Average profit this round: -4985.09		-4.15%
+									Mutation Rate: 0.04525
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.58.660>	WIFI Generation: 20
+									Highest profit this round: 5874.82		4.9%
+									Average profit this round: -5463.48		-4.55%
+									Mutation Rate: 0.045
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:7.59.207>	EA Generation: 7
+									Highest profit this round: 216875.74		180.73%
+									Average profit this round: 122911.4		102.43%
+									Mutation Rate: 0.04825
+									Average trade count: 79
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.0.4500>	WIFI Generation: 21
+									Highest profit this round: 665.07		0.55%
+									Average profit this round: -4945.71		-4.12%
+									Mutation Rate: 0.04475
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.0.3290>	AMZN Generation: 7
+									Highest profit this round: 104520.87		87.1%
+									Average profit this round: -6030.61		-5.03%
+									Mutation Rate: 0.04825
+									Average trade count: 78
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.1.4630>	WIFI Generation: 22
+									Highest profit this round: 665.07		0.55%
+									Average profit this round: -4879.52		-4.07%
+									Mutation Rate: 0.0445
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.3.1600>	WIFI Generation: 23
+									Highest profit this round: -379.67		-0.32%
+									Average profit this round: -4862.96		-4.05%
+									Mutation Rate: 0.04425
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.4.5660>	WIFI Generation: 24
+									Highest profit this round: -379.67		-0.32%
+									Average profit this round: -5899.14		-4.92%
+									Mutation Rate: 0.044
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.4.6890>	EA Generation: 8
+									Highest profit this round: 219627.2		183.02%
+									Average profit this round: 117629.6		98.02%
+									Mutation Rate: 0.048
+									Average trade count: 84
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.6.7000>	WIFI Generation: 25
+									Highest profit this round: 7490.72		6.24%
+									Average profit this round: -4588.75		-3.82%
+									Mutation Rate: 0.04375
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.6.9480>	AMZN Generation: 8
+									Highest profit this round: 41098.34		34.25%
+									Average profit this round: -1360.96		-1.13%
+									Mutation Rate: 0.048
+									Average trade count: 82
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.7.8760>	WIFI Generation: 26
+									Highest profit this round: 9156.77		7.63%
+									Average profit this round: -7200.43		-6.0%
+									Mutation Rate: 0.0435
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.9.2920>	WIFI Generation: 27
+									Highest profit this round: 10884.31		9.07%
+									Average profit this round: -4692.12		-3.91%
+									Mutation Rate: 0.04325
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.9.8950>	EA Generation: 9
+									Highest profit this round: 207553.93		172.96%
+									Average profit this round: 110699.44		92.25%
+									Mutation Rate: 0.04775
+									Average trade count: 85
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.10.885>	WIFI Generation: 28
+									Highest profit this round: -2694.91		-2.25%
+									Average profit this round: -4890.94		-4.08%
+									Mutation Rate: 0.043
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.12.719>	WIFI Generation: 29
+									Highest profit this round: 8825.49		7.35%
+									Average profit this round: -7895.31		-6.58%
+									Mutation Rate: 0.04275
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.13.466>	AMZN Generation: 9
+									Highest profit this round: 54688.28		45.57%
+									Average profit this round: 1751.82		1.46%
+									Mutation Rate: 0.04775
+									Average trade count: 77
+									Best strategie's trade correctness: 	75.0%
+									Best strategie's trade count: 4
+ProjectGiro LOG 23:8.15.443>	WIFI Generation: 30
+									Highest profit this round: 11991.23		9.99%
+									Average profit this round: -5586.02		-4.66%
+									Mutation Rate: 0.0425
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.16.151>	EA Generation: 10
+									Highest profit this round: 207553.93		172.96%
+									Average profit this round: 118489.17		98.74%
+									Mutation Rate: 0.0475
+									Average trade count: 81
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.19.353>	AMZN Generation: 10
+									Highest profit this round: 44568.02		37.14%
+									Average profit this round: -11059.57		-9.22%
+									Mutation Rate: 0.0475
+									Average trade count: 83
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 49
+ProjectGiro LOG 23:8.20.107>	WIFI Generation: 31
+									Highest profit this round: 19396.68		16.16%
+									Average profit this round: -12034.66		-10.03%
+									Mutation Rate: 0.04225
+									Average trade count: 73
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.22.296>	EA Generation: 11
+									Highest profit this round: 206348.02		171.96%
+									Average profit this round: 113530.61		94.61%
+									Mutation Rate: 0.04725
+									Average trade count: 82
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.25.186>	WIFI Generation: 32
+									Highest profit this round: 14389.22		11.99%
+									Average profit this round: -49253.09		-41.04%
+									Mutation Rate: 0.042
+									Average trade count: 79
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.26.594>	AMZN Generation: 11
+									Highest profit this round: 44568.02		37.14%
+									Average profit this round: -5339.9		-4.45%
+									Mutation Rate: 0.04725
+									Average trade count: 80
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 50
+ProjectGiro LOG 23:8.28.227>	EA Generation: 12
+									Highest profit this round: 206608.05		172.17%
+									Average profit this round: 110155.11		91.8%
+									Mutation Rate: 0.047
+									Average trade count: 78
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.30.846>	WIFI Generation: 33
+									Highest profit this round: 19396.68		16.16%
+									Average profit this round: -66046.2		-55.04%
+									Mutation Rate: 0.04175
+									Average trade count: 85
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.32.944>	AMZN Generation: 12
+									Highest profit this round: 51938.36		43.28%
+									Average profit this round: -13118.25		-10.93%
+									Mutation Rate: 0.047
+									Average trade count: 83
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 69
+ProjectGiro LOG 23:8.35.290>	EA Generation: 13
+									Highest profit this round: 202540.04		168.78%
+									Average profit this round: 118583.86		98.82%
+									Mutation Rate: 0.04675
+									Average trade count: 78
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.37.302>	WIFI Generation: 34
+									Highest profit this round: 19396.68		16.16%
+									Average profit this round: -65631.87		-54.69%
+									Mutation Rate: 0.0415
+									Average trade count: 79
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.39.370>	AMZN Generation: 13
+									Highest profit this round: 42937.08		35.78%
+									Average profit this round: -15259.25		-12.72%
+									Mutation Rate: 0.04675
+									Average trade count: 77
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.41.607>	EA Generation: 14
+									Highest profit this round: 206348.02		171.96%
+									Average profit this round: 110826.36		92.36%
+									Mutation Rate: 0.0465
+									Average trade count: 84
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.43.802>	WIFI Generation: 35
+									Highest profit this round: 19396.68		16.16%
+									Average profit this round: -86041.06		-71.7%
+									Mutation Rate: 0.04125
+									Average trade count: 74
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.46.300>	AMZN Generation: 14
+									Highest profit this round: 42076.95		35.06%
+									Average profit this round: -1463.65		-1.22%
+									Mutation Rate: 0.0465
+									Average trade count: 75
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.47.868>	EA Generation: 15
+									Highest profit this round: 203781.25		169.82%
+									Average profit this round: 98602.73		82.17%
+									Mutation Rate: 0.04625
+									Average trade count: 87
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.51.937>	WIFI Generation: 36
+									Highest profit this round: 19396.68		16.16%
+									Average profit this round: -157322.85		-131.1%
+									Mutation Rate: 0.041
+									Average trade count: 56
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.54.390>	EA Generation: 16
+									Highest profit this round: 202317.47		168.6%
+									Average profit this round: 109035.29		90.86%
+									Mutation Rate: 0.046
+									Average trade count: 87
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:8.54.598>	AMZN Generation: 15
+									Highest profit this round: 43728.48		36.44%
+									Average profit this round: 354.48		0.3%
+									Mutation Rate: 0.04625
+									Average trade count: 72
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100

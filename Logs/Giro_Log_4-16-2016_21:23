@@ -1,0 +1,127 @@
+ProjectGiro LOG 21:23.16.557>	Initializing Project GIRO...
+ProjectGiro LOG 21:23.16.574>	transactionCost=6.95
+ProjectGiro LOG 21:23.16.574>	benchmarkingPeriod=40
+ProjectGiro LOG 21:23.16.574>	stopYear=2016
+ProjectGiro LOG 21:23.16.574>	useTodaysDate=True
+ProjectGiro LOG 21:23.16.574>	startDay=23
+ProjectGiro LOG 21:23.16.574>	mutationRateDelta=-0.00
+ProjectGiro LOG 21:23.16.574>	populationSize=256
+ProjectGiro LOG 21:23.16.574>	stopDay=13
+ProjectGiro LOG 21:23.16.574>	triggerThreshold=0.1
+ProjectGiro LOG 21:23.16.574>	startYear=2013
+ProjectGiro LOG 21:23.16.574>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 21:23.16.574>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 21:23.16.574>	stopMonth=3
+ProjectGiro LOG 21:23.16.574>	startMonth=11
+ProjectGiro LOG 21:23.16.574>	mutationRate=0.015
+ProjectGiro LOG 21:23.16.574>	tournamentSize=4
+ProjectGiro LOG 21:23.16.574>	selectionPercentage=0.6
+ProjectGiro LOG 21:23.16.574>	lookbackLevel=3
+ProjectGiro LOG 21:23.16.574>	TrigIncrementAmount=0.00
+ProjectGiro LOG 21:23.16.574>	marginInterestRate=0.0425
+ProjectGiro LOG 21:23.16.574>	loadedStrategieRatio=0.40
+ProjectGiro LOG 21:23.16.574>	threads=4
+ProjectGiro LOG 21:23.16.574>	startingMoney=1000000
+ProjectGiro LOG 21:23.16.575>	shortPortfolioRatio=0.3
+ProjectGiro LOG 21:23.16.575>	numStrategiesToSave=1
+ProjectGiro LOG 21:23.16.575>	dayTriggerThreshold=0.1
+ProjectGiro LOG 21:23.16.575>	performanceTest=True
+ProjectGiro LOG 21:23.16.575>	incrementDayThresholdGens=0
+ProjectGiro LOG 21:23.16.575>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 21:23.16.575>	tradeCountLimit=300
+ProjectGiro LOG 21:23.16.575>	generations=40
+ProjectGiro LOG 21:23.16.575>	Initiating analysis of 1 securities
+ProjectGiro LOG 21:23.16.602>	StockData/FB:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:23.16.602>	Using stored data for FB
+ProjectGiro LOG 21:23.16.608>	FB Technical indicator calculations complete
+ProjectGiro LOG 21:23.16.624>	Loading 102 stored strategies
+ProjectGiro LOG 21:23.16.821>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 21:23.16.822>	Beginning 40 generation simulation of FB
+ProjectGiro LOG 21:23.21.33>	FB Generation: 0
+									Highest profit this round: 4379499.52		437.95%
+									Average profit this round: 329346.92		32.93%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 21
+									Best strategy's trade correctness: 	28.0%
+									Best strategy's trade count: 134
+ProjectGiro LOG 21:23.25.253>	FB Generation: 1
+									Highest profit this round: 4082729.26		408.27%
+									Average profit this round: 520138.97		52.01%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 27
+									Best strategy's trade correctness: 	27.0%
+									Best strategy's trade count: 140
+ProjectGiro LOG 21:23.29.481>	FB Generation: 2
+									Highest profit this round: 1735380.25		173.54%
+									Average profit this round: 558917.35		55.89%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 41
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 184
+ProjectGiro LOG 21:23.33.644>	FB Generation: 3
+									Highest profit this round: 1735380.25		173.54%
+									Average profit this round: 616848.26		61.68%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 38
+									Best strategy's trade correctness: 	33.0%
+									Best strategy's trade count: 184
+ProjectGiro LOG 21:23.37.762>	FB Generation: 4
+									Highest profit this round: 1470991.89		147.1%
+									Average profit this round: 537742.44		53.77%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 48
+									Best strategy's trade correctness: 	26.0%
+									Best strategy's trade count: 95
+ProjectGiro LOG 21:23.41.959>	FB Generation: 5
+									Highest profit this round: 1470991.89		147.1%
+									Average profit this round: 710795.5		71.08%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 46
+									Best strategy's trade correctness: 	26.0%
+									Best strategy's trade count: 95
+ProjectGiro LOG 21:23.46.175>	FB Generation: 6
+									Highest profit this round: 1470991.89		147.1%
+									Average profit this round: 802049.08		80.2%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 45
+									Best strategy's trade correctness: 	26.0%
+									Best strategy's trade count: 95
+ProjectGiro LOG 21:23.50.379>	FB Generation: 7
+									Highest profit this round: 1682269.52		168.23%
+									Average profit this round: 867302.55		86.73%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 47
+									Best strategy's trade correctness: 	35.0%
+									Best strategy's trade count: 65
+ProjectGiro LOG 21:23.54.607>	FB Generation: 8
+									Highest profit this round: 1687243.5		168.72%
+									Average profit this round: 867024.67		86.7%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 50
+									Best strategy's trade correctness: 	37.0%
+									Best strategy's trade count: 67
+ProjectGiro LOG 21:23.58.838>	FB Generation: 9
+									Highest profit this round: 1821256.85		182.13%
+									Average profit this round: 1016865.89		101.69%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 65
+									Best strategy's trade correctness: 	23.0%
+									Best strategy's trade count: 158
+ProjectGiro LOG 21:24.3.790>	FB Generation: 10
+									Highest profit this round: 1941040.77		194.1%
+									Average profit this round: 1151847.51		115.18%
+									Buy and hold profit: 752398.190045
+									Mutation Rate: 0.015
+									Average trade count: 72
+									Best strategy's trade correctness: 	24.0%
+									Best strategy's trade count: 158

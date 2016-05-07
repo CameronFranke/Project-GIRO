@@ -102,10 +102,11 @@ class GiroController():
         gu.log(allResults)
 
 
-
     def start_worker(self, lock):
-        #technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI", "stochastic", "aroon"]
-        technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI", "stochastic", "aroon"]
+        technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI", "aroon"]
+        #technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI",]
+        #technicalIndicators = [ "dayChange", "aroon"]
+
 
         while True:
             lock.acquire()

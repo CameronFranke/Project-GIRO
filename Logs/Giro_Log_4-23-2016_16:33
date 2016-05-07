@@ -1,0 +1,63 @@
+ProjectGiro LOG 16:33.57.51>	Initializing Project GIRO...
+ProjectGiro LOG 16:33.57.68>	transactionCost=6.95
+ProjectGiro LOG 16:33.57.68>	benchmarkingPeriod=60
+ProjectGiro LOG 16:33.57.68>	stopYear=2016
+ProjectGiro LOG 16:33.57.68>	useTodaysDate=True
+ProjectGiro LOG 16:33.57.68>	startDay=23
+ProjectGiro LOG 16:33.57.68>	mutationRateDelta=-0.00
+ProjectGiro LOG 16:33.57.68>	populationSize=100
+ProjectGiro LOG 16:33.57.68>	stopDay=23
+ProjectGiro LOG 16:33.57.68>	triggerThreshold=0.1
+ProjectGiro LOG 16:33.57.68>	startYear=2013
+ProjectGiro LOG 16:33.57.68>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 16:33.57.68>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 16:33.57.68>	stopMonth=3
+ProjectGiro LOG 16:33.57.68>	startMonth=11
+ProjectGiro LOG 16:33.57.68>	mutationRate=0.015
+ProjectGiro LOG 16:33.57.68>	tournamentSize=12
+ProjectGiro LOG 16:33.57.68>	selectionPercentage=0.6
+ProjectGiro LOG 16:33.57.68>	lookbackLevel=3
+ProjectGiro LOG 16:33.57.68>	TrigIncrementAmount=0.00
+ProjectGiro LOG 16:33.57.68>	marginInterestRate=0.0425
+ProjectGiro LOG 16:33.57.68>	loadedStrategieRatio=0.40
+ProjectGiro LOG 16:33.57.68>	threads=1
+ProjectGiro LOG 16:33.57.68>	startingMoney=500
+ProjectGiro LOG 16:33.57.68>	shortPortfolioRatio=0.3
+ProjectGiro LOG 16:33.57.68>	numStrategiesToSave=1
+ProjectGiro LOG 16:33.57.69>	dayTriggerThreshold=0.1
+ProjectGiro LOG 16:33.57.69>	performanceTest=False
+ProjectGiro LOG 16:33.57.69>	incrementDayThresholdGens=0
+ProjectGiro LOG 16:33.57.69>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 16:33.57.69>	tradeCountLimit=300
+ProjectGiro LOG 16:33.57.69>	generations=2
+ProjectGiro LOG 16:33.57.69>	Initiating analysis of 1 securities
+ProjectGiro LOG 16:33.57.77>	StockData/AMD:11-23-2013_3-23-2016.txt
+ProjectGiro LOG 16:33.57.77>	Using stored data for AMD
+ProjectGiro LOG 16:33.57.82>	StockData/^IXIC:11-23-2013_3-23-2016.txt
+ProjectGiro LOG 16:33.57.82>	Using stored data for ^IXIC
+ProjectGiro LOG 16:33.57.85>	AMD Technical indicator calculations complete
+ProjectGiro LOG 16:33.57.119>	Loading 40 stored strategies
+ProjectGiro LOG 16:33.57.259>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 16:33.57.259>	Beginning 2 generation simulation of AMD
+ProjectGiro LOG 16:34.0.666>	AMD Generation: 0
+									Highest profit this round: -40.77		-8.15%
+									Average profit this round: -259.17		-51.83%
+									Buy and hold profit: -77.1276595745
+									Mutation Rate: 0.015
+									Average trade count: 3
+									Best strategy's trade correctness: 	11.0%
+									Best strategy's trade count: 9
+ProjectGiro LOG 16:34.4.100>	AMD Generation: 1
+									Highest profit this round: 200.89		40.18%
+									Average profit this round: -182.28		-36.46%
+									Buy and hold profit: -77.1276595745
+									Mutation Rate: 0.015
+									Average trade count: 6
+									Best strategy's trade correctness: 	43.0%
+									Best strategy's trade count: 14
+ProjectGiro LOG 16:34.4.530>	AMD action recommendation: No Action - leaning towards SELL
+ProjectGiro LOG 16:34.4.570>	['AMD', 'No Action - leaning towards SELL', 0.0]
+ProjectGiro LOG 16:34.4.570>	Results: 
+                            AMD No Action - leaning towards SELL        0.0
+
+ProjectGiro LOG 16:34.4.570>	GIRO total execution time: 7.00548005104

@@ -1,0 +1,1769 @@
+ProjectGiro LOG 22:48.33.486>	Initializing Project GIRO...
+ProjectGiro LOG 22:48.33.502>	transactionCost=6.95
+ProjectGiro LOG 22:48.33.502>	benchmarkingPeriod=30
+ProjectGiro LOG 22:48.33.502>	stopYear=2016
+ProjectGiro LOG 22:48.33.502>	useTodaysDate=True
+ProjectGiro LOG 22:48.33.502>	startDay=23
+ProjectGiro LOG 22:48.33.503>	mutationRateDelta=-.00025
+ProjectGiro LOG 22:48.33.503>	populationSize=256
+ProjectGiro LOG 22:48.33.503>	stopDay=13
+ProjectGiro LOG 22:48.33.503>	triggerThreshold=.2
+ProjectGiro LOG 22:48.33.503>	startYear=2013
+ProjectGiro LOG 22:48.33.503>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 22:48.33.503>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 22:48.33.503>	stopMonth=3
+ProjectGiro LOG 22:48.33.503>	startMonth=11
+ProjectGiro LOG 22:48.33.503>	mutationRate=.05
+ProjectGiro LOG 22:48.33.503>	tournamentSize=5
+ProjectGiro LOG 22:48.33.503>	selectionPercentage=.60
+ProjectGiro LOG 22:48.33.503>	lookbackLevel=3
+ProjectGiro LOG 22:48.33.503>	TrigIncrementAmount=.00
+ProjectGiro LOG 22:48.33.503>	loadedStrategieRatio=.40
+ProjectGiro LOG 22:48.33.503>	threads=7
+ProjectGiro LOG 22:48.33.503>	startingMoney=120000
+ProjectGiro LOG 22:48.33.503>	numStrategiesToSave=15
+ProjectGiro LOG 22:48.33.503>	dayTriggerThreshold=.2
+ProjectGiro LOG 22:48.33.503>	performanceTest=True
+ProjectGiro LOG 22:48.33.503>	incrementDayThresholdGens=0
+ProjectGiro LOG 22:48.33.503>	tradeOnLossPunishment=.02
+ProjectGiro LOG 22:48.33.503>	tradeCountLimit=100
+ProjectGiro LOG 22:48.33.503>	generations=80
+ProjectGiro LOG 22:48.33.503>	Initiating analysis of 3 securities
+ProjectGiro LOG 22:48.33.531>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.531>	Using stored data for EA
+ProjectGiro LOG 22:48.33.533>	StockData/AMZN:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.533>	Using stored data for AMZN
+ProjectGiro LOG 22:48.33.533>	StockData/WIFI:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.533>	Using stored data for WIFI
+ProjectGiro LOG 22:48.33.537>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.537>	Using stored data for ^IXIC
+ProjectGiro LOG 22:48.33.538>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.538>	Using stored data for ^IXIC
+ProjectGiro LOG 22:48.33.539>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 22:48.33.539>	Using stored data for ^IXIC
+ProjectGiro LOG 22:48.33.542>	AMZN Technical indicator calculations complete
+ProjectGiro LOG 22:48.33.543>	EA Technical indicator calculations complete
+ProjectGiro LOG 22:48.33.544>	WIFI Technical indicator calculations complete
+ProjectGiro LOG 22:48.33.604>	Loading 102 stored strategies
+ProjectGiro LOG 22:48.33.604>	Loading 102 stored strategies
+ProjectGiro LOG 22:48.33.605>	Loading 102 stored strategies
+ProjectGiro LOG 22:48.34.26>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 22:48.34.26>	Beginning 80 generation simulation of WIFI
+ProjectGiro LOG 22:48.34.37>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 22:48.34.37>	Beginning 80 generation simulation of AMZN
+ProjectGiro LOG 22:48.34.101>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 22:48.34.102>	Beginning 80 generation simulation of EA
+ProjectGiro LOG 22:48.37.550>	AMZN Generation: 0
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: -22178.63		-18.48%
+									Mutation Rate: 0.05
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.37.565>	WIFI Generation: 0
+									Highest profit this round: 30698.1		25.58%
+									Average profit this round: -11752.78		-9.79%
+									Mutation Rate: 0.05
+									Average trade count: 96
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.37.651>	EA Generation: 0
+									Highest profit this round: 268577.63		223.81%
+									Average profit this round: 76049.77		63.37%
+									Mutation Rate: 0.05
+									Average trade count: 97
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.41.304>	WIFI Generation: 1
+									Highest profit this round: 35831.23		29.86%
+									Average profit this round: -10746.33		-8.96%
+									Mutation Rate: 0.04975
+									Average trade count: 96
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.43.84>	EA Generation: 1
+									Highest profit this round: 268438.59		223.7%
+									Average profit this round: 101046.93		84.21%
+									Mutation Rate: 0.04975
+									Average trade count: 92
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.43.341>	AMZN Generation: 1
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: -4587.32		-3.82%
+									Mutation Rate: 0.04975
+									Average trade count: 86
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.45.308>	WIFI Generation: 2
+									Highest profit this round: 31654.29		26.38%
+									Average profit this round: -9242.48		-7.7%
+									Mutation Rate: 0.0495
+									Average trade count: 97
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.48.384>	EA Generation: 2
+									Highest profit this round: 268438.59		223.7%
+									Average profit this round: 103148.31		85.96%
+									Mutation Rate: 0.0495
+									Average trade count: 93
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.50.52>	AMZN Generation: 2
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 6862.56		5.72%
+									Mutation Rate: 0.0495
+									Average trade count: 76
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.50.248>	WIFI Generation: 3
+									Highest profit this round: 29688.87		24.74%
+									Average profit this round: -15067.39		-12.56%
+									Mutation Rate: 0.04925
+									Average trade count: 89
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.53.903>	EA Generation: 3
+									Highest profit this round: 257585.39		214.65%
+									Average profit this round: 120935.59		100.78%
+									Mutation Rate: 0.04925
+									Average trade count: 94
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.56.32>	WIFI Generation: 4
+									Highest profit this round: 23245.16		19.37%
+									Average profit this round: -10634.32		-8.86%
+									Mutation Rate: 0.049
+									Average trade count: 93
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.57.154>	AMZN Generation: 3
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 16728.76		13.94%
+									Mutation Rate: 0.04925
+									Average trade count: 88
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:48.59.669>	EA Generation: 4
+									Highest profit this round: 258428.51		215.36%
+									Average profit this round: 128145.61		106.79%
+									Mutation Rate: 0.049
+									Average trade count: 95
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.2.660>	WIFI Generation: 5
+									Highest profit this round: 13915.34		11.6%
+									Average profit this round: -13487.0		-11.24%
+									Mutation Rate: 0.04875
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.4.538>	AMZN Generation: 4
+									Highest profit this round: 46094.44		38.41%
+									Average profit this round: 22271.16		18.56%
+									Mutation Rate: 0.049
+									Average trade count: 87
+									Best strategie's trade correctness: 	89.0%
+									Best strategie's trade count: 38
+ProjectGiro LOG 22:49.6.305>	EA Generation: 5
+									Highest profit this round: 268577.63		223.81%
+									Average profit this round: 150110.88		125.09%
+									Mutation Rate: 0.04875
+									Average trade count: 97
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.9.583>	WIFI Generation: 6
+									Highest profit this round: 19754.08		16.46%
+									Average profit this round: -11308.78		-9.42%
+									Mutation Rate: 0.0485
+									Average trade count: 95
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.11.159>	AMZN Generation: 5
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 23584.04		19.65%
+									Mutation Rate: 0.04875
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.13.88>	EA Generation: 6
+									Highest profit this round: 263198.85		219.33%
+									Average profit this round: 157896.96		131.58%
+									Mutation Rate: 0.0485
+									Average trade count: 97
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.18.61>	WIFI Generation: 7
+									Highest profit this round: 48378.74		40.32%
+									Average profit this round: -9132.78		-7.61%
+									Mutation Rate: 0.04825
+									Average trade count: 84
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.18.555>	AMZN Generation: 6
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 27628.75		23.02%
+									Mutation Rate: 0.0485
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.18.555>	EA Generation: 7
+									Highest profit this round: 258428.51		215.36%
+									Average profit this round: 149781.03		124.82%
+									Mutation Rate: 0.04825
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.24.528>	EA Generation: 8
+									Highest profit this round: 268832.89		224.03%
+									Average profit this round: 170737.51		142.28%
+									Mutation Rate: 0.048
+									Average trade count: 99
+									Best strategie's trade correctness: 	89.0%
+									Best strategie's trade count: 83
+ProjectGiro LOG 22:49.24.736>	WIFI Generation: 8
+									Highest profit this round: 42229.75		35.19%
+									Average profit this round: -9046.47		-7.54%
+									Mutation Rate: 0.048
+									Average trade count: 94
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.26.225>	AMZN Generation: 7
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32700.95		27.25%
+									Mutation Rate: 0.04825
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.30.892>	EA Generation: 9
+									Highest profit this round: 268832.89		224.03%
+									Average profit this round: 173158.35		144.3%
+									Mutation Rate: 0.04775
+									Average trade count: 98
+									Best strategie's trade correctness: 	89.0%
+									Best strategie's trade count: 83
+ProjectGiro LOG 22:49.33.29>	WIFI Generation: 9
+									Highest profit this round: 42229.75		35.19%
+									Average profit this round: -12938.69		-10.78%
+									Mutation Rate: 0.04775
+									Average trade count: 91
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.34.445>	AMZN Generation: 8
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 26340.65		21.95%
+									Mutation Rate: 0.048
+									Average trade count: 90
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.36.829>	EA Generation: 10
+									Highest profit this round: 273657.94		228.05%
+									Average profit this round: 179031.9		149.19%
+									Mutation Rate: 0.0475
+									Average trade count: 96
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 92
+ProjectGiro LOG 22:49.40.503>	WIFI Generation: 10
+									Highest profit this round: 85285.41		71.07%
+									Average profit this round: -5376.99		-4.48%
+									Mutation Rate: 0.0475
+									Average trade count: 93
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.43.77>	EA Generation: 11
+									Highest profit this round: 273657.94		228.05%
+									Average profit this round: 179511.95		149.59%
+									Mutation Rate: 0.04725
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 92
+ProjectGiro LOG 22:49.43.108>	AMZN Generation: 9
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 29194.64		24.33%
+									Mutation Rate: 0.04775
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.48.717>	WIFI Generation: 11
+									Highest profit this round: 57194.73		47.66%
+									Average profit this round: -6361.77		-5.3%
+									Mutation Rate: 0.04725
+									Average trade count: 90
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.49.671>	EA Generation: 12
+									Highest profit this round: 278718.0		232.26%
+									Average profit this round: 196339.28		163.62%
+									Mutation Rate: 0.047
+									Average trade count: 97
+									Best strategie's trade correctness: 	88.0%
+									Best strategie's trade count: 72
+ProjectGiro LOG 22:49.51.908>	AMZN Generation: 10
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 28136.8		23.45%
+									Mutation Rate: 0.0475
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.56.822>	EA Generation: 13
+									Highest profit this round: 265495.87		221.25%
+									Average profit this round: 194657.51		162.21%
+									Mutation Rate: 0.04675
+									Average trade count: 98
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:49.57.261>	WIFI Generation: 12
+									Highest profit this round: 64518.37		53.77%
+									Average profit this round: -3489.12		-2.91%
+									Mutation Rate: 0.047
+									Average trade count: 94
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.1.140>	AMZN Generation: 11
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34237.59		28.53%
+									Mutation Rate: 0.04725
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.3.784>	EA Generation: 14
+									Highest profit this round: 266920.34		222.43%
+									Average profit this round: 195269.13		162.72%
+									Mutation Rate: 0.0465
+									Average trade count: 97
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.4.616>	WIFI Generation: 13
+									Highest profit this round: 69198.93		57.67%
+									Average profit this round: 135.48		0.11%
+									Mutation Rate: 0.04675
+									Average trade count: 94
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.10.147>	AMZN Generation: 12
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36336.06		30.28%
+									Mutation Rate: 0.047
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.10.229>	EA Generation: 15
+									Highest profit this round: 266920.34		222.43%
+									Average profit this round: 198289.1		165.24%
+									Mutation Rate: 0.04625
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.13.11>	WIFI Generation: 14
+									Highest profit this round: 71593.92		59.66%
+									Average profit this round: 7241.38		6.03%
+									Mutation Rate: 0.0465
+									Average trade count: 98
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.17.292>	EA Generation: 16
+									Highest profit this round: 266920.34		222.43%
+									Average profit this round: 205849.45		171.54%
+									Mutation Rate: 0.046
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.19.841>	AMZN Generation: 13
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 30981.2		25.82%
+									Mutation Rate: 0.04675
+									Average trade count: 88
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.21.676>	WIFI Generation: 15
+									Highest profit this round: 72852.8		60.71%
+									Average profit this round: 10095.97		8.41%
+									Mutation Rate: 0.04625
+									Average trade count: 91
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.22.978>	EA Generation: 17
+									Highest profit this round: 262443.07		218.7%
+									Average profit this round: 165720.96		138.1%
+									Mutation Rate: 0.04575
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.29.224>	AMZN Generation: 14
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 28043.66		23.37%
+									Mutation Rate: 0.0465
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.29.654>	EA Generation: 18
+									Highest profit this round: 265495.87		221.25%
+									Average profit this round: 193816.66		161.51%
+									Mutation Rate: 0.0455
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.29.892>	WIFI Generation: 16
+									Highest profit this round: 74332.09		61.94%
+									Average profit this round: 6341.13		5.28%
+									Mutation Rate: 0.046
+									Average trade count: 97
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.36.108>	EA Generation: 19
+									Highest profit this round: 265495.87		221.25%
+									Average profit this round: 192783.38		160.65%
+									Mutation Rate: 0.04525
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.38.118>	WIFI Generation: 17
+									Highest profit this round: 82077.52		68.4%
+									Average profit this round: 8416.75		7.01%
+									Mutation Rate: 0.04575
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.38.397>	AMZN Generation: 15
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 25307.89		21.09%
+									Mutation Rate: 0.04625
+									Average trade count: 87
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.42.503>	EA Generation: 20
+									Highest profit this round: 266920.34		222.43%
+									Average profit this round: 176774.45		147.31%
+									Mutation Rate: 0.045
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.47.190>	WIFI Generation: 18
+									Highest profit this round: 63295.66		52.75%
+									Average profit this round: 7283.32		6.07%
+									Mutation Rate: 0.0455
+									Average trade count: 92
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.47.778>	AMZN Generation: 16
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34613.06		28.84%
+									Mutation Rate: 0.046
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.49.242>	EA Generation: 21
+									Highest profit this round: 265495.87		221.25%
+									Average profit this round: 176367.42		146.97%
+									Mutation Rate: 0.04475
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.55.443>	WIFI Generation: 19
+									Highest profit this round: 56689.83		47.24%
+									Average profit this round: 8388.16		6.99%
+									Mutation Rate: 0.04525
+									Average trade count: 98
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.56.483>	EA Generation: 22
+									Highest profit this round: 266613.01		222.18%
+									Average profit this round: 194875.91		162.4%
+									Mutation Rate: 0.0445
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:50.56.942>	AMZN Generation: 17
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 30802.76		25.67%
+									Mutation Rate: 0.04575
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.3.459>	EA Generation: 23
+									Highest profit this round: 266613.01		222.18%
+									Average profit this round: 192467.48		160.39%
+									Mutation Rate: 0.04425
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.4.779>	WIFI Generation: 20
+									Highest profit this round: 62669.25		52.22%
+									Average profit this round: 6025.84		5.02%
+									Mutation Rate: 0.045
+									Average trade count: 96
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.6.810>	AMZN Generation: 18
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33830.27		28.19%
+									Mutation Rate: 0.0455
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.10.516>	EA Generation: 24
+									Highest profit this round: 262175.98		218.48%
+									Average profit this round: 189784.37		158.15%
+									Mutation Rate: 0.044
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.13.578>	WIFI Generation: 21
+									Highest profit this round: 87854.48		73.21%
+									Average profit this round: 12049.75		10.04%
+									Mutation Rate: 0.04475
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.17.174>	AMZN Generation: 19
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33353.78		27.79%
+									Mutation Rate: 0.04525
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.17.337>	EA Generation: 25
+									Highest profit this round: 266920.34		222.43%
+									Average profit this round: 178795.4		149.0%
+									Mutation Rate: 0.04375
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.22.289>	WIFI Generation: 22
+									Highest profit this round: 87451.53		72.88%
+									Average profit this round: 12992.65		10.83%
+									Mutation Rate: 0.0445
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.24.87>	EA Generation: 26
+									Highest profit this round: 268765.34		223.97%
+									Average profit this round: 193121.42		160.93%
+									Mutation Rate: 0.0435
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.26.272>	AMZN Generation: 20
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33895.58		28.25%
+									Mutation Rate: 0.045
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.30.796>	EA Generation: 27
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 184080.52		153.4%
+									Mutation Rate: 0.04325
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.32.270>	WIFI Generation: 23
+									Highest profit this round: 103034.28		85.86%
+									Average profit this round: 17840.12		14.87%
+									Mutation Rate: 0.04425
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.36.425>	AMZN Generation: 21
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 31759.9		26.47%
+									Mutation Rate: 0.04475
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.37.925>	EA Generation: 28
+									Highest profit this round: 262443.07		218.7%
+									Average profit this round: 192943.79		160.79%
+									Mutation Rate: 0.043
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.41.981>	WIFI Generation: 24
+									Highest profit this round: 79461.8		66.22%
+									Average profit this round: 18542.0		15.45%
+									Mutation Rate: 0.044
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.45.36>	EA Generation: 29
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 206039.55		171.7%
+									Mutation Rate: 0.04275
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.46.233>	AMZN Generation: 22
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32340.51		26.95%
+									Mutation Rate: 0.0445
+									Average trade count: 90
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.51.916>	EA Generation: 30
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 188836.08		157.36%
+									Mutation Rate: 0.0425
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.51.984>	WIFI Generation: 25
+									Highest profit this round: 85496.73		71.25%
+									Average profit this round: 16648.42		13.87%
+									Mutation Rate: 0.04375
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.56.163>	AMZN Generation: 23
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32953.97		27.46%
+									Mutation Rate: 0.04425
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:51.59.526>	EA Generation: 31
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 213659.64		178.05%
+									Mutation Rate: 0.04225
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.2.759>	WIFI Generation: 26
+									Highest profit this round: 78124.62		65.1%
+									Average profit this round: 20553.51		17.13%
+									Mutation Rate: 0.0435
+									Average trade count: 97
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.6.215>	AMZN Generation: 24
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 28519.23		23.77%
+									Mutation Rate: 0.044
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.6.719>	EA Generation: 32
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 215676.18		179.73%
+									Mutation Rate: 0.042
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.12.742>	WIFI Generation: 27
+									Highest profit this round: 91658.02		76.38%
+									Average profit this round: 12293.19		10.24%
+									Mutation Rate: 0.04325
+									Average trade count: 98
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.13.941>	EA Generation: 33
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 230760.11		192.3%
+									Mutation Rate: 0.04175
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.16.287>	AMZN Generation: 25
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 29407.1		24.51%
+									Mutation Rate: 0.04375
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.21.743>	EA Generation: 34
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 213913.82		178.26%
+									Mutation Rate: 0.0415
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.23.626>	WIFI Generation: 28
+									Highest profit this round: 96195.47		80.16%
+									Average profit this round: 14400.88		12.0%
+									Mutation Rate: 0.043
+									Average trade count: 95
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.26.623>	AMZN Generation: 26
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36019.96		30.02%
+									Mutation Rate: 0.0435
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.29.563>	EA Generation: 35
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 216799.03		180.67%
+									Mutation Rate: 0.04125
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.33.887>	WIFI Generation: 29
+									Highest profit this round: 82197.19		68.5%
+									Average profit this round: 18225.8		15.19%
+									Mutation Rate: 0.04275
+									Average trade count: 98
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.37.234>	EA Generation: 36
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 222238.51		185.2%
+									Mutation Rate: 0.041
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.37.274>	AMZN Generation: 27
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35458.24		29.55%
+									Mutation Rate: 0.04325
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.44.190>	WIFI Generation: 30
+									Highest profit this round: 73015.32		60.85%
+									Average profit this round: 14761.8		12.3%
+									Mutation Rate: 0.0425
+									Average trade count: 97
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.45.30>	EA Generation: 37
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 220950.68		184.13%
+									Mutation Rate: 0.04075
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.48.112>	AMZN Generation: 28
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34693.74		28.91%
+									Mutation Rate: 0.043
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.52.291>	EA Generation: 38
+									Highest profit this round: 262479.9		218.73%
+									Average profit this round: 219153.22		182.63%
+									Mutation Rate: 0.0405
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.53.824>	WIFI Generation: 31
+									Highest profit this round: 101280.76		84.4%
+									Average profit this round: 19262.28		16.05%
+									Mutation Rate: 0.04225
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.58.519>	AMZN Generation: 29
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32389.03		26.99%
+									Mutation Rate: 0.04275
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:52.59.750>	EA Generation: 39
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 207069.23		172.56%
+									Mutation Rate: 0.04025
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.4.346>	WIFI Generation: 32
+									Highest profit this round: 102832.0		85.69%
+									Average profit this round: 24032.25		20.03%
+									Mutation Rate: 0.042
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.7.371>	EA Generation: 40
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 207323.58		172.77%
+									Mutation Rate: 0.04
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.9.599>	AMZN Generation: 30
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35129.16		29.27%
+									Mutation Rate: 0.0425
+									Average trade count: 91
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.14.656>	EA Generation: 41
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 213838.34		178.2%
+									Mutation Rate: 0.03975
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.15.134>	WIFI Generation: 33
+									Highest profit this round: 95063.3		79.22%
+									Average profit this round: 23690.74		19.74%
+									Mutation Rate: 0.04175
+									Average trade count: 95
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.20.329>	AMZN Generation: 31
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37883.58		31.57%
+									Mutation Rate: 0.04225
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.21.699>	EA Generation: 42
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 209520.08		174.6%
+									Mutation Rate: 0.0395
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.26.865>	WIFI Generation: 34
+									Highest profit this round: 105261.99		87.72%
+									Average profit this round: 19247.89		16.04%
+									Mutation Rate: 0.0415
+									Average trade count: 97
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.28.824>	EA Generation: 43
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 218052.57		181.71%
+									Mutation Rate: 0.03925
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.30.567>	AMZN Generation: 32
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 31943.22		26.62%
+									Mutation Rate: 0.042
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.36.759>	EA Generation: 44
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 219031.29		182.53%
+									Mutation Rate: 0.039
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.36.974>	WIFI Generation: 35
+									Highest profit this round: 105803.64		88.17%
+									Average profit this round: 22509.24		18.76%
+									Mutation Rate: 0.04125
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.40.447>	AMZN Generation: 33
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33802.15		28.17%
+									Mutation Rate: 0.04175
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.44.580>	EA Generation: 45
+									Highest profit this round: 268765.34		223.97%
+									Average profit this round: 212087.1		176.74%
+									Mutation Rate: 0.03875
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.48.129>	WIFI Generation: 36
+									Highest profit this round: 102688.04		85.57%
+									Average profit this round: 25482.1		21.24%
+									Mutation Rate: 0.041
+									Average trade count: 98
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.51.86>	AMZN Generation: 34
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35472.77		29.56%
+									Mutation Rate: 0.0415
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.51.812>	EA Generation: 46
+									Highest profit this round: 259065.06		215.89%
+									Average profit this round: 214573.68		178.81%
+									Mutation Rate: 0.0385
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.58.571>	WIFI Generation: 37
+									Highest profit this round: 84639.17		70.53%
+									Average profit this round: 22350.52		18.63%
+									Mutation Rate: 0.04075
+									Average trade count: 98
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:53.59.748>	EA Generation: 47
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 215281.35		179.4%
+									Mutation Rate: 0.03825
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.2.193>	AMZN Generation: 35
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32043.25		26.7%
+									Mutation Rate: 0.04125
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.7.950>	EA Generation: 48
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 222974.78		185.81%
+									Mutation Rate: 0.038
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.10.818>	WIFI Generation: 38
+									Highest profit this round: 104086.04		86.74%
+									Average profit this round: 11570.43		9.64%
+									Mutation Rate: 0.0405
+									Average trade count: 90
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.13.408>	AMZN Generation: 36
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36357.45		30.3%
+									Mutation Rate: 0.041
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.15.547>	EA Generation: 49
+									Highest profit this round: 259577.95		216.31%
+									Average profit this round: 226668.15		188.89%
+									Mutation Rate: 0.03775
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.22.638>	WIFI Generation: 39
+									Highest profit this round: 127742.22		106.45%
+									Average profit this round: 29349.49		24.46%
+									Mutation Rate: 0.04025
+									Average trade count: 96
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.23.290>	EA Generation: 50
+									Highest profit this round: 259577.95		216.31%
+									Average profit this round: 221069.28		184.22%
+									Mutation Rate: 0.0375
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.24.296>	AMZN Generation: 37
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33739.75		28.12%
+									Mutation Rate: 0.04075
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.30.135>	EA Generation: 51
+									Highest profit this round: 259577.95		216.31%
+									Average profit this round: 216576.41		180.48%
+									Mutation Rate: 0.03725
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.34.60>	WIFI Generation: 40
+									Highest profit this round: 106829.49		89.02%
+									Average profit this round: 30086.05		25.07%
+									Mutation Rate: 0.04
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.35.199>	AMZN Generation: 38
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 32347.84		26.96%
+									Mutation Rate: 0.0405
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.37.152>	EA Generation: 52
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 213456.97		177.88%
+									Mutation Rate: 0.037
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.44.14>	WIFI Generation: 41
+									Highest profit this round: 104242.51		86.87%
+									Average profit this round: 31158.74		25.97%
+									Mutation Rate: 0.03975
+									Average trade count: 97
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.44.816>	EA Generation: 53
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 222159.97		185.13%
+									Mutation Rate: 0.03675
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.46.55>	AMZN Generation: 39
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35277.32		29.4%
+									Mutation Rate: 0.04025
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.52.894>	EA Generation: 54
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 226270.2		188.56%
+									Mutation Rate: 0.0365
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.54.536>	WIFI Generation: 42
+									Highest profit this round: 102174.35		85.15%
+									Average profit this round: 29961.64		24.97%
+									Mutation Rate: 0.0395
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:54.56.896>	AMZN Generation: 40
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34244.17		28.54%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.0.779>	EA Generation: 55
+									Highest profit this round: 259647.84		216.37%
+									Average profit this round: 217785.28		181.49%
+									Mutation Rate: 0.03625
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.5.412>	WIFI Generation: 43
+									Highest profit this round: 116345.79		96.95%
+									Average profit this round: 35803.59		29.84%
+									Mutation Rate: 0.03925
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.7.928>	AMZN Generation: 41
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34327.62		28.61%
+									Mutation Rate: 0.03975
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.8.402>	EA Generation: 56
+									Highest profit this round: 259647.84		216.37%
+									Average profit this round: 221617.51		184.68%
+									Mutation Rate: 0.036
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.15.985>	WIFI Generation: 44
+									Highest profit this round: 116093.67		96.74%
+									Average profit this round: 24683.61		20.57%
+									Mutation Rate: 0.039
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.16.432>	EA Generation: 57
+									Highest profit this round: 259647.84		216.37%
+									Average profit this round: 227766.78		189.81%
+									Mutation Rate: 0.03575
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.18.789>	AMZN Generation: 42
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 30531.21		25.44%
+									Mutation Rate: 0.0395
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.24.302>	EA Generation: 58
+									Highest profit this round: 259647.84		216.37%
+									Average profit this round: 223506.88		186.26%
+									Mutation Rate: 0.0355
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.27.661>	WIFI Generation: 45
+									Highest profit this round: 108297.35		90.25%
+									Average profit this round: 36137.5		30.11%
+									Mutation Rate: 0.03875
+									Average trade count: 98
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.29.108>	AMZN Generation: 43
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35716.91		29.76%
+									Mutation Rate: 0.03925
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.31.805>	EA Generation: 59
+									Highest profit this round: 262427.04		218.69%
+									Average profit this round: 210292.74		175.24%
+									Mutation Rate: 0.03525
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.37.219>	WIFI Generation: 46
+									Highest profit this round: 108297.35		90.25%
+									Average profit this round: 37319.72		31.1%
+									Mutation Rate: 0.0385
+									Average trade count: 98
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.39.233>	EA Generation: 60
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 210171.29		175.14%
+									Mutation Rate: 0.035
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.40.13>	AMZN Generation: 44
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35590.12		29.66%
+									Mutation Rate: 0.039
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.46.682>	EA Generation: 61
+									Highest profit this round: 272004.35		226.67%
+									Average profit this round: 200927.59		167.44%
+									Mutation Rate: 0.03475
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.47.871>	WIFI Generation: 47
+									Highest profit this round: 105167.32		87.64%
+									Average profit this round: 46922.16		39.1%
+									Mutation Rate: 0.03825
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.50.995>	AMZN Generation: 45
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 34992.36		29.16%
+									Mutation Rate: 0.03875
+									Average trade count: 93
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.54.112>	EA Generation: 62
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 218652.1		182.21%
+									Mutation Rate: 0.0345
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:55.58.159>	WIFI Generation: 48
+									Highest profit this round: 111692.47		93.08%
+									Average profit this round: 38256.26		31.88%
+									Mutation Rate: 0.038
+									Average trade count: 99
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.1.555>	EA Generation: 63
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 201781.76		168.15%
+									Mutation Rate: 0.03425
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.2.158>	AMZN Generation: 46
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35581.73		29.65%
+									Mutation Rate: 0.0385
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.9.402>	EA Generation: 64
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 212039.22		176.7%
+									Mutation Rate: 0.034
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.10.10>	WIFI Generation: 49
+									Highest profit this round: 105558.94		87.97%
+									Average profit this round: 40526.02		33.77%
+									Mutation Rate: 0.03775
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.12.736>	AMZN Generation: 47
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35076.73		29.23%
+									Mutation Rate: 0.03825
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.16.76>	EA Generation: 65
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 182476.34		152.06%
+									Mutation Rate: 0.03375
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.22.342>	WIFI Generation: 50
+									Highest profit this round: 107659.96		89.72%
+									Average profit this round: 45579.07		37.98%
+									Mutation Rate: 0.0375
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.23.659>	EA Generation: 66
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 214556.28		178.8%
+									Mutation Rate: 0.0335
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.24.190>	AMZN Generation: 48
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35665.58		29.72%
+									Mutation Rate: 0.038
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.30.712>	EA Generation: 67
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 187093.67		155.91%
+									Mutation Rate: 0.03325
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.33.944>	WIFI Generation: 51
+									Highest profit this round: 104877.51		87.4%
+									Average profit this round: 38160.08		31.8%
+									Mutation Rate: 0.03725
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.35.162>	AMZN Generation: 49
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36702.67		30.59%
+									Mutation Rate: 0.03775
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.36.898>	EA Generation: 68
+									Highest profit this round: 267334.08		222.78%
+									Average profit this round: 193759.78		161.47%
+									Mutation Rate: 0.033
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.44.281>	EA Generation: 69
+									Highest profit this round: 264395.3		220.33%
+									Average profit this round: 208848.3		174.04%
+									Mutation Rate: 0.03275
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.46.980>	AMZN Generation: 50
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38173.87		31.81%
+									Mutation Rate: 0.0375
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.47.35>	WIFI Generation: 52
+									Highest profit this round: 104877.51		87.4%
+									Average profit this round: 33990.87		28.33%
+									Mutation Rate: 0.037
+									Average trade count: 92
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.51.685>	EA Generation: 70
+									Highest profit this round: 265815.7		221.51%
+									Average profit this round: 214354.13		178.63%
+									Mutation Rate: 0.0325
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.58.563>	AMZN Generation: 51
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35954.81		29.96%
+									Mutation Rate: 0.03725
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.58.984>	WIFI Generation: 53
+									Highest profit this round: 102289.2		85.24%
+									Average profit this round: 49411.91		41.18%
+									Mutation Rate: 0.03675
+									Average trade count: 94
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:56.59.291>	EA Generation: 71
+									Highest profit this round: 266965.43		222.47%
+									Average profit this round: 204634.31		170.53%
+									Mutation Rate: 0.03225
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.7.750>	EA Generation: 72
+									Highest profit this round: 269253.87		224.38%
+									Average profit this round: 229999.25		191.67%
+									Mutation Rate: 0.032
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.9.968>	AMZN Generation: 52
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36322.47		30.27%
+									Mutation Rate: 0.037
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.12.111>	WIFI Generation: 54
+									Highest profit this round: 99234.06		82.7%
+									Average profit this round: 44409.46		37.01%
+									Mutation Rate: 0.0365
+									Average trade count: 92
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.14.558>	EA Generation: 73
+									Highest profit this round: 269253.87		224.38%
+									Average profit this round: 224234.36		186.86%
+									Mutation Rate: 0.03175
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.21.108>	AMZN Generation: 53
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35848.71		29.87%
+									Mutation Rate: 0.03675
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.22.241>	EA Generation: 74
+									Highest profit this round: 266965.43		222.47%
+									Average profit this round: 224739.21		187.28%
+									Mutation Rate: 0.0315
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.24.181>	WIFI Generation: 55
+									Highest profit this round: 109257.62		91.05%
+									Average profit this round: 37815.15		31.51%
+									Mutation Rate: 0.03625
+									Average trade count: 94
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.30.128>	EA Generation: 75
+									Highest profit this round: 266965.43		222.47%
+									Average profit this round: 231652.41		193.04%
+									Mutation Rate: 0.03125
+									Average trade count: 99
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.32.110>	AMZN Generation: 54
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36171.75		30.14%
+									Mutation Rate: 0.0365
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.36.456>	WIFI Generation: 56
+									Highest profit this round: 113721.36		94.77%
+									Average profit this round: 54228.4		45.19%
+									Mutation Rate: 0.036
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.37.422>	EA Generation: 76
+									Highest profit this round: 266965.43		222.47%
+									Average profit this round: 217923.59		181.6%
+									Mutation Rate: 0.031
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.43.566>	AMZN Generation: 55
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38335.48		31.95%
+									Mutation Rate: 0.03625
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.45.544>	EA Generation: 77
+									Highest profit this round: 266965.43		222.47%
+									Average profit this round: 233165.59		194.3%
+									Mutation Rate: 0.03075
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.49.471>	WIFI Generation: 57
+									Highest profit this round: 113721.36		94.77%
+									Average profit this round: 53723.66		44.77%
+									Mutation Rate: 0.03575
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.53.327>	EA Generation: 78
+									Highest profit this round: 268097.34		223.41%
+									Average profit this round: 205943.36		171.62%
+									Mutation Rate: 0.0305
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:57.53.428>	AMZN Generation: 56
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36450.7		30.38%
+									Mutation Rate: 0.036
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.1.620>	EA Generation: 79
+									Highest profit this round: 268097.34		223.41%
+									Average profit this round: 227031.41		189.19%
+									Mutation Rate: 0.03025
+									Average trade count: 100
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.1.912>	Benchmarking [{'BBANDupper': 64.161451764615521, 'high': 64.720000999999996, 'CCI': 172.72167917885136, 'close': 63.340000000000003, 'nasdaqChange': 0.055168197504482694, 'chaikinAD': -213.78373377828757, 'BBANDlower': 57.270547035384411, 'open': 63.549999, 'BBANDmiddle': 60.715999399999966, 'aroonUp': 100.0, 'low': 63.340000000000003, 'ADMI': 28.019988356299145, 'MACDdiff': 0.77970820885537395, 'volume': 64.680000000000007, 'MACD': -0.84446285595727488, 'slowd': 51.658096371807659, 'date': '2016-02-25', 'MACDsignal': -1.6241710648126488, 'slowk': 63.970598818277658, 'volumeROCP': 0.079781793385612129, 'dayChange': 0.041521960846226724, 'RSI': 56.065962046852, 'aroonDown': 14.285714285714286}, {'BBANDupper': 64.801961764530461, 'high': 65.110000999999997, 'CCI': 146.73697929348839, 'close': 63.770000000000003, 'nasdaqChange': 0.08813329967104816, 'chaikinAD': -215.62104029471084, 'BBANDlower': 58.898037835469466, 'open': 64.809997999999993, 'BBANDmiddle': 61.849999799999964, 'aroonUp': 100.0, 'low': 63.770000000000003, 'ADMI': 28.275596438191506, 'MACDdiff': 0.9073938560707111, 'volume': 64.449996999999996, 'MACD': -0.48992874472425996, 'slowd': 60.239899728731011, 'date': '2016-02-26', 'MACDsignal': -1.3973226007949711, 'slowk': 67.199008743448417, 'volumeROCP': 0.10405128476631872, 'dayChange': 0.0067429825936961008, 'RSI': 57.040971011089781, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 65.280985759680476, 'high': 65.25, 'CCI': 125.95405839973587, 'close': 63.970001000000003, 'nasdaqChange': 0.066284539732083425, 'chaikinAD': -217.2107522973638, 'BBANDlower': 60.019013840319467, 'open': 63.970001000000003, 'BBANDmiddle': 62.649999799999968, 'aroonUp': 100.0, 'low': 63.970001000000003, 'ADMI': 27.80837025236336, 'MACDdiff': 0.96536038073799579, 'volume': 64.239998, 'MACD': -0.19062212487247621, 'slowd': 68.711003649747241, 'date': '2016-02-29', 'MACDsignal': -1.155982505610472, 'slowk': 74.963403387515655, 'volumeROCP': 0.11601536985345434, 'dayChange': 0.0031264811141710203, 'RSI': 57.513261582417876, 'aroonDown': 0.0}, {'BBANDupper': 65.780698471737253, 'high': 65.690002000000007, 'CCI': 115.70046795223625, 'close': 64.260002, 'nasdaqChange': 0.046893417386903689, 'chaikinAD': -218.94920340778481, 'BBANDlower': 60.639302328262687, 'open': 64.449996999999996, 'BBANDmiddle': 63.21000039999997, 'aroonUp': 100.0, 'low': 64.260002, 'ADMI': 27.150702752920839, 'MACDdiff': 0.98013294723137778, 'volume': 65.480002999999996, 'MACD': 0.069183678428750284, 'slowd': 71.500947947209127, 'date': '2016-03-01', 'MACDsignal': -0.9109492688026275, 'slowk': 72.34043171066331, 'volumeROCP': 0.091372298040552011, 'dayChange': 0.004512931698943845, 'RSI': 58.23034181744724, 'aroonDown': 0.0}, {'BBANDupper': 64.867483691919347, 'high': 66.25, 'CCI': 108.18504106484603, 'close': 64.629997000000003, 'nasdaqChange': 0.045350054242493554, 'chaikinAD': -220.78455000679605, 'BBANDlower': 63.12051630808056, 'open': 65.180000000000007, 'BBANDmiddle': 63.993999999999957, 'aroonUp': 100.0, 'low': 64.629997000000003, 'ADMI': 26.779102475427344, 'MACDdiff': 0.96992908415346812, 'volume': 66.089995999999999, 'MACD': 0.30146208638920768, 'slowd': 69.925850289635392, 'date': '2016-03-02', 'MACDsignal': -0.66846699776426044, 'slowk': 62.473715770727203, 'volumeROCP': 0.098962691736733749, 'dayChange': 0.0057248184616193187, 'RSI': 59.177015181587002, 'aroonDown': 14.285714285714286}, {'BBANDupper': 64.741294191282037, 'high': 66.010002, 'CCI': 84.546151761862205, 'close': 64.180000000000007, 'nasdaqChange': 0.04276149348388826, 'chaikinAD': -222.08223366031962, 'BBANDlower': 63.582705808717854, 'open': 65.800003000000004, 'BBANDmiddle': 64.161999999999949, 'aroonUp': 92.857142857142861, 'low': 64.180000000000007, 'ADMI': 26.356518889541427, 'MACDdiff': 0.89006474388931256, 'volume': 64.800003000000004, 'MACD': 0.44411393209738037, 'slowd': 59.62107246482973, 'date': '2016-03-03', 'MACDsignal': -0.44595081179193224, 'slowk': 44.049069913098663, 'volumeROCP': 0.10218100635411317, 'dayChange': -0.0070114833281396116, 'RSI': 57.470986473396238, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 65.059882024153097, 'high': 64.860000999999997, 'CCI': 44.020138512771844, 'close': 63.080002, 'nasdaqChange': 0.052263661394393153, 'chaikinAD': -222.92426482218434, 'BBANDlower': 62.988118775846793, 'open': 64.410004000000001, 'BBANDmiddle': 64.024000399999949, 'aroonUp': 85.714285714285722, 'low': 63.080002, 'ADMI': 25.971162992698829, 'MACDdiff': 0.72721500386668447, 'volume': 64.430000000000007, 'MACD': 0.46306794304142329, 'slowd': 42.270045436714121, 'date': '2016-03-04', 'MACDsignal': -0.26414706082526113, 'slowk': 20.287350626316478, 'volumeROCP': 0.085714357511681855, 'dayChange': -0.017438141488961945, 'RSI': 53.417022231625985, 'aroonDown': 0.0}, {'BBANDupper': 65.184493975890248, 'high': 64.430000000000007, 'CCI': 29.089590483625596, 'close': 62.909999999999997, 'nasdaqChange': 0.028212606152238227, 'chaikinAD': -223.23607167729642, 'BBANDlower': 62.439506424109645, 'open': 63.889999000000003, 'BBANDmiddle': 63.812000199999943, 'aroonUp': 78.571428571428569, 'low': 62.909999999999997, 'ADMI': 25.515311092209735, 'MACDdiff': 0.57858117742370785, 'volume': 63.590000000000003, 'MACD': 0.45907941095437366, 'slowd': 23.282391075862435, 'date': '2016-03-07', 'MACDsignal': -0.11950176646933416, 'slowk': 5.5107526881721354, 'volumeROCP': 0.049024494763640125, 'dayChange': -0.0027023048799872385, 'RSI': 52.797169216047713, 'aroonDown': 21.428571428571431}, {'BBANDupper': 65.047620532815969, 'high': 64.180000000000007, 'CCI': 11.676448738356333, 'close': 62.599997999999999, 'nasdaqChange': 0.031531174345878717, 'chaikinAD': -223.10216764736106, 'BBANDlower': 61.912378267183939, 'open': 63.049999, 'BBANDmiddle': 63.479999399999954, 'aroonUp': 71.428571428571431, 'low': 62.599997999999999, 'ADMI': 25.256564009453164, 'MACDdiff': 0.43639606451957913, 'volume': 62.959999000000003, 'MACD': 0.42599331418013975, 'slowd': 8.599367771496226, 'date': '2016-03-08', 'MACDsignal': -0.010402750339439368, 'slowk': 3.5527136788005009e-14, 'volumeROCP': 0.018548633559203213, 'dayChange': -0.0049521087844124345, 'RSI': 51.620839003660471, 'aroonDown': 14.285714285714286}, {'BBANDupper': 64.227160112064325, 'high': 64.040001000000004, 'CCI': 1.5650824539699357, 'close': 62.740001999999997, 'nasdaqChange': 0.048963715841219245, 'chaikinAD': -223.10355466717374, 'BBANDlower': 61.976840687935578, 'open': 63.189999, 'BBANDmiddle': 63.102000399999952, 'aroonUp': 64.285714285714292, 'low': 62.740001999999997, 'ADMI': 25.034986850759282, 'MACDdiff': 0.33343015561649297, 'volume': 63.919998, 'MACD': 0.40638494418117688, 'slowd': 2.2931047108916389, 'date': '2016-03-09', 'MACDsignal': 0.07295478856468389, 'slowk': 1.3685614445027161, 'volumeROCP': 0.033437704388695401, 'dayChange': 0.0022314949878388113, 'RSI': 52.139467967453498, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 63.162401582401813, 'high': 64.419998000000007, 'CCI': -19.309850369651642, 'close': 62.580002, 'nasdaqChange': 0.020168765286929437, 'chaikinAD': -223.02652620553636, 'BBANDlower': 62.401600017598085, 'open': 64.150002000000001, 'BBANDmiddle': 62.782000799999949, 'aroonUp': 57.142857142857146, 'low': 62.580002, 'ADMI': 23.818431792906615, 'MACDdiff': 0.24053821788023347, 'volume': 63.5, 'MACD': 0.37362756091497573, 'slowd': 0.91237429633516565, 'date': '2016-03-10', 'MACDsignal': 0.13308934303474226, 'slowk': 1.3685614445027161, 'volumeROCP': -0.011998705399431686, 'dayChange': -0.0025567273072313323, 'RSI': 51.460519483715487, 'aroonDown': 0.0}, {'BBANDupper': 63.571187199918903, 'high': 64.650002000000001, 'CCI': 20.711254506541568, 'close': 63.529998999999997, 'nasdaqChange': 0.02622487363251412, 'chaikinAD': -223.23305795254782, 'BBANDlower': 62.172813200080988, 'open': 63.830002, 'BBANDmiddle': 62.872000199999945, 'aroonUp': 50.0, 'low': 63.529998999999997, 'ADMI': 22.599798934448579, 'MACDdiff': 0.2291191791090495, 'volume': 64.470000999999996, 'MACD': 0.41948831692105415, 'slowd': 6.4678475421946002, 'date': '2016-03-11', 'MACDsignal': 0.19036913781200465, 'slowk': 16.666419737578337, 'volumeROCP': -0.0037635408499295366, 'dayChange': 0.014953518258358445, 'RSI': 55.191457069857186, 'aroonDown': 0.0}, {'BBANDupper': 64.082526181167424, 'high': 65.309997999999993, 'CCI': 47.685809795638242, 'close': 63.810001, 'nasdaqChange': 0.038190089762590147, 'chaikinAD': -223.63863417154789, 'BBANDlower': 62.021474618832485, 'open': 63.810001, 'BBANDmiddle': 63.052000399999955, 'aroonUp': 42.857142857142861, 'low': 63.810001, 'ADMI': 21.571695388234254, 'MACDdiff': 0.2260846552735368, 'volume': 64.790001000000004, 'MACD': 0.47297495690392566, 'slowd': 16.117054762777034, 'date': '2016-03-14', 'MACDsignal': 0.24689030163038886, 'slowk': 30.316183106250019, 'volumeROCP': -0.0025011723854749305, 'dayChange': 0.0043880582293048809, 'RSI': 56.258639651603502, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 64.606964630359542, 'high': 65.900002000000001, 'CCI': 82.152832332275537, 'close': 64.190002000000007, 'nasdaqChange': 0.028443241992688415, 'chaikinAD': -224.38467620009033, 'BBANDlower': 62.133037769640374, 'open': 64.190002000000007, 'BBANDmiddle': 63.370001199999955, 'aroonUp': 35.714285714285715, 'low': 64.190002000000007, 'ADMI': 20.522431502950841, 'MACDdiff': 0.23433086762093314, 'volume': 65.720000999999996, 'MACD': 0.53980388615655528, 'slowd': 31.15448152820554, 'date': '2016-03-15', 'MACDsignal': 0.30547301853562214, 'slowk': 46.480841740788236, 'volumeROCP': -0.0010893245848326177, 'dayChange': 0.0059199406162973034, 'RSI': 57.729998020814321, 'aroonDown': 0.0}, {'BBANDupper': 65.088307792381073, 'high': 66.169998000000007, 'CCI': 103.0888064923044, 'close': 64.569999999999993, 'nasdaqChange': 0.01082742713550639, 'chaikinAD': -225.29126828448352, 'BBANDlower': 62.383693807618833, 'open': 65.629997000000003, 'BBANDmiddle': 63.736000799999957, 'aroonUp': 28.571428571428573, 'low': 64.569999999999993, 'ADMI': 19.548465355793152, 'MACDdiff': 0.24868106788557032, 'volume': 66.0, 'MACD': 0.61632435339258507, 'slowd': 42.152420645667284, 'date': '2016-03-16', 'MACDsignal': 0.36764328550701475, 'slowk': 49.660237089963552, 'volumeROCP': -0.00092831506707341863, 'dayChange': 0.0058850549790921969, 'RSI': 59.207695964965943, 'aroonDown': 71.428571428571431}, {'BBANDupper': 64.809692612029053, 'high': 65.75, 'CCI': -5.7959002878943693, 'close': 63.240001999999997, 'nasdaqChange': 0.013586650549984402, 'chaikinAD': -225.75794002042312, 'BBANDlower': 62.926308987970877, 'open': 65.089995999999999, 'BBANDmiddle': 63.868000799999962, 'aroonUp': 21.428571428571431, 'low': 63.240001999999997, 'ADMI': 18.335103091448808, 'MACDdiff': 0.15641012399811405, 'volume': 64.669998000000007, 'MACD': 0.56315594050465734, 'slowd': 43.594330369180341, 'date': '2016-03-17', 'MACDsignal': 0.40674581650654329, 'slowk': 34.641912276789192, 'volumeROCP': -0.014646276098473196, 'dayChange': -0.02103096075170896, 'RSI': 52.314370763765474, 'aroonDown': 64.285714285714292}, {'BBANDupper': 64.811311377234006, 'high': 65.319999999999993, 'CCI': 21.071571088204259, 'close': 63.82, 'nasdaqChange': 0.018018621412197885, 'chaikinAD': -225.89085663781589, 'BBANDlower': 63.040690622765915, 'open': 64.900002000000001, 'BBANDmiddle': 63.926000999999964, 'aroonUp': 14.285714285714286, 'low': 63.82, 'ADMI': 17.190064092040998, 'MACDdiff': 0.12368310021000173, 'volume': 64.319999999999993, 'MACD': 0.56134969176904548, 'slowd': 36.459265514974049, 'date': '2016-03-18', 'MACDsignal': 0.43766659155904375, 'slowk': 25.075647178169358, 'volumeROCP': 0.011731102988868009, 'dayChange': 0.0090880288310875024, 'RSI': 54.786541851709373, 'aroonDown': 57.142857142857146}, {'BBANDupper': 64.81313089409548, 'high': 64.400002000000001, 'CCI': -28.571533406571398, 'close': 63.509998000000003, 'nasdaqChange': 0.023650121964572095, 'chaikinAD': -225.75424433240187, 'BBANDlower': 62.918869905904444, 'open': 64.050003000000004, 'BBANDmiddle': 63.866000399999962, 'aroonUp': 7.1428571428571432, 'low': 63.509998000000003, 'ADMI': 16.384358622728413, 'MACDdiff': 0.072913037046936247, 'volume': 63.939999, 'MACD': 0.52880788786771404, 'slowd': 23.129194677640573, 'date': '2016-03-21', 'MACDsignal': 0.4558948508207778, 'slowk': 9.6700245779631295, 'volumeROCP': 0.0095374026386902955, 'dayChange': -0.004881152728110516, 'RSI': 53.199028488439936, 'aroonDown': 50.0}, {'BBANDupper': 64.662725821035323, 'high': 64.279999000000004, 'CCI': -43.209950182395325, 'close': 63.270000000000003, 'nasdaqChange': 0.029906157432518635, 'chaikinAD': -225.4975167681514, 'BBANDlower': 62.701274178964589, 'open': 63.700001, 'BBANDmiddle': 63.68199999999996, 'aroonUp': 0.0, 'low': 63.270000000000003, 'ADMI': 15.601629740650058, 'MACDdiff': 0.017796705137634428, 'volume': 63.869999, 'MACD': 0.47814073224282083, 'slowd': 14.918990325066256, 'date': '2016-03-22', 'MACDsignal': 0.4603440271051864, 'slowk': 10.011299219066236, 'volumeROCP': 0.010702907690188805, 'dayChange': -0.0037932353406038288, 'RSI': 51.944132279345254, 'aroonDown': 42.857142857142861}, {'BBANDupper': 63.911195253960585, 'high': 65.5, 'CCI': 43.663081260563992, 'close': 63.580002, 'nasdaqChange': 0.026484074483945477, 'chaikinAD': -225.590445831127, 'BBANDlower': 63.056805546039328, 'open': 63.900002000000001, 'BBANDmiddle': 63.484000399999957, 'aroonUp': 64.285714285714292, 'low': 63.580002, 'ADMI': 14.901417230411493, 'MACDdiff': -0.0020953418176814509, 'volume': 65.050003000000004, 'MACD': 0.45772484983308459, 'slowd': 9.2031684407875236, 'date': '2016-03-23', 'MACDsignal': 0.45982019165076604, 'slowk': 7.9281815253331587, 'volumeROCP': 0.013388587395964754, 'dayChange': 0.0048757783933381926, 'RSI': 53.470890963838436, 'aroonDown': 35.714285714285715}, {'BBANDupper': 64.197138212929403, 'high': 65.730002999999996, 'CCI': 84.291923420894122, 'close': 64.069999999999993, 'nasdaqChange': 0.027513032702317152, 'chaikinAD': -225.56023928133072, 'BBANDlower': 63.102861787070509, 'open': 64.599997999999999, 'BBANDmiddle': 63.649999999999956, 'aroonUp': 57.142857142857146, 'low': 64.069999999999993, 'ADMI': 14.382944331966257, 'MACDdiff': 0.012624984524180871, 'volume': 64.239998, 'MACD': 0.47560142230599212, 'slowd': 11.212042136381173, 'date': '2016-03-24', 'MACDsignal': 0.46297643778181125, 'slowk': 15.696645664744082, 'volumeROCP': 0.02380949108950161, 'dayChange': 0.0076478539097860621, 'RSI': 55.858095011755672, 'aroonDown': 28.571428571428573}, {'BBANDupper': 64.126092133359421, 'high': 65.019997000000004, 'CCI': 7.335272618722354, 'close': 63.599997999999999, 'nasdaqChange': 0.012571950545485008, 'chaikinAD': -225.60967816720949, 'BBANDlower': 63.085907066640473, 'open': 64.129997000000003, 'BBANDmiddle': 63.605999599999947, 'aroonUp': 50.0, 'low': 63.599997999999999, 'ADMI': 13.779356777386145, 'MACDdiff': -0.013025720093872317, 'volume': 64.639999000000003, 'MACD': 0.44669428766447083, 'slowd': 14.483903458610252, 'date': '2016-03-28', 'MACDsignal': 0.45972000775834315, 'slowk': 19.826883185753477, 'volumeROCP': 0.0011018259263628008, 'dayChange': -0.0073899687858480778, 'RSI': 53.046752933050556, 'aroonDown': 21.428571428571431}, {'BBANDupper': 64.617340335817303, 'high': 66.379997000000003, 'CCI': 131.07394831494798, 'close': 64.440002000000007, 'nasdaqChange': 0.0038613507957408265, 'chaikinAD': -226.12947755986534, 'BBANDlower': 62.966660464182596, 'open': 64.510002, 'BBANDmiddle': 63.792000399999949, 'aroonUp': 100.0, 'low': 64.440002000000007, 'ADMI': 13.721410381484676, 'MACDdiff': 0.020995658279144236, 'volume': 66.029999000000004, 'MACD': 0.48596458060727343, 'slowd': 21.125120884339839, 'date': '2016-03-29', 'MACDsignal': 0.4649689223281292, 'slowk': 27.851833802521924, 'volumeROCP': 0.0098730761655999207, 'dayChange': 0.013035443419135984, 'RSI': 57.193465857758078, 'aroonDown': 14.285714285714286}, {'BBANDupper': 66.385404997036503, 'high': 67.160004000000001, 'CCI': 245.32909999642959, 'close': 66.279999000000004, 'nasdaqChange': 0.03125596171131774, 'chaikinAD': -226.91535335141816, 'BBANDlower': 62.402595402963406, 'open': 66.730002999999996, 'BBANDmiddle': 64.394000199999951, 'aroonUp': 100.0, 'low': 66.279999000000004, 'ADMI': 13.774593630590182, 'MACDdiff': 0.15440424910044337, 'volume': 66.410004000000001, 'MACD': 0.65797423370368335, 'slowd': 29.943359478789372, 'date': '2016-03-30', 'MACDsignal': 0.50356998460323998, 'slowk': 42.151361448092672, 'volumeROCP': 0.032559540970258836, 'dayChange': 0.02776096903682812, 'RSI': 64.573903067082014, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 66.838152688044829, 'high': 67.099997999999999, 'CCI': 156.76715514662746, 'close': 65.699996999999996, 'nasdaqChange': 0.031371042814541915, 'chaikinAD': -227.64317982510693, 'BBANDlower': 62.79784571195507, 'open': 66.330001999999993, 'BBANDmiddle': 64.817999199999946, 'aroonUp': 92.857142857142861, 'low': 65.699996999999996, 'ADMI': 13.47181273415066, 'MACDdiff': 0.18832271931842004, 'volume': 66.110000999999997, 'MACD': 0.73897338375126509, 'slowd': 42.448641127310019, 'date': '2016-03-31', 'MACDsignal': 0.55065066443284505, 'slowk': 57.342728131315418, 'volumeROCP': 0.017500340715502605, 'dayChange': -0.0088280369327871089, 'RSI': 61.003448826300335, 'aroonDown': 0.0}, {'BBANDupper': 66.909231686143798, 'high': 66.120002999999997, 'CCI': 71.437499658064269, 'close': 65.129997000000003, 'nasdaqChange': 0.019858682036902605, 'chaikinAD': -228.22063730751324, 'BBANDlower': 63.150765513856108, 'open': 65.360000999999997, 'BBANDmiddle': 65.029998599999956, 'aroonUp': 85.714285714285722, 'low': 65.129997000000003, 'ADMI': 12.901056227311724, 'MACDdiff': 0.15831372583211789, 'volume': 65.919998000000007, 'MACD': 0.74854282172299236, 'slowd': 52.87413348016031, 'date': '2016-04-01', 'MACDsignal': 0.59022909589087447, 'slowk': 59.128310861072798, 'volumeROCP': 0.029886067998543171, 'dayChange': -0.0087517277177211472, 'RSI': 57.630946673728609, 'aroonDown': 28.571428571428573}, {'BBANDupper': 66.605281506117564, 'high': 66.489998, 'CCI': 83.20699450523739, 'close': 65.379997000000003, 'nasdaqChange': 0.023627425622300208, 'chaikinAD': -228.62681134054583, 'BBANDlower': 64.166715293882334, 'open': 66.0, 'BBANDmiddle': 65.385998399999949, 'aroonUp': 78.571428571428569, 'low': 65.379997000000003, 'ADMI': 12.707192113640838, 'MACDdiff': 0.14177901292856787, 'volume': 65.739998, 'MACD': 0.76745286205158436, 'slowd': 53.993088374937834, 'date': '2016-04-04', 'MACDsignal': 0.62567384912301649, 'slowk': 45.508226132425243, 'volumeROCP': 0.024443701034158615, 'dayChange': 0.0038237995024685834, 'RSI': 58.709152030688593, 'aroonDown': 21.428571428571431}, {'BBANDupper': 66.403265081930058, 'high': 65.959998999999996, 'CCI': 41.651374090378461, 'close': 65.050003000000004, 'nasdaqChange': 0.011125602418553234, 'chaikinAD': -228.83371691401044, 'BBANDlower': 64.612732118069843, 'open': 65.099997999999999, 'BBANDmiddle': 65.507998599999951, 'aroonUp': 71.428571428571431, 'low': 65.050003000000004, 'ADMI': 12.468057726645734, 'MACDdiff': 0.097219489869139641, 'volume': 65.449996999999996, 'MACD': 0.7471982114594411, 'slowd': 43.49396142686269, 'date': '2016-04-05', 'MACDsignal': 0.64997872159030146, 'slowk': 25.845347287090004, 'volumeROCP': 0.024248229389016839, 'dayChange': -0.0050729282825705546, 'RSI': 56.65951802030331, 'aroonDown': 14.285714285714286}, {'BBANDupper': 65.758311555977528, 'high': 66.069999999999993, 'CCI': 51.76801612682182, 'close': 65.25, 'nasdaqChange': 0.014130891365453974, 'chaikinAD': -229.06120465642744, 'BBANDlower': 64.845686044022372, 'open': 65.669998000000007, 'BBANDmiddle': 65.30199879999995, 'aroonUp': 64.285714285714292, 'low': 65.25, 'ADMI': 12.015013883450377, 'MACDdiff': 0.071031647146184929, 'volume': 65.830001999999993, 'MACD': 0.73876828052303267, 'slowd': 28.708367729806159, 'date': '2016-04-06', 'MACDsignal': 0.66773663337684774, 'slowk': 14.771529769903216, 'volumeROCP': 0.031294452347083876, 'dayChange': 0.0030650881226053084, 'RSI': 57.625082971640218, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 66.142151966556355, 'high': 65.910004000000001, 'CCI': -43.925407234274253, 'close': 63.669998, 'nasdaqChange': 0.013875127298952565, 'chaikinAD': -228.671885582291, 'BBANDlower': 63.649846033443559, 'open': 65.699996999999996, 'BBANDmiddle': 64.895998999999961, 'aroonUp': 57.142857142857146, 'low': 63.669998, 'ADMI': 11.621523207930663, 'MACDdiff': -0.056025645541410762, 'volume': 63.93, 'MACD': 0.59770457645008435, 'slowd': 14.622956242839209, 'date': '2016-04-07', 'MACDsignal': 0.65373022199149511, 'slowk': 3.2519916715243866, 'volumeROCP': 0.0014154765204316808, 'dayChange': -0.024815486879707471, 'RSI': 48.443063755605351, 'aroonDown': 0.0}, {'BBANDupper': 66.272613023230818, 'high': 64.699996999999996, 'CCI': -92.679235145183384, 'close': 63.279998999999997, 'nasdaqChange': 0.021244926907769798, 'chaikinAD': -228.16426481720919, 'BBANDlower': 62.779385776769104, 'open': 64.120002999999997, 'BBANDmiddle': 64.525999399999961, 'aroonUp': 50.0, 'low': 63.279998999999997, 'ADMI': 11.51282223341542, 'MACDdiff': -0.16357449689093662, 'volume': 64.239998, 'MACD': 0.44926210087782437, 'slowd': 7.091837704317336, 'date': '2016-04-08', 'MACDsignal': 0.61283659776876098, 'slowk': 3.2519916715243866, 'volumeROCP': -0.012330279381925968, 'dayChange': -0.0061630689975200603, 'RSI': 46.474576468459382, 'aroonDown': 14.285714285714286}, {'BBANDupper': 65.871627340525791, 'high': 64.400002000000001, 'CCI': -105.65389477259193, 'close': 63.119999, 'nasdaqChange': 0.015418064165375072, 'chaikinAD': -227.31075952083847, 'BBANDlower': 62.276372259474115, 'open': 64.389999000000003, 'BBANDmiddle': 64.073999799999953, 'aroonUp': 42.857142857142861, 'low': 63.119999, 'ADMI': 11.561280947458805, 'MACDdiff': -0.23820712842074176, 'volume': 63.159999999999997, 'MACD': 0.3150776872428338, 'slowd': 2.1679944476829438, 'date': '2016-04-11', 'MACDsignal': 0.55328481566357557, 'slowk': 3.907985046680551e-14, 'volumeROCP': -0.0075471543253822024, 'dayChange': -0.0025348542860401668, 'RSI': 45.65492389260347, 'aroonDown': 100.0}, {'BBANDupper': 65.603353928693707, 'high': 63.150002000000001, 'CCI': -177.06340596796741, 'close': 61.900002000000001, 'nasdaqChange': 0.012449076310176809, 'chaikinAD': -226.3297107158869, 'BBANDlower': 61.284645271306225, 'open': 63.139999000000003, 'BBANDmiddle': 63.443999599999962, 'aroonUp': 35.714285714285715, 'low': 61.900002000000001, 'ADMI': 11.867139864437366, 'MACDdiff': -0.35539975515503819, 'volume': 62.959999000000003, 'MACD': 0.10903512171977781, 'slowd': 1.0839972238414948, 'date': '2016-04-12', 'MACDsignal': 0.46443487687481599, 'slowk': 3.907985046680551e-14, 'volumeROCP': -0.039416510260195305, 'dayChange': -0.019709159298573198, 'RSI': 39.879457365800462, 'aroonDown': 100.0}]
+ProjectGiro LOG 22:58.1.914>	starting money: 120000.0
+ProjectGiro LOG 22:58.1.914>	share value: 63.34 on 2016-02-25
+ProjectGiro LOG 22:58.1.914>	share value: 61.900002 on 2016-04-12
+ProjectGiro LOG 22:58.1.914>	profit: -7538.96328856
+ProjectGiro LOG 22:58.1.914>	Buy + hold value: 115592.903965
+ProjectGiro LOG 22:58.1.914>	Trade count: 13
+ProjectGiro LOG 22:58.1.914>	EA action recommendation: BUY/COVER--CORRECT
+ProjectGiro LOG 22:58.1.996>	WIFI Generation: 58
+									Highest profit this round: 109040.12		90.87%
+									Average profit this round: 50461.6		42.05%
+									Mutation Rate: 0.0355
+									Average trade count: 99
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.3.400>	AMZN Generation: 57
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38847.41		32.37%
+									Mutation Rate: 0.03575
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.10.831>	AMZN Generation: 58
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35493.05		29.58%
+									Mutation Rate: 0.0355
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.10.900>	WIFI Generation: 59
+									Highest profit this round: 93300.75		77.75%
+									Average profit this round: 62181.17		51.82%
+									Mutation Rate: 0.03525
+									Average trade count: 97
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.18.702>	AMZN Generation: 59
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 39678.91		33.07%
+									Mutation Rate: 0.03525
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.19.739>	WIFI Generation: 60
+									Highest profit this round: 95023.6		79.19%
+									Average profit this round: 58404.8		48.67%
+									Mutation Rate: 0.035
+									Average trade count: 94
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.26.760>	AMZN Generation: 60
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37644.18		31.37%
+									Mutation Rate: 0.035
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.28.657>	WIFI Generation: 61
+									Highest profit this round: 98447.74		82.04%
+									Average profit this round: 55057.65		45.88%
+									Mutation Rate: 0.03475
+									Average trade count: 97
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.34.317>	AMZN Generation: 61
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35676.37		29.73%
+									Mutation Rate: 0.03475
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.37.108>	WIFI Generation: 62
+									Highest profit this round: 93300.75		77.75%
+									Average profit this round: 63708.42		53.09%
+									Mutation Rate: 0.0345
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.41.842>	AMZN Generation: 62
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38670.12		32.23%
+									Mutation Rate: 0.0345
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.45.731>	WIFI Generation: 63
+									Highest profit this round: 112565.51		93.8%
+									Average profit this round: 67528.07		56.27%
+									Mutation Rate: 0.03425
+									Average trade count: 98
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.49.481>	AMZN Generation: 63
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37161.59		30.97%
+									Mutation Rate: 0.03425
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.54.968>	WIFI Generation: 64
+									Highest profit this round: 112565.51		93.8%
+									Average profit this round: 63918.33		53.27%
+									Mutation Rate: 0.034
+									Average trade count: 96
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:58.57.268>	AMZN Generation: 64
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 36794.06		30.66%
+									Mutation Rate: 0.034
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.3.814>	WIFI Generation: 65
+									Highest profit this round: 109785.07		91.49%
+									Average profit this round: 58827.71		49.02%
+									Mutation Rate: 0.03375
+									Average trade count: 97
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.5.830>	AMZN Generation: 65
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38583.94		32.15%
+									Mutation Rate: 0.03375
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.12.874>	WIFI Generation: 66
+									Highest profit this round: 117631.17		98.03%
+									Average profit this round: 53231.43		44.36%
+									Mutation Rate: 0.0335
+									Average trade count: 97
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.13.180>	AMZN Generation: 66
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38106.51		31.76%
+									Mutation Rate: 0.0335
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.21.422>	AMZN Generation: 67
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 39631.69		33.03%
+									Mutation Rate: 0.03325
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.22.235>	WIFI Generation: 67
+									Highest profit this round: 108376.24		90.31%
+									Average profit this round: 54691.44		45.58%
+									Mutation Rate: 0.03325
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.29.440>	AMZN Generation: 68
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37828.88		31.52%
+									Mutation Rate: 0.033
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.31.507>	WIFI Generation: 68
+									Highest profit this round: 102068.98		85.06%
+									Average profit this round: 43301.03		36.08%
+									Mutation Rate: 0.033
+									Average trade count: 96
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.37.453>	AMZN Generation: 69
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37241.47		31.03%
+									Mutation Rate: 0.03275
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.40.474>	WIFI Generation: 69
+									Highest profit this round: 112207.73		93.51%
+									Average profit this round: 60455.16		50.38%
+									Mutation Rate: 0.03275
+									Average trade count: 97
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.45.345>	AMZN Generation: 70
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 41958.07		34.97%
+									Mutation Rate: 0.0325
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.49.586>	WIFI Generation: 70
+									Highest profit this round: 112207.73		93.51%
+									Average profit this round: 49816.11		41.51%
+									Mutation Rate: 0.0325
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.52.881>	AMZN Generation: 71
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35064.17		29.22%
+									Mutation Rate: 0.03225
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 22:59.58.549>	WIFI Generation: 71
+									Highest profit this round: 107465.84		89.55%
+									Average profit this round: 69407.33		57.84%
+									Mutation Rate: 0.03225
+									Average trade count: 96
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.0.9320>	AMZN Generation: 72
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38709.37		32.26%
+									Mutation Rate: 0.032
+									Average trade count: 94
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.7.9790>	WIFI Generation: 72
+									Highest profit this round: 115171.57		95.98%
+									Average profit this round: 52301.09		43.58%
+									Mutation Rate: 0.032
+									Average trade count: 92
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.8.4630>	AMZN Generation: 73
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 33438.89		27.87%
+									Mutation Rate: 0.03175
+									Average trade count: 92
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.16.446>	AMZN Generation: 74
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37540.92		31.28%
+									Mutation Rate: 0.0315
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.17.301>	WIFI Generation: 73
+									Highest profit this round: 109769.04		91.47%
+									Average profit this round: 58778.33		48.98%
+									Mutation Rate: 0.03175
+									Average trade count: 96
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.24.414>	AMZN Generation: 75
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 37465.3		31.22%
+									Mutation Rate: 0.03125
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.26.952>	WIFI Generation: 74
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: 37408.26		31.17%
+									Mutation Rate: 0.0315
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.32.228>	AMZN Generation: 76
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38766.22		32.31%
+									Mutation Rate: 0.031
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.36.234>	WIFI Generation: 75
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: 55838.87		46.53%
+									Mutation Rate: 0.03125
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.40.300>	AMZN Generation: 77
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 38655.97		32.21%
+									Mutation Rate: 0.03075
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.45.561>	WIFI Generation: 76
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: 72506.38		60.42%
+									Mutation Rate: 0.031
+									Average trade count: 95
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.47.833>	AMZN Generation: 78
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 39715.34		33.1%
+									Mutation Rate: 0.0305
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.54.672>	WIFI Generation: 77
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: 55603.48		46.34%
+									Mutation Rate: 0.03075
+									Average trade count: 95
+									Best strategie's trade correctness: 	100.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.55.521>	AMZN Generation: 79
+									Highest profit this round: 45804.41		38.17%
+									Average profit this round: 35380.3		29.48%
+									Mutation Rate: 0.03025
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:0.55.766>	Benchmarking [{'BBANDupper': 558.55572729828577, 'high': 559.39001499999995, 'CCI': 106.890175543487, 'close': 545.28997800000002, 'nasdaqChange': 0.055168197504482694, 'chaikinAD': -1883.6046123615233, 'BBANDlower': 513.52427750171569, 'open': 555.52002000000005, 'BBANDmiddle': 536.04000240000073, 'aroonUp': 78.571428571428569, 'low': 545.28997800000002, 'ADMI': 29.888129337563306, 'MACDdiff': 8.3804262652891239, 'volume': 555.15002400000003, 'MACD': -12.389355073932052, 'slowd': 55.35913587613036, 'date': '2016-02-25', 'MACDsignal': -20.769781339221176, 'slowk': 57.189116002702654, 'volumeROCP': 0.12199583950617288, 'dayChange': 0.022263299326583219, 'RSI': 51.047292097095109, 'aroonDown': 21.428571428571431}, {'BBANDupper': 556.65730350992396, 'high': 562.5, 'CCI': 107.45389206385182, 'close': 553.169983, 'nasdaqChange': 0.08813329967104816, 'chaikinAD': -1893.8327822527499, 'BBANDlower': 530.5507040900776, 'open': 560.11999500000002, 'BBANDmiddle': 543.60400380000078, 'aroonUp': 100.0, 'low': 553.169983, 'ADMI': 29.861558278793545, 'MACDdiff': 9.0148475298255377, 'volume': 555.22997999999995, 'MACD': -9.5012219269392517, 'slowd': 56.743621371729098, 'date': '2016-02-26', 'MACDsignal': -18.516069456764789, 'slowk': 57.865823956370377, 'volumeROCP': 0.14291318801652894, 'dayChange': 0.014245178231227285, 'RSI': 53.430802292533841, 'aroonDown': 14.285714285714286}, {'BBANDupper': 560.30675045824535, 'high': 564.80999799999995, 'CCI': 97.141127545419806, 'close': 552.51000999999997, 'nasdaqChange': 0.066284539732083425, 'chaikinAD': -1901.6522415489017, 'BBANDlower': 531.47325434175616, 'open': 554.0, 'BBANDmiddle': 545.89000240000075, 'aroonUp': 100.0, 'low': 552.51000999999997, 'ADMI': 29.627538937808708, 'MACDdiff': 9.0666068196000609, 'volume': 552.52002000000005, 'MACD': -7.1828109322647151, 'slowd': 60.068705657249161, 'date': '2016-02-29', 'MACDsignal': -16.249417751864776, 'slowk': 65.151177012674367, 'volumeROCP': 0.10173686617354015, 'dayChange': -0.0011944996254458218, 'RSI': 53.197180545342206, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 564.49049932275022, 'high': 579.25, 'CCI': 106.12030056371715, 'close': 556.0, 'nasdaqChange': 0.046893417386903689, 'chaikinAD': -1916.2136277565442, 'BBANDlower': 531.55749867725115, 'open': 556.28997800000002, 'BBANDmiddle': 548.02399900000069, 'aroonUp': 100.0, 'low': 556.0, 'ADMI': 29.439822945769318, 'MACDdiff': 8.9946278767959083, 'volume': 579.03997800000002, 'MACD': -5.0061329058698902, 'slowd': 60.88644651051888, 'date': '2016-03-01', 'MACDsignal': -14.000760782665798, 'slowk': 59.64233856251181, 'volumeROCP': 0.086659101069779892, 'dayChange': 0.0062769604316547101, 'RSI': 54.334270107704683, 'aroonDown': 0.0}, {'BBANDupper': 575.06744313282377, 'high': 585.0, 'CCI': 134.74114837512823, 'close': 573.70001200000002, 'nasdaqChange': 0.045350054242493554, 'chaikinAD': -1932.5815993181604, 'BBANDlower': 537.20055006717769, 'open': 581.75, 'BBANDmiddle': 556.13399660000073, 'aroonUp': 100.0, 'low': 573.70001200000002, 'ADMI': 29.263592078016295, 'MACDdiff': 9.7352152926208912, 'volume': 580.21002199999998, 'MACD': -1.831741666889684, 'slowd': 61.848904496339571, 'date': '2016-03-02', 'MACDsignal': -11.566956959510575, 'slowk': 60.753197913832444, 'volumeROCP': 0.10456496165025443, 'dayChange': 0.030852382133120804, 'RSI': 59.684025011536626, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 580.96237199714915, 'high': 579.86999500000002, 'CCI': 117.8298348942364, 'close': 573.10998500000005, 'nasdaqChange': 0.04276149348388826, 'chaikinAD': -1947.3351663826325, 'BBANDlower': 542.43362400285241, 'open': 577.96002199999998, 'BBANDmiddle': 561.69799800000078, 'aroonUp': 92.857142857142861, 'low': 573.10998500000005, 'ADMI': 28.85397129522222, 'MACDdiff': 9.7568646589106933, 'volume': 577.48999000000003, 'MACD': 0.62912386412779142, 'slowd': 60.633394261908336, 'date': '2016-03-03', 'MACDsignal': -9.1277407947829019, 'slowk': 61.504646309380654, 'volumeROCP': 0.094285236449515641, 'dayChange': -0.0010295179205435101, 'RSI': 59.434069935241482, 'aroonDown': 0.0}, {'BBANDupper': 583.49712402782518, 'high': 581.40002400000003, 'CCI': 106.62660371704492, 'close': 571.07000700000003, 'nasdaqChange': 0.052263661394393153, 'chaikinAD': -1959.3393425560498, 'BBANDlower': 547.05888157217657, 'open': 581.07000700000003, 'BBANDmiddle': 565.27800280000088, 'aroonUp': 85.714285714285722, 'low': 571.07000700000003, 'ADMI': 28.175122125365306, 'MACDdiff': 9.2119923347028987, 'volume': 575.14001499999995, 'MACD': 2.3872496235957215, 'slowd': 62.094068332873327, 'date': '2016-03-04', 'MACDsignal': -6.8247427111071772, 'slowk': 64.024360775406777, 'volumeROCP': 0.10812075986203222, 'dayChange': -0.0035722030136315919, 'RSI': 58.521517728099624, 'aroonDown': 0.0}, {'BBANDupper': 582.49165554336309, 'high': 573.63000499999998, 'CCI': 43.810692013582653, 'close': 555.54998799999998, 'nasdaqChange': 0.028212606152238227, 'chaikinAD': -1965.2011069401051, 'BBANDlower': 549.28034125663839, 'open': 573.53997800000002, 'BBANDmiddle': 565.88599840000074, 'aroonUp': 78.571428571428569, 'low': 555.54998799999998, 'ADMI': 26.958393317103894, 'MACDdiff': 7.4593375791225984, 'volume': 562.79998799999998, 'MACD': 2.4994292627960704, 'slowd': 55.235151758994874, 'date': '2016-03-07', 'MACDsignal': -4.9599083163265281, 'slowk': 40.176448192197093, 'volumeROCP': 0.026742756238214555, 'dayChange': -0.027936314166566056, 'RSI': 51.982254652331761, 'aroonDown': 0.0}, {'BBANDupper': 582.85881164548982, 'high': 571.34997599999997, 'CCI': 29.719910362168935, 'close': 554.73999000000003, 'nasdaqChange': 0.031531174345878717, 'chaikinAD': -1967.2090040117328, 'BBANDlower': 548.40918115451177, 'open': 557.86999500000002, 'BBANDmiddle': 565.6339964000008, 'aroonUp': 71.428571428571431, 'low': 554.73999000000003, 'ADMI': 25.750790520967445, 'MACDdiff': 5.9633030883212275, 'volume': 560.26000999999997, 'MACD': 2.4942205440750058, 'slowd': 41.080856062806106, 'date': '2016-03-08', 'MACDsignal': -3.4690825442462212, 'slowk': 19.041759220814352, 'volumeROCP': 0.017255556647636429, 'dayChange': -0.0014601399116727087, 'RSI': 51.657821150440597, 'aroonDown': 14.285714285714286}, {'BBANDupper': 579.5762951900706, 'high': 560.34997599999997, 'CCI': -17.29218168294766, 'close': 550.13000499999998, 'nasdaqChange': 0.048963715841219245, 'chaikinAD': -1967.2064068581676, 'BBANDlower': 542.26369480993094, 'open': 559.55999799999995, 'BBANDmiddle': 560.91999500000077, 'aroonUp': 64.285714285714292, 'low': 550.13000499999998, 'ADMI': 24.932894031548138, 'MACDdiff': 4.4504399411422817, 'volume': 559.46997099999999, 'MACD': 2.0939673821816314, 'slowd': 19.739402471003825, 'date': '2016-03-09', 'MACDsignal': -2.3564725589606503, 'slowk': -6.6317322004276022e-14, 'volumeROCP': 0.031848410833045279, 'dayChange': -0.0083798101505117017, 'RSI': 49.754537468100565, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 572.09866327715747, 'high': 567.0, 'CCI': -33.129046427501514, 'close': 547.90002400000003, 'nasdaqChange': 0.020168765286929437, 'chaikinAD': -1966.2097597173415, 'BBANDlower': 539.6573423228441, 'open': 566.73999000000003, 'BBANDmiddle': 555.87800280000079, 'aroonUp': 57.142857142857146, 'low': 547.90002400000003, 'ADMI': 23.3067008872959, 'MACDdiff': 3.148078546533398, 'volume': 558.92999299999997, 'MACD': 1.5786256242060972, 'slowd': 6.3472530736047723, 'date': '2016-03-10', 'MACDsignal': -1.5694529223273008, 'slowk': -6.6317322004276022e-14, 'volumeROCP': 0.0047865284624761823, 'dayChange': -0.0040700509259330442, 'RSI': 48.817558528556923, 'aroonDown': 0.0}, {'BBANDupper': 564.45221094035503, 'high': 570.05999799999995, 'CCI': 41.925161231534801, 'close': 562.72997999999995, 'nasdaqChange': 0.02622487363251412, 'chaikinAD': -1968.2952393217711, 'BBANDlower': 543.9677838596466, 'open': 566.95001200000002, 'BBANDmiddle': 554.20999740000082, 'aroonUp': 50.0, 'low': 562.72997999999995, 'ADMI': 21.769260577516814, 'MACDdiff': 3.1274777251125783, 'volume': 569.60998500000005, 'MACD': 2.3398942340634221, 'slowd': 6.4040967962194566, 'date': '2016-03-11', 'MACDsignal': -0.78758349104915615, 'slowk': 19.212290388658406, 'volumeROCP': 0.017282204916747902, 'dayChange': 0.026353591468504911, 'RSI': 54.900235993691972, 'aroonDown': 14.285714285714286}, {'BBANDupper': 568.2392761265022, 'high': 576.89001499999995, 'CCI': 52.834688427266528, 'close': 563.04998799999998, 'nasdaqChange': 0.038190089762590147, 'chaikinAD': -1972.6483667216089, 'BBANDlower': 543.18071867349943, 'open': 567.0, 'BBANDmiddle': 555.70999740000082, 'aroonUp': 42.857142857142861, 'low': 563.04998799999998, 'ADMI': 20.840432430612779, 'MACDdiff': 2.9782203904022664, 'volume': 573.36999500000002, 'MACD': 2.9351919969536766, 'slowd': 18.614781574247335, 'date': '2016-03-14', 'MACDsignal': -0.043028393448589553, 'slowk': 36.632054334083563, 'volumeROCP': 0.019076537635942595, 'dayChange': 0.00056834740577249576, 'RSI': 55.02444582438055, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 573.46403082251936, 'high': 581.52002000000005, 'CCI': 75.849806986912867, 'close': 567.0, 'nasdaqChange': 0.028443241992688415, 'chaikinAD': -1978.6948009559419, 'BBANDlower': 542.85996797748226, 'open': 571.0, 'BBANDmiddle': 558.16199940000081, 'aroonUp': 35.714285714285715, 'low': 567.0, 'ADMI': 19.991108609124343, 'MACDdiff': 2.9810183700016712, 'volume': 577.02002000000005, 'MACD': 3.6832445690534996, 'slowd': 37.137839368487199, 'date': '2016-03-15', 'MACDsignal': 0.70222619905182837, 'slowk': 55.569173382719534, 'volumeROCP': 0.019784172661870502, 'dayChange': 0.00696651146384486, 'RSI': 56.6128643476737, 'aroonDown': 0.0}, {'BBANDupper': 578.06933954731426, 'high': 581.32000700000003, 'CCI': 86.802561055980007, 'close': 571.14001499999995, 'nasdaqChange': 0.01082742713550639, 'chaikinAD': -1984.0092757830862, 'BBANDlower': 546.65866325268735, 'open': 576.64001499999995, 'BBANDmiddle': 562.3640014000008, 'aroonUp': 28.571428571428573, 'low': 571.14001499999995, 'ADMI': 19.119298995132073, 'MACDdiff': 3.0843062038103715, 'volume': 574.27002000000005, 'MACD': 4.5576089538147926, 'slowd': 50.533314901182393, 'date': '2016-03-16', 'MACDsignal': 1.4733027500044211, 'slowk': 59.398716986743977, 'volumeROCP': -0.0044622571839863703, 'dayChange': 0.007248686646478375, 'RSI': 58.276128405766492, 'aroonDown': 0.0}, {'BBANDupper': 574.48501631198189, 'high': 571.40002400000003, 'CCI': -48.53486393370595, 'close': 555.01000999999997, 'nasdaqChange': 0.013586650549984402, 'chaikinAD': -1983.8225365048274, 'BBANDlower': 553.08698088801964, 'open': 569.51000999999997, 'BBANDmiddle': 563.78599860000077, 'aroonUp': 21.428571428571431, 'low': 555.01000999999997, 'ADMI': 18.030658723393405, 'MACDdiff': 1.944549532835413, 'volume': 559.44000200000005, 'MACD': 3.9039896660486875, 'slowd': 52.315614470260812, 'date': '2016-03-17', 'MACDsignal': 1.9594401332132745, 'slowk': 41.978953041318817, 'volumeROCP': -0.031582026964684769, 'dayChange': -0.029062547898910829, 'RSI': 50.201313526793413, 'aroonDown': 64.285714285714292}, {'BBANDupper': 578.34075618740428, 'high': 562.330017, 'CCI': -125.78810692707408, 'close': 546.09002699999996, 'nasdaqChange': 0.018018621412197885, 'chaikinAD': -1979.0604634360061, 'BBANDlower': 542.57525981259721, 'open': 560.94000200000005, 'BBANDmiddle': 560.45800800000075, 'aroonUp': 14.285714285714286, 'low': 546.09002699999996, 'ADMI': 17.520309178326197, 'MACDdiff': 0.54111931447381734, 'volume': 552.080017, 'MACD': 2.6358392763055463, 'slowd': 41.473168006915252, 'date': '2016-03-18', 'MACDsignal': 2.0947199618317289, 'slowk': 23.041833992682839, 'volumeROCP': -0.043742412828205263, 'dayChange': -0.016334271931320199, 'RSI': 46.374516028563256, 'aroonDown': 100.0}, {'BBANDupper': 580.09013191346969, 'high': 555.23999000000003, 'CCI': -151.48102843591684, 'close': 538.580017, 'nasdaqChange': 0.023650121964572095, 'chaikinAD': -1973.4641123227775, 'BBANDlower': 531.0378956865319, 'open': 548.90997300000004, 'BBANDmiddle': 555.56401380000079, 'aroonUp': 7.1428571428571432, 'low': 538.580017, 'ADMI': 17.403459837814676, 'MACDdiff': -0.86525838154819934, 'volume': 553.97997999999995, 'MACD': 1.0131469848964798, 'slowd': 21.673595678000567, 'date': '2016-03-21', 'MACDsignal': 1.8784053664446791, 'slowk': -7.5791225147744016e-14, 'volumeROCP': -0.030546253922338285, 'dayChange': -0.013944093287813208, 'RSI': 43.376486255778509, 'aroonDown': 100.0}, {'BBANDupper': 573.71846419782185, 'high': 562.76000999999997, 'CCI': -87.580498542229435, 'close': 545.04998799999998, 'nasdaqChange': 0.029906157432518635, 'chaikinAD': -1970.1034066561842, 'BBANDlower': 528.6295586021796, 'open': 545.10998500000005, 'BBANDmiddle': 551.17401140000072, 'aroonUp': 0.0, 'low': 545.04998799999998, 'ADMI': 16.975265737363575, 'MACDdiff': -1.3056170302005834, 'volume': 560.47997999999995, 'MACD': 0.24638407869394996, 'slowd': 9.3626090727436821, 'date': '2016-03-22', 'MACDsignal': 1.5520011088945334, 'slowk': 5.0459932255481617, 'volumeROCP': -0.017467646419361348, 'dayChange': 0.011870417654242682, 'RSI': 46.58055917236959, 'aroonDown': 92.857142857142861}, {'BBANDupper': 562.72607711400678, 'high': 572.47997999999995, 'CCI': 17.577016045615267, 'close': 558.09997599999997, 'nasdaqChange': 0.026484074483945477, 'chaikinAD': -1970.8741735056683, 'BBANDlower': 534.40593008599467, 'open': 561.0, 'BBANDmiddle': 548.56600360000073, 'aroonUp': 57.142857142857146, 'low': 558.09997599999997, 'ADMI': 16.154674756264107, 'MACDdiff': -0.69451224870856842, 'volume': 569.63000499999998, 'MACD': 0.68386079800882271, 'slowd': 9.7618913555418736, 'date': '2016-03-23', 'MACDsignal': 1.3783730467173911, 'slowk': 24.239680841077416, 'volumeROCP': 0.014487431929839907, 'dayChange': 0.023382885793207797, 'RSI': 52.427803495854661, 'aroonDown': 85.714285714285722}, {'BBANDupper': 571.42976905339106, 'high': 583.54998799999998, 'CCI': 108.52356922205887, 'close': 567.080017, 'nasdaqChange': 0.027513032702317152, 'chaikinAD': -1977.5032025344844, 'BBANDlower': 530.53024094661032, 'open': 567.10998500000005, 'BBANDmiddle': 550.98000500000069, 'aroonUp': 100.0, 'low': 567.080017, 'ADMI': 15.449101909407876, 'MACDdiff': 0.28544274261617586, 'volume': 582.95001200000002, 'MACD': 1.7351764749876111, 'slowd': 24.883521034989599, 'date': '2016-03-24', 'MACDsignal': 1.4497337323714352, 'slowk': 45.364889038343108, 'volumeROCP': 0.035006373717552469, 'dayChange': 0.015835580043018882, 'RSI': 55.997126353783678, 'aroonDown': 78.571428571428569}, {'BBANDupper': 584.14023319284672, 'high': 584.75, 'CCI': 131.06512922762056, 'close': 575.55999799999995, 'nasdaqChange': 0.012571950545485008, 'chaikinAD': -1984.9461489522364, 'BBANDlower': 529.60776520715456, 'open': 584.40002400000003, 'BBANDmiddle': 556.87399920000064, 'aroonUp': 100.0, 'low': 575.55999799999995, 'ADMI': 14.854699513992665, 'MACDdiff': 1.4126517969856702, 'volume': 579.86999500000002, 'MACD': 3.2155484786035231, 'slowd': 45.540631710462947, 'date': '2016-03-28', 'MACDsignal': 1.8028966816178529, 'slowk': 67.017325251968188, 'volumeROCP': 0.022799599196758624, 'dayChange': 0.014733444001436613, 'RSI': 59.116597044426022, 'aroonDown': 71.428571428571431}, {'BBANDupper': 587.99068788083764, 'high': 595.84997599999997, 'CCI': 132.84162681364629, 'close': 576.5, 'nasdaqChange': 0.0038613507957408265, 'chaikinAD': -1996.496790536592, 'BBANDlower': 540.92530371916359, 'open': 580.15002400000003, 'BBANDmiddle': 564.45799580000062, 'aroonUp': 100.0, 'low': 576.5, 'ADMI': 14.769152956116466, 'MACDdiff': 2.0886631198221264, 'volume': 593.85998500000005, 'MACD': 4.4137255813955107, 'slowd': 60.280782538387143, 'date': '2016-03-29', 'MACDsignal': 2.3250624615733844, 'slowk': 68.460133324850005, 'volumeROCP': 0.023887776017499918, 'dayChange': 0.001630532523850925, 'RSI': 59.459685077385963, 'aroonDown': 64.285714285714292}, {'BBANDupper': 598.93272012600676, 'high': 603.23999000000003, 'CCI': 184.47153911273895, 'close': 595.0, 'nasdaqChange': 0.03125596171131774, 'chaikinAD': -2010.2146181359421, 'BBANDlower': 549.96327627399444, 'open': 596.71002199999998, 'BBANDmiddle': 574.4479982000006, 'aroonUp': 100.0, 'low': 595.0, 'ADMI': 14.658062342167121, 'MACDdiff': 3.5623123783470509, 'volume': 598.69000200000005, 'MACD': 6.7779529345071978, 'slowd': 70.020317670482669, 'date': '2016-03-30', 'MACDsignal': 3.2156405561601469, 'slowk': 74.583494434629699, 'volumeROCP': 0.049382716049382713, 'dayChange': 0.031092436974789917, 'RSI': 65.581474992319357, 'aroonDown': 57.142857142857146}, {'BBANDupper': 602.52859854311464, 'high': 600.75, 'CCI': 138.66066704290145, 'close': 592.21002199999998, 'nasdaqChange': 0.031371042814541915, 'chaikinAD': -2021.9651325505984, 'BBANDlower': 560.0114162568866, 'open': 599.28002900000001, 'BBANDmiddle': 581.27000740000062, 'aroonUp': 92.857142857142861, 'low': 592.21002199999998, 'ADMI': 14.407548131742519, 'MACDdiff': 4.0918586237435814, 'volume': 593.64001499999995, 'MACD': 8.3304638358396232, 'slowd': 71.364758377788988, 'date': '2016-03-31', 'MACDsignal': 4.2386052120960418, 'slowk': 71.050647373887145, 'volumeROCP': 0.036891141307968126, 'dayChange': -0.0047111293229684659, 'RSI': 64.011604767923274, 'aroonDown': 50.0}, {'BBANDupper': 601.58676085470768, 'high': 599.03002900000001, 'CCI': 102.52496618305538, 'close': 588.29998799999998, 'nasdaqChange': 0.019858682036902605, 'chaikinAD': -2033.3889673065569, 'BBANDlower': 569.44124234529329, 'open': 590.48999000000003, 'BBANDmiddle': 585.51400160000048, 'aroonUp': 85.714285714285722, 'low': 588.29998799999998, 'ADMI': 14.231959182926424, 'MACDdiff': 3.9210941708422569, 'volume': 598.5, 'MACD': 9.1399729256488627, 'slowd': 70.463429913090451, 'date': '2016-04-01', 'MACDsignal': 5.2188787548066058, 'slowk': 65.756147930754366, 'volumeROCP': 0.059980860525380472, 'dayChange': -0.0066463268396326214, 'RSI': 61.779614956125116, 'aroonDown': 42.857142857142861}, {'BBANDupper': 601.29498826108147, 'high': 599.5, 'CCI': 93.615137567324652, 'close': 590.54998799999998, 'nasdaqChange': 0.023627425622300208, 'chaikinAD': -2041.9510851333616, 'BBANDlower': 575.7290109389196, 'open': 599.0, 'BBANDmiddle': 588.51199960000054, 'aroonUp': 78.571428571428569, 'low': 590.54998799999998, 'ADMI': 14.231651720788141, 'MACDdiff': 3.7045223064629713, 'volume': 593.19000200000005, 'MACD': 9.8495316378853204, 'slowd': 64.276233698836947, 'date': '2016-04-04', 'MACDsignal': 6.1450093314223491, 'slowk': 56.02190579186918, 'volumeROCP': 0.081415075906522694, 'dayChange': 0.0038100076974347807, 'RSI': 62.588023351478128, 'aroonDown': 35.714285714285715}, {'BBANDupper': 596.91307505509076, 'high': 593.46997099999999, 'CCI': 59.170519679836502, 'close': 585.25, 'nasdaqChange': 0.011125602418553234, 'chaikinAD': -2046.3209485503903, 'BBANDlower': 583.61092414491031, 'open': 590.77002000000005, 'BBANDmiddle': 590.26199960000054, 'aroonUp': 71.428571428571431, 'low': 585.25, 'ADMI': 13.990744716341373, 'MACDdiff': 2.9803263473093313, 'volume': 586.14001499999995, 'MACD': 9.8704172655590128, 'slowd': 51.544792378687369, 'date': '2016-04-05', 'MACDsignal': 6.8900909182496815, 'slowk': 32.856323413438425, 'volumeROCP': 0.086653759008663706, 'dayChange': -0.0090559384878257099, 'RSI': 59.400851513712439, 'aroonDown': 28.571428571428573}, {'BBANDupper': 593.59736927657354, 'high': 602.39001499999995, 'CCI': 68.387439294589782, 'close': 587.5, 'nasdaqChange': 0.014130891365453974, 'chaikinAD': -2053.6503573073423, 'BBANDlower': 583.92662992342753, 'open': 587.52002000000005, 'BBANDmiddle': 588.76199960000054, 'aroonUp': 64.285714285714292, 'low': 587.5, 'ADMI': 13.855247026057945, 'MACDdiff': 2.4509548181278902, 'volume': 602.080017, 'MACD': 9.9537844409095442, 'slowd': 36.922760610761529, 'date': '2016-04-06', 'MACDsignal': 7.502829622781654, 'slowk': 21.890052626976839, 'volumeROCP': 0.077882786780283389, 'dayChange': 0.003829787234042592, 'RSI': 60.324546233465291, 'aroonDown': 21.428571428571431}, {'BBANDupper': 591.65496324577111, 'high': 599.59997599999997, 'CCI': 61.583834736055024, 'close': 589.080017, 'nasdaqChange': 0.013875127298952565, 'chaikinAD': -2058.1355352708779, 'BBANDlower': 584.61703395422978, 'open': 598.76000999999997, 'BBANDmiddle': 588.13599860000045, 'aroonUp': 57.142857142857146, 'low': 589.080017, 'ADMI': 14.011038746986802, 'MACDdiff': 2.023103025915935, 'volume': 591.42999299999997, 'MACD': 10.031708405176573, 'slowd': 22.190197224870058, 'date': '2016-04-07', 'MACDsignal': 8.0086053792606382, 'slowk': 11.824215634194758, 'volumeROCP': 0.055509841125669625, 'dayChange': 0.0026821772160029456, 'RSI': 60.995648222092456, 'aroonDown': 14.285714285714286}, {'BBANDupper': 591.86492760925501, 'high': 597.85998500000005, 'CCI': 52.618200122794718, 'close': 589.0, 'nasdaqChange': 0.021244926907769798, 'chaikinAD': -2062.0580517767812, 'BBANDlower': 584.68707439074603, 'open': 594.32000700000003, 'BBANDmiddle': 588.27600100000052, 'aroonUp': 50.0, 'low': 589.0, 'ADMI': 14.369101199978012, 'MACDdiff': 1.5707599832461749, 'volume': 594.59997599999997, 'MACD': 9.9720553583183573, 'slowd': 17.610453220020336, 'date': '2016-04-08', 'MACDsignal': 8.4012953750721824, 'slowk': 19.117091398889269, 'volumeROCP': 0.038654127006559645, 'dayChange': -0.0001358522920202887, 'RSI': 60.939430893323063, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 595.54406970306286, 'high': 604.0, 'CCI': 79.104366109138752, 'close': 594.90997300000004, 'nasdaqChange': 0.015418064165375072, 'chaikinAD': -2065.8169834131259, 'BBANDlower': 582.75192629693834, 'open': 596.14001499999995, 'BBANDmiddle': 589.1479980000006, 'aroonUp': 100.0, 'low': 594.90997300000004, 'ADMI': 14.619199716308973, 'MACDdiff': 1.5054659573790765, 'volume': 595.92999299999997, 'MACD': 10.283127821796029, 'slowd': 20.951986102163378, 'date': '2016-04-11', 'MACDsignal': 8.7776618644169524, 'slowk': 31.914651273405962, 'volumeROCP': 0.033619388191046741, 'dayChange': 0.0099342308386550782, 'RSI': 63.607351679860749, 'aroonDown': 0.0}, {'BBANDupper': 595.92449629260693, 'high': 604.05999799999995, 'CCI': 67.320520949255595, 'close': 592.30999799999995, 'nasdaqChange': 0.012449076310176809, 'chaikinAD': -2071.470906090457, 'BBANDlower': 585.19549890739415, 'open': 598.40002400000003, 'BBANDmiddle': 590.55999760000054, 'aroonUp': 100.0, 'low': 592.30999799999995, 'ADMI': 14.34944200131716, 'MACDdiff': 1.1396733155765819, 'volume': 603.169983, 'MACD': 10.202253508887679, 'slowd': 28.39328849571541, 'date': '2016-04-12', 'MACDsignal': 9.0625801933110974, 'slowk': 34.148122814850844, 'volumeROCP': 0.027424107545533306, 'dayChange': -0.0043895510944931271, 'RSI': 61.613563351824652, 'aroonDown': 0.0}]
+ProjectGiro LOG 23:0.55.767>	starting money: 120000.0
+ProjectGiro LOG 23:0.55.767>	share value: 545.289978 on 2016-02-25
+ProjectGiro LOG 23:0.55.767>	share value: 592.309998 on 2016-04-12
+ProjectGiro LOG 23:0.55.767>	profit: 4477.675623
+ProjectGiro LOG 23:0.55.767>	Buy + hold value: 127836.690216
+ProjectGiro LOG 23:0.55.767>	Trade count: 30
+ProjectGiro LOG 23:0.55.767>	AMZN action recommendation: BUY/COVER--CORRECT
+ProjectGiro LOG 23:1.2.0000>	WIFI Generation: 78
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: 34298.15		28.58%
+									Mutation Rate: 0.0305
+									Average trade count: 92
+									Best strategie's trade correctness: 	100.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:1.8.1970>	WIFI Generation: 79
+									Highest profit this round: 118673.55		98.89%
+									Average profit this round: -82003.96		-68.34%
+									Mutation Rate: 0.03025
+									Average trade count: 92
+									Best strategie's trade correctness: 	100.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 23:1.8.3510>	Benchmarking [{'BBANDupper': 6.0320721515286602, 'high': 6.3700000000000001, 'CCI': 129.09117690381507, 'close': 6.0, 'nasdaqChange': 0.055168197504482694, 'chaikinAD': -20.729382655436893, 'BBANDlower': 5.6439278484713826, 'open': 6.0, 'BBANDmiddle': 5.8380000000000214, 'aroonUp': 100.0, 'low': 6.0, 'ADMI': 9.4228247601480479, 'MACDdiff': 0.042510843586973712, 'volume': 6.29, 'MACD': -0.044865754096796273, 'slowd': 17.805064723303683, 'date': '2016-02-25', 'MACDsignal': -0.087376597683769985, 'slowk': 20.692822202256103, 'volumeROCP': 0.094890510948905021, 'dayChange': 0.04166666666666663, 'RSI': 54.085405593576716, 'aroonDown': 35.714285714285715}, {'BBANDupper': 6.3014217578263354, 'high': 6.9299999999999997, 'CCI': 224.43010752688156, 'close': 6.2599999999999998, 'nasdaqChange': 0.08813329967104816, 'chaikinAD': -21.113663194964374, 'BBANDlower': 5.5825782421737076, 'open': 6.2599999999999998, 'BBANDmiddle': 5.9420000000000215, 'aroonUp': 100.0, 'low': 6.2599999999999998, 'ADMI': 10.544832232886055, 'MACDdiff': 0.06538131791336288, 'volume': 6.9299999999999997, 'MACD': -0.0056499502920663858, 'slowd': 22.586693017350711, 'date': '2016-02-26', 'MACDsignal': -0.071031268205429265, 'slowk': 30.068155322392595, 'volumeROCP': 0.15925925925925916, 'dayChange': 0.041533546325878579, 'RSI': 60.174642115497953, 'aroonDown': 28.571428571428573}, {'BBANDupper': 7.0072514216955026, 'high': 7.2599999999999998, 'CCI': 275.48072739928654, 'close': 6.9299999999999997, 'nasdaqChange': 0.066284539732083425, 'chaikinAD': -21.632808579774519, 'BBANDlower': 5.2927485783045407, 'open': 7.0999999999999996, 'BBANDmiddle': 6.1500000000000217, 'aroonUp': 100.0, 'low': 6.9299999999999997, 'ADMI': 12.069885629305483, 'MACDdiff': 0.1196941046952924, 'volume': 7.1699999999999999, 'MACD': 0.078586362663686238, 'slowd': 34.990978687897446, 'date': '2016-02-29', 'MACDsignal': -0.041107742031606165, 'slowk': 54.211958539043529, 'volumeROCP': 0.18461538461538463, 'dayChange': 0.096681096681096701, 'RSI': 70.888805327943061, 'aroonDown': 21.428571428571431}, {'BBANDupper': 7.2555152891268078, 'high': 7.3200000000000003, 'CCI': 180.22955718554709, 'close': 6.7999999999999998, 'nasdaqChange': 0.046893417386903689, 'chaikinAD': -22.128112729944405, 'BBANDlower': 5.4404847108732364, 'open': 7.1399999999999997, 'BBANDmiddle': 6.3480000000000221, 'aroonUp': 100.0, 'low': 6.7999999999999998, 'ADMI': 12.750406868175467, 'MACDdiff': 0.1395402196244433, 'volume': 7.0700000000000003, 'MACD': 0.13331753249894795, 'slowd': 49.009484091479749, 'date': '2016-03-01', 'MACDsignal': -0.0062226871254953409, 'slowk': 62.748338413003019, 'volumeROCP': 0.13902847571189281, 'dayChange': -0.019117647058823461, 'RSI': 67.115889191036004, 'aroonDown': 14.285714285714286}, {'BBANDupper': 7.4212305946033457, 'high': 7.2599999999999998, 'CCI': 151.47276616751682, 'close': 7.0499999999999998, 'nasdaqChange': 0.045350054242493554, 'chaikinAD': -22.594090543200764, 'BBANDlower': 5.7947694053966963, 'open': 7.0899999999999999, 'BBANDmiddle': 6.608000000000021, 'aroonUp': 92.857142857142861, 'low': 7.0499999999999998, 'ADMI': 13.517712781400855, 'MACDdiff': 0.16067559809203616, 'volume': 7.1500000000000004, 'MACD': 0.19462181048954985, 'slowd': 63.939002406394742, 'date': '2016-03-02', 'MACDsignal': 0.033946212397513699, 'slowk': 74.856710267137586, 'volumeROCP': 0.21551724137931036, 'dayChange': 0.03546099290780147, 'RSI': 70.380683784870797, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.3956665711546936, 'high': 7.4100000000000001, 'CCI': 121.93407016783448, 'close': 7.0300000000000002, 'nasdaqChange': 0.04276149348388826, 'chaikinAD': -23.059800508332955, 'BBANDlower': 6.2323334288453491, 'open': 7.1500000000000004, 'BBANDmiddle': 6.8140000000000214, 'aroonUp': 100.0, 'low': 7.0300000000000002, 'ADMI': 14.112195998752654, 'MACDdiff': 0.16391412908435854, 'volume': 7.3200000000000003, 'MACD': 0.23883887375296187, 'slowd': 69.577344801858544, 'date': '2016-03-03', 'MACDsignal': 0.074924744668603327, 'slowk': 71.12698572543492, 'volumeROCP': 0.22687609075043624, 'dayChange': -0.0028449502133711668, 'RSI': 69.783787375735969, 'aroonDown': 0.0}, {'BBANDupper': 7.2368497477839604, 'high': 7.4500000000000002, 'CCI': 109.75409481827201, 'close': 7.1600000000000001, 'nasdaqChange': 0.052263661394393153, 'chaikinAD': -23.457609084220167, 'BBANDlower': 6.7511502522160853, 'open': 7.3399999999999999, 'BBANDmiddle': 6.9940000000000229, 'aroonUp': 100.0, 'low': 7.1600000000000001, 'ADMI': 14.54600910897017, 'MACDdiff': 0.16496454976874314, 'volume': 7.2400000000000002, 'MACD': 0.28113043187953224, 'slowd': 71.093075516324248, 'date': '2016-03-04', 'MACDsignal': 0.11616588211078911, 'slowk': 67.295530556400152, 'volumeROCP': 0.2473867595818815, 'dayChange': 0.018156424581005526, 'RSI': 71.477100211370015, 'aroonDown': 21.428571428571431}, {'BBANDupper': 7.2822478771113959, 'high': 7.7000000000000002, 'CCI': 97.847648877645199, 'close': 7.1200000000000001, 'nasdaqChange': 0.028212606152238227, 'chaikinAD': -23.839202675790602, 'BBANDlower': 6.7817521228886486, 'open': 7.1200000000000001, 'BBANDmiddle': 7.0320000000000222, 'aroonUp': 100.0, 'low': 7.1200000000000001, 'ADMI': 15.347584030404406, 'MACDdiff': 0.15336345008801777, 'volume': 7.3899999999999997, 'MACD': 0.30787019472081134, 'slowd': 63.684915724978559, 'date': '2016-03-07', 'MACDsignal': 0.15450674463279357, 'slowk': 52.632230893100513, 'volumeROCP': 0.20882852292020382, 'dayChange': -0.0056179775280897903, 'RSI': 70.174009095834293, 'aroonDown': 14.285714285714286}, {'BBANDupper': 7.186148818360838, 'high': 7.4400000000000004, 'CCI': 73.577402989167709, 'close': 7.0999999999999996, 'nasdaqChange': 0.031531174345878717, 'chaikinAD': -24.087199810906895, 'BBANDlower': 6.9978511816392057, 'open': 7.3200000000000003, 'BBANDmiddle': 7.0920000000000218, 'aroonUp': 92.857142857142861, 'low': 7.0999999999999996, 'ADMI': 16.165747435719737, 'MACDdiff': 0.13536757830965812, 'volume': 7.0999999999999996, 'MACD': 0.32371621751986623, 'slowd': 51.2412462758559, 'date': '2016-03-08', 'MACDsignal': 0.18834863921020811, 'slowk': 33.795977378066951, 'volumeROCP': 0.22203098106712565, 'dayChange': -0.0028169014084507005, 'RSI': 69.491833285441487, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.1995755076481736, 'high': 7.1900000000000004, 'CCI': 48.761833891438151, 'close': 7.0, 'nasdaqChange': 0.048963715841219245, 'chaikinAD': -24.261180474280991, 'BBANDlower': 6.9644244923518706, 'open': 7.1200000000000001, 'BBANDmiddle': 7.0820000000000221, 'aroonUp': 85.714285714285722, 'low': 7.0, 'ADMI': 16.666638948570316, 'MACDdiff': 0.10889301740478791, 'volume': 7.1100000000000003, 'MACD': 0.32446491096619301, 'slowd': 33.92088239589868, 'date': '2016-03-09', 'MACDsignal': 0.2155718935614051, 'slowk': 15.334438916528482, 'volumeROCP': 0.21739130434782608, 'dayChange': -0.014285714285714235, 'RSI': 66.035223413986117, 'aroonDown': 0.0}, {'BBANDupper': 7.3379937106276536, 'high': 7.1299999999999999, 'CCI': 16.761931644438008, 'close': 6.7199999999999998, 'nasdaqChange': 0.020168765286929437, 'chaikinAD': -24.274519793454147, 'BBANDlower': 6.70200628937239, 'open': 7.1299999999999999, 'BBANDmiddle': 7.0200000000000218, 'aroonUp': 78.571428571428569, 'low': 6.7199999999999998, 'ADMI': 16.325169355669882, 'MACDdiff': 0.066756649944058888, 'volume': 6.75, 'MACD': 0.2990177059914787, 'slowd': 17.537667786424048, 'date': '2016-03-10', 'MACDsignal': 0.23226105604741981, 'slowk': 3.4825870646766219, 'volumeROCP': 0.11999999999999995, 'dayChange': -0.041666666666666741, 'RSI': 57.422484354083217, 'aroonDown': 0.0}, {'BBANDupper': 7.2775203697538435, 'high': 7.1699999999999999, 'CCI': 15.299273312253593, 'close': 6.7599999999999998, 'nasdaqChange': 0.02622487363251412, 'chaikinAD': -24.265474988255846, 'BBANDlower': 6.6024796302461999, 'open': 6.8099999999999996, 'BBANDmiddle': 6.9400000000000217, 'aroonUp': 71.428571428571431, 'low': 6.7599999999999998, 'ADMI': 16.230655846632665, 'MACDdiff': 0.037282124076016443, 'volume': 6.8899999999999997, 'MACD': 0.27886371114244035, 'slowd': 6.7258567329641004, 'date': '2016-03-11', 'MACDsignal': 0.24158158706642391, 'slowk': 1.3605442176871103, 'volumeROCP': 0.079872204472843447, 'dayChange': 0.0059171597633136397, 'RSI': 58.260022303083936, 'aroonDown': 14.285714285714286}, {'BBANDupper': 7.1728875213621137, 'high': 7.1600000000000001, 'CCI': 14.516944865958179, 'close': 6.8399999999999999, 'nasdaqChange': 0.038190089762590147, 'chaikinAD': -24.299004387197328, 'BBANDlower': 6.5951124786379296, 'open': 6.8399999999999999, 'BBANDmiddle': 6.8840000000000217, 'aroonUp': 64.285714285714292, 'low': 6.8399999999999999, 'ADMI': 16.264512855795594, 'MACDdiff': 0.019756631618521731, 'volume': 7.0499999999999998, 'MACD': 0.26627737658957606, 'slowd': 3.9197436852021617, 'date': '2016-03-14', 'MACDsignal': 0.24652074497105433, 'slowk': 6.9160997732426646, 'volumeROCP': -0.012987012987012967, 'dayChange': 0.011695906432748537, 'RSI': 59.956585188442382, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.0159591794194744, 'high': 7.0, 'CCI': -29.247910863509798, 'close': 6.7800000000000002, 'nasdaqChange': 0.028443241992688415, 'chaikinAD': -24.3055387424738, 'BBANDlower': 6.6240408205805688, 'open': 7.0, 'BBANDmiddle': 6.8200000000000216, 'aroonUp': 57.142857142857146, 'low': 6.7800000000000002, 'ADMI': 15.898611486226997, 'MACDdiff': 0.001659774791351265, 'volume': 6.9199999999999999, 'MACD': 0.24859546346024342, 'slowd': 6.4826876377029095, 'date': '2016-03-15', 'MACDsignal': 0.24693568866889215, 'slowk': 11.171418922178864, 'volumeROCP': -0.0029411764705881728, 'dayChange': -0.0088495575221239076, 'RSI': 58.050808676429391, 'aroonDown': 0.0}, {'BBANDupper': 6.9349059818022054, 'high': 7.2199999999999998, 'CCI': -3.8736753507170543e-13, 'close': 6.9100000000000001, 'nasdaqChange': 0.01082742713550639, 'chaikinAD': -24.370435638498748, 'BBANDlower': 6.6690940181978364, 'open': 6.9699999999999998, 'BBANDmiddle': 6.8020000000000209, 'aroonUp': 50.0, 'low': 6.9100000000000001, 'ADMI': 16.755240020011506, 'MACDdiff': -0.0037249618521783268, 'volume': 7.1399999999999997, 'MACD': 0.24227948635366925, 'slowd': 13.521686688860035, 'date': '2016-03-16', 'MACDsignal': 0.24600444820584758, 'slowk': 22.47754137115848, 'volumeROCP': -0.01985815602836875, 'dayChange': 0.018813314037626649, 'RSI': 60.94724225132309, 'aroonDown': 0.0}, {'BBANDupper': 7.0779142682116563, 'high': 7.2999999999999998, 'CCI': 40.954274353876087, 'close': 7.0499999999999998, 'nasdaqChange': 0.013586650549984402, 'chaikinAD': -24.481944765190747, 'BBANDlower': 6.6580857317883853, 'open': 7.0599999999999996, 'BBANDmiddle': 6.8680000000000208, 'aroonUp': 42.857142857142861, 'low': 7.0499999999999998, 'ADMI': 18.012256350604584, 'MACDdiff': -0.00021304446686579159, 'volume': 7.2300000000000004, 'MACD': 0.24573814262226534, 'slowd': 22.824060225613863, 'date': '2016-03-17', 'MACDsignal': 0.24595118708913113, 'slowk': 34.823220383504157, 'volumeROCP': 0.0028449502133712054, 'dayChange': 0.019858156028368712, 'RSI': 63.842626590899208, 'aroonDown': 0.0}, {'BBANDupper': 7.2848374203819377, 'high': 7.3899999999999997, 'CCI': 102.72835112692732, 'close': 7.2300000000000004, 'nasdaqChange': 0.018018621412197885, 'chaikinAD': -24.624658065637959, 'BBANDlower': 6.6391625796181026, 'open': 7.2599999999999998, 'BBANDmiddle': 6.9620000000000202, 'aroonUp': 35.714285714285715, 'low': 7.2300000000000004, 'ADMI': 19.030616520292995, 'MACDdiff': 0.011244214918530171, 'volume': 7.2999999999999998, 'MACD': 0.26000645573729386, 'slowd': 37.486275641218981, 'date': '2016-03-18', 'MACDsignal': 0.24876224081876369, 'slowk': 55.15806516899422, 'volumeROCP': 0.009776536312849202, 'dayChange': 0.024896265560166109, 'RSI': 67.208831572357056, 'aroonDown': 57.142857142857146}, {'BBANDupper': 7.3132605444514551, 'high': 7.3099999999999996, 'CCI': 30.93990216631655, 'close': 7.0700000000000003, 'nasdaqChange': 0.023650121964572095, 'chaikinAD': -24.735344591672856, 'BBANDlower': 6.7027394555485875, 'open': 7.25, 'BBANDmiddle': 7.0080000000000213, 'aroonUp': 28.571428571428573, 'low': 7.0700000000000003, 'ADMI': 19.560137300412915, 'MACDdiff': 0.0053572187352426415, 'volume': 7.2000000000000002, 'MACD': 0.25545876423781699, 'slowd': 49.439892863448371, 'date': '2016-03-21', 'MACDsignal': 0.25010154550257435, 'slowk': 58.338393037846664, 'volumeROCP': -0.0070224719101123342, 'dayChange': -0.022630834512022746, 'RSI': 61.709291102092919, 'aroonDown': 50.0}, {'BBANDupper': 7.2670172406441829, 'high': 7.4500000000000002, 'CCI': 47.353289362421989, 'close': 7.0599999999999996, 'nasdaqChange': 0.029906157432518635, 'chaikinAD': -24.857866843989541, 'BBANDlower': 6.8609827593558599, 'open': 7.1399999999999997, 'BBANDmiddle': 7.0640000000000214, 'aroonUp': 21.428571428571431, 'low': 7.0599999999999996, 'ADMI': 20.435497303944427, 'MACDdiff': -0.0015317753692015157, 'volume': 7.3099999999999996, 'MACD': 0.24818682629107247, 'slowd': 54.397625312015208, 'date': '2016-03-22', 'MACDsignal': 0.24971860166027399, 'slowk': 49.696417729204654, 'volumeROCP': -0.005633802816901414, 'dayChange': -0.0014164305949009304, 'RSI': 61.371280794146422, 'aroonDown': 42.857142857142861}, {'BBANDupper': 7.295044904138952, 'high': 7.3799999999999999, 'CCI': 83.045148895292996, 'close': 7.2300000000000004, 'nasdaqChange': 0.026484074483945477, 'chaikinAD': -24.955001688665106, 'BBANDlower': 6.9609550958610908, 'open': 7.2999999999999998, 'BBANDmiddle': 7.1280000000000214, 'aroonUp': 14.285714285714286, 'low': 7.2300000000000004, 'ADMI': 21.292320118396937, 'MACDdiff': 0.0028030008088693048, 'volume': 7.25, 'MACD': 0.25322235267136062, 'slowd': 49.380354853943281, 'date': '2016-03-23', 'MACDsignal': 0.25041935186249131, 'slowk': 40.106253794778432, 'volumeROCP': 0.032857142857142918, 'dayChange': 0.023513139695712448, 'RSI': 64.891909319658936, 'aroonDown': 35.714285714285715}, {'BBANDupper': 7.291276826006805, 'high': 7.7199999999999998, 'CCI': 86.713947990543559, 'close': 7.0800000000000001, 'nasdaqChange': 0.027513032702317152, 'chaikinAD': -25.083829426153898, 'BBANDlower': 6.9767231739932383, 'open': 7.3499999999999996, 'BBANDmiddle': 7.1340000000000217, 'aroonUp': 100.0, 'low': 7.0800000000000001, 'ADMI': 22.806691914396936, 'MACDdiff': -0.006482658398161506, 'volume': 7.4100000000000001, 'MACD': 0.24231602886478942, 'slowd': 38.357343931114499, 'date': '2016-03-24', 'MACDsignal': 0.24879868726295093, 'slowk': 25.26936026936032, 'volumeROCP': 0.053571428571428624, 'dayChange': -0.021186440677966045, 'RSI': 59.71993628905502, 'aroonDown': 28.571428571428573}, {'BBANDupper': 7.3284342701311065, 'high': 7.4800000000000004, 'CCI': 108.7801087801087, 'close': 7.2800000000000002, 'nasdaqChange': 0.012571950545485008, 'chaikinAD': -25.185274461839981, 'BBANDlower': 6.9595657298689364, 'open': 7.4500000000000002, 'BBANDmiddle': 7.1440000000000214, 'aroonUp': 92.857142857142861, 'low': 7.2800000000000002, 'ADMI': 24.161766510847883, 'MACDdiff': -0.0014676154074554359, 'volume': 7.3200000000000003, 'MACD': 0.24696416800363163, 'slowd': 30.832275395117026, 'date': '2016-03-28', 'MACDsignal': 0.24843178341108707, 'slowk': 27.121212121212235, 'volumeROCP': 0.076923076923076997, 'dayChange': 0.027472527472527486, 'RSI': 63.856325711167884, 'aroonDown': 21.428571428571431}, {'BBANDupper': 7.3853423421336668, 'high': 7.5999999999999996, 'CCI': 115.50353995087393, 'close': 7.29, 'nasdaqChange': 0.0038613507957408265, 'chaikinAD': -25.34584066172556, 'BBANDlower': 6.9906576578663753, 'open': 7.3099999999999996, 'BBANDmiddle': 7.188000000000021, 'aroonUp': 85.714285714285722, 'low': 7.29, 'ADMI': 25.306300335282273, 'MACDdiff': 0.00012592269663977418, 'volume': 7.5700000000000003, 'MACD': 0.2485891867818868, 'slowd': 25.375982042648825, 'date': '2016-03-29', 'MACDsignal': 0.24846326408524702, 'slowk': 23.737373737373829, 'volumeROCP': 0.06578947368421055, 'dayChange': 0.00137174211248281, 'RSI': 64.05508317240411, 'aroonDown': 14.285714285714286}, {'BBANDupper': 7.6259277029697694, 'high': 7.8300000000000001, 'CCI': 180.90366581415108, 'close': 7.5899999999999999, 'nasdaqChange': 0.03125596171131774, 'chaikinAD': -25.557359501523024, 'BBANDlower': 6.9620722970302724, 'open': 7.6600000000000001, 'BBANDmiddle': 7.2940000000000209, 'aroonUp': 100.0, 'low': 7.5899999999999999, 'ADMI': 25.97086925383109, 'MACDdiff': 0.017998227426581859, 'volume': 7.7000000000000002, 'MACD': 0.27096104836847434, 'slowd': 32.0841750841752, 'date': '2016-03-30', 'MACDsignal': 0.25296282094189249, 'slowk': 45.393939393939455, 'volumeROCP': 0.1194690265486725, 'dayChange': 0.039525691699604737, 'RSI': 69.477757445968564, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.6253781261415954, 'high': 7.7800000000000002, 'CCI': 71.691341408703465, 'close': 7.2000000000000002, 'nasdaqChange': 0.031371042814541915, 'chaikinAD': -25.776857254028982, 'BBANDlower': 6.950621873858446, 'open': 7.6900000000000004, 'BBANDmiddle': 7.2880000000000207, 'aroonUp': 92.857142857142861, 'low': 7.2000000000000002, 'ADMI': 25.661191858160329, 'MACDdiff': 0.001061642323801848, 'volume': 7.7199999999999998, 'MACD': 0.25428987384664481, 'slowd': 36.249158249158334, 'date': '2016-03-31', 'MACDsignal': 0.25322823152284296, 'slowk': 39.616161616161648, 'volumeROCP': 0.041968162083936326, 'dayChange': -0.054166666666666696, 'RSI': 57.362511645724879, 'aroonDown': 0.0}, {'BBANDupper': 7.7026471402644567, 'high': 7.8600000000000003, 'CCI': 149.14271306101861, 'close': 7.5599999999999996, 'nasdaqChange': 0.019858682036902605, 'chaikinAD': -25.982846584232902, 'BBANDlower': 7.0653528597355866, 'open': 7.6200000000000001, 'BBANDmiddle': 7.3840000000000217, 'aroonUp': 100.0, 'low': 7.5599999999999996, 'ADMI': 25.479983797754663, 'MACDdiff': 0.011056191377241231, 'volume': 7.7300000000000004, 'MACD': 0.26704847074439453, 'slowd': 43.73063973063978, 'date': '2016-04-01', 'MACDsignal': 0.2559922793671533, 'slowk': 46.181818181818166, 'volumeROCP': 0.072340425531914859, 'dayChange': 0.047619047619047561, 'RSI': 63.661564347886333, 'aroonDown': 0.0}, {'BBANDupper': 7.8621589419694944, 'high': 7.8899999999999997, 'CCI': 160.28696786434259, 'close': 7.7199999999999998, 'nasdaqChange': 0.023627425622300208, 'chaikinAD': -26.199583438930858, 'BBANDlower': 7.0818410580305473, 'open': 7.75, 'BBANDmiddle': 7.4720000000000208, 'aroonUp': 100.0, 'low': 7.7199999999999998, 'ADMI': 25.208882491821328, 'MACDdiff': 0.024617990740320395, 'volume': 7.8399999999999999, 'MACD': 0.28676476779255378, 'slowd': 44.8113014199971, 'date': '2016-04-04', 'MACDsignal': 0.26214677705223338, 'slowk': 48.635924462011417, 'volumeROCP': 0.067773167358229497, 'dayChange': 0.020725388601036343, 'RSI': 66.061390791776546, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.8787119154814826, 'high': 7.8600000000000003, 'CCI': 105.79920260964175, 'close': 7.5800000000000001, 'nasdaqChange': 0.011125602418553234, 'chaikinAD': -26.327831839587816, 'BBANDlower': 7.1812880845185587, 'open': 7.79, 'BBANDmiddle': 7.5300000000000207, 'aroonUp': 92.857142857142861, 'low': 7.5800000000000001, 'ADMI': 24.980083414951302, 'MACDdiff': 0.020503333030030491, 'volume': 7.6100000000000003, 'MACD': 0.28777594333977152, 'slowd': 52.159273898404344, 'date': '2016-04-05', 'MACDsignal': 0.26727261030974103, 'slowk': 61.660079051383406, 'volumeROCP': 0.072135785007072101, 'dayChange': -0.01846965699208436, 'RSI': 62.191175627615323, 'aroonDown': 0.0}, {'BBANDupper': 7.8575345688554359, 'high': 7.8200000000000003, 'CCI': 69.910371318821802, 'close': 7.5099999999999998, 'nasdaqChange': 0.014130891365453974, 'chaikinAD': -26.436857836257332, 'BBANDlower': 7.1704654311446072, 'open': 7.6399999999999997, 'BBANDmiddle': 7.5140000000000216, 'aroonUp': 85.714285714285722, 'low': 7.5099999999999998, 'ADMI': 24.725991811985502, 'MACDdiff': 0.0099456168562203073, 'volume': 7.7000000000000002, 'MACD': 0.27970463138001644, 'slowd': 56.25003659786271, 'date': '2016-04-06', 'MACDsignal': 0.26975901452379614, 'slowk': 58.454106280193265, 'volumeROCP': 0.063739376770538272, 'dayChange': -0.009320905459387463, 'RSI': 60.28929909274877, 'aroonDown': 0.0}, {'BBANDupper': 7.7313700111166561, 'high': 7.7800000000000002, 'CCI': 70.279086625589102, 'close': 7.5899999999999999, 'nasdaqChange': 0.013875127298952565, 'chaikinAD': -26.537654122507774, 'BBANDlower': 7.4526299888833876, 'open': 7.6600000000000001, 'BBANDmiddle': 7.5920000000000218, 'aroonUp': 78.571428571428569, 'low': 7.5899999999999999, 'ADMI': 24.617573935496601, 'MACDdiff': 0.0054529508879325728, 'volume': 7.7300000000000004, 'MACD': 0.27657520313371187, 'slowd': 53.488354174853072, 'date': '2016-04-07', 'MACDsignal': 0.27112225224577929, 'slowk': 40.350877192982495, 'volumeROCP': 0.04979253112033187, 'dayChange': 0.010540184453227908, 'RSI': 61.729727694661364, 'aroonDown': 0.0}, {'BBANDupper': 7.7374801574761038, 'high': 7.8700000000000001, 'CCI': 51.08005082592129, 'close': 7.5, 'nasdaqChange': 0.021244926907769798, 'chaikinAD': -26.59728404665475, 'BBANDlower': 7.4225198425239389, 'open': 7.5199999999999996, 'BBANDmiddle': 7.5800000000000214, 'aroonUp': 71.428571428571431, 'low': 7.5, 'ADMI': 24.100800815594731, 'MACDdiff': -0.0058641773643403616, 'volume': 7.6399999999999997, 'MACD': 0.26379203054035383, 'slowd': 40.266124247817665, 'date': '2016-04-08', 'MACDsignal': 0.26965620790469419, 'slowk': 21.993389270277174, 'volumeROCP': 0.059322033898305072, 'dayChange': -0.012000000000000011, 'RSI': 59.131138487039138, 'aroonDown': 14.285714285714286}, {'BBANDupper': 7.6209044430762205, 'high': 7.7800000000000002, 'CCI': 27.820879270450735, 'close': 7.4800000000000004, 'nasdaqChange': 0.015418064165375072, 'chaikinAD': -26.644197738655748, 'BBANDlower': 7.443095556923824, 'open': 7.5999999999999996, 'BBANDmiddle': 7.5320000000000222, 'aroonUp': 64.285714285714292, 'low': 7.4800000000000004, 'ADMI': 23.783400278262739, 'MACDdiff': -0.016384881687107666, 'volume': 7.6699999999999999, 'MACD': 0.24917510579580959, 'slowd': 23.120603440969628, 'date': '2016-04-11', 'MACDsignal': 0.26555998748291726, 'slowk': 7.0175438596491615, 'volumeROCP': 0.027472527472527496, 'dayChange': -0.002673796791443861, 'RSI': 58.541374359716336, 'aroonDown': 7.1428571428571432}, {'BBANDupper': 7.5969044430762205, 'high': 7.7699999999999996, 'CCI': 12.483787289234321, 'close': 7.46, 'nasdaqChange': 0.012449076310176809, 'chaikinAD': -26.65937172732356, 'BBANDlower': 7.4190955569238239, 'open': 7.6900000000000004, 'BBANDmiddle': 7.5080000000000222, 'aroonUp': 57.142857142857146, 'low': 7.46, 'ADMI': 23.432701604662373, 'MACDdiff': -0.025817545755231153, 'volume': 7.5999999999999996, 'MACD': 0.2332880552888783, 'slowd': 9.6703110433088053, 'date': '2016-04-12', 'MACDsignal': 0.25910560104410946, 'slowk': 3.0790185216271006e-14, 'volumeROCP': 0.023319615912208495, 'dayChange': -0.0026809651474530849, 'RSI': 57.919260603713226, 'aroonDown': 0.0}]
+ProjectGiro LOG 23:1.8.3530>	starting money: 120000.0
+ProjectGiro LOG 23:1.8.3530>	share value: 6.0 on 2016-02-25
+ProjectGiro LOG 23:1.8.3530>	share value: 7.46 on 2016-04-12
+ProjectGiro LOG 23:1.8.3530>	profit: 0.0
+ProjectGiro LOG 23:1.8.3530>	Buy + hold value: 131647.058824
+ProjectGiro LOG 23:1.8.3530>	Trade count: 29
+ProjectGiro LOG 23:1.8.3530>	WIFI action recommendation: SELL/SHORT--INCORRECT
+ProjectGiro LOG 23:1.8.3640>	['EA', 'BUY/COVER--CORRECT', 44.771]
+ProjectGiro LOG 23:1.8.3640>	['AMZN', 'BUY/COVER--CORRECT', 37.137]
+ProjectGiro LOG 23:1.8.3640>	['WIFI', 'SELL/SHORT--INCORRECT', 3.723]
+ProjectGiro LOG 23:1.8.3650>	2 of 3 correct
+ProjectGiro LOG 23:1.8.3650>	Results: 
+                             EA             BUY/COVER--CORRECT     44.771
+                           AMZN             BUY/COVER--CORRECT     37.137
+                           WIFI          SELL/SHORT--INCORRECT      3.723
+
+ProjectGiro LOG 23:1.8.3650>	GIRO total execution time: 754.87855196

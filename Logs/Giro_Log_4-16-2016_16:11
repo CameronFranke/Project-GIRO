@@ -1,0 +1,85 @@
+ProjectGiro LOG 16:11.45.255>	Initializing Project GIRO...
+ProjectGiro LOG 16:11.45.272>	transactionCost=6.95
+ProjectGiro LOG 16:11.45.272>	benchmarkingPeriod=36
+ProjectGiro LOG 16:11.45.272>	stopYear=2016
+ProjectGiro LOG 16:11.45.272>	useTodaysDate=True
+ProjectGiro LOG 16:11.45.272>	startDay=23
+ProjectGiro LOG 16:11.45.272>	mutationRateDelta=-.00025
+ProjectGiro LOG 16:11.45.272>	populationSize=1
+ProjectGiro LOG 16:11.45.272>	stopDay=13
+ProjectGiro LOG 16:11.45.272>	triggerThreshold=0.2
+ProjectGiro LOG 16:11.45.272>	startYear=2013
+ProjectGiro LOG 16:11.45.272>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 16:11.45.272>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 16:11.45.272>	stopMonth=3
+ProjectGiro LOG 16:11.45.272>	startMonth=11
+ProjectGiro LOG 16:11.45.272>	mutationRate=0.06
+ProjectGiro LOG 16:11.45.272>	tournamentSize=3
+ProjectGiro LOG 16:11.45.272>	selectionPercentage=0.60
+ProjectGiro LOG 16:11.45.272>	lookbackLevel=3
+ProjectGiro LOG 16:11.45.272>	TrigIncrementAmount=0.00
+ProjectGiro LOG 16:11.45.272>	marginInterestRate=0.0425
+ProjectGiro LOG 16:11.45.272>	loadedStrategieRatio=0.40
+ProjectGiro LOG 16:11.45.272>	threads=1
+ProjectGiro LOG 16:11.45.272>	startingMoney=10000
+ProjectGiro LOG 16:11.45.272>	shortPortfolioRatio=0.3
+ProjectGiro LOG 16:11.45.272>	numStrategiesToSave=15
+ProjectGiro LOG 16:11.45.272>	dayTriggerThreshold=0.2
+ProjectGiro LOG 16:11.45.272>	performanceTest=True
+ProjectGiro LOG 16:11.45.272>	incrementDayThresholdGens=0
+ProjectGiro LOG 16:11.45.272>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 16:11.45.272>	tradeCountLimit=50
+ProjectGiro LOG 16:11.45.272>	generations=5
+ProjectGiro LOG 16:11.45.272>	Initiating analysis of 1 securities
+ProjectGiro LOG 16:11.45.281>	StockData/EA:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 16:11.45.281>	Using stored data for EA
+ProjectGiro LOG 16:11.45.286>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 16:11.45.286>	Using stored data for ^IXIC
+ProjectGiro LOG 16:11.45.289>	EA Technical indicator calculations complete
+ProjectGiro LOG 16:11.45.322>	Loading 0 stored strategies
+ProjectGiro LOG 16:11.45.324>	Population initialiazed with 1 investment strategies
+ProjectGiro LOG 16:11.45.324>	Beginning 5 generation simulation of EA
+ProjectGiro LOG 16:11.45.347>	EA Generation: 0
+									Highest profit this round: 10885.24		108.85%
+									Average profit this round: 10885.24		108.85%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.06
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:11.45.369>	EA Generation: 1
+									Highest profit this round: 10885.24		108.85%
+									Average profit this round: 10885.24		108.85%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.05975
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:11.45.392>	EA Generation: 2
+									Highest profit this round: 10885.24		108.85%
+									Average profit this round: 10885.24		108.85%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.0595
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:11.45.415>	EA Generation: 3
+									Highest profit this round: 10885.24		108.85%
+									Average profit this round: 10885.24		108.85%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.05925
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:11.45.437>	EA Generation: 4
+									Highest profit this round: 10885.24		108.85%
+									Average profit this round: 10885.24		108.85%
+									Buy and hold profit: 15533.3926944
+									Mutation Rate: 0.059
+									Average trade count: 1
+									Best strategy's trade correctness: 	0.0%
+									Best strategy's trade count: 1
+ProjectGiro LOG 16:11.45.442>	0 of 0 correct
+ProjectGiro LOG 16:11.45.442>	Results: 
+
+ProjectGiro LOG 16:11.45.442>	GIRO total execution time: 0.186157941818

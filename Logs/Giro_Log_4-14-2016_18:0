@@ -1,0 +1,1200 @@
+ProjectGiro LOG 18:0.7.3300>	Initializing Project GIRO...
+ProjectGiro LOG 18:0.7.5300>	transactionCost=6.95
+ProjectGiro LOG 18:0.7.5300>	mutationRateDelta=-.00025
+ProjectGiro LOG 18:0.7.5300>	stopYear=2016
+ProjectGiro LOG 18:0.7.5300>	useTodaysDate=True
+ProjectGiro LOG 18:0.7.5300>	startDay=23
+ProjectGiro LOG 18:0.7.5300>	populationSize=100
+ProjectGiro LOG 18:0.7.5300>	stopDay=1
+ProjectGiro LOG 18:0.7.5300>	triggerThreshold=.2
+ProjectGiro LOG 18:0.7.5300>	startYear=2013
+ProjectGiro LOG 18:0.7.5400>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 18:0.7.5400>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 18:0.7.5400>	stopMonth=0
+ProjectGiro LOG 18:0.7.5400>	startMonth=11
+ProjectGiro LOG 18:0.7.5400>	mutationRate=.04
+ProjectGiro LOG 18:0.7.5400>	tournamentSize=5
+ProjectGiro LOG 18:0.7.5400>	selectionPercentage=.60
+ProjectGiro LOG 18:0.7.5400>	lookbackLevel=3
+ProjectGiro LOG 18:0.7.5400>	TrigIncrementAmount=.00
+ProjectGiro LOG 18:0.7.5400>	loadedStrategieRatio=.40
+ProjectGiro LOG 18:0.7.5400>	threads=4
+ProjectGiro LOG 18:0.7.5400>	startingMoney=1000000
+ProjectGiro LOG 18:0.7.5400>	numStrategiesToSave=15
+ProjectGiro LOG 18:0.7.5400>	dayTriggerThreshold=.2
+ProjectGiro LOG 18:0.7.5400>	performanceTest=True
+ProjectGiro LOG 18:0.7.5400>	incrementDayThresholdGens=0
+ProjectGiro LOG 18:0.7.5400>	tradeOnLossPunishment=.03
+ProjectGiro LOG 18:0.7.5400>	tradeCountLimit=100
+ProjectGiro LOG 18:0.7.5400>	generations=50
+ProjectGiro LOG 18:0.7.5400>	Initiating analysis of 4 securities
+ProjectGiro LOG 18:0.7.6500>	StockData/BP:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.6500>	No stored data available for BP
+ProjectGiro LOG 18:0.7.6500>	Pulling stock data for BP from yahoo
+ProjectGiro LOG 18:0.7.6500>	Download URL: http://ichart.yahoo.com/table.csv?s=BP&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.6600>	StockData/EA:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.6600>	No stored data available for EA
+ProjectGiro LOG 18:0.7.6600>	Pulling stock data for EA from yahoo
+ProjectGiro LOG 18:0.7.6600>	Download URL: http://ichart.yahoo.com/table.csv?s=EA&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.6700>	StockData/TSLA:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.6700>	No stored data available for TSLA
+ProjectGiro LOG 18:0.7.6700>	Pulling stock data for TSLA from yahoo
+ProjectGiro LOG 18:0.7.6700>	Download URL: http://ichart.yahoo.com/table.csv?s=TSLA&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.6700>	StockData/HD:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.6700>	No stored data available for HD
+ProjectGiro LOG 18:0.7.6700>	Pulling stock data for HD from yahoo
+ProjectGiro LOG 18:0.7.6700>	Download URL: http://ichart.yahoo.com/table.csv?s=HD&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.4250>	Creating storage file for BP
+ProjectGiro LOG 18:0.7.4400>	StockData/^IXIC:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.4410>	No stored data available for ^IXIC
+ProjectGiro LOG 18:0.7.4410>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:0.7.4410>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.5270>	Creating storage file for HD
+ProjectGiro LOG 18:0.7.5340>	StockData/^IXIC:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.5340>	No stored data available for ^IXIC
+ProjectGiro LOG 18:0.7.5340>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:0.7.5340>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.5420>	Creating storage file for EA
+ProjectGiro LOG 18:0.7.5490>	StockData/^IXIC:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.5490>	No stored data available for ^IXIC
+ProjectGiro LOG 18:0.7.5490>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:0.7.5490>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.5620>	Creating storage file for TSLA
+ProjectGiro LOG 18:0.7.5690>	StockData/^IXIC:11-23-2013_0-1-2016.txt
+ProjectGiro LOG 18:0.7.5690>	No stored data available for ^IXIC
+ProjectGiro LOG 18:0.7.5690>	Pulling stock data for ^IXIC from yahoo
+ProjectGiro LOG 18:0.7.5690>	Download URL: http://ichart.yahoo.com/table.csv?s=^IXIC&a=11&b=23&c=2013&d=0&e=1&f=2016&g=d&ignore=.cvs
+ProjectGiro LOG 18:0.7.8720>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:0.7.8830>	BP Technical indicator calculations complete
+ProjectGiro LOG 18:0.7.9120>	Loading 40 stored strategies
+ProjectGiro LOG 18:0.7.9710>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:0.7.9750>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:0.7.9770>	HD Technical indicator calculations complete
+ProjectGiro LOG 18:0.7.9810>	EA Technical indicator calculations complete
+ProjectGiro LOG 18:0.8.5000>	Loading 40 stored strategies
+ProjectGiro LOG 18:0.8.1000>	Loading 40 stored strategies
+ProjectGiro LOG 18:0.8.6900>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:0.8.6900>	Beginning 50 generation simulation of BP
+ProjectGiro LOG 18:0.8.9700>	Creating storage file for ^IXIC
+ProjectGiro LOG 18:0.8.1050>	TSLA Technical indicator calculations complete
+ProjectGiro LOG 18:0.8.1430>	Loading 40 stored strategies
+ProjectGiro LOG 18:0.8.1660>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:0.8.1660>	Beginning 50 generation simulation of HD
+ProjectGiro LOG 18:0.8.1840>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:0.8.1840>	Beginning 50 generation simulation of EA
+ProjectGiro LOG 18:0.8.3530>	Population initialiazed with 100 investment strategies
+ProjectGiro LOG 18:0.8.3530>	Beginning 50 generation simulation of TSLA
+ProjectGiro LOG 18:0.9.4020>	HD Generation: 0
+									Highest profit this round: 494127.83		49.41%
+									Average profit this round: 24996.32		2.5%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.9.5080>	EA Generation: 0
+									Highest profit this round: 1597531.29		159.75%
+									Average profit this round: 512871.07		51.29%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.9.5970>	BP Generation: 0
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: -85513.06		-8.55%
+									Mutation Rate: 0.04
+									Average trade count: 96
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.9.7430>	TSLA Generation: 0
+									Highest profit this round: 552571.26		55.26%
+									Average profit this round: 205584.7		20.56%
+									Mutation Rate: 0.04
+									Average trade count: 95
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.10.632>	BP Generation: 1
+									Highest profit this round: 55874.78		5.59%
+									Average profit this round: -9669.77		-0.97%
+									Mutation Rate: 0.03975
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.11.281>	TSLA Generation: 1
+									Highest profit this round: 562444.13		56.24%
+									Average profit this round: 239411.24		23.94%
+									Mutation Rate: 0.03975
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.11.713>	BP Generation: 2
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 5341.46		0.53%
+									Mutation Rate: 0.0395
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.11.918>	EA Generation: 1
+									Highest profit this round: 1661195.25		166.12%
+									Average profit this round: 749902.18		74.99%
+									Mutation Rate: 0.03975
+									Average trade count: 87
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.12.373>	HD Generation: 1
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 191314.35		19.13%
+									Mutation Rate: 0.03975
+									Average trade count: 84
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 92
+ProjectGiro LOG 18:0.12.644>	TSLA Generation: 2
+									Highest profit this round: 562444.13		56.24%
+									Average profit this round: 288435.87		28.84%
+									Mutation Rate: 0.0395
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.13.119>	BP Generation: 3
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -42572.27		-4.26%
+									Mutation Rate: 0.03925
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.14.980>	TSLA Generation: 3
+									Highest profit this round: 562444.13		56.24%
+									Average profit this round: 280139.6		28.01%
+									Mutation Rate: 0.03925
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.14.335>	BP Generation: 4
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: -24494.23		-2.45%
+									Mutation Rate: 0.039
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.14.665>	EA Generation: 2
+									Highest profit this round: 1639564.51		163.96%
+									Average profit this round: 1028237.0		102.82%
+									Mutation Rate: 0.0395
+									Average trade count: 80
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.15.398>	TSLA Generation: 4
+									Highest profit this round: 552571.26		55.26%
+									Average profit this round: 259296.53		25.93%
+									Mutation Rate: 0.039
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.15.421>	BP Generation: 5
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: -2529.65		-0.25%
+									Mutation Rate: 0.03875
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.15.898>	HD Generation: 2
+									Highest profit this round: 498376.59		49.84%
+									Average profit this round: 270413.92		27.04%
+									Mutation Rate: 0.0395
+									Average trade count: 69
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.16.472>	BP Generation: 6
+									Highest profit this round: 54396.69		5.44%
+									Average profit this round: -21733.34		-2.17%
+									Mutation Rate: 0.0385
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.16.853>	TSLA Generation: 5
+									Highest profit this round: 562444.13		56.24%
+									Average profit this round: 301166.23		30.12%
+									Mutation Rate: 0.03875
+									Average trade count: 98
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.17.842>	BP Generation: 7
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -30611.16		-3.06%
+									Mutation Rate: 0.03825
+									Average trade count: 97
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.18.178>	EA Generation: 3
+									Highest profit this round: 1626290.93		162.63%
+									Average profit this round: 1181743.05		118.17%
+									Mutation Rate: 0.03925
+									Average trade count: 75
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.18.546>	TSLA Generation: 6
+									Highest profit this round: 539047.65		53.9%
+									Average profit this round: 260144.32		26.01%
+									Mutation Rate: 0.0385
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.18.988>	BP Generation: 8
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 3700.71		0.37%
+									Mutation Rate: 0.038
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.19.522>	HD Generation: 3
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 305102.75		30.51%
+									Mutation Rate: 0.03925
+									Average trade count: 73
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 53
+ProjectGiro LOG 18:0.20.330>	BP Generation: 9
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 21829.4		2.18%
+									Mutation Rate: 0.03775
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.20.134>	TSLA Generation: 7
+									Highest profit this round: 603534.89		60.35%
+									Average profit this round: 337608.56		33.76%
+									Mutation Rate: 0.03825
+									Average trade count: 100
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.21.253>	BP Generation: 10
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -6859.42		-0.69%
+									Mutation Rate: 0.0375
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.21.741>	EA Generation: 4
+									Highest profit this round: 1626290.93		162.63%
+									Average profit this round: 1266018.39		126.6%
+									Mutation Rate: 0.039
+									Average trade count: 85
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.21.951>	TSLA Generation: 8
+									Highest profit this round: 606488.14		60.65%
+									Average profit this round: 257493.39		25.75%
+									Mutation Rate: 0.038
+									Average trade count: 99
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.22.368>	BP Generation: 11
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: 7562.04		0.76%
+									Mutation Rate: 0.03725
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.23.334>	HD Generation: 4
+									Highest profit this round: 523496.97		52.35%
+									Average profit this round: 318360.77		31.84%
+									Mutation Rate: 0.039
+									Average trade count: 57
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 50
+ProjectGiro LOG 18:0.23.464>	TSLA Generation: 9
+									Highest profit this round: 573784.28		57.38%
+									Average profit this round: 356151.59		35.62%
+									Mutation Rate: 0.03775
+									Average trade count: 99
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.23.601>	BP Generation: 12
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -17723.12		-1.77%
+									Mutation Rate: 0.037
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.24.763>	BP Generation: 13
+									Highest profit this round: 55874.78		5.59%
+									Average profit this round: -11511.68		-1.15%
+									Mutation Rate: 0.03675
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.24.859>	EA Generation: 5
+									Highest profit this round: 1664845.86		166.48%
+									Average profit this round: 1114382.59		111.44%
+									Mutation Rate: 0.03875
+									Average trade count: 85
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.25.200>	TSLA Generation: 10
+									Highest profit this round: 583653.72		58.37%
+									Average profit this round: 302607.02		30.26%
+									Mutation Rate: 0.0375
+									Average trade count: 98
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.25.855>	BP Generation: 14
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: 12795.36		1.28%
+									Mutation Rate: 0.0365
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.26.797>	TSLA Generation: 11
+									Highest profit this round: 573784.28		57.38%
+									Average profit this round: 269525.88		26.95%
+									Mutation Rate: 0.03725
+									Average trade count: 98
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.26.928>	BP Generation: 15
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 12580.71		1.26%
+									Mutation Rate: 0.03625
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.27.304>	HD Generation: 5
+									Highest profit this round: 523496.97		52.35%
+									Average profit this round: 347331.87		34.73%
+									Mutation Rate: 0.03875
+									Average trade count: 37
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 52
+ProjectGiro LOG 18:0.28.360>	BP Generation: 16
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 16426.26		1.64%
+									Mutation Rate: 0.036
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.28.149>	EA Generation: 6
+									Highest profit this round: 1714052.13		171.41%
+									Average profit this round: 1219968.19		122.0%
+									Mutation Rate: 0.0385
+									Average trade count: 81
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.28.344>	TSLA Generation: 12
+									Highest profit this round: 563839.76		56.38%
+									Average profit this round: 319140.37		31.91%
+									Mutation Rate: 0.037
+									Average trade count: 99
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.29.110>	BP Generation: 17
+									Highest profit this round: 55874.78		5.59%
+									Average profit this round: 6591.65		0.66%
+									Mutation Rate: 0.03575
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.29.932>	TSLA Generation: 13
+									Highest profit this round: 1208860.37		120.89%
+									Average profit this round: 296496.69		29.65%
+									Mutation Rate: 0.03675
+									Average trade count: 97
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 55
+ProjectGiro LOG 18:0.30.197>	BP Generation: 18
+									Highest profit this round: 57307.48		5.73%
+									Average profit this round: 11445.11		1.14%
+									Mutation Rate: 0.0355
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.31.154>	HD Generation: 6
+									Highest profit this round: 497376.29		49.74%
+									Average profit this round: 384639.44		38.46%
+									Mutation Rate: 0.0385
+									Average trade count: 55
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.31.301>	EA Generation: 7
+									Highest profit this round: 1719874.7		171.99%
+									Average profit this round: 1114197.34		111.42%
+									Mutation Rate: 0.03825
+									Average trade count: 81
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 95
+ProjectGiro LOG 18:0.31.357>	BP Generation: 19
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 6179.77		0.62%
+									Mutation Rate: 0.03525
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.31.851>	TSLA Generation: 14
+									Highest profit this round: 1000937.93		100.09%
+									Average profit this round: 324315.33		32.43%
+									Mutation Rate: 0.0365
+									Average trade count: 95
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 62
+ProjectGiro LOG 18:0.32.569>	BP Generation: 20
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 3741.33		0.37%
+									Mutation Rate: 0.035
+									Average trade count: 99
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.33.571>	TSLA Generation: 15
+									Highest profit this round: 1131538.09		113.15%
+									Average profit this round: 339238.83		33.92%
+									Mutation Rate: 0.03625
+									Average trade count: 95
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 67
+ProjectGiro LOG 18:0.33.761>	BP Generation: 21
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -26350.91		-2.64%
+									Mutation Rate: 0.03475
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.34.385>	EA Generation: 8
+									Highest profit this round: 1869045.03		186.9%
+									Average profit this round: 1184669.27		118.47%
+									Mutation Rate: 0.038
+									Average trade count: 85
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.34.724>	HD Generation: 7
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 346367.73		34.64%
+									Mutation Rate: 0.03825
+									Average trade count: 60
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 16
+ProjectGiro LOG 18:0.34.810>	BP Generation: 22
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 13316.05		1.33%
+									Mutation Rate: 0.0345
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.35.598>	TSLA Generation: 16
+									Highest profit this round: 808754.62		80.88%
+									Average profit this round: 254211.59		25.42%
+									Mutation Rate: 0.036
+									Average trade count: 87
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 60
+ProjectGiro LOG 18:0.35.860>	BP Generation: 23
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 29634.82		2.96%
+									Mutation Rate: 0.03425
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.36.932>	BP Generation: 24
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 9656.35		0.97%
+									Mutation Rate: 0.034
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.37.406>	EA Generation: 9
+									Highest profit this round: 1859238.8		185.92%
+									Average profit this round: 1146381.03		114.64%
+									Mutation Rate: 0.03775
+									Average trade count: 80
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 56
+ProjectGiro LOG 18:0.37.670>	TSLA Generation: 17
+									Highest profit this round: 744549.01		74.45%
+									Average profit this round: 251208.92		25.12%
+									Mutation Rate: 0.03575
+									Average trade count: 82
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 41
+ProjectGiro LOG 18:0.38.109>	BP Generation: 25
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -20684.73		-2.07%
+									Mutation Rate: 0.03375
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.38.466>	HD Generation: 8
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 335782.1		33.58%
+									Mutation Rate: 0.038
+									Average trade count: 45
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 47
+ProjectGiro LOG 18:0.39.840>	BP Generation: 26
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 21596.66		2.16%
+									Mutation Rate: 0.0335
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.40.800>	TSLA Generation: 18
+									Highest profit this round: 827035.56		82.7%
+									Average profit this round: 289999.34		29.0%
+									Mutation Rate: 0.0355
+									Average trade count: 81
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 94
+ProjectGiro LOG 18:0.40.109>	BP Generation: 27
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 2211.38		0.22%
+									Mutation Rate: 0.03325
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.40.853>	EA Generation: 10
+									Highest profit this round: 1888658.69		188.87%
+									Average profit this round: 1245231.12		124.52%
+									Mutation Rate: 0.0375
+									Average trade count: 78
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 98
+ProjectGiro LOG 18:0.41.333>	BP Generation: 28
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: -450.88		-0.05%
+									Mutation Rate: 0.033
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.42.210>	HD Generation: 9
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 358238.82		35.82%
+									Mutation Rate: 0.03775
+									Average trade count: 58
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 76
+ProjectGiro LOG 18:0.42.432>	BP Generation: 29
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 1094.1		0.11%
+									Mutation Rate: 0.03275
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.42.693>	TSLA Generation: 19
+									Highest profit this round: 975514.25		97.55%
+									Average profit this round: 320512.7		32.05%
+									Mutation Rate: 0.03525
+									Average trade count: 82
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 59
+ProjectGiro LOG 18:0.43.550>	BP Generation: 30
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 8366.03		0.84%
+									Mutation Rate: 0.0325
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.44.571>	BP Generation: 31
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 25664.3		2.57%
+									Mutation Rate: 0.03225
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.44.978>	EA Generation: 11
+									Highest profit this round: 1970452.05		197.05%
+									Average profit this round: 1403140.39		140.31%
+									Mutation Rate: 0.03725
+									Average trade count: 69
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 81
+ProjectGiro LOG 18:0.45.592>	BP Generation: 32
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 32864.54		3.29%
+									Mutation Rate: 0.032
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.45.731>	HD Generation: 10
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 330242.52		33.02%
+									Mutation Rate: 0.0375
+									Average trade count: 51
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 72
+ProjectGiro LOG 18:0.45.786>	TSLA Generation: 20
+									Highest profit this round: 975514.25		97.55%
+									Average profit this round: 338976.52		33.9%
+									Mutation Rate: 0.035
+									Average trade count: 83
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 59
+ProjectGiro LOG 18:0.46.680>	BP Generation: 33
+									Highest profit this round: 55874.78		5.59%
+									Average profit this round: -11504.28		-1.15%
+									Mutation Rate: 0.03175
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.47.602>	BP Generation: 34
+									Highest profit this round: 55874.78		5.59%
+									Average profit this round: 38778.38		3.88%
+									Mutation Rate: 0.0315
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.48.526>	BP Generation: 35
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 35758.83		3.58%
+									Mutation Rate: 0.03125
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.48.602>	TSLA Generation: 21
+									Highest profit this round: 1202499.97		120.25%
+									Average profit this round: 354535.95		35.45%
+									Mutation Rate: 0.03475
+									Average trade count: 86
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 52
+ProjectGiro LOG 18:0.48.750>	EA Generation: 12
+									Highest profit this round: 2047389.29		204.74%
+									Average profit this round: 1544333.58		154.43%
+									Mutation Rate: 0.037
+									Average trade count: 67
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.49.448>	BP Generation: 36
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 40216.11		4.02%
+									Mutation Rate: 0.031
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.49.721>	HD Generation: 11
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 359807.55		35.98%
+									Mutation Rate: 0.03725
+									Average trade count: 45
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 13
+ProjectGiro LOG 18:0.50.403>	BP Generation: 37
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 47587.56		4.76%
+									Mutation Rate: 0.03075
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.51.367>	BP Generation: 38
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 34547.55		3.45%
+									Mutation Rate: 0.0305
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.51.950>	TSLA Generation: 22
+									Highest profit this round: 1067170.84		106.72%
+									Average profit this round: 434356.6		43.44%
+									Mutation Rate: 0.0345
+									Average trade count: 79
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 61
+ProjectGiro LOG 18:0.52.220>	EA Generation: 13
+									Highest profit this round: 2018661.5		201.87%
+									Average profit this round: 1462055.93		146.21%
+									Mutation Rate: 0.03675
+									Average trade count: 72
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 66
+ProjectGiro LOG 18:0.52.348>	BP Generation: 39
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 42310.49		4.23%
+									Mutation Rate: 0.03025
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.53.461>	BP Generation: 40
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 36679.36		3.67%
+									Mutation Rate: 0.03
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.53.634>	HD Generation: 12
+									Highest profit this round: 546285.23		54.63%
+									Average profit this round: 384517.5		38.45%
+									Mutation Rate: 0.037
+									Average trade count: 49
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 44
+ProjectGiro LOG 18:0.54.545>	BP Generation: 41
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 51855.77		5.19%
+									Mutation Rate: 0.02975
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.55.238>	TSLA Generation: 23
+									Highest profit this round: 867582.01		86.76%
+									Average profit this round: 371667.22		37.17%
+									Mutation Rate: 0.03425
+									Average trade count: 73
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 93
+ProjectGiro LOG 18:0.55.679>	EA Generation: 14
+									Highest profit this round: 1928189.57		192.82%
+									Average profit this round: 1508629.62		150.86%
+									Mutation Rate: 0.0365
+									Average trade count: 58
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 59
+ProjectGiro LOG 18:0.55.699>	BP Generation: 42
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 26958.11		2.7%
+									Mutation Rate: 0.0295
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.56.810>	BP Generation: 43
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 37895.46		3.79%
+									Mutation Rate: 0.02925
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.57.127>	HD Generation: 13
+									Highest profit this round: 546285.23		54.63%
+									Average profit this round: 327881.08		32.79%
+									Mutation Rate: 0.03675
+									Average trade count: 52
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 44
+ProjectGiro LOG 18:0.57.954>	BP Generation: 44
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 49714.67		4.97%
+									Mutation Rate: 0.029
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.58.524>	TSLA Generation: 24
+									Highest profit this round: 1412782.85		141.28%
+									Average profit this round: 414925.08		41.49%
+									Mutation Rate: 0.034
+									Average trade count: 74
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 38
+ProjectGiro LOG 18:0.59.340>	BP Generation: 45
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 58409.62		5.84%
+									Mutation Rate: 0.02875
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:0.59.367>	EA Generation: 15
+									Highest profit this round: 2113752.51		211.38%
+									Average profit this round: 1314334.71		131.43%
+									Mutation Rate: 0.03625
+									Average trade count: 62
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 59
+ProjectGiro LOG 18:1.0.1510>	BP Generation: 46
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 44851.78		4.49%
+									Mutation Rate: 0.0285
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.1.9400>	BP Generation: 47
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 48432.36		4.84%
+									Mutation Rate: 0.02825
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.1.2800>	HD Generation: 14
+									Highest profit this round: 499457.76		49.95%
+									Average profit this round: 412076.25		41.21%
+									Mutation Rate: 0.0365
+									Average trade count: 35
+									Best strategie's trade correctness: 	98.0%
+									Best strategie's trade count: 82
+ProjectGiro LOG 18:1.2.5200>	BP Generation: 48
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 49661.19		4.97%
+									Mutation Rate: 0.028
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.2.6500>	TSLA Generation: 25
+									Highest profit this round: 1047237.05		104.72%
+									Average profit this round: 377010.37		37.7%
+									Mutation Rate: 0.03375
+									Average trade count: 72
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 67
+ProjectGiro LOG 18:1.3.5800>	BP Generation: 49
+									Highest profit this round: 61902.71		6.19%
+									Average profit this round: 49453.28		4.95%
+									Mutation Rate: 0.02775
+									Average trade count: 100
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.3.1340>	BP action recommendation: BUY/COVER--INCORRECT
+ProjectGiro LOG 18:1.3.1570>	EA Generation: 16
+									Highest profit this round: 2030873.85		203.09%
+									Average profit this round: 1529024.83		152.9%
+									Mutation Rate: 0.036
+									Average trade count: 58
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 67
+ProjectGiro LOG 18:1.4.9250>	HD Generation: 15
+									Highest profit this round: 494842.39		49.48%
+									Average profit this round: 98330.73		9.83%
+									Mutation Rate: 0.03625
+									Average trade count: 15
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 0
+ProjectGiro LOG 18:1.5.3770>	TSLA Generation: 26
+									Highest profit this round: 1176644.07		117.66%
+									Average profit this round: 567315.03		56.73%
+									Mutation Rate: 0.0335
+									Average trade count: 64
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 71
+ProjectGiro LOG 18:1.6.7480>	EA Generation: 17
+									Highest profit this round: 2130279.98		213.03%
+									Average profit this round: 1472645.28		147.26%
+									Mutation Rate: 0.03575
+									Average trade count: 58
+									Best strategie's trade correctness: 	89.0%
+									Best strategie's trade count: 37
+ProjectGiro LOG 18:1.8.3780>	HD Generation: 16
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: -171656.29		-17.17%
+									Mutation Rate: 0.036
+									Average trade count: 21
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 25
+ProjectGiro LOG 18:1.8.8130>	TSLA Generation: 27
+									Highest profit this round: 1282660.72		128.27%
+									Average profit this round: 514031.77		51.4%
+									Mutation Rate: 0.03325
+									Average trade count: 75
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 71
+ProjectGiro LOG 18:1.10.790>	EA Generation: 18
+									Highest profit this round: 2028336.61		202.83%
+									Average profit this round: 1466526.05		146.65%
+									Mutation Rate: 0.0355
+									Average trade count: 54
+									Best strategie's trade correctness: 	81.0%
+									Best strategie's trade count: 16
+ProjectGiro LOG 18:1.10.267>	HD Generation: 17
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: -33897.95		-3.39%
+									Mutation Rate: 0.03575
+									Average trade count: 73
+									Best strategie's trade correctness: 	96.0%
+									Best strategie's trade count: 27
+ProjectGiro LOG 18:1.12.301>	TSLA Generation: 28
+									Highest profit this round: 1092979.15		109.3%
+									Average profit this round: 641192.16		64.12%
+									Mutation Rate: 0.033
+									Average trade count: 72
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 57
+ProjectGiro LOG 18:1.13.181>	HD Generation: 18
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 163639.71		16.36%
+									Mutation Rate: 0.0355
+									Average trade count: 58
+									Best strategie's trade correctness: 	83.0%
+									Best strategie's trade count: 6
+ProjectGiro LOG 18:1.13.700>	EA Generation: 19
+									Highest profit this round: 2028336.61		202.83%
+									Average profit this round: 1521690.4		152.17%
+									Mutation Rate: 0.03525
+									Average trade count: 48
+									Best strategie's trade correctness: 	81.0%
+									Best strategie's trade count: 16
+ProjectGiro LOG 18:1.15.453>	TSLA Generation: 29
+									Highest profit this round: 1561409.48		156.14%
+									Average profit this round: 484890.91		48.49%
+									Mutation Rate: 0.03275
+									Average trade count: 72
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 51
+ProjectGiro LOG 18:1.16.722>	HD Generation: 19
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 231527.73		23.15%
+									Mutation Rate: 0.03525
+									Average trade count: 42
+									Best strategie's trade correctness: 	80.0%
+									Best strategie's trade count: 5
+ProjectGiro LOG 18:1.17.174>	EA Generation: 20
+									Highest profit this round: 2069398.62		206.94%
+									Average profit this round: 1541089.21		154.11%
+									Mutation Rate: 0.035
+									Average trade count: 48
+									Best strategie's trade correctness: 	86.0%
+									Best strategie's trade count: 21
+ProjectGiro LOG 18:1.18.618>	TSLA Generation: 30
+									Highest profit this round: 1561409.48		156.14%
+									Average profit this round: 585083.82		58.51%
+									Mutation Rate: 0.0325
+									Average trade count: 70
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 51
+ProjectGiro LOG 18:1.20.200>	HD Generation: 20
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 298541.2		29.85%
+									Mutation Rate: 0.035
+									Average trade count: 49
+									Best strategie's trade correctness: 	80.0%
+									Best strategie's trade count: 5
+ProjectGiro LOG 18:1.21.150>	EA Generation: 21
+									Highest profit this round: 2026253.54		202.63%
+									Average profit this round: 1617235.73		161.72%
+									Mutation Rate: 0.03475
+									Average trade count: 40
+									Best strategie's trade correctness: 	83.0%
+									Best strategie's trade count: 18
+ProjectGiro LOG 18:1.22.248>	TSLA Generation: 31
+									Highest profit this round: 1332848.44		133.28%
+									Average profit this round: 679611.37		67.96%
+									Mutation Rate: 0.03225
+									Average trade count: 76
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 48
+ProjectGiro LOG 18:1.23.257>	HD Generation: 21
+									Highest profit this round: 497376.29		49.74%
+									Average profit this round: 351755.15		35.18%
+									Mutation Rate: 0.03475
+									Average trade count: 31
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.25.126>	EA Generation: 22
+									Highest profit this round: 2040843.32		204.08%
+									Average profit this round: 1458111.87		145.81%
+									Mutation Rate: 0.0345
+									Average trade count: 41
+									Best strategie's trade correctness: 	85.0%
+									Best strategie's trade count: 34
+ProjectGiro LOG 18:1.25.616>	TSLA Generation: 32
+									Highest profit this round: 1165575.8		116.56%
+									Average profit this round: 551981.8		55.2%
+									Mutation Rate: 0.032
+									Average trade count: 78
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 74
+ProjectGiro LOG 18:1.26.490>	HD Generation: 22
+									Highest profit this round: 497376.29		49.74%
+									Average profit this round: 339387.99		33.94%
+									Mutation Rate: 0.0345
+									Average trade count: 29
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.28.734>	EA Generation: 23
+									Highest profit this round: 2003825.69		200.38%
+									Average profit this round: 1688318.13		168.83%
+									Mutation Rate: 0.03425
+									Average trade count: 40
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 21
+ProjectGiro LOG 18:1.28.899>	TSLA Generation: 33
+									Highest profit this round: 1337660.18		133.77%
+									Average profit this round: 500563.71		50.06%
+									Mutation Rate: 0.03175
+									Average trade count: 68
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 60
+ProjectGiro LOG 18:1.29.894>	HD Generation: 23
+									Highest profit this round: 497376.29		49.74%
+									Average profit this round: 365683.87		36.57%
+									Mutation Rate: 0.03425
+									Average trade count: 28
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.31.950>	EA Generation: 24
+									Highest profit this round: 2003825.69		200.38%
+									Average profit this round: 1305421.72		130.54%
+									Mutation Rate: 0.034
+									Average trade count: 54
+									Best strategie's trade correctness: 	89.0%
+									Best strategie's trade count: 19
+ProjectGiro LOG 18:1.32.590>	TSLA Generation: 34
+									Highest profit this round: 1299944.98		129.99%
+									Average profit this round: 537281.03		53.73%
+									Mutation Rate: 0.0315
+									Average trade count: 71
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 51
+ProjectGiro LOG 18:1.33.240>	HD Generation: 24
+									Highest profit this round: 497376.29		49.74%
+									Average profit this round: 230176.24		23.02%
+									Mutation Rate: 0.034
+									Average trade count: 31
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.35.440>	EA Generation: 25
+									Highest profit this round: 2003825.69		200.38%
+									Average profit this round: 1679240.83		167.92%
+									Mutation Rate: 0.03375
+									Average trade count: 37
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 21
+ProjectGiro LOG 18:1.35.545>	TSLA Generation: 35
+									Highest profit this round: 1257883.37		125.79%
+									Average profit this round: 495436.37		49.54%
+									Mutation Rate: 0.03125
+									Average trade count: 73
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 79
+ProjectGiro LOG 18:1.36.479>	HD Generation: 25
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 328185.59		32.82%
+									Mutation Rate: 0.03375
+									Average trade count: 25
+									Best strategie's trade correctness: 	99.0%
+									Best strategie's trade count: 70
+ProjectGiro LOG 18:1.39.890>	TSLA Generation: 36
+									Highest profit this round: 1319919.45		131.99%
+									Average profit this round: 687439.36		68.74%
+									Mutation Rate: 0.031
+									Average trade count: 67
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 63
+ProjectGiro LOG 18:1.39.393>	EA Generation: 26
+									Highest profit this round: 2016199.04		201.62%
+									Average profit this round: 1578164.07		157.82%
+									Mutation Rate: 0.0335
+									Average trade count: 31
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 40
+ProjectGiro LOG 18:1.40.355>	HD Generation: 26
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 356288.07		35.63%
+									Mutation Rate: 0.0335
+									Average trade count: 16
+									Best strategie's trade correctness: 	50.0%
+									Best strategie's trade count: 2
+ProjectGiro LOG 18:1.41.708>	TSLA Generation: 37
+									Highest profit this round: 1318466.81		131.85%
+									Average profit this round: 518426.42		51.84%
+									Mutation Rate: 0.03075
+									Average trade count: 82
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 58
+ProjectGiro LOG 18:1.43.492>	EA Generation: 27
+									Highest profit this round: 2016199.04		201.62%
+									Average profit this round: 1559797.27		155.98%
+									Mutation Rate: 0.03325
+									Average trade count: 48
+									Best strategie's trade correctness: 	90.0%
+									Best strategie's trade count: 31
+ProjectGiro LOG 18:1.44.308>	HD Generation: 27
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 236365.26		23.64%
+									Mutation Rate: 0.03325
+									Average trade count: 12
+									Best strategie's trade correctness: 	0.0%
+									Best strategie's trade count: 1
+ProjectGiro LOG 18:1.45.172>	TSLA Generation: 38
+									Highest profit this round: 1607018.57		160.7%
+									Average profit this round: 659854.48		65.99%
+									Mutation Rate: 0.0305
+									Average trade count: 78
+									Best strategie's trade correctness: 	93.0%
+									Best strategie's trade count: 59
+ProjectGiro LOG 18:1.48.361>	EA Generation: 28
+									Highest profit this round: 2166067.1		216.61%
+									Average profit this round: 1622670.87		162.27%
+									Mutation Rate: 0.033
+									Average trade count: 43
+									Best strategie's trade correctness: 	88.0%
+									Best strategie's trade count: 26
+ProjectGiro LOG 18:1.49.606>	HD Generation: 28
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 344641.56		34.46%
+									Mutation Rate: 0.033
+									Average trade count: 9
+									Best strategie's trade correctness: 	83.0%
+									Best strategie's trade count: 6
+ProjectGiro LOG 18:1.49.865>	TSLA Generation: 39
+									Highest profit this round: 1442829.75		144.28%
+									Average profit this round: 570327.72		57.03%
+									Mutation Rate: 0.03025
+									Average trade count: 72
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 73
+ProjectGiro LOG 18:1.54.586>	EA Generation: 29
+									Highest profit this round: 2008603.94		200.86%
+									Average profit this round: 1636879.77		163.69%
+									Mutation Rate: 0.03275
+									Average trade count: 36
+									Best strategie's trade correctness: 	94.0%
+									Best strategie's trade count: 47
+ProjectGiro LOG 18:1.54.911>	TSLA Generation: 40
+									Highest profit this round: 1757343.68		175.73%
+									Average profit this round: 585882.07		58.59%
+									Mutation Rate: 0.03
+									Average trade count: 83
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.55.599>	HD Generation: 29
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 336831.61		33.68%
+									Mutation Rate: 0.03275
+									Average trade count: 13
+									Best strategie's trade correctness: 	0.0%
+									Best strategie's trade count: 0
+ProjectGiro LOG 18:1.58.407>	EA Generation: 30
+									Highest profit this round: 2445431.07		244.54%
+									Average profit this round: 1618447.36		161.84%
+									Mutation Rate: 0.0325
+									Average trade count: 36
+									Best strategie's trade correctness: 	87.0%
+									Best strategie's trade count: 39
+ProjectGiro LOG 18:1.58.993>	TSLA Generation: 41
+									Highest profit this round: 1757343.68		175.73%
+									Average profit this round: 747812.89		74.78%
+									Mutation Rate: 0.02975
+									Average trade count: 74
+									Best strategie's trade correctness: 	95.0%
+									Best strategie's trade count: 100
+ProjectGiro LOG 18:1.59.910>	HD Generation: 30
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 303744.04		30.37%
+									Mutation Rate: 0.0325
+									Average trade count: 17
+									Best strategie's trade correctness: 	97.0%
+									Best strategie's trade count: 39
+ProjectGiro LOG 18:2.2.6780>	TSLA Generation: 42
+									Highest profit this round: 1278090.21		127.81%
+									Average profit this round: 633017.89		63.3%
+									Mutation Rate: 0.0295
+									Average trade count: 81
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 51
+ProjectGiro LOG 18:2.3.2400>	EA Generation: 31
+									Highest profit this round: 2445431.07		244.54%
+									Average profit this round: 1798755.89		179.88%
+									Mutation Rate: 0.03225
+									Average trade count: 45
+									Best strategie's trade correctness: 	87.0%
+									Best strategie's trade count: 39
+ProjectGiro LOG 18:2.4.4780>	HD Generation: 31
+									Highest profit this round: 479131.09		47.91%
+									Average profit this round: 219242.21		21.92%
+									Mutation Rate: 0.03225
+									Average trade count: 11
+									Best strategie's trade correctness: 	80.0%
+									Best strategie's trade count: 5
+ProjectGiro LOG 18:2.7.3390>	TSLA Generation: 43
+									Highest profit this round: 1591651.43		159.17%
+									Average profit this round: 695534.38		69.55%
+									Mutation Rate: 0.02925
+									Average trade count: 81
+									Best strategie's trade correctness: 	92.0%
+									Best strategie's trade count: 65
+ProjectGiro LOG 18:2.7.8200>	EA Generation: 32
+									Highest profit this round: 2016199.04		201.62%
+									Average profit this round: 1646017.14		164.6%
+									Mutation Rate: 0.032
+									Average trade count: 36
+									Best strategie's trade correctness: 	91.0%
+									Best strategie's trade count: 34

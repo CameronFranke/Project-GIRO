@@ -1,0 +1,35 @@
+ProjectGiro LOG 23:31.46.503>	Initializing Project GIRO...
+ProjectGiro LOG 23:31.46.519>	transactionCost=6.95
+ProjectGiro LOG 23:31.46.519>	benchmarkingPeriod=30
+ProjectGiro LOG 23:31.46.519>	stopYear=2016
+ProjectGiro LOG 23:31.46.519>	useTodaysDate=True
+ProjectGiro LOG 23:31.46.519>	startDay=23
+ProjectGiro LOG 23:31.46.519>	mutationRateDelta=-.00025
+ProjectGiro LOG 23:31.46.519>	populationSize=64
+ProjectGiro LOG 23:31.46.519>	stopDay=13
+ProjectGiro LOG 23:31.46.519>	triggerThreshold=.2
+ProjectGiro LOG 23:31.46.519>	startYear=2013
+ProjectGiro LOG 23:31.46.519>	dayTrigIncrementAmount=.00
+ProjectGiro LOG 23:31.46.519>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 23:31.46.519>	stopMonth=3
+ProjectGiro LOG 23:31.46.519>	startMonth=11
+ProjectGiro LOG 23:31.46.519>	mutationRate=.03
+ProjectGiro LOG 23:31.46.520>	tournamentSize=4
+ProjectGiro LOG 23:31.46.520>	selectionPercentage=.60
+ProjectGiro LOG 23:31.46.520>	lookbackLevel=3
+ProjectGiro LOG 23:31.46.520>	TrigIncrementAmount=.00
+ProjectGiro LOG 23:31.46.520>	loadedStrategieRatio=.40
+ProjectGiro LOG 23:31.46.520>	threads=7
+ProjectGiro LOG 23:31.46.520>	startingMoney=120000
+ProjectGiro LOG 23:31.46.520>	numStrategiesToSave=15
+ProjectGiro LOG 23:31.46.520>	dayTriggerThreshold=.2
+ProjectGiro LOG 23:31.46.520>	performanceTest=True
+ProjectGiro LOG 23:31.46.520>	incrementDayThresholdGens=0
+ProjectGiro LOG 23:31.46.520>	tradeOnLossPunishment=.02
+ProjectGiro LOG 23:31.46.520>	tradeCountLimit=100
+ProjectGiro LOG 23:31.46.520>	generations=50
+ProjectGiro LOG 23:31.46.520>	Initiating analysis of 3 securities
+ProjectGiro LOG 23:31.46.548>	0 of 0 correct
+ProjectGiro LOG 23:31.46.548>	Results: 
+
+ProjectGiro LOG 23:31.46.548>	GIRO total execution time: 0.0452299118042

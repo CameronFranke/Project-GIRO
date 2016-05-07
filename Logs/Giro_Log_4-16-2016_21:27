@@ -1,0 +1,378 @@
+ProjectGiro LOG 21:27.1.283>	Initializing Project GIRO...
+ProjectGiro LOG 21:27.1.302>	transactionCost=6.95
+ProjectGiro LOG 21:27.1.302>	benchmarkingPeriod=120
+ProjectGiro LOG 21:27.1.302>	stopYear=2016
+ProjectGiro LOG 21:27.1.302>	useTodaysDate=True
+ProjectGiro LOG 21:27.1.302>	startDay=23
+ProjectGiro LOG 21:27.1.302>	mutationRateDelta=-0.00
+ProjectGiro LOG 21:27.1.302>	populationSize=256
+ProjectGiro LOG 21:27.1.302>	stopDay=13
+ProjectGiro LOG 21:27.1.302>	triggerThreshold=0.1
+ProjectGiro LOG 21:27.1.302>	startYear=2013
+ProjectGiro LOG 21:27.1.302>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 21:27.1.302>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 21:27.1.302>	stopMonth=3
+ProjectGiro LOG 21:27.1.302>	startMonth=11
+ProjectGiro LOG 21:27.1.302>	mutationRate=0.015
+ProjectGiro LOG 21:27.1.302>	tournamentSize=4
+ProjectGiro LOG 21:27.1.302>	selectionPercentage=0.6
+ProjectGiro LOG 21:27.1.302>	lookbackLevel=3
+ProjectGiro LOG 21:27.1.303>	TrigIncrementAmount=0.00
+ProjectGiro LOG 21:27.1.303>	marginInterestRate=0.0425
+ProjectGiro LOG 21:27.1.303>	loadedStrategieRatio=0.40
+ProjectGiro LOG 21:27.1.303>	threads=4
+ProjectGiro LOG 21:27.1.303>	startingMoney=1000000
+ProjectGiro LOG 21:27.1.303>	shortPortfolioRatio=0.3
+ProjectGiro LOG 21:27.1.303>	numStrategiesToSave=1
+ProjectGiro LOG 21:27.1.303>	dayTriggerThreshold=0.1
+ProjectGiro LOG 21:27.1.303>	performanceTest=True
+ProjectGiro LOG 21:27.1.303>	incrementDayThresholdGens=0
+ProjectGiro LOG 21:27.1.303>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 21:27.1.303>	tradeCountLimit=300
+ProjectGiro LOG 21:27.1.303>	generations=40
+ProjectGiro LOG 21:27.1.303>	Initiating analysis of 1 securities
+ProjectGiro LOG 21:27.1.314>	StockData/FB:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:27.1.314>	Using stored data for FB
+ProjectGiro LOG 21:27.1.320>	StockData/^IXIC:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 21:27.1.320>	Using stored data for ^IXIC
+ProjectGiro LOG 21:27.1.322>	FB Technical indicator calculations complete
+ProjectGiro LOG 21:27.1.340>	Strategy file read error
+ProjectGiro LOG 21:27.1.340>	Loading 102 stored strategies
+ProjectGiro LOG 21:27.1.596>	Population initialiazed with 256 investment strategies
+ProjectGiro LOG 21:27.1.597>	Beginning 40 generation simulation of FB
+ProjectGiro LOG 21:27.5.367>	FB Generation: 0
+									Highest profit this round: 1424812.6		142.48%
+									Average profit this round: 350458.24		35.05%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 15
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:27.9.203>	FB Generation: 1
+									Highest profit this round: 1424812.6		142.48%
+									Average profit this round: 430858.41		43.09%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 14
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:27.13.88>	FB Generation: 2
+									Highest profit this round: 1438351.59		143.84%
+									Average profit this round: 498379.85		49.84%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 27
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 110
+ProjectGiro LOG 21:27.17.20>	FB Generation: 3
+									Highest profit this round: 1438351.59		143.84%
+									Average profit this round: 519302.03		51.93%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 38
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 110
+ProjectGiro LOG 21:27.20.952>	FB Generation: 4
+									Highest profit this round: 1271557.23		127.16%
+									Average profit this round: 600276.25		60.03%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 46
+									Best strategy's trade correctness: 	30.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 21:27.24.886>	FB Generation: 5
+									Highest profit this round: 1271557.23		127.16%
+									Average profit this round: 573847.93		57.38%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 33
+									Best strategy's trade correctness: 	30.0%
+									Best strategy's trade count: 23
+ProjectGiro LOG 21:27.28.838>	FB Generation: 6
+									Highest profit this round: 1855981.8		185.6%
+									Average profit this round: 640570.84		64.06%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 47
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 100
+ProjectGiro LOG 21:27.32.807>	FB Generation: 7
+									Highest profit this round: 1855981.8		185.6%
+									Average profit this round: 755304.68		75.53%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 59
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 100
+ProjectGiro LOG 21:27.36.760>	FB Generation: 8
+									Highest profit this round: 1887105.1		188.71%
+									Average profit this round: 675745.95		67.57%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 49
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 92
+ProjectGiro LOG 21:27.40.761>	FB Generation: 9
+									Highest profit this round: 1887105.1		188.71%
+									Average profit this round: 864956.48		86.5%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 66
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 92
+ProjectGiro LOG 21:27.44.727>	FB Generation: 10
+									Highest profit this round: 1822888.94		182.29%
+									Average profit this round: 895500.1		89.55%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 67
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:27.48.793>	FB Generation: 11
+									Highest profit this round: 1860624.78		186.06%
+									Average profit this round: 921353.1		92.14%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 67
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 110
+ProjectGiro LOG 21:27.52.771>	FB Generation: 12
+									Highest profit this round: 1894790.76		189.48%
+									Average profit this round: 944611.19		94.46%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 60
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 112
+ProjectGiro LOG 21:27.56.906>	FB Generation: 13
+									Highest profit this round: 1894790.76		189.48%
+									Average profit this round: 1006889.42		100.69%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 70
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 112
+ProjectGiro LOG 21:28.1.114>	FB Generation: 14
+									Highest profit this round: 1850824.1		185.08%
+									Average profit this round: 1003403.64		100.34%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 65
+									Best strategy's trade correctness: 	37.0%
+									Best strategy's trade count: 82
+ProjectGiro LOG 21:28.5.284>	FB Generation: 15
+									Highest profit this round: 1860753.88		186.08%
+									Average profit this round: 1073993.97		107.4%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 65
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:28.9.454>	FB Generation: 16
+									Highest profit this round: 1964684.56		196.47%
+									Average profit this round: 1062552.15		106.26%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 60
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 100
+ProjectGiro LOG 21:28.13.603>	FB Generation: 17
+									Highest profit this round: 1964684.56		196.47%
+									Average profit this round: 1219699.58		121.97%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 68
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 100
+ProjectGiro LOG 21:28.17.811>	FB Generation: 18
+									Highest profit this round: 1971791.31		197.18%
+									Average profit this round: 1173554.92		117.36%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 73
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 102
+ProjectGiro LOG 21:28.21.995>	FB Generation: 19
+									Highest profit this round: 2020613.59		202.06%
+									Average profit this round: 1272590.58		127.26%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 76
+									Best strategy's trade correctness: 	41.0%
+									Best strategy's trade count: 59
+ProjectGiro LOG 21:28.26.179>	FB Generation: 20
+									Highest profit this round: 2020613.59		202.06%
+									Average profit this round: 1355681.7		135.57%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 74
+									Best strategy's trade correctness: 	41.0%
+									Best strategy's trade count: 59
+ProjectGiro LOG 21:28.30.356>	FB Generation: 21
+									Highest profit this round: 2073919.7		207.39%
+									Average profit this round: 1309486.63		130.95%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 78
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 102
+ProjectGiro LOG 21:28.34.511>	FB Generation: 22
+									Highest profit this round: 2073919.7		207.39%
+									Average profit this round: 1333313.11		133.33%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 78
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 102
+ProjectGiro LOG 21:28.38.703>	FB Generation: 23
+									Highest profit this round: 2108663.29		210.87%
+									Average profit this round: 1341098.83		134.11%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 81
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 105
+ProjectGiro LOG 21:28.42.882>	FB Generation: 24
+									Highest profit this round: 2136113.89		213.61%
+									Average profit this round: 1391324.77		139.13%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 86
+									Best strategy's trade correctness: 	37.0%
+									Best strategy's trade count: 118
+ProjectGiro LOG 21:28.47.58>	FB Generation: 25
+									Highest profit this round: 2166587.58		216.66%
+									Average profit this round: 1472138.33		147.21%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 89
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 105
+ProjectGiro LOG 21:28.51.262>	FB Generation: 26
+									Highest profit this round: 2169785.51		216.98%
+									Average profit this round: 1473089.13		147.31%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 87
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 96
+ProjectGiro LOG 21:28.55.441>	FB Generation: 27
+									Highest profit this round: 2169785.51		216.98%
+									Average profit this round: 1464604.82		146.46%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 85
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 96
+ProjectGiro LOG 21:28.59.636>	FB Generation: 28
+									Highest profit this round: 2241405.85		224.14%
+									Average profit this round: 1520413.36		152.04%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 90
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 102
+ProjectGiro LOG 21:29.3.826>	FB Generation: 29
+									Highest profit this round: 2282840.42		228.28%
+									Average profit this round: 1480036.92		148.0%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 89
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 105
+ProjectGiro LOG 21:29.8.900>	FB Generation: 30
+									Highest profit this round: 2329522.9		232.95%
+									Average profit this round: 1635323.65		163.53%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 92
+									Best strategy's trade correctness: 	38.0%
+									Best strategy's trade count: 112
+ProjectGiro LOG 21:29.12.211>	FB Generation: 31
+									Highest profit this round: 2346591.88		234.66%
+									Average profit this round: 1649353.28		164.94%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 91
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 114
+ProjectGiro LOG 21:29.16.385>	FB Generation: 32
+									Highest profit this round: 2419965.27		242.0%
+									Average profit this round: 1635652.66		163.57%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 92
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 104
+ProjectGiro LOG 21:29.20.582>	FB Generation: 33
+									Highest profit this round: 2591392.33		259.14%
+									Average profit this round: 1642748.28		164.27%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 92
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 106
+ProjectGiro LOG 21:29.24.640>	FB Generation: 34
+									Highest profit this round: 2584686.91		258.47%
+									Average profit this round: 1705769.53		170.58%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 97
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:29.28.679>	FB Generation: 35
+									Highest profit this round: 2676037.22		267.6%
+									Average profit this round: 1821307.39		182.13%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 104
+									Best strategy's trade correctness: 	37.0%
+									Best strategy's trade count: 94
+ProjectGiro LOG 21:29.32.710>	FB Generation: 36
+									Highest profit this round: 2689771.82		268.98%
+									Average profit this round: 1875194.96		187.52%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 102
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 108
+ProjectGiro LOG 21:29.36.739>	FB Generation: 37
+									Highest profit this round: 2725907.92		272.59%
+									Average profit this round: 1909944.94		190.99%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 102
+									Best strategy's trade correctness: 	37.0%
+									Best strategy's trade count: 95
+ProjectGiro LOG 21:29.40.778>	FB Generation: 38
+									Highest profit this round: 2763819.89		276.38%
+									Average profit this round: 1837547.02		183.75%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 102
+									Best strategy's trade correctness: 	40.0%
+									Best strategy's trade count: 110
+ProjectGiro LOG 21:29.44.820>	FB Generation: 39
+									Highest profit this round: 2768906.52		276.89%
+									Average profit this round: 1916278.45		191.63%
+									Buy and hold profit: 694298.660633
+									Mutation Rate: 0.015
+									Average trade count: 103
+									Best strategy's trade correctness: 	39.0%
+									Best strategy's trade count: 112
+ProjectGiro LOG 21:29.44.892>	Benchmarking [{'volume': 95.959998999999996, 'dayChange': 0.013593266309941732, 'ADMI': 12.471009758378788, 'MACDdiff': 0.42518276046012315, 'chaikinAD': -326.51445073744981, 'high': 96.300003000000004, 'nasdaqChange': 0.05178091818965494, 'MACD': 0.90928239557190693, 'CCI': 118.49654152496039, 'low': 94.900002000000001, 'MACDsignal': 0.48409963511178378, 'date': '2015-10-15', 'close': 94.900002000000001, 'open': 94.989998}, {'volume': 97.540001000000004, 'dayChange': 0.0047194127890805015, 'ADMI': 13.138451961070373, 'MACDdiff': 0.48263792985903131, 'chaikinAD': -328.39765628388704, 'high': 97.589995999999999, 'nasdaqChange': 0.065667316422784977, 'MACD': 1.087397047435573, 'CCI': 125.03125287004897, 'low': 95.349997999999999, 'MACDsignal': 0.60475911757654166, 'date': '2015-10-16', 'close': 95.349997999999999, 'open': 96.180000000000007}, {'volume': 98.470000999999996, 'dayChange': 0.01619892728433614, 'ADMI': 13.951641561037396, 'MACDdiff': 0.58802929789922609, 'chaikinAD': -330.64509011798509, 'high': 98.569999999999993, 'nasdaqChange': 0.026494404882518467, 'MACD': 1.3397957399505742, 'CCI': 157.6716108040703, 'low': 96.919998000000007, 'MACDsignal': 0.75176644205134813, 'date': '2015-10-19', 'close': 96.919998000000007, 'open': 97.180000000000007}, {'volume': 97.0, 'dayChange': -0.0037282519413475157, 'ADMI': 14.674993742395124, 'MACDdiff': 0.59343302802154785, 'chaikinAD': -332.3694866757578, 'high': 99.589995999999999, 'nasdaqChange': 0.032855890801292018, 'MACD': 1.4935577270782829, 'CCI': 138.36661230616753, 'low': 96.559997999999993, 'MACDsignal': 0.90012469905673509, 'date': '2015-10-20', 'close': 96.559997999999993, 'open': 98.730002999999996}, {'volume': 97.110000999999997, 'dayChange': -0.00093290141046020736, 'ADMI': 15.033521776109016, 'MACDdiff': 0.55176157809087067, 'chaikinAD': -333.75815043341572, 'high': 98.180000000000007, 'nasdaqChange': 0.022786341494544459, 'MACD': 1.5898266716703233, 'CCI': 104.13836575518449, 'low': 96.470000999999996, 'MACDsignal': 1.0380650935794526, 'date': '2015-10-21', 'close': 96.470000999999996, 'open': 97.370002999999997}, {'volume': 99.669998000000007, 'dayChange': 0.011071265676947273, 'ADMI': 15.221282453642283, 'MACDdiff': 0.55617783016758326, 'chaikinAD': -335.69777129486465, 'high': 99.730002999999996, 'nasdaqChange': 0.02614424957705409, 'MACD': 1.7332873812889318, 'CCI': 122.60036421298402, 'low': 97.550003000000004, 'MACDsignal': 1.1771095511213485, 'date': '2015-10-22', 'close': 97.550003000000004, 'open': 97.790001000000004}, {'volume': 102.19000200000001, 'dayChange': 0.026058315652623176, 'ADMI': 15.897846885547208, 'MACDdiff': 0.68562277380918801, 'chaikinAD': -338.48827398411231, 'high': 102.849998, 'nasdaqChange': 0.040575824644731182, 'MACD': 2.0341380183828335, 'CCI': 168.65278038961651, 'low': 100.160004, 'MACDsignal': 1.3485152445736455, 'date': '2015-10-23', 'close': 100.160004, 'open': 101.910004}, {'volume': 103.769997, 'dayChange': 0.013687828251467415, 'ADMI': 16.81977771578412, 'MACDdiff': 0.80722721079047388, 'chaikinAD': -341.87590831297712, 'high': 103.80999799999999, 'nasdaqChange': 0.04038261729034965, 'MACD': 2.3575492580617379, 'CCI': 162.57485074233222, 'low': 101.550003, 'MACDsignal': 1.550322047271264, 'date': '2015-10-26', 'close': 101.550003, 'open': 102.199997}, {'volume': 103.699997, 'dayChange': 0.0083007713222504886, 'ADMI': 17.87255258315674, 'MACDdiff': 0.88124129200434842, 'chaikinAD': -345.17758428269735, 'high': 104.099998, 'nasdaqChange': 0.044879744655859963, 'MACD': 2.6518736622766994, 'CCI': 147.99492902264717, 'low': 102.400002, 'MACDsignal': 1.770632370272351, 'date': '2015-10-27', 'close': 102.400002, 'open': 102.94000200000001}, {'volume': 104.199997, 'dayChange': 0.0050524291693049284, 'ADMI': 18.773306856946505, 'MACDdiff': 0.89847817208782432, 'chaikinAD': -348.30303401733545, 'high': 104.480003, 'nasdaqChange': 0.051969766016475925, 'MACD': 2.8937300853821313, 'CCI': 135.60211931547607, 'low': 102.91999800000001, 'MACDsignal': 1.995251913294307, 'date': '2015-10-28', 'close': 102.91999800000001, 'open': 103.900002}, {'volume': 104.879997, 'dayChange': 0.0057959719608570159, 'ADMI': 19.486132518067691, 'MACDdiff': 0.88228240778413802, 'chaikinAD': -351.2886230435688, 'high': 105.120003, 'nasdaqChange': 0.056638930240106765, 'MACD': 3.0981049230244793, 'CCI': 120.75133863436106, 'low': 103.519997, 'MACDsignal': 2.2158225152403412, 'date': '2015-10-29', 'close': 103.519997, 'open': 103.959999}, {'volume': 101.970001, 'dayChange': -0.01839640888546179, 'ADMI': 19.338096337769045, 'MACDdiff': 0.68634057160518802, 'chaikinAD': -353.01967132306891, 'high': 104.720001, 'nasdaqChange': 0.041735423222967194, 'MACD': 3.0737482297468262, 'CCI': 76.191822083545361, 'low': 101.650002, 'MACDsignal': 2.3874076581416381, 'date': '2015-10-30', 'close': 101.650002, 'open': 104.510002}, {'volume': 103.30999799999999, 'dayChange': -0.0046452065625617323, 'ADMI': 19.047569655110433, 'MACDdiff': 0.47578894829192864, 'chaikinAD': -354.50649304439867, 'high': 103.470001, 'nasdaqChange': 0.0402069397952372, 'MACD': 2.9821438435065488, 'CCI': 51.494933097278278, 'low': 101.18000000000001, 'MACDsignal': 2.5063548952146202, 'date': '2015-11-02', 'close': 101.18000000000001, 'open': 101.720001}, {'volume': 102.58000199999999, 'dayChange': 0.011914081798553022, 'ADMI': 19.066812391851137, 'MACDdiff': 0.3738853453227593, 'chaikinAD': -355.5259668354629, 'high': 103.650002, 'nasdaqChange': 0.049948644455067769, 'MACD': 2.9737115768680695, 'CCI': 62.162981567305046, 'low': 102.400002, 'MACDsignal': 2.5998262315453102, 'date': '2015-11-03', 'close': 102.400002, 'open': 103.220001}, {'volume': 103.94000200000001, 'dayChange': 0.00078064986005121906, 'ADMI': 19.450578147196634, 'MACDdiff': 0.2718178109976841, 'chaikinAD': -356.69430067404028, 'high': 104.139999, 'nasdaqChange': 0.059200288291190548, 'MACD': 2.9395984952924152, 'CCI': 60.84067884852422, 'low': 102.480003, 'MACDsignal': 2.6677806842947311, 'date': '2015-11-04', 'close': 102.480003, 'open': 103.19000200000001}, {'volume': 108.760002, 'dayChange': 0.050671553052474838, 'ADMI': 20.8168296760673, 'MACDdiff': 0.51835530996174439, 'chaikinAD': -359.35095600126806, 'high': 110.650002, 'nasdaqChange': 0.048683705313530543, 'MACD': 3.3157248217469117, 'CCI': 197.14082232755788, 'low': 107.949997, 'MACDsignal': 2.7973695117851674, 'date': '2015-11-05', 'close': 107.949997, 'open': 108.800003}, {'volume': 107.099998, 'dayChange': -0.019261570417842711, 'ADMI': 21.693718055809406, 'MACDdiff': 0.49001652486511738, 'chaikinAD': -361.84677290775289, 'high': 108.739998, 'nasdaqChange': 0.018667732885817169, 'MACD': 3.4098901678665641, 'CCI': 132.22226312602064, 'low': 105.910004, 'MACDsignal': 2.9198736430014467, 'date': '2015-11-06', 'close': 105.910004, 'open': 108.040001}, {'volume': 106.489998, 'dayChange': -0.0004723502694847781, 'ADMI': 22.465832023668479, 'MACDdiff': 0.41675584214039407, 'chaikinAD': -363.85580892333383, 'high': 108.25, 'nasdaqChange': 0.010644849225993229, 'MACD': 3.4408184456769391, 'CCI': 114.59021230282197, 'low': 105.860001, 'MACDsignal': 3.024062603536545, 'date': '2015-11-09', 'close': 105.860001, 'open': 107.0}, {'volume': 107.910004, 'dayChange': -0.0058913247033698379, 'ADMI': 23.28667531232135, 'MACDdiff': 0.28185349106876512, 'chaikinAD': -365.93488775486185, 'high': 108.150002, 'nasdaqChange': 0.0084148140235627365, 'MACD': 3.3763794673725016, 'CCI': 83.108391507832451, 'low': 105.239998, 'MACDsignal': 3.0945259763037365, 'date': '2015-11-10', 'close': 105.239998, 'open': 105.959999}, {'volume': 109.010002, 'dayChange': 0.017458715176372763, 'ADMI': 24.713438258505398, 'MACDdiff': 0.27365110532631931, 'chaikinAD': -368.20361266277177, 'high': 109.870003, 'nasdaqChange': 0.0093792487610235044, 'MACD': 3.4365898579616356, 'CCI': 115.6382297957532, 'low': 107.110001, 'MACDsignal': 3.1629387526353163, 'date': '2015-11-11', 'close': 107.110001, 'open': 108.269997}, {'volume': 108.019997, 'dayChange': 0.0082407314814815225, 'ADMI': 26.150883558408452, 'MACDdiff': 0.28212651384548915, 'chaikinAD': -370.02867074666574, 'high': 109.389999, 'nasdaqChange': -0.012321201824392497, 'MACD': 3.5155968949421776, 'CCI': 105.92820925853709, 'low': 108.0, 'MACDsignal': 3.2334703810966885, 'date': '2015-11-12', 'close': 108.0, 'open': 108.480003}, {'volume': 103.949997, 'dayChange': -0.040161782911263044, 'ADMI': 26.454594561463232, 'MACDdiff': -0.022949265072038649, 'chaikinAD': -370.21131439492456, 'high': 108.25, 'nasdaqChange': -0.025406856690576327, 'MACD': 3.2047837997566404, 'CCI': 6.6878257107383856, 'low': 103.83000199999999, 'MACDsignal': 3.2277330648286791, 'date': '2015-11-13', 'close': 103.83000199999999, 'open': 107.709999}, {'volume': 104.040001, 'dayChange': -0.033442828372222344, 'ADMI': 26.596340790086799, 'MACDdiff': -0.45681585507768085, 'chaikinAD': -369.73409489695769, 'high': 104.16999800000001, 'nasdaqChange': -0.030190844262431436, 'MACD': 2.6567132459815781, 'CCI': -100.27867224878992, 'low': 100.470001, 'MACDsignal': 3.113529101059259, 'date': '2015-11-16', 'close': 100.470001, 'open': 103.31999999999999}, {'volume': 105.129997, 'dayChange': 0.035241002835039503, 'ADMI': 26.722365458173847, 'MACDdiff': -0.49898273824349149, 'chaikinAD': -369.37713188443013, 'high': 106.199997, 'nasdaqChange': -0.026212979557724864, 'MACD': 2.4898006782548947, 'CCI': -8.7398816516218094, 'low': 104.139999, 'MACDsignal': 2.9887834164983862, 'date': '2015-11-17', 'close': 104.139999, 'open': 104.620003}, {'volume': 107.769997, 'dayChange': 0.011860707959585381, 'ADMI': 26.433975533203302, 'MACDdiff': -0.44673071216256544, 'chaikinAD': -369.94181588980427, 'high': 107.879997, 'nasdaqChange': -0.023641434549777293, 'MACD': 2.4303700262951793, 'CCI': 30.943427838987589, 'low': 105.389999, 'MACDsignal': 2.8771007384577447, 'date': '2015-11-18', 'close': 105.389999, 'open': 105.800003}, {'volume': 106.260002, 'dayChange': 0.0052854933068096077, 'ADMI': 26.013120373349359, 'MACDdiff': -0.38105400652572374, 'chaikinAD': -370.35174944747996, 'high': 107.730003, 'nasdaqChange': -0.0061234233208496804, 'MACD': 2.4007832303005898, 'CCI': 34.772298090510205, 'low': 105.949997, 'MACDsignal': 2.7818372368263136, 'date': '2015-11-19', 'close': 105.949997, 'open': 107.360001}, {'volume': 107.31999999999999, 'dayChange': 0.0062840553474754479, 'ADMI': 25.677755280946638, 'MACDdiff': -0.30251690053617697, 'chaikinAD': -370.99838140766951, 'high': 107.870003, 'nasdaqChange': 0.00028465422574996366, 'MACD': 2.4036911111560926, 'CCI': 45.112788458533359, 'low': 106.620003, 'MACDsignal': 2.7062080116922695, 'date': '2015-11-20', 'close': 106.620003, 'open': 106.839996}, {'volume': 106.949997, 'dayChange': -0.0050905070684292841, 'ADMI': 25.340227552430775, 'MACDdiff': -0.29656651235910747, 'chaikinAD': -371.56533158160164, 'high': 107.470001, 'nasdaqChange': 0.0037010717588075578, 'MACD': 2.3354998712433854, 'CCI': 18.172438963413196, 'low': 106.08000199999999, 'MACDsignal': 2.6320663836024929, 'date': '2015-11-23', 'close': 106.08000199999999, 'open': 107.19000200000001}, {'volume': 105.739998, 'dayChange': -0.016189319055362583, 'ADMI': 25.593563595535805, 'MACDdiff': -0.40913850780401706, 'chaikinAD': -371.66314405442245, 'high': 106.489998, 'nasdaqChange': -0.00021382516580698265, 'MACD': 2.1206432488474718, 'CCI': -66.9224736664261, 'low': 104.389999, 'MACDsignal': 2.5297817566514889, 'date': '2015-11-24', 'close': 104.389999, 'open': 106.0}, {'volume': 105.410004, 'dayChange': 0.0067554615938241191, 'ADMI': 25.225073611390442, 'MACDdiff': -0.4360017969082044, 'chaikinAD': -371.45514642471971, 'high': 106.599998, 'nasdaqChange': 0.0068091923708586575, 'MACD': 1.9847795105162334, 'CCI': -28.320624020173888, 'low': 105.099998, 'MACDsignal': 2.4207813074244378, 'date': '2015-11-25', 'close': 105.099998, 'open': 106.33000199999999}, {'volume': 105.449997, 'dayChange': -0.0022887373422779689, 'ADMI': 24.920450563861362, 'MACDdiff': -0.46736910039415136, 'chaikinAD': -371.15367858305399, 'high': 105.959999, 'nasdaqChange': 0.020791415219797094, 'MACD': 1.8365699319317486, 'CCI': -42.74932418986829, 'low': 104.860001, 'MACDsignal': 2.3039390323258999, 'date': '2015-11-27', 'close': 104.860001, 'open': 105.779999}, {'volume': 104.239998, 'dayChange': -0.010698804819277097, 'ADMI': 24.696194000870534, 'MACDdiff': -0.55437150102976585, 'chaikinAD': -370.45637941300083, 'high': 106.099998, 'nasdaqChange': 0.035195487336096461, 'MACD': 1.6109746560386924, 'CCI': -71.041297391940006, 'low': 103.75, 'MACDsignal': 2.1653461570684582, 'date': '2015-11-30', 'close': 103.75, 'open': 105.839996}, {'volume': 107.120003, 'dayChange': 0.0071770334928229484, 'ADMI': 24.461186585292598, 'MACDdiff': -0.55171964981468813, 'chaikinAD': -370.57690530589753, 'high': 107.150002, 'nasdaqChange': 0.043089103600188229, 'MACD': 1.4756965948000982, 'CCI': -20.541925819233047, 'low': 104.5, 'MACDsignal': 2.0274162446147863, 'date': '2015-12-01', 'close': 104.5, 'open': 104.83000199999999}, {'volume': 106.06999999999999, 'dayChange': 0.012193978521656379, 'ADMI': 24.291550306107585, 'MACDdiff': -0.45729418189121307, 'chaikinAD': -370.68694723427325, 'high': 107.91999800000001, 'nasdaqChange': 0.028419825262124051, 'MACD': 1.4557985172507699, 'CCI': 53.731587610122467, 'low': 105.790001, 'MACDsignal': 1.913092699141983, 'date': '2015-12-02', 'close': 105.790001, 'open': 107.0}, {'volume': 104.379997, 'dayChange': -0.023609124791661884, 'ADMI': 23.36525487976628, 'MACDdiff': -0.54729460339346958, 'chaikinAD': -370.24496822912624, 'high': 106.849998, 'nasdaqChange': 0.0020093874959228541, 'MACD': 1.2289744449001461, 'CCI': -62.266914684877797, 'low': 103.349998, 'MACDsignal': 1.7762690482936156, 'date': '2015-12-03', 'close': 103.349998, 'open': 106.269997}, {'volume': 106.18000000000001, 'dayChange': 0.0072999999298818397, 'ADMI': 22.112367796163035, 'MACDdiff': -0.54270732642080644, 'chaikinAD': -370.190070615281, 'high': 107.730003, 'nasdaqChange': -0.0046928199812016451, 'MACD': 1.0978848902676077, 'CCI': -3.2063431549738652, 'low': 104.110001, 'MACDsignal': 1.6405922166884142, 'date': '2015-12-04', 'close': 104.110001, 'open': 104.80999799999999}, {'volume': 105.610001, 'dayChange': 0.0052551402539599001, 'ADMI': 20.866103639790808, 'MACDdiff': -0.49123955477770909, 'chaikinAD': -370.11715185368666, 'high': 106.83000199999999, 'nasdaqChange': -0.0023732008232076958, 'MACD': 1.0265427732162777, 'CCI': -23.636088675606373, 'low': 104.660004, 'MACDsignal': 1.5177823279939868, 'date': '2015-12-07', 'close': 104.660004, 'open': 106.480003}, {'volume': 106.489998, 'dayChange': -0.0068302743673960276, 'ADMI': 20.124755702780913, 'MACDdiff': -0.49237728321129648, 'chaikinAD': -370.32348882815131, 'high': 106.910004, 'nasdaqChange': -0.007693465342348391, 'MACD': 0.90231072397986622, 'CCI': -69.063024047483808, 'low': 103.949997, 'MACDsignal': 1.3946880071911627, 'date': '2015-12-08', 'close': 103.949997, 'open': 104.0}, {'volume': 104.599998, 'dayChange': -0.0038628101246891422, 'ADMI': 19.524293699142909, 'MACDdiff': -0.5055209455113292, 'chaikinAD': -370.02394524242118, 'high': 106.44000200000001, 'nasdaqChange': -0.0099046796015672487, 'MACD': 0.76278682530200115, 'CCI': -99.278942091202296, 'low': 103.550003, 'MACDsignal': 1.2683077708133303, 'date': '2015-12-09', 'close': 103.550003, 'open': 106.18000000000001}, {'volume': 105.41999800000001, 'dayChange': 0.0082367681932087322, 'ADMI': 18.989752982666964, 'MACDdiff': -0.44393856025549838, 'chaikinAD': -369.80559084440756, 'high': 106.400002, 'nasdaqChange': -0.016049250207860032, 'MACD': 0.71338457049395743, 'CCI': -37.940969444279069, 'low': 104.410004, 'MACDsignal': 1.1573231307494558, 'date': '2015-12-10', 'close': 104.410004, 'open': 105.050003}, {'volume': 102.120003, 'dayChange': -0.024531448355158636, 'ADMI': 18.894320672821038, 'MACDdiff': -0.55216317493759148, 'chaikinAD': -368.59030219572742, 'high': 104.339996, 'nasdaqChange': -0.03520397380796552, 'MACD': 0.4671191620774664, 'CCI': -258.70590969713987, 'low': 101.910004, 'MACDsignal': 1.0192823370150579, 'date': '2015-12-11', 'close': 101.910004, 'open': 104.150002}, {'volume': 104.660004, 'dayChange': -0.0044352947411323562, 'ADMI': 18.637072904613177, 'MACDdiff': -0.62906183103348334, 'chaikinAD': -367.88583973074856, 'high': 104.739998, 'nasdaqChange': -0.044542793714898991, 'MACD': 0.23295504822320368, 'CCI': -201.95388224088808, 'low': 101.459999, 'MACDsignal': 0.86201687925668702, 'date': '2015-12-14', 'close': 101.459999, 'open': 102.290001}, {'volume': 104.550003, 'dayChange': 0.027042577934815792, 'ADMI': 18.038280097569206, 'MACDdiff': -0.47217698961951649, 'chaikinAD': -367.41939333773917, 'high': 105.800003, 'nasdaqChange': -0.026010794569094803, 'MACD': 0.27179564223229136, 'CCI': -0.19572807430026695, 'low': 104.279999, 'MACDsignal': 0.74397263185180784, 'date': '2015-12-15', 'close': 104.279999, 'open': 105.300003}, {'volume': 106.790001, 'dayChange': -0.00086377769721135422, 'ADMI': 17.159555618821848, 'MACDdiff': -0.36161836711767437, 'chaikinAD': -367.80544800989446, 'high': 107.089996, 'nasdaqChange': -0.024333861892795593, 'MACD': 0.29194967295471486, 'CCI': 37.67270749952705, 'low': 104.19000200000001, 'MACDsignal': 0.65356804007238922, 'date': '2015-12-16', 'close': 104.19000200000001, 'open': 105.370003}, {'volume': 106.220001, 'dayChange': 0.018279421980950339, 'ADMI': 16.398896748285786, 'MACDdiff': -0.15551823840788992, 'chaikinAD': -368.32379360214691, 'high': 107.75, 'nasdaqChange': -0.0018297928867923902, 'MACD': 0.45917024206252677, 'CCI': 152.49900530999778, 'low': 106.129997, 'MACDsignal': 0.61468848047041669, 'date': '2015-12-17', 'close': 106.129997, 'open': 107.489998}, {'volume': 104.040001, 'dayChange': -0.020775184949743508, 'ADMI': 15.92032459919969, 'MACDdiff': -0.16163604363480055, 'chaikinAD': -368.15549951696448, 'high': 106.589996, 'nasdaqChange': -0.024221352740305499, 'MACD': 0.41264342592691605, 'CCI': -3.3991622536085275, 'low': 103.970001, 'MACDsignal': 0.5742794695617166, 'date': '2015-12-18', 'close': 103.970001, 'open': 106.08000199999999}, {'volume': 104.769997, 'dayChange': -0.0035714575979044483, 'ADMI': 15.598266478603165, 'MACDdiff': -0.18584566030043581, 'chaikinAD': -367.95387829875835, 'high': 105.150002, 'nasdaqChange': -0.03016388565713829, 'MACD': 0.34197239418617187, 'CCI': -56.830481535125884, 'low': 103.599998, 'MACDsignal': 0.52781805448660768, 'date': '2015-12-21', 'close': 103.599998, 'open': 104.910004}, {'volume': 105.510002, 'dayChange': 0.011544700153510057, 'ADMI': 15.442010315519745, 'MACDdiff': -0.11887008563168611, 'chaikinAD': -367.99240859142446, 'high': 105.660004, 'nasdaqChange': -0.016181980074962337, 'MACD': 0.37923044744700007, 'CCI': 37.234462506662467, 'low': 104.80999799999999, 'MACDsignal': 0.49810053307868618, 'date': '2015-12-22', 'close': 104.80999799999999, 'open': 105.220001}, {'volume': 104.629997, 'dayChange': -0.0091468995845667145, 'ADMI': 15.293005675012889, 'MACDdiff': -0.13582740330434867, 'chaikinAD': -367.845678339203, 'high': 106.110001, 'nasdaqChange': 0.0040638671720932265, 'MACD': 0.32831627894825033, 'CCI': -8.2599442288231799, 'low': 103.860001, 'MACDsignal': 0.464143682252599, 'date': '2015-12-23', 'close': 103.860001, 'open': 105.889999}, {'volume': 105.019997, 'dayChange': 0.0061243923444976867, 'ADMI': 15.154644223113664, 'MACDdiff': -0.10272389290661416, 'chaikinAD': -367.7605897051908, 'high': 105.31999999999999, 'nasdaqChange': 0.0048492407749062202, 'MACD': 0.33573881611933132, 'CCI': 11.127105825598786, 'low': 104.5, 'MACDsignal': 0.43846270902594547, 'date': '2015-12-24', 'close': 104.5, 'open': 104.739998}, {'volume': 105.93000000000001, 'dayChange': 0.00028698938378446393, 'ADMI': 14.960512217430018, 'MACDdiff': -0.078673212427694206, 'chaikinAD': -367.99799983626144, 'high': 105.980003, 'nasdaqChange': 0.014283752637959696, 'MACD': 0.34012119349132774, 'CCI': 38.176192504570132, 'low': 104.529999, 'MACDsignal': 0.41879440591902195, 'date': '2015-12-28', 'close': 104.529999, 'open': 105.019997}, {'volume': 107.260002, 'dayChange': 0.016188244705882315, 'ADMI': 14.341260390940937, 'MACDdiff': 0.046473844880251469, 'chaikinAD': -368.76894099568017, 'high': 107.739998, 'nasdaqChange': 0.039884370240919696, 'MACD': 0.4768867120193363, 'CCI': 174.82431066202031, 'low': 106.25, 'MACDsignal': 0.43041286713908483, 'date': '2015-12-29', 'close': 106.25, 'open': 106.41999800000001}, {'volume': 106.220001, 'dayChange': -0.0017914576992543729, 'ADMI': 13.81872925999175, 'MACDdiff': 0.10642788444465456, 'chaikinAD': -369.35714987947722, 'high': 107.25, 'nasdaqChange': 0.015779044735943628, 'MACD': 0.56344772269490306, 'CCI': 122.98126641204537, 'low': 106.05999799999999, 'MACDsignal': 0.4570198382502485, 'date': '2015-12-30', 'close': 106.05999799999999, 'open': 107.0}, {'volume': 104.660004, 'dayChange': -0.013764050456010812, 'ADMI': 14.227718070837039, 'MACDdiff': 0.042363109937501586, 'chaikinAD': -369.32076843380491, 'high': 106.16999800000001, 'nasdaqChange': 0.0028802221147945085, 'MACD': 0.50997372567212551, 'CCI': 18.178535820925461, 'low': 104.620003, 'MACDsignal': 0.46761061573462392, 'date': '2015-12-31', 'close': 104.620003, 'open': 106.0}, {'volume': 102.220001, 'dayChange': -0.048822085213032551, 'ADMI': 15.569833485709973, 'MACDdiff': -0.31506752477696065, 'chaikinAD': -368.25581557568512, 'high': 102.239998, 'nasdaqChange': -0.031098106178674936, 'MACD': 0.07377620976342314, 'CCI': -272.32064275293868, 'low': 99.75, 'MACDsignal': 0.38884373454038379, 'date': '2016-01-04', 'close': 99.75, 'open': 101.949997}, {'volume': 102.730003, 'dayChange': 0.018884607433551914, 'ADMI': 16.070047609291404, 'MACDdiff': -0.40359698897015911, 'chaikinAD': -367.02917076321319, 'high': 103.709999, 'nasdaqChange': -0.0098733153903277134, 'MACD': -0.11565250167231511, 'CCI': -152.75337289636772, 'low': 101.66999800000001, 'MACDsignal': 0.287944487297844, 'date': '2016-01-05', 'close': 101.66999800000001, 'open': 102.889999}, {'volume': 102.970001, 'dayChange': -0.0076312783422938235, 'ADMI': 16.280689112167522, 'MACDdiff': -0.48969280174738516, 'chaikinAD': -365.92425540690601, 'high': 103.769997, 'nasdaqChange': -0.025206328871314125, 'MACD': -0.32417151488638751, 'CCI': -135.36825885942332, 'low': 100.900002, 'MACDsignal': 0.16552128686099768, 'date': '2016-01-06', 'close': 100.900002, 'open': 101.129997}, {'volume': 97.919998000000007, 'dayChange': -0.036998960832508976, 'ADMI': 16.767608294310179, 'MACDdiff': -0.74923803529949606, 'chaikinAD': -363.36276617870317, 'high': 101.43000000000001, 'nasdaqChange': -0.055581326583104308, 'MACD': -0.77102625726337237, 'CCI': -196.47699742184136, 'low': 97.300003000000004, 'MACDsignal': -0.021788221963876336, 'date': '2016-01-07', 'close': 97.300003000000004, 'open': 100.5}, {'volume': 97.330001999999993, 'dayChange': -0.002782685795967188, 'ADMI': 17.726725587499281, 'MACDdiff': -0.88967204903645802, 'chaikinAD': -360.2505424781848, 'high': 100.5, 'nasdaqChange': -0.076206437582399075, 'MACD': -1.1338782832594489, 'CCI': -157.24531154019681, 'low': 97.029999000000004, 'MACDsignal': -0.24420623422299087, 'date': '2016-01-08', 'close': 97.029999000000004, 'open': 99.879997000000003}, {'volume': 97.510002, 'dayChange': -0.017192578018582427, 'ADMI': 18.870584624989959, 'MACDdiff': -1.0334898763023905, 'chaikinAD': -357.25322046632937, 'high': 98.599997999999999, 'nasdaqChange': -0.093160732035282412, 'MACD': -1.536068579600979, 'CCI': -156.75081102277335, 'low': 95.389999000000003, 'MACDsignal': -0.50257870329858845, 'date': '2016-01-11', 'close': 95.389999000000003, 'open': 97.910004000000001}, {'volume': 99.370002999999997, 'dayChange': 0.022142531353894435, 'ADMI': 19.395562520273639, 'MACDdiff': -0.92702653392058809, 'chaikinAD': -355.16720600999543, 'high': 99.959998999999996, 'nasdaqChange': -0.07622218780995374, 'MACD': -1.6613618706993236, 'CCI': -92.420052023152493, 'low': 97.550003000000004, 'MACDsignal': -0.73433533677873553, 'date': '2016-01-12', 'close': 97.550003000000004, 'open': 99.0}, {'volume': 95.440002000000007, 'dayChange': -0.024577292559366581, 'ADMI': 20.352885256655245, 'MACDdiff': -0.95433990421737946, 'chaikinAD': -352.39318200421985, 'high': 100.58000199999999, 'nasdaqChange': -0.10823963077981766, 'MACD': -1.9272602170504598, 'CCI': -103.39600356609094, 'low': 95.209998999999996, 'MACDsignal': -0.97292031283308034, 'date': '2016-01-13', 'close': 95.209998999999996, 'open': 100.58000199999999}, {'volume': 98.370002999999997, 'dayChange': -0.029853997723764181, 'ADMI': 21.501528777011156, 'MACDdiff': -1.0886982718146117, 'chaikinAD': -350.52215659238573, 'high': 98.870002999999997, 'nasdaqChange': -0.11747491182317385, 'MACD': -2.3337931526013449, 'CCI': -126.38528185475829, 'low': 92.449996999999996, 'MACDsignal': -1.2450948807867332, 'date': '2016-01-14', 'close': 92.449996999999996, 'open': 95.849997999999999}, {'volume': 94.970000999999996, 'dayChange': 0.011652811506811966, 'ADMI': 22.346216119183744, 'MACDdiff': -1.0349273300809536, 'chaikinAD': -348.10881409732974, 'high': 96.379997000000003, 'nasdaqChange': -0.1173553952281227, 'MACD': -2.5387540433879252, 'CCI': -109.92326946758041, 'low': 93.540001000000004, 'MACDsignal': -1.5038267133069716, 'date': '2016-01-15', 'close': 93.540001000000004, 'open': 93.980002999999996}, {'volume': 95.260002, 'dayChange': 0.0040459647369243124, 'ADMI': 22.30997836921982, 'MACDdiff': -0.90901152285167042, 'chaikinAD': -345.78528243141045, 'high': 97.419998000000007, 'nasdaqChange': -0.08586995649195979, 'MACD': -2.6400911168715595, 'CCI': -86.840660924766894, 'low': 93.919998000000007, 'MACDsignal': -1.7310795940198891, 'date': '2016-01-19', 'close': 93.919998000000007, 'open': 96.529999000000004}, {'volume': 94.349997999999999, 'dayChange': -0.050911881473250098, 'ADMI': 22.738642053972587, 'MACDdiff': -1.0570261772340697, 'chaikinAD': -343.42017498341011, 'high': 95.0, 'nasdaqChange': -0.1147916921770387, 'MACD': -3.0523623155624762, 'CCI': -146.56661795598993, 'low': 89.370002999999997, 'MACDsignal': -1.9953361383284065, 'date': '2016-01-20', 'close': 89.370002999999997, 'open': 92.830001999999993}, {'volume': 94.160004000000001, 'dayChange': 0.035089612337844578, 'ADMI': 23.261706322848603, 'MACDdiff': -0.86878933011261505, 'chaikinAD': -341.19261639256001, 'high': 95.989998, 'nasdaqChange': -0.07756378155016512, 'MACD': -3.0813228009691755, 'CCI': -86.763825408354961, 'low': 92.620002999999997, 'MACDsignal': -2.2125334708565605, 'date': '2016-01-21', 'close': 92.620002999999997, 'open': 94.910004000000001}, {'volume': 97.940002000000007, 'dayChange': 0.030055451462047356, 'ADMI': 24.135529658527549, 'MACDdiff': -0.50193512741309032, 'chaikinAD': -340.42655975152593, 'high': 98.069999999999993, 'nasdaqChange': -0.031547470433176017, 'MACD': -2.8399523801229236, 'CCI': -19.077558761877061, 'low': 95.489998, 'MACDsignal': -2.3380172527098333, 'date': '2016-01-22', 'close': 95.489998, 'open': 96.410004000000001}, {'volume': 97.010002, 'dayChange': 0.014856102341896271, 'ADMI': 24.232626255123726, 'MACDdiff': -0.13247293098298707, 'chaikinAD': -340.03212269369396, 'high': 99.480002999999996, 'nasdaqChange': -0.0265360696011008, 'MACD': -2.503608416438567, 'CCI': 26.371681603802632, 'low': 96.930000000000007, 'MACDsignal': -2.3711354854555799, 'date': '2016-01-25', 'close': 96.930000000000007, 'open': 98.720000999999996}, {'volume': 97.339995999999999, 'dayChange': -0.013276144123933076, 'ADMI': 24.597630642028484, 'MACDdiff': 0.046612277843699257, 'chaikinAD': -339.93056783424981, 'high': 97.879997000000003, 'nasdaqChange': -0.015359287788710187, 'MACD': -2.3128701381509558, 'CCI': -1.5565987742081906, 'low': 95.660004000000001, 'MACDsignal': -2.359482415994655, 'date': '2016-01-26', 'close': 95.660004000000001, 'open': 97.760002}, {'volume': 94.449996999999996, 'dayChange': -0.0151756442159936, 'ADMI': 25.572320092113863, 'MACDdiff': 0.086667552375689461, 'chaikinAD': -339.03851554317953, 'high': 97.849997999999999, 'nasdaqChange': -0.036205852881912449, 'MACD': -2.2511479755250434, 'CCI': -22.618904244226229, 'low': 94.230002999999996, 'MACDsignal': -2.3378155279007329, 'date': '2016-01-27', 'close': 94.230002999999996, 'open': 97.790001000000004}, {'volume': 109.110001, 'dayChange': 0.10094452057903858, 'ADMI': 25.878524946724816, 'MACDdiff': 0.80373414816659983, 'chaikinAD': -342.5687203292764, 'high': 110.339996, 'nasdaqChange': -0.015508384633520233, 'MACD': -1.3331478426924832, 'CCI': 310.08745691339004, 'low': 104.80999799999999, 'MACDsignal': -2.136881990859083, 'date': '2016-01-28', 'close': 104.80999799999999, 'open': 107.199997}, {'volume': 112.209999, 'dayChange': 0.037026811357104505, 'ADMI': 26.568511366453251, 'MACDdiff': 1.4877111291309366, 'chaikinAD': -348.57346557546407, 'high': 112.839996, 'nasdaqChange': 0.0091061722100578297, 'MACD': -0.27724307944541238, 'CCI': 255.44658061891687, 'low': 108.839996, 'MACDsignal': -1.764954208576349, 'date': '2016-01-29', 'close': 108.839996, 'open': 108.989998}, {'volume': 115.089996, 'dayChange': 0.028301097610908044, 'ADMI': 27.062168207885925, 'MACDdiff': 2.0568195020756379, 'chaikinAD': -355.96099957841943, 'high': 115.720001, 'nasdaqChange': 0.033027023029722269, 'MACD': 0.80607016901819861, 'CCI': 199.46974441311232, 'low': 112.010002, 'MACDsignal': -1.2507493330574393, 'date': '2016-02-01', 'close': 112.010002, 'open': 112.269997}, {'volume': 114.610001, 'dayChange': 0.010512323600149864, 'ADMI': 27.930194457345824, 'MACDdiff': 2.393049271521293, 'chaikinAD': -363.08990020886267, 'high': 117.589996, 'nasdaqChange': 0.016329012039311502, 'MACD': 1.7405622563441767, 'CCI': 152.24504373916187, 'low': 113.199997, 'MACDsignal': -0.65248701517711605, 'date': '2016-02-02', 'close': 113.199997, 'open': 114.800003}, {'volume': 112.69000200000001, 'dayChange': -0.031435052391799445, 'ADMI': 28.509491950028082, 'MACDdiff': 2.2641218308677828, 'chaikinAD': -368.85400562961149, 'high': 115.339996, 'nasdaqChange': 0.025752383733426233, 'MACD': 2.1776652734076123, 'CCI': 96.39958354009741, 'low': 109.75, 'MACDsignal': -0.086456557460170336, 'date': '2016-02-03', 'close': 109.75, 'open': 115.269997}, {'volume': 110.489998, 'dayChange': -0.0045766590389015871, 'ADMI': 28.980278724571594, 'MACDdiff': 2.0335029771701585, 'chaikinAD': -372.83577488085575, 'high': 111.94000200000001, 'nasdaqChange': 0.0072134633543464773, 'MACD': 2.4554221640025276, 'CCI': 69.822567641338779, 'low': 109.25, 'MACDsignal': 0.42191918683236929, 'date': '2016-02-04', 'close': 109.25, 'open': 111.800003}, {'volume': 104.06999999999999, 'dayChange': -0.058829230471021399, 'ADMI': 28.526018458502172, 'MACDdiff': 1.3911361851722288, 'chaikinAD': -373.68370094902639, 'high': 109.58000199999999, 'nasdaqChange': -0.041825684852109205, 'MACD': 2.1608394182976554, 'CCI': 23.027640252198964, 'low': 103.18000000000001, 'MACDsignal': 0.76970323312542654, 'date': '2016-02-05', 'close': 103.18000000000001, 'open': 109.510002}, {'volume': 99.75, 'dayChange': -0.058690755783816551, 'ADMI': 29.029777409981744, 'MACDdiff': 0.54353312878273508, 'chaikinAD': -371.79797061791032, 'high': 102.68000000000001, 'nasdaqChange': -0.066884707644716129, 'MACD': 1.4491196441038454, 'CCI': -34.867969666797975, 'low': 97.459998999999996, 'MACDsignal': 0.90558651532111034, 'date': '2016-02-08', 'close': 97.459998999999996, 'open': 100.410004}, {'volume': 99.540001000000004, 'dayChange': -0.0066101941747573889, 'ADMI': 29.297824256893101, 'MACDdiff': -0.065320251343523705, 'chaikinAD': -368.89853847173799, 'high': 102.400002, 'nasdaqChange': -0.0624065607240121, 'MACD': 0.82393620114170574, 'CCI': -48.029431273457845, 'low': 96.819999999999993, 'MACDsignal': 0.88925645248522944, 'date': '2016-02-09', 'close': 96.819999999999993, 'open': 97.139999000000003}, {'volume': 101.0, 'dayChange': 0.03411809724896453, 'ADMI': 28.951690717077618, 'MACDdiff': -0.23336445775666026, 'chaikinAD': -366.31254000541958, 'high': 103.25, 'nasdaqChange': -0.038217612224916729, 'MACD': 0.59755088028940406, 'CCI': -30.360815961191619, 'low': 100.239998, 'MACDsignal': 0.83091533804606432, 'date': '2016-02-10', 'close': 100.239998, 'open': 101.550003}, {'volume': 101.910004, 'dayChange': -0.013754055838007373, 'ADMI': 28.103044021075966, 'MACDdiff': -0.42082534342593703, 'chaikinAD': -364.37940190506197, 'high': 105.110001, 'nasdaqChange': -0.053454802473299576, 'MACD': 0.30488365876364298, 'CCI': -39.062559715914382, 'low': 98.879997000000003, 'MACDsignal': 0.72570900218958001, 'date': '2016-02-11', 'close': 98.879997000000003, 'open': 99.599997999999999}, {'volume': 102.010002, 'dayChange': 0.02186169836231866, 'ADMI': 27.469745826339967, 'MACDdiff': -0.38184101218720756, 'chaikinAD': -362.92090041808842, 'high': 104.239998, 'nasdaqChange': -0.052567976692030019, 'MACD': 0.24840773695557061, 'CCI': -30.786850703661706, 'low': 101.089996, 'MACDsignal': 0.63024874914277818, 'date': '2016-02-12', 'close': 101.089996, 'open': 103.739998}, {'volume': 101.610001, 'dayChange': -0.0084796290598490032, 'ADMI': 27.137787352593165, 'MACDdiff': -0.39738039594929986, 'chaikinAD': -361.66188645359944, 'high': 103.93000000000001, 'nasdaqChange': -0.041365780245676505, 'MACD': 0.1335232542061533, 'CCI': -46.188188078250036, 'low': 100.239998, 'MACDsignal': 0.53090365015545316, 'date': '2016-02-16', 'close': 100.239998, 'open': 103.800003}, {'volume': 105.199997, 'dayChange': 0.0015936653068990836, 'ADMI': 25.964322492803117, 'MACDdiff': -0.38091790940426462, 'chaikinAD': -361.74120829052845, 'high': 105.720001, 'nasdaqChange': -0.008796201293957237, 'MACD': 0.054756263400122407, 'CCI': -47.424814869422335, 'low': 100.400002, 'MACDsignal': 0.43567417280438703, 'date': '2016-02-17', 'close': 100.400002, 'open': 102.019997}, {'volume': 103.470001, 'dayChange': 0.025526516796336218, 'ADMI': 25.063831872917305, 'MACDdiff': -0.18676288940434105, 'chaikinAD': -361.81036678831879, 'high': 106.0, 'nasdaqChange': 0.013176674758109914, 'MACD': 0.20222056104896069, 'CCI': -18.924642484541412, 'low': 103.029999, 'MACDsignal': 0.38898345045330174, 'date': '2016-02-18', 'close': 103.029999, 'open': 105.800003}, {'volume': 104.56999999999999, 'dayChange': -0.0095042231923228027, 'ADMI': 24.587474294500112, 'MACDdiff': -0.1207293505907322, 'chaikinAD': -362.21908010210609, 'high': 105.019997, 'nasdaqChange': -0.0019915222780480628, 'MACD': 0.23807176221488646, 'CCI': -27.401230694164656, 'low': 102.05999799999999, 'MACDsignal': 0.35880111280561866, 'date': '2016-02-19', 'close': 102.05999799999999, 'open': 102.550003}, {'volume': 107.160004, 'dayChange': 0.031137251989263426, 'ADMI': 24.229842392140021, 'MACDdiff': 0.13303871273941759, 'chaikinAD': -363.55363863029197, 'high': 108.25, 'nasdaqChange': 0.045094941975944811, 'MACD': 0.52509950372989067, 'CCI': 34.721552725418988, 'low': 105.339996, 'MACDsignal': 0.39206079099047308, 'date': '2016-02-22', 'close': 105.339996, 'open': 105.489998}, {'volume': 105.459999, 'dayChange': -0.0020927796206398064, 'ADMI': 23.380315390686565, 'MACDdiff': 0.26750772666266365, 'chaikinAD': -364.60471783452522, 'high': 107.470001, 'nasdaqChange': 0.06839375095595765, 'MACD': 0.72644544931880262, 'CCI': 48.467601871581543, 'low': 105.120003, 'MACDsignal': 0.45893772265613897, 'date': '2016-02-23', 'close': 105.120003, 'open': 106.849998}, {'volume': 106.879997, 'dayChange': -0.023165320676763024, 'ADMI': 22.538311268372897, 'MACDdiff': 0.18169669583650649, 'chaikinAD': -365.89609311493405, 'high': 106.949997, 'nasdaqChange': 0.048132906718956238, 'MACD': 0.68605859245177214, 'CCI': 26.531322033927065, 'low': 102.739998, 'MACDsignal': 0.50436189661526565, 'date': '2016-02-24', 'close': 102.739998, 'open': 104.209999}, {'volume': 108.06999999999999, 'dayChange': 0.027175485018696266, 'ADMI': 20.99948206296936, 'MACDdiff': 0.29694587858775723, 'chaikinAD': -367.54701090101298, 'high': 108.06999999999999, 'nasdaqChange': 0.055168197504482694, 'MACD': 0.87554424484996218, 'CCI': 111.45493545738482, 'low': 105.610001, 'MACDsignal': 0.57859836626220496, 'date': '2016-02-25', 'close': 105.610001, 'open': 107.110001}, {'volume': 107.91999800000001, 'dayChange': 0.014464379825890994, 'ADMI': 20.255341239261227, 'MACDdiff': 0.44725803946302634, 'chaikinAD': -369.14720291341655, 'high': 109.449997, 'nasdaqChange': 0.08813329967104816, 'MACD': 1.1376709155909879, 'CCI': 139.94319373952536, 'low': 107.160004, 'MACDsignal': 0.69041287612796154, 'date': '2016-02-26', 'close': 107.160004, 'open': 108.699997}, {'volume': 106.91999800000001, 'dayChange': -0.003840786885245917, 'ADMI': 19.553374280408693, 'MACDdiff': 0.48556492454231659, 'chaikinAD': -370.26298965362366, 'high': 108.910004, 'nasdaqChange': 0.066284539732083425, 'MACD': 1.2973690318058573, 'CCI': 108.07430600406937, 'low': 106.75, 'MACDsignal': 0.81180410726354069, 'date': '2016-02-29', 'close': 106.75, 'open': 107.599998}, {'volume': 109.81999999999999, 'dayChange': 0.0078996098122603442, 'ADMI': 18.933091223400268, 'MACDdiff': 0.53096464580333991, 'chaikinAD': -372.00190335156367, 'high': 109.81999999999999, 'nasdaqChange': 0.046893417386903689, 'MACD': 1.4755099145177155, 'CCI': 115.05443733935188, 'low': 107.599998, 'MACDsignal': 0.94454526871437561, 'date': '2016-03-01', 'close': 107.599998, 'open': 107.83000199999999}, {'volume': 109.949997, 'dayChange': 0.010756633559528384, 'ADMI': 18.24272717427278, 'MACDdiff': 0.59764163137245085, 'chaikinAD': -373.87901224149391, 'high': 110.550003, 'nasdaqChange': 0.045350054242493554, 'MACD': 1.6915973079299391, 'CCI': 121.13375097089418, 'low': 108.769997, 'MACDsignal': 1.0939556765574883, 'date': '2016-03-02', 'close': 108.769997, 'open': 109.68000000000001}, {'volume': 109.58000199999999, 'dayChange': -0.0021189975850470777, 'ADMI': 17.559082665801665, 'MACDdiff': 0.58345291981395087, 'chaikinAD': -375.52428358360339, 'high': 110.300003, 'nasdaqChange': 0.04276149348388826, 'MACD': 1.8232718263249268, 'CCI': 101.60329485438173, 'low': 108.540001, 'MACDsignal': 1.2398189065109759, 'date': '2016-03-03', 'close': 108.540001, 'open': 110.25}, {'volume': 108.389999, 'dayChange': -0.0056518206244788871, 'ADMI': 16.898613352162613, 'MACDdiff': 0.49374211306671922, 'chaikinAD': -376.5465048523256, 'high': 110.050003, 'nasdaqChange': 0.052263661394393153, 'MACD': 1.8569965478443748, 'CCI': 79.146585171193578, 'low': 107.93000000000001, 'MACDsignal': 1.3632544347776556, 'date': '2016-03-04', 'close': 107.93000000000001, 'open': 110.050003}, {'volume': 105.730003, 'dayChange': -0.030653160517063016, 'ADMI': 16.200669454905636, 'MACDdiff': 0.19434717245102573, 'chaikinAD': -376.3745504302351, 'high': 108.06999999999999, 'nasdaqChange': 0.028212606152238227, 'MACD': 1.6061884003414377, 'CCI': -18.073970208061994, 'low': 104.720001, 'MACDsignal': 1.411841227890412, 'date': '2016-03-07', 'close': 104.720001, 'open': 108.06999999999999}, {'volume': 105.93000000000001, 'dayChange': -0.0030651244623538521, 'ADMI': 15.56511396138097, 'MACDdiff': -0.036788851588294369, 'chaikinAD': -375.79333721844887, 'high': 107.370003, 'nasdaqChange': 0.031531174345878717, 'MACD': 1.365855163405044, 'CCI': -47.946696948289166, 'low': 104.400002, 'MACDsignal': 1.4026440149933384, 'date': '2016-03-08', 'close': 104.400002, 'open': 104.779999}, {'volume': 107.510002, 'dayChange': 0.010332695238083112, 'ADMI': 15.069441344096763, 'MACDdiff': -0.12295854066921641, 'chaikinAD': -375.60026543013373, 'high': 107.510002, 'nasdaqChange': 0.048963715841219245, 'MACD': 1.2489458391568178, 'CCI': -24.660759581623484, 'low': 105.489998, 'MACDsignal': 1.3719043798260342, 'date': '2016-03-09', 'close': 105.489998, 'open': 106.699997}, {'volume': 107.31999999999999, 'dayChange': 0.0026472440951283982, 'ADMI': 14.315461208761075, 'MACDdiff': -0.16516085082571386, 'chaikinAD': -375.52307556854066, 'high': 108.660004, 'nasdaqChange': 0.020168765286929437, 'MACD': 1.1654533162938918, 'CCI': -13.035355372063069, 'low': 105.769997, 'MACDsignal': 1.3306141671196057, 'date': '2016-03-10', 'close': 105.769997, 'open': 107.910004}, {'volume': 109.410004, 'dayChange': 0.019922174201671194, 'ADMI': 13.465795110144377, 'MACDdiff': -0.057877350865658039, 'chaikinAD': -376.16531048257457, 'high': 109.41999800000001, 'nasdaqChange': 0.02622487363251412, 'MACD': 1.2582674785375332, 'CCI': 64.239719118234504, 'low': 107.91999800000001, 'MACDsignal': 1.3161448294031912, 'date': '2016-03-11', 'close': 107.91999800000001, 'open': 108.480003}, {'volume': 109.889999, 'dayChange': 0.0078146457979584305, 'ADMI': 12.868598428779251, 'MACDdiff': 0.05464580410029618, 'chaikinAD': -377.19619622171012, 'high': 110.33000199999999, 'nasdaqChange': 0.038190089762590147, 'MACD': 1.3844520845285615, 'CCI': 93.416946090883869, 'low': 108.769997, 'MACDsignal': 1.3298062804282653, 'date': '2016-03-14', 'close': 108.769997, 'open': 109.279999}, {'volume': 110.66999800000001, 'dayChange': 0.00064313673807925298, 'ADMI': 12.251912741704441, 'MACDdiff': 0.11465209697691403, 'chaikinAD': -378.54054009483662, 'high': 110.83000199999999, 'nasdaqChange': 0.028443241992688415, 'MACD': 1.4731214016494079, 'CCI': 95.417176821310477, 'low': 108.839996, 'MACDsignal': 1.3584693046724938, 'date': '2016-03-15', 'close': 108.839996, 'open': 109.110001}, {'volume': 112.18000000000001, 'dayChange': 0.011444160062564213, 'ADMI': 12.155655370835717, 'MACDdiff': 0.21427810516360291, 'chaikinAD': -380.37135894341191, 'high': 112.5, 'nasdaqChange': 0.01082742713550639, 'MACD': 1.6263169361269973, 'CCI': 147.07125865538492, 'low': 110.099998, 'MACDsignal': 1.4120388309633944, 'date': '2016-03-16', 'close': 110.099998, 'open': 110.489998}, {'volume': 111.019997, 'dayChange': 0.0056895600373098043, 'ADMI': 12.036941527847244, 'MACDdiff': 0.29282110347408152, 'chaikinAD': -381.86566034115822, 'high': 112.69000200000001, 'nasdaqChange': 0.013586650549984402, 'MACD': 1.7780652103059964, 'CCI': 142.21596123050261, 'low': 110.730003, 'MACDsignal': 1.4852441068319149, 'date': '2016-03-17', 'close': 110.730003, 'open': 112.150002}, {'volume': 111.449997, 'dayChange': -0.004171633377300088, 'ADMI': 11.939322736887711, 'MACDdiff': 0.28380297180035452, 'chaikinAD': -383.22326810922823, 'high': 112.41999800000001, 'nasdaqChange': 0.018018621412197885, 'MACD': 1.839997821582358, 'CCI': 106.33459942224815, 'low': 110.269997, 'MACDsignal': 1.5561948497820035, 'date': '2016-03-18', 'close': 110.269997, 'open': 111.55999799999999}, {'volume': 111.849998, 'dayChange': 0.0068450149224985601, 'ADMI': 11.955930126181196, 'MACDdiff': 0.29758718157628361, 'chaikinAD': -384.52880991350685, 'high': 112.370003, 'nasdaqChange': 0.023650121964572095, 'MACD': 1.9281788267523581, 'CCI': 107.42838517292907, 'low': 111.029999, 'MACDsignal': 1.6305916451760745, 'date': '2016-03-21', 'close': 111.029999, 'open': 111.660004}, {'volume': 112.25, 'dayChange': 0.0012593235811698689, 'ADMI': 12.037816266211813, 'MACDdiff': 0.28469546176185689, 'chaikinAD': -385.82163975039293, 'high': 112.879997, 'nasdaqChange': 0.029906157432518635, 'MACD': 1.9864609723783957, 'CCI': 102.22718989846025, 'low': 111.16999800000001, 'MACDsignal': 1.7017655106165388, 'date': '2016-03-22', 'close': 111.16999800000001, 'open': 111.360001}, {'volume': 112.540001, 'dayChange': 0.007410732142857035, 'ADMI': 12.064409044504401, 'MACDdiff': 0.29914509227592179, 'chaikinAD': -387.08401229726587, 'high': 113.19000200000001, 'nasdaqChange': 0.026484074483945477, 'MACD': 2.0756968759614409, 'CCI': 106.0851168433542, 'low': 112.0, 'MACDsignal': 1.7765517836855191, 'date': '2016-03-23', 'close': 112.0, 'open': 112.010002}, {'volume': 113.050003, 'dayChange': -0.0028653295128939771, 'ADMI': 12.134989598482079, 'MACDdiff': 0.255902024775708, 'chaikinAD': -388.38143726668932, 'high': 113.089996, 'nasdaqChange': 0.027513032702317152, 'MACD': 2.096429314655154, 'CCI': 84.426030657177805, 'low': 111.68000000000001, 'MACDsignal': 1.840527289879446, 'date': '2016-03-24', 'close': 111.68000000000001, 'open': 112.129997}, {'volume': 113.69000200000001, 'dayChange': 0.011243886974162454, 'ADMI': 12.581629075393614, 'MACDdiff': 0.27965180644655474, 'chaikinAD': -389.77889018449059, 'high': 114.589996, 'nasdaqChange': 0.012571950545485008, 'MACD': 2.1900920479376396, 'CCI': 112.36772125367135, 'low': 112.949997, 'MACDsignal': 1.9104402414910848, 'date': '2016-03-28', 'close': 112.949997, 'open': 113.31999999999999}, {'volume': 116.139999, 'dayChange': 0.0060718233550847156, 'ADMI': 13.28961404044475, 'MACDdiff': 0.30649509635024086, 'chaikinAD': -391.86976695226622, 'high': 116.31999999999999, 'nasdaqChange': 0.0038613507957408265, 'MACD': 2.2935591119288858, 'CCI': 137.45644668151891, 'low': 113.639999, 'MACDsignal': 1.987064015578645, 'date': '2016-03-29', 'close': 113.639999, 'open': 113.83000199999999}, {'volume': 114.699997, 'dayChange': 0.0062959250935997746, 'ADMI': 13.823540055550488, 'MACDdiff': 0.33508613326225234, 'chaikinAD': -393.5960549525189, 'high': 116.989998, 'nasdaqChange': 0.03125596171131774, 'MACD': 2.4059216821564604, 'CCI': 153.13309869492463, 'low': 114.360001, 'MACDsignal': 2.0708355488942081, 'date': '2016-03-30', 'close': 114.360001, 'open': 116.730003}, {'volume': 114.099998, 'dayChange': -0.0051859366753783664, 'ADMI': 13.986260760395734, 'MACDdiff': 0.27890858315443046, 'chaikinAD': -394.82534895693971, 'high': 115.010002, 'nasdaqChange': 0.031371042814541915, 'MACD': 2.4194712778372462, 'CCI': 99.752868297419823, 'low': 113.769997, 'MACDsignal': 2.1405626946828158, 'date': '2016-03-31', 'close': 113.769997, 'open': 114.699997}, {'volume': 116.05999799999999, 'dayChange': -0.0037053286935215812, 'ADMI': 14.521216916891678, 'MACDdiff': 0.18275827780757758, 'chaikinAD': -396.36320959902514, 'high': 116.16999800000001, 'nasdaqChange': 0.019858682036902605, 'MACD': 2.3690105419422878, 'CCI': 89.533261733026251, 'low': 113.349998, 'MACDsignal': 2.1862522641347102, 'date': '2016-04-01', 'close': 113.349998, 'open': 113.75}, {'volume': 112.550003, 'dayChange': -0.015589973876982688, 'ADMI': 14.525002349830469, 'MACDdiff': -0.018061549922335107, 'chaikinAD': -396.7706799436055, 'high': 114.550003, 'nasdaqChange': 0.023627425622300208, 'MACD': 2.1636753267317914, 'CCI': 4.9477903038732967, 'low': 111.610001, 'MACDsignal': 2.1817368766541265, 'date': '2016-04-04', 'close': 111.610001, 'open': 114.06999999999999}, {'volume': 112.220001, 'dayChange': 0.002591608532768408, 'ADMI': 14.835872177280379, 'MACDdiff': -0.14436800344741307, 'chaikinAD': -396.5736744987953, 'high': 113.31999999999999, 'nasdaqChange': 0.011125602418553234, 'MACD': 2.0012768723448602, 'CCI': -18.19429308577255, 'low': 111.900002, 'MACDsignal': 2.1456448757922733, 'date': '2016-04-05', 'close': 111.900002, 'open': 112.110001}, {'volume': 113.709999, 'dayChange': 0.0046254759762582864, 'ADMI': 15.264816351067859, 'MACDdiff': -0.20234293710730222, 'chaikinAD': -396.6213833623915, 'high': 113.80999799999999, 'nasdaqChange': 0.014130891365453974, 'MACD': 1.8927162044081456, 'CCI': 2.8359983259603725, 'low': 112.41999800000001, 'MACDsignal': 2.0950591415154478, 'date': '2016-04-06', 'close': 112.41999800000001, 'open': 112.470001}, {'volume': 113.639999, 'dayChange': 0.005748668966127024, 'ADMI': 15.765607588707685, 'MACDdiff': -0.20569199641000635, 'chaikinAD': -396.74259272818745, 'high': 114.889999, 'nasdaqChange': 0.013875127298952565, 'MACD': 1.8379441460029398, 'CCI': 42.549684434020669, 'low': 113.06999999999999, 'MACDsignal': 2.0436361424129461, 'date': '2016-04-07', 'close': 113.06999999999999, 'open': 113.790001}, {'volume': 110.629997, 'dayChange': -0.028844385280356821, 'ADMI': 15.270936935497669, 'MACDdiff': -0.41794171483841991, 'chaikinAD': -395.92512353890197, 'high': 114.33000199999999, 'nasdaqChange': 0.021244926907769798, 'MACD': 1.5212089988649211, 'CCI': -106.43561252991067, 'low': 109.900002, 'MACDsignal': 1.939150713703341, 'date': '2016-04-08', 'close': 109.900002, 'open': 114.25}, {'volume': 108.989998, 'dayChange': -0.010388940251602641, 'ADMI': 14.951788304752476, 'MACDdiff': -0.61885967718906132, 'chaikinAD': -394.27614700338745, 'high': 110.910004, 'nasdaqChange': 0.015418064165375072, 'MACD': 1.1655761172170145, 'CCI': -196.10931964444842, 'low': 108.769997, 'MACDsignal': 1.7844357944060758, 'date': '2016-04-11', 'close': 108.769997, 'open': 110.699997}, {'volume': 110.610001, 'dayChange': 0.0020185430226358214, 'ADMI': 14.658735154936167, 'MACDdiff': -0.71457792732854597, 'chaikinAD': -392.95237082945823, 'high': 111.160004, 'nasdaqChange': 0.012449076310176809, 'MACD': 0.8912133852453934, 'CCI': -155.15715168562588, 'low': 108.989998, 'MACDsignal': 1.6057913125739394, 'date': '2016-04-12', 'close': 108.989998, 'open': 109.339996}]
+ProjectGiro LOG 21:29.44.897>	FB
+===================
+starting money: 1000000.0
+share value: 96.559998 on 2015-10-20
+share value: 108.989998 on 2016-04-12
+profit: 78502.8692485
+Buy + hold profit: 128728.25453
+Trade count: 23
+ProjectGiro LOG 21:29.44.897>	FB action recommendation: SELL/SHORT--INCORRECT
+ProjectGiro LOG 21:29.44.902>	['FB', 'SELL/SHORT--INCORRECT', 0.421]
+ProjectGiro LOG 21:29.44.902>	0 of 1 correct
+ProjectGiro LOG 21:29.44.902>	Results: 
+                             FB          SELL/SHORT--INCORRECT      0.421
+
+ProjectGiro LOG 21:29.44.902>	GIRO total execution time: 163.618716002

@@ -1,0 +1,58 @@
+ProjectGiro LOG 18:41.16.610>	Initializing Project GIRO...
+ProjectGiro LOG 18:41.16.627>	transactionCost=6.95
+ProjectGiro LOG 18:41.16.627>	benchmarkingPeriod=60
+ProjectGiro LOG 18:41.16.627>	stopYear=2016
+ProjectGiro LOG 18:41.16.627>	useTodaysDate=True
+ProjectGiro LOG 18:41.16.627>	startDay=23
+ProjectGiro LOG 18:41.16.627>	mutationRateDelta=-0.00
+ProjectGiro LOG 18:41.16.627>	populationSize=250
+ProjectGiro LOG 18:41.16.627>	stopDay=13
+ProjectGiro LOG 18:41.16.627>	triggerThreshold=0.1
+ProjectGiro LOG 18:41.16.627>	startYear=2013
+ProjectGiro LOG 18:41.16.627>	dayTrigIncrementAmount=0.00
+ProjectGiro LOG 18:41.16.627>	incrementTriggerThresholdGens=120
+ProjectGiro LOG 18:41.16.628>	stopMonth=3
+ProjectGiro LOG 18:41.16.628>	startMonth=11
+ProjectGiro LOG 18:41.16.628>	mutationRate=0.015
+ProjectGiro LOG 18:41.16.628>	tournamentSize=6
+ProjectGiro LOG 18:41.16.628>	selectionPercentage=0.6
+ProjectGiro LOG 18:41.16.628>	lookbackLevel=2
+ProjectGiro LOG 18:41.16.628>	TrigIncrementAmount=0.00
+ProjectGiro LOG 18:41.16.628>	marginInterestRate=0.0425
+ProjectGiro LOG 18:41.16.628>	loadedStrategieRatio=0.40
+ProjectGiro LOG 18:41.16.628>	threads=4
+ProjectGiro LOG 18:41.16.628>	startingMoney=1000000
+ProjectGiro LOG 18:41.16.628>	shortPortfolioRatio=0.3
+ProjectGiro LOG 18:41.16.628>	numStrategiesToSave=1
+ProjectGiro LOG 18:41.16.628>	dayTriggerThreshold=0.1
+ProjectGiro LOG 18:41.16.628>	performanceTest=True
+ProjectGiro LOG 18:41.16.628>	incrementDayThresholdGens=0
+ProjectGiro LOG 18:41.16.628>	tradeOnLossPunishment=0.00
+ProjectGiro LOG 18:41.16.628>	tradeCountLimit=300
+ProjectGiro LOG 18:41.16.628>	generations=300
+ProjectGiro LOG 18:41.16.628>	Initiating analysis of 12 securities
+ProjectGiro LOG 18:41.16.637>	StockData/ELNK:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:41.16.637>	Using stored data for ELNK
+ProjectGiro LOG 18:41.16.639>	StockData/ENV:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:41.16.639>	Using stored data for ENV
+ProjectGiro LOG 18:41.16.639>	StockData/FB:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:41.16.639>	Using stored data for FB
+ProjectGiro LOG 18:41.16.639>	StockData/O:11-23-2013_3-13-2016.txt
+ProjectGiro LOG 18:41.16.640>	Using stored data for O
+ProjectGiro LOG 18:41.16.642>	ELNK Technical indicator calculations complete
+ProjectGiro LOG 18:41.16.643>	ENV Technical indicator calculations complete
+ProjectGiro LOG 18:41.16.644>	FB Technical indicator calculations complete
+ProjectGiro LOG 18:41.16.646>	O Technical indicator calculations complete
+ProjectGiro LOG 18:41.16.657>	Loading 100 stored strategies
+ProjectGiro LOG 18:41.16.661>	Loading 100 stored strategies
+ProjectGiro LOG 18:41.16.661>	Loading 100 stored strategies
+ProjectGiro LOG 18:41.16.663>	Strategy file read error
+ProjectGiro LOG 18:41.16.664>	Loading 100 stored strategies
+ProjectGiro LOG 18:41.16.776>	Population initialiazed with 250 investment strategies
+ProjectGiro LOG 18:41.16.776>	Beginning 300 generation simulation of ENV
+ProjectGiro LOG 18:41.16.776>	Population initialiazed with 250 investment strategies
+ProjectGiro LOG 18:41.16.776>	Beginning 300 generation simulation of FB
+ProjectGiro LOG 18:41.16.809>	Population initialiazed with 250 investment strategies
+ProjectGiro LOG 18:41.16.810>	Beginning 300 generation simulation of ELNK
+ProjectGiro LOG 18:41.16.812>	Population initialiazed with 250 investment strategies
+ProjectGiro LOG 18:41.16.812>	Beginning 300 generation simulation of O
