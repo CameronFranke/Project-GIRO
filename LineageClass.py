@@ -235,7 +235,7 @@ class Lineage():
     def initialize_population(self):
         # Create the actual range of values that will make up the strategy trigger values
 
-        CONST_RANGE_MULTIPLIER = 1.1
+        CONST_RANGE_MULTIPLIER = 3
         initializationRanges = {}
         for indicator in self.indicatorsBeingUsed:
             x = self.indicatorRange[(indicator + "average")] - self.indicatorRange[(indicator + "min")]
@@ -246,6 +246,8 @@ class Lineage():
             temp.append(initLowerBound)
             temp.append(initUpperBound)
             initializationRanges[indicator] = temp
+            #print indicator
+            #print temp
 
         # initialize the population
         num_loaded_strategies = int(self.populationSize * float(self.settings["loadedStrategieRatio"]))
@@ -276,9 +278,9 @@ class Lineage():
                 for indicator in self.indicatorsBeingUsed:  # for each indicator
                     test = np.random.uniform(initializationRanges[indicator][0], initializationRanges[indicator][1], 4)
                     test1 = []
-                    for i in test:
-                        test1.append(np.round(i,3))
-                    test = test1
+                    #for i in test:
+                    #    test1.append(np.round(i,3))
+                    #test = test1
                     weightValues = np.random.uniform(0,1,2)
 
                     temp = {}
@@ -288,7 +290,7 @@ class Lineage():
                     temp["SellUpper"] = test[3]
                     temp["BuyWeight"] = weightValues[0]
                     temp["SellWeight"] = weightValues[1]
-
+                    #print indicator, temp
                     myTriggers[indicator] = temp
                 myStrategies.append(myTriggers)
 
