@@ -103,10 +103,12 @@ class GiroController():
 
 
     def start_worker(self, lock):
-        technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI", "aroon"]
+        #technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI", "aroon"]
         #technicalIndicators = ["MACD", "BBANDS", "dayChange", "RSI", "CCI", "volumeROCP", "chaikinAD", "nasdaqChange", "ADMI",]
         #technicalIndicators = [ "dayChange", "aroon"]
-
+        technicalIndicators = []
+        for x in self.settings["indicators"].rstrip().split(","):
+            technicalIndicators.append(str(x))
 
         while True:
             lock.acquire()

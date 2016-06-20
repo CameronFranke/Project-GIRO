@@ -1,1 +1,0 @@
-['O', 'No Action - leaning towards SELL', 0.0]

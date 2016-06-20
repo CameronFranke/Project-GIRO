@@ -12,7 +12,7 @@ import numpy as np
 
 class InvestmentStrategy():
 
-    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment, tradeLimit, shortRatio, marginInterest):
+    def __init__(self, triggerConstraints, historicalData, lookbackLevel, triggerThreshold, lookbackthreshold, indicatorsUsed, startingMoney, transactionCost, punishment, tradeLimit, shortRatio, marginInterest, stoploss):
 
         self.indicatorsUsed = indicatorsUsed
         self.lookback = lookbackLevel
@@ -35,6 +35,7 @@ class InvestmentStrategy():
         self.buysellScores = [0,0]
         self.shortRatio = float(shortRatio)
         self.marginInterest = float(marginInterest)
+        self.stoploss = stoploss
 
 
     def print_constraints(self):
@@ -82,8 +83,9 @@ class InvestmentStrategy():
 
             self.buysellScores = [dayBuyStrength, daySellStrength]
             # count up lookback signals
+            flag = False
             if (dayBuyStrength - daySellStrength) >= self.triggerThreshold:
-
+                flag = True
                 if myCash != 0:
                     self.actionCount += 1
                     invested = myCash - self.transactionCost
@@ -97,7 +99,8 @@ class InvestmentStrategy():
                 else:
                     lastTrade = "BUY/COVER"
 
-            elif (daySellStrength - dayBuyStrength) >= self.triggerThreshold:
+            if flag == False and ((daySellStrength - dayBuyStrength) >= self.triggerThreshold):
+                flag = True
                 if invested != 0:
                     self.actionCount += 1
                     myCash = invested - self.transactionCost
@@ -110,6 +113,22 @@ class InvestmentStrategy():
                     valueOnLastAction = myCash
                 else:
                     lastTrade = "SELL/SHORT"
+
+            if flag == False and invested != 0 and valueOnLastAction *(1-self.stoploss) > invested: # sell if below stoploss threshold
+                print str(invested) + "===================================="
+                print str(valueOnLastAction) + "================"
+                if invested != 0:
+                    self.actionCount += 1
+                    myCash = invested - self.transactionCost
+                    if myCash < valueOnLastAction:
+                        myCash = myCash * (1 - self.punishment)
+                        self.badTrades += 1
+                    invested = 0
+                    trades += 1
+                    lastTrade = "Stop loss"
+                    valueOnLastAction = myCash
+                else:
+                    lastTrade = "Stop loss"
 
             if self.actionCount >= self.tradeLimit:
                 break
@@ -287,4 +306,3 @@ class InvestmentStrategy():
 
         if self.actionCount > 0:
             self.relativeCorrectness = 1 - (float(self.badTrades) / float(self.actionCount))
-

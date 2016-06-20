@@ -157,7 +157,35 @@ class Lineage():
             self.perfTest = True
         else: self.perfTest = False
 
-        self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
+        if self.settings["mode"] == "stock":
+            self.data = gu.pull_Yahoo_Finance_Data(self.symbol, self.dateRange)
+
+        elif self.settings["mode"] == "forex":
+            filename = "ForexHistoricalData/Price_ratio_record: " + self.settings["forexFile"].rstrip()
+            datatxt = open(filename, "r")
+            temp = datatxt.readlines()
+            self.data = []
+            for line in temp:
+                tempDict = {}
+                line = line.split(":")
+                for word in line:
+                    if "time" in word:
+                        rawDate = line[line.index(word)+1] + ":"
+                        rawDate += line[line.index(word)+2] + ":"
+                        rawDate += line[line.index(word)+3]
+                        rawDate = rawDate.replace("'","").replace("'","").replace("{","").replace("}","").replace("\n","")
+                        tempDict["date"] = rawDate
+                    if "ask" in word:
+                        rawPrice = line[line.index(word)+1]
+                        rawPrice = rawPrice.replace(", 'bid'", "")
+                        tempDict["close"] = float(rawPrice)
+                    if "bid" in word:
+                        rawBid = line[line.index(word) + 1]
+                        rawBid = rawBid.replace(", 'time'", "")
+                        tempDict["bid"] = float(rawBid)
+                self.data.append(tempDict)
+
+
         if self.perfTest:
             self.lastDay = self.data.pop()
 
@@ -207,13 +235,13 @@ class Lineage():
     def initialize_population(self):
         # Create the actual range of values that will make up the strategy trigger values
 
-        CONST_RANGE_MULTIPLIER = 2.0
+        CONST_RANGE_MULTIPLIER = 1.1
         initializationRanges = {}
         for indicator in self.indicatorsBeingUsed:
             x = self.indicatorRange[(indicator + "average")] - self.indicatorRange[(indicator + "min")]
-            initLowerBound = self.indicatorRange[(indicator + "average")] - (CONST_RANGE_MULTIPLIER * x)
+            initLowerBound = self.indicatorRange[(indicator + "average")] - np.multiply(CONST_RANGE_MULTIPLIER, x)
             x = self.indicatorRange[(indicator + "max")] - self.indicatorRange[(indicator + "average")]
-            initUpperBound = self.indicatorRange[(indicator + "average")] + (CONST_RANGE_MULTIPLIER * x)
+            initUpperBound = self.indicatorRange[(indicator + "average")] + np.multiply(CONST_RANGE_MULTIPLIER, x)
             temp = []
             temp.append(initLowerBound)
             temp.append(initUpperBound)
@@ -239,7 +267,8 @@ class Lineage():
                                                                               self.settings["tradeOnLossPunishment"],
                                                                               self.tradeLimit,
                                                                               self.settings['shortPortfolioRatio'],
-                                                                              self.settings['marginInterestRate']))
+                                                                              self.settings['marginInterestRate'],
+                                                                              self.settings['stoploss']))
 
             myStrategies = []
             for x in range(self.lookback):      # number of period lookbacks
@@ -274,7 +303,8 @@ class Lineage():
                                                                               self.settings["tradeOnLossPunishment"],
                                                                               self.tradeLimit,
                                                                               self.settings['shortPortfolioRatio'],
-                                                                              self.settings['marginInterestRate']))
+                                                                              self.settings['marginInterestRate'],
+                                                                              self.settings['stoploss']))
             count +=1
 
         gu.log("Population initialiazed with " + str(self.populationSize) + " investment strategies")
@@ -288,8 +318,8 @@ class Lineage():
                         chance = float(randrange(0, 100000))
                         if chance <= (self.mutationRate * 100000):
                             mutationMultiplier = float(randrange(-100, 100))
-                            mutationMultiplier = 1 + (mutationMultiplier / 100)
-                            newValue = self.population[strategy].constraints[day][indicator][boundingValue] * mutationMultiplier
+                            mutationMultiplier = 1 + np.divide(mutationMultiplier,100)
+                            newValue = np.multiply(self.population[strategy].constraints[day][indicator][boundingValue], mutationMultiplier)
                             self.population[strategy].constraints[day][indicator][boundingValue] = newValue
 
 
@@ -372,7 +402,8 @@ class Lineage():
                                                                               self.settings["tradeOnLossPunishment"],
                                                                               self.tradeLimit,
                                                                               self.settings['shortPortfolioRatio'],
-                                                                              self.settings['marginInterestRate']))
+                                                                              self.settings['marginInterestRate'],
+                                                                              self.settings['stoploss']))
 
 
     def compute_technical_indicators(self):
@@ -398,18 +429,25 @@ class Lineage():
 
     def build_raw_price_list(self):
         # this function should be renames
-        for dataPoint in self.data:
-            self.open.append(dataPoint["open"])
-            self.high.append(dataPoint["high"])
-            self.low.append(dataPoint["low"])
-            self.close.append(dataPoint["close"])
-            self.volume.append(dataPoint["volume"])
+        if self.settings["mode"] == "stock":
+            for dataPoint in self.data:
+                self.open.append(dataPoint["open"])
+                self.high.append(dataPoint["high"])
+                self.low.append(dataPoint["low"])
+                self.close.append(dataPoint["close"])
+                self.volume.append(dataPoint["volume"])
 
-        self.open = np.array(self.open)
-        self.high = np.array(self.high)
-        self.low = np.array(self.low)
-        self.close = np.array(self.close)
-        self.volume = np.array(self.volume)
+            self.open = np.array(self.open)
+            self.high = np.array(self.high)
+            self.low = np.array(self.low)
+            self.close = np.array(self.close)
+            self.volume = np.array(self.volume)
+
+        if self.settings["mode"] == "forex":
+            for dataPoint in self.data:
+                self.close.append(dataPoint["close"])
+            self.close = np.array(self.close)
+
 
 
     def compute_SMA(self):
@@ -542,6 +580,14 @@ class Lineage():
         self.update_data(aroonUp, "aroonUp")
         self.indicatorsBeingUsed.append("aroonDown")
         self.indicatorsBeingUsed.append("aroonUp")
+
+
+    def compute_bidaskdiff(self):
+        list = []
+        for x in self.data:
+            list.append(np.round(x["close"] - x["bid"], 5))
+        self.update_data(list, "bidaskdiff")
+        self.indicatorsBeingUsed.append("bidaskdiff")
 
 
     def load_stored_strategy(self):
